@@ -81,6 +81,13 @@ export default {
       latam: 'LATAM',
       europe: '欧洲',
     },
+    missCrypto: {
+      title: 'Miss Crypto 2026',
+      p1: 'Miss Crypto Creator Queen 不是选美大赛，而是新一代 AI × Web3 创作者大赛，旨在帮助网红把影响力转化为长期生意。参赛者将推出自己的 Creator Token、自己的品牌和店铺。所有广告由 AI 生成，为你节省时间，同时 Xavvi 负责运营、物流，并把品牌引流到你的账号。',
+      p2: '比赛分为四个回合，分别聚焦创作者成长、内容创作、粉丝运营和业务发展。参赛者将角逐丰厚专属奖励，包括现金奖金、品牌合作、AI 商业支持、全球曝光、Creator Token 权益，以及在 Xavvi 生态内的长期合作机会。无论你是时尚、美妆、健身、旅游、AI 还是生活方式领域，Miss Crypto 都是你成为真正的 AI + Crypto Creator Queen 的机会。',
+      p3: '立即报名，今天就开始打造你的创作者帝国。',
+      cta: '立即报名',
+    },
     ctaTitle: '在 Xavvi 上开始构建',
     ctaSub: '无论你是创作、观看还是经营业务 —— 这里都有你的位置。',
     ctaDownload: '下载 App',

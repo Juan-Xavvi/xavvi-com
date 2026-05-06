@@ -183,19 +183,37 @@ const offices = computed(() => [
 	</section>
 
 	<!-- ═══════════════════════════════════════
-       GLOBAL — World presence
+       MISS CRYPTO 2026
        ═══════════════════════════════════════ -->
-	<section class="bg-gradient-subtle py-22 relative overflow-hidden">
-		<GradientBlob :size="700" top="20%" left="50%" color1="#2a55e5" color2="#059669" delay="0s" />
+	<section class="bg-black py-22">
+		<div class="max-w-[1200px] mx-auto px-6 lg:px-8">
+			<div class="grid lg:grid-cols-2 gap-10 lg:gap-16 items-stretch">
+				<!-- Text -->
+				<div v-reveal class="flex flex-col justify-center">
+					<h2 class="text-[clamp(2rem,4vw,3.25rem)] font-bold text-[#FFFCF3] leading-tight tracking-tight mb-6">
+						{{ t('home.missCrypto.title') }}
+					</h2>
+					<p class="text-[15px] lg:text-[16px] leading-[1.75] text-[#FFFCF3] mb-5">
+						{{ t('home.missCrypto.p1') }}
+					</p>
+					<p class="text-[15px] lg:text-[16px] leading-[1.75] text-[#FFFCF3] mb-5">
+						{{ t('home.missCrypto.p2') }}
+					</p>
+					<p class="text-[15px] lg:text-[16px] leading-[1.75] text-[#FFFCF3] font-semibold mb-8">
+						{{ t('home.missCrypto.p3') }}
+					</p>
+					<div>
+						<a href="https://misscrypto.xavvi.com" target="_blank" rel="noopener"
+							class="btn-primary h-12! px-8! text-[15px]! tracking-wider">
+							{{ t('home.missCrypto.cta') }}
+						</a>
+					</div>
+				</div>
 
-		<div class="relative z-10 max-w-[1200px] mx-auto px-6 lg:px-8 text-center">
-			<SectionHeader :title="t('home.globalTitle')" :subtitle="t('home.globalSub')" />
-
-			<div v-reveal class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 mt-4">
-				<div v-for="(office, i) in offices" :key="i" class="card-dark rounded-xl! p-5 text-center">
-					<div class="text-[28px] mb-2">{{ office.flag }}</div>
-					<h3 class="text-[14px] font-bold text-white">{{ office.city }}</h3>
-					<p class="text-[12px] text-text-light-2 mt-0.5">{{ office.role }}</p>
+				<!-- Image -->
+				<div v-reveal="1" class="rounded-2xl overflow-hidden aspect-[4/5] lg:aspect-auto lg:min-h-[600px] shadow-[0_0_40px_10px_rgba(212,175,55,0.4)]">
+					<img src="/images/page/miss-crypto.jpg" alt="Miss Crypto 2026"
+						class="w-full h-full object-cover" />
 				</div>
 			</div>
 		</div>

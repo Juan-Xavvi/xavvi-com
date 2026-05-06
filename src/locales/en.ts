@@ -81,6 +81,13 @@ export default {
       latam: 'LATAM',
       europe: 'Europe',
     },
+    missCrypto: {
+      title: 'Miss Crypto 2026',
+      p1: "Miss Crypto Creator Queen is not a beauty pageant, it's a next-generation AI × Web3 creator competition designed to help influencers transform their influence into a long-term business. Contestants get to launch their own Creator Token, their own brand and their own store. All ads are AI-generated to save you time, while Xavvi takes care of operations, logistics, and driving brands to your account.",
+      p2: 'The competition unfolds across four rounds focused on creator growth, content creation, fan engagement, and business development. Contestants compete for exclusive prizes including cash rewards, brand partnerships, AI business support, global exposure, creator token benefits, and long-term collaboration opportunities within the Xavvi ecosystem. Whether you are in fashion, beauty, fitness, travel, AI, or lifestyle, Miss Crypto is your opportunity to become a true AI + Crypto Creator Queen.',
+      p3: 'Apply now and start building your creator empire today.',
+      cta: 'APPLY NOW',
+    },
     ctaTitle: 'Start building on Xavvi',
     ctaSub: "Whether you create, watch, or grow a business — there's a place for you here.",
     ctaDownload: 'Download the App',
