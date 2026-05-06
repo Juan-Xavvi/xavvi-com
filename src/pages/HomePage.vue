@@ -78,7 +78,7 @@ const offices = computed(() => [
 				<p v-reveal="2" class="mt-9 text-[clamp(1.05rem,1.7vw,1.25rem)] leading-[1.8] text-white/70 max-w-[600px] mx-auto lg:mx-auto">
 					{{ t('home.heroSub') }}
 				</p>
-				<div v-reveal="3" class="mt-12 flex flex-wrap justify-center gap-4">
+				<div v-reveal="3" class="mt-12 flex flex-wrap justify-center gap-4 relative z-30">
 					<RouterLink to="/about" class="btn-primary h-12! px-7! text-[15px]!">
 						{{ t('home.learnMore') }}
 						<svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5.5 7.5h5.5m-2.5-3 3 3-3 3" /></svg>
@@ -93,7 +93,7 @@ const offices = computed(() => [
 			</div>
 
 			<!-- Right: phone -->
-			<div v-reveal="4" class="relative flex items-center justify-center lg:justify-end">
+			<div v-reveal="4" class="relative z-0 flex items-center justify-center lg:justify-end">
 				<div class="absolute w-[380px] h-[560px] rounded-full bg-[#2a55e5]/10 blur-[90px] pointer-events-none" />
 				<div class="relative phone-shadow scale-[1.2]">
 					<PhoneMockup />
@@ -115,6 +115,27 @@ const offices = computed(() => [
 	</section>
 
 	<!-- ═══════════════════════════════════════
+       NEWS TEASER
+       ═══════════════════════════════════════ -->
+	<section class="bg-[#f4f5f8] pt-10 lg:pt-14 pb-2 lg:pb-4">
+		<div class="max-w-[800px] mx-auto px-6">
+			<div v-reveal class="bg-[#FFFCF3] border border-[#212226] rounded-2xl px-6 py-5 lg:px-8 lg:py-6 flex flex-col lg:flex-row items-center gap-4 lg:gap-6">
+				<span class="text-[#FE2C55] font-extrabold text-[18px] tracking-[0.12em]">NEWS</span>
+				<div class="hidden lg:block w-px self-stretch bg-[#212226]" aria-hidden="true"></div>
+				<p class="text-[#212226] text-[15px] lg:text-[17px] leading-snug flex-1 text-center lg:text-left">
+					Xavvi Launches Creator Token Ecosystem
+				</p>
+				<RouterLink to="/news" aria-label="Read news"
+					class="w-10 h-10 rounded-full bg-[#FE2C55] flex items-center justify-center shrink-0 hover:scale-105 transition-transform">
+					<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFCF3" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+						<path d="M5 12h14M13 5l7 7-7 7" />
+					</svg>
+				</RouterLink>
+			</div>
+		</div>
+	</section>
+
+	<!-- ═══════════════════════════════════════
        ECOSYSTEM — Alternating cards (LIGHT)
        ═══════════════════════════════════════ -->
 	<section class="bg-[#f4f5f8] py-22">
@@ -125,7 +146,7 @@ const offices = computed(() => [
 				<div v-reveal class="rounded-2xl overflow-hidden w-[280px] sm:w-[300px] lg:w-[340px] lg:rotate-[3deg]">
 					<img src="/images/page/Brand-Lab.png" alt="Brand Lab screenshot" class="block w-full h-auto object-contain" />
 				</div>
-				<div v-reveal="1" class="rounded-2xl overflow-hidden w-[280px] sm:w-[300px] lg:w-[340px] lg:-rotate-[3deg]">
+				<div v-reveal="1" class="rounded-2xl overflow-hidden w-[260px] sm:w-[280px] lg:w-[310px] lg:-rotate-[3deg]">
 					<img src="/images/page/Xavvi-App.png" alt="Xavvi App screenshot" class="block w-full h-auto object-contain" />
 				</div>
 			</div>

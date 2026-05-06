@@ -14,6 +14,7 @@ const links = [
 	{ to: '/creators', label: 'Creators' },
 	{ to: '/brand-lab', label: 'Brand Lab' },
 	{ to: '/agencies', label: 'Agencies/MCNs' },
+	{ to: '/news', label: 'News' },
 ];
 
 function onScroll() { scrolled.value = window.scrollY > 20; }

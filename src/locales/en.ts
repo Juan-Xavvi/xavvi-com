@@ -39,7 +39,7 @@ export default {
       monthlyViews: 'Monthly Views',
       lowerMarketingCost: 'Lower Marketing Cost',
     },
-    pillarsTitle: 'Social Commerce meets the Digital Asset Class',
+    pillarsTitle: 'Social Commerce Meets the Digital Asset Class',
     pillarsSub: 'Celebrities and influencers, welcome to Xavvi: the only AI social commerce platform creating a tokenized ecosystem for creators, fans, and advertisers. We help creators monetize their influence. On our Brand Lab platform, we launch your own brand and operate the store for you. On the social media Xavvi app, you own your data and generate an income from advertising campaigns.',
     eco: {
       card1: {
