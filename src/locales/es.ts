@@ -1,0 +1,338 @@
+export default {
+  nav: {
+    home: 'Inicio',
+    brandLab: 'Brand Lab',
+    business: 'Empresas',
+    about: 'Acerca de',
+    getApp: 'Obtener la app',
+    downloadXavvi: 'Descargar Xavvi',
+  },
+  footer: {
+    tagline: '¡No es fantasía, es Xavvi!',
+    product: 'Producto',
+    webApp: 'Aplicación web',
+    download: 'Descargar',
+    xavviAds: 'Xavvi Ads',
+    company: 'Empresa',
+    about: 'Acerca de',
+    brandLab: 'Brand Lab',
+    forBusiness: 'Para empresas',
+    resources: 'Recursos',
+    advertiserPortal: 'Portal del anunciante',
+    brandPartnerships: 'Alianzas con marcas',
+    contactSales: 'Contactar con ventas',
+    legal: 'Legal',
+    privacyPolicy: 'Política de privacidad',
+    termsOfService: 'Términos del servicio',
+    communityGuidelines: 'Normas de la comunidad',
+    copyright: '© {year} Xavvi Inc. Todos los derechos reservados.',
+    status: 'Todos los sistemas en funcionamiento',
+  },
+  home: {
+    heroTitle: 'Comercio social con IA: la mayoría de edad para los creadores',
+    heroSub:
+      'Un cambio de paradigma en la generación de riqueza beneficiosa para todos —creadores, sus fans y anunciantes— en la era de la IA, el comercio social y los activos digitales.',
+    learnMore: 'Saber más',
+    getTheApp: 'Obtener la app',
+    stats: {
+      activeCreators: 'Creadores activos',
+      marketsWorldwide: 'Mercados en el mundo',
+      monthlyViews: 'Vistas mensuales',
+      lowerMarketingCost: 'Menor coste de marketing',
+    },
+    pillarsTitle: 'El comercio social se encuentra con la clase de activos digitales',
+    pillarsSub:
+      'Celebridades e influencers, bienvenidos a Xavvi: la única plataforma de comercio social con IA que crea un ecosistema tokenizado para creadores, fans y anunciantes. Ayudamos a los creadores a monetizar su influencia. En nuestra plataforma Brand Lab lanzamos tu propia marca y operamos la tienda por ti. En la app social Xavvi, eres dueño de tus datos y generas ingresos a partir de campañas publicitarias.',
+    eco: {
+      brandLab: {
+        tag: 'Brand Lab',
+        title: 'Donde la IA impulsa el comercio',
+        desc:
+          'Incubamos marcas de consumo — con IA, distribuidas por creadores y escaladas a escala global. Del insight de mercado al lanzamiento internacional en semanas.',
+        link: 'Explorar Brand Lab',
+      },
+      forBusiness: {
+        tag: 'Para empresas',
+        title: 'Convierte la atención en ingresos',
+        desc:
+          'Anuncios de vídeo nativos, marketplace de creadores y soluciones enterprise. Llega a la próxima generación de consumidores donde realmente pasan el tiempo.',
+        link: 'Saber más',
+      },
+      creatorEconomy: {
+        tag: 'Economía del creador',
+        title: 'Construye audiencia, construye negocio',
+        desc:
+          'Monetización, analíticas, alianzas con marcas y un motor de distribución global. Todo lo que un creador necesita para convertir la pasión en profesión.',
+        link: 'Nuestra misión',
+      },
+    },
+    globalTitle: 'Más de 200 mercados. Una plataforma.',
+    globalSub:
+      'Contenido que cruza fronteras. Nuestro motor destaca creadores y tendencias entre culturas, idiomas y mercados.',
+    offices: {
+      losAngeles: 'Los Angeles',
+      london: 'London',
+      dubai: 'Dubai',
+      singapore: 'Singapore',
+      saoPaulo: 'São Paulo',
+      berlin: 'Berlin',
+    },
+    officeRoles: {
+      globalHQ: 'Sede global',
+      emea: 'EMEA',
+      mena: 'MENA',
+      apac: 'APAC',
+      latam: 'LATAM',
+      europe: 'Europa',
+    },
+    ctaTitle: 'Empieza a construir en Xavvi',
+    ctaSub:
+      'Tanto si creas, ves contenido o haces crecer un negocio — aquí tienes tu sitio.',
+    ctaDownload: 'Descargar la app',
+    ctaWebApp: 'Abrir aplicación web',
+  },
+  about: {
+    heroTitle: 'Construimos la infraestructura de la economía del creador',
+    heroSub:
+      'Xavvi es una empresa de tecnología con sede en Estados Unidos y equipos en Europa, Oriente Medio y Asia-Pacífico. Diseñamos las plataformas, herramientas y sistemas de IA que permiten a creadores y marcas llegar a audiencias globales.',
+    stats: {
+      creatorsValue: '50M+',
+      creators: 'Creadores activos',
+      marketsValue: '200+',
+      markets: 'Mercados en todo el mundo',
+      viewsValue: '10B+',
+      views: 'Reproducciones mensuales de vídeo',
+      officesValue: '6',
+      offices: 'Oficinas internacionales',
+    },
+    goalsTitle: 'Objetivos de desarrollo',
+    goals: {
+      shortTerm: {
+        title: 'Objetivos a corto plazo',
+        items: [
+          'Conectar 10.000 creadores',
+          'Atender a 10.000 empresas',
+          'Abrir 20 centros en el extranjero',
+          'Alcanzar 500 MUSD de volumen de transacciones',
+        ],
+      },
+      midTerm: {
+        title: 'Objetivos a medio plazo',
+        items: [
+          'Implantar 100 centros en el extranjero',
+          'Atender de forma acumulada a 100.000 empresas',
+          'Crear 1 millón de empleos',
+          'Superar 5.000 MUSD de volumen de transacciones',
+        ],
+      },
+      longTerm: {
+        title: 'Objetivos a largo plazo',
+        items: [
+          'Completar la construcción del espacio de datos de confianza global 240',
+          'Convertirse en referente de estándares globales',
+          'Atender a 1 millón de empresas',
+          'Crear 10 millones de empleos',
+          'Superar 20.000 MUSD de volumen de transacciones',
+        ],
+      },
+    },
+    officesTitle: 'Oficinas y operaciones',
+    officesSub:
+      'La sede global de Xavvi está en Los Angeles, con oficinas regionales en seis ciudades del mundo.',
+    officeRoles: {
+      globalHQ: 'Sede global',
+      emea: 'Operaciones EMEA',
+      mena: 'Operaciones MENA',
+      apac: 'Operaciones APAC',
+      latam: 'Operaciones LATAM',
+      europe: 'Operaciones Europa',
+    },
+    complianceTitle: 'Confianza y cumplimiento',
+    complianceSub: 'Seguridad y privacidad de nivel enterprise, verificadas por auditores independientes.',
+    compliance: {
+      soc2: { name: 'SOC 2 Type II', desc: 'Seguridad enterprise' },
+      gdpr: { name: 'GDPR', desc: 'Protección de datos en la UE' },
+      ccpa: { name: 'CCPA', desc: 'Privacidad en California' },
+      iso: { name: 'ISO 27001', desc: 'Gestión de seguridad de la información' },
+      coppa: { name: 'COPPA', desc: 'Privacidad infantil' },
+    },
+    ctaTitle: 'Descubre tu próximo capítulo con nosotros',
+    ctaSub:
+      'Estamos construyendo algo que antes no existía. Si eso te motiva, queremos conocerte.',
+    ctaRoles: 'Ver ofertas de empleo',
+    ctaHome: 'Volver al inicio',
+  },
+  brands: {
+    heroTitle: 'Marcas construidas en Xavvi',
+    steps: {
+      s1: {
+        title: 'Análisis de mercado con IA',
+        desc:
+          'Nuestros modelos analizan miles de millones de interacciones de consumo para detectar oportunidades de encaje producto-mercado antes que nadie.',
+      },
+      s2: {
+        title: 'Creación de marca',
+        desc:
+          'Diseño de producto, identidad, packaging y posicionamiento — diseñado con IA y pulido por nuestro equipo creativo interno.',
+      },
+      s3: {
+        title: 'Distribución con creadores',
+        desc:
+          'Lanza a través de nuestra red de más de 50 millones de creadores. Contenido auténtico, audiencias reales, tracción inmediata.',
+      },
+      s4: {
+        title: 'Escala y optimización',
+        desc:
+          'Analíticas en tiempo real en todos los canales. La IA optimiza de forma continua precios, ubicación y mensajes.',
+      },
+    },
+    cards: {
+      kaimono: {
+        name: 'Kaimono',
+        cat: 'Electrónica de consumo',
+        desc:
+          'Tecnología lifestyle seleccionada con IA, distribuida con más de 15.000 socios creadores en 40 mercados.',
+      },
+      molynk: {
+        name: 'Molynk',
+        cat: 'Cuidado de la piel y belleza',
+        desc:
+          'Marca de belleza basada en datos que alcanza un ROI del 300 % con lanzamientos de producto liderados por creadores.',
+      },
+      veloura: {
+        name: 'Veloura',
+        cat: 'Moda y complementos',
+        desc:
+          'Firma de moda a la última, de la idea a 1 millón de unidades vendidas en menos de 6 meses.',
+      },
+    },
+    stats: {
+      incubated: 'Marcas incubadas',
+      gmv: 'GMV combinado',
+      markets: 'Mercados alcanzados',
+      roi: 'ROI medio de marca',
+    },
+    ctaTitle: '¿Tienes una idea de marca?',
+    ctaSub:
+      'Colaboramos con fundadores, agencias y empresas para convertir ideas de producto en marcas globales.',
+    ctaBtn: 'Colaborar con nosotros',
+  },
+  business: {
+    heroTitle: 'Llega a la próxima generación{br}de consumidores',
+    heroSub:
+      'Publicidad centrada en vídeo en más de 200 mercados. Ubicaciones nativas, alianzas con creadores y herramientas enterprise que convierten.',
+    startAdvertising: 'Empezar a anunciarse',
+    contactSales: 'Contactar con ventas',
+    kpis: {
+      k1: { value: '85%+', label: 'Visibilidad del vídeo' },
+      k2: { value: '3.2×', label: 'Mayor interacción' },
+      k3: { value: '70%', label: 'CPA más bajo' },
+      k4: { value: '4.8×', label: 'ROAS medio' },
+    },
+    adFormats: {
+      f1: {
+        num: '01',
+        title: 'Anuncios de vídeo en el feed',
+        desc:
+          'Colocaciones de vídeo a pantalla completa y nativas dentro del contenido. Más del 85 % de visibilidad con una experiencia fluida que no interrumpe el descubrimiento.',
+        highlight: '85%+ de visibilidad',
+      },
+      f2: {
+        num: '02',
+        title: 'Patrocinio de series',
+        desc:
+          'Branding exclusivo en contenido en episodios. Pre-roll, mid-roll e integración de producto — llegando a los espectadores en sus momentos de mayor implicación.',
+        highlight: '3× recuerdo de marca',
+      },
+      f3: {
+        num: '03',
+        title: 'Colaboraciones con creadores',
+        desc:
+          'Emparejados por IA con el creador adecuado para tu marca. Contenido auténtico que impulsa conversiones reales, distribuido automáticamente a millones.',
+        highlight: '50M+ de creadores',
+      },
+      f4: {
+        num: '04',
+        title: 'Vídeo comprable',
+        desc:
+          'De la primera impresión al pago en menos de 30 segundos. Comercio integrado en la experiencia de vídeo — sin redirecciones ni fricción.',
+        highlight: '<30s hasta la compra',
+      },
+    },
+    workflowTitle: 'En marcha en tres pasos',
+    workflowSub: 'De la estrategia a la escala en minutos, no en meses.',
+    workflow: {
+      s1: {
+        title: 'Define tu objetivo',
+        desc:
+          'Notoriedad de marca, conversiones, instalaciones de app — elige un objetivo y deja que la plataforma optimice hacia él.',
+      },
+      s2: {
+        title: 'Define tu audiencia',
+        desc:
+          'Combina demografía, intereses, comportamiento y afinidad con creadores para un targeting preciso en más de 200 mercados.',
+      },
+      s3: {
+        title: 'Lanza y optimiza',
+        desc:
+          'Sal en vivo en minutos. La IA optimiza pujas, ubicaciones y creatividades en tiempo real para maximizar el ROI.',
+      },
+    },
+    toolsTitle: 'Herramientas para cada escala',
+    toolsSub: 'Autoservicio o gestión integral — nos adaptamos a ti.',
+    tools: {
+      selfServe: {
+        title: 'Plataforma en autoservicio',
+        desc:
+          'Lanza campañas en minutos con control total de presupuestos, targeting y creatividad.',
+      },
+      managed: {
+        title: 'Servicios gestionados',
+        desc:
+          'Equipos de cuenta dedicados para clientes enterprise. Estrategia, creatividad, optimización — cubierto.',
+      },
+      marketplace: {
+        title: 'Marketplace de creadores',
+        desc:
+          'Más de 50 millones de creadores verificados. Filtra por audiencia, engagement, geografía y categoría.',
+      },
+      api: {
+        title: 'API e integraciones',
+        desc:
+          'Compra programática, informes en tiempo real y conexión completa con tu stack de marketing.',
+      },
+    },
+    ctaTitle: '¿Listo para crecer?',
+    ctaSub: 'Únete a miles de marcas que ya anuncian en Xavvi.',
+    talkToSales: 'Hablar con ventas',
+  },
+  download: {
+    title: 'Escanea para obtener Xavvi.',
+    subtitle: 'Versión oficial para Android.',
+    scanHint: 'Escanea con la cámara del móvil',
+  },
+  qrPopover: {
+    title: 'Xavvi en el móvil',
+    subtitle: 'Escanea el código QR para empezar a explorar.',
+  },
+  phoneMockup: {
+    shorts: 'Shorts',
+    series: 'Series',
+    discover: 'Descubrir',
+    sponsored: 'Patrocinado',
+    commerceInfra: 'Infraestructura de comercio',
+    buildingGlobal: 'Construyendo el espacio global de datos de confianza...',
+    originalSound: 'Xavvi - Sonido original - Xavvi',
+    home: 'Inicio',
+    friends: 'Amigos',
+    messages: 'Mensajes',
+    me: 'Yo',
+  },
+  meta: {
+    home: 'Xavvi — Vídeo corto y plataforma para creadores',
+    about: 'Acerca de – Xavvi',
+    brands: 'Brand Lab – Xavvi',
+    business: 'Para empresas – Xavvi',
+    download: 'Descargar – Xavvi',
+  },
+};
