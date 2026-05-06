@@ -42,23 +42,25 @@ export default {
     pillarsTitle: 'Social Commerce meets the Digital Asset Class',
     pillarsSub: 'Celebrities and influencers, welcome to Xavvi: the only AI social commerce platform creating a tokenized ecosystem for creators, fans, and advertisers. We help creators monetize their influence. On our Brand Lab platform, we launch your own brand and operate the store for you. On the social media Xavvi app, you own your data and generate an income from advertising campaigns.',
     eco: {
-      brandLab: {
-        tag: 'Brand Lab',
-        title: 'Where AI meets commerce',
-        desc: 'We incubate consumer brands — powered by AI, distributed through creators, scaled across borders. From market insight to global launch in weeks.',
-        link: 'Explore Brand Lab',
+      card1: {
+        tag: 'OWNERSHIP',
+        title: 'Your traffic, your data',
+        desc: "We acknowledge that you attract viewers and generate the traffic brands seek. That's why on Xavvi, you get to own your own data and you monetize it. You set up your own traffic access fee, AI clone videos price and cost-per click rates. Enjoy 70% of ad spending.",
       },
-      forBusiness: {
-        tag: 'For Business',
-        title: 'Turn attention into revenue',
-        desc: 'Native video ads, creator marketplace, and enterprise solutions. Reach the next generation of consumers where they actually spend their time.',
-        link: 'Learn More',
+      card2: {
+        tag: 'CRYPTO',
+        title: 'Join the Digital Asset Class',
+        desc: "Say hello to the new digital economy, you've just become a player! Congratulations! When you join Xavvi, we issue your own personal token, instantly making you a member of the digital asset class. Brands must acquire your token to access your traffic and launch ad campaigns. Your fans get rewarded with your token for supporting you through their behaviour and their purchases. Xavvi is a win-win for all.",
       },
-      creatorEconomy: {
-        tag: 'Creator Economy',
-        title: 'Build an audience, build a business',
-        desc: 'Monetization tools, analytics, brand partnerships, and a global distribution engine. Everything a creator needs to turn passion into profession.',
-        link: 'Our Mission',
+      card3: {
+        tag: 'AI INCOME',
+        title: 'Your AI, your Way.',
+        desc: "Fighting AI is a waste of time. Brands and creators are already embracing it. Don't be a late comer and start making money with AI. On Xavvi, your AI Clone does the commercial work while you post your original content. You choose the advertisers, you approve the ads, you stay in control. Your AI Clone makes you money, you focus on what you love to do.",
+      },
+      card4: {
+        tag: 'SHARING IS CARING',
+        title: 'A Thank-You to Your Fans',
+        desc: "Share your tokens and your success with your fans. When you join Xavvi, you automatically allocate some of your tokens to share with your followers. With the tokens, they can buy products, access events, get rewards, and feel like they're getting something back for supporting you. After all, where would you be without them?",
       },
     },
     globalTitle: '200+ markets. One platform.',

@@ -42,23 +42,25 @@ export default {
     pillarsTitle: 'Social Commerce trifft auf die digitale Anlageklasse',
     pillarsSub: 'Prominente und Influencer, willkommen bei Xavvi: der einzigen KI-Social-Commerce-Plattform, die ein tokenisiertes Ökosystem für Creator, Fans und Werbetreibende schafft. Wir helfen Creatorn, ihren Einfluss zu monetarisieren. Auf unserer Brand-Lab-Plattform lancieren wir Ihre eigene Marke und betreiben den Shop für Sie. In der Social-Media-App Xavvi gehören Ihnen Ihre Daten, und Sie erzielen Einnahmen aus Werbekampagnen.',
     eco: {
-      brandLab: {
-        tag: 'Brand Lab',
-        title: 'Wo KI auf Commerce trifft',
-        desc: 'Wir inkubieren Consumer Brands — mit KI gestützt, über Creators verteilt, grenzüberschreitend skaliert. Von Markteinblick bis zum globalen Launch in Wochen.',
-        link: 'Brand Lab entdecken',
+      card1: {
+        tag: 'EIGENTUM',
+        title: 'Dein Traffic, deine Daten',
+        desc: 'Wir erkennen an, dass du die Zuschauer anziehst und den Traffic erzeugst, den Marken suchen. Deshalb gehören dir auf Xavvi deine Daten — und du monetarisierst sie. Du legst deine eigene Traffic-Zugangsgebühr fest, den Preis für KI-Clone-Videos und die Cost-per-Click-Sätze. Genieße 70 % der Werbeausgaben.',
       },
-      forBusiness: {
-        tag: 'Für Unternehmen',
-        title: 'Aufmerksamkeit in Umsatz verwandeln',
-        desc: 'Native Video-Ads, Creator-Marketplace und Enterprise-Lösungen. Erreichen Sie die nächste Generation von Konsumentinnen und Konsumenten dort, wo sie wirklich Zeit verbringen.',
-        link: 'Mehr erfahren',
+      card2: {
+        tag: 'CRYPTO',
+        title: 'Werde Teil der digitalen Anlageklasse',
+        desc: 'Sag Hallo zur neuen digitalen Wirtschaft — du bist gerade Akteur geworden! Glückwunsch! Wenn du Xavvi beitrittst, geben wir deinen persönlichen Token aus und machen dich sofort zum Mitglied der digitalen Anlageklasse. Marken müssen deinen Token erwerben, um auf deinen Traffic zuzugreifen und Kampagnen zu starten. Deine Fans werden mit deinem Token belohnt, wenn sie dich durch ihr Verhalten und ihre Käufe unterstützen. Xavvi ist Win-Win für alle.',
       },
-      creatorEconomy: {
-        tag: 'Creator Economy',
-        title: 'Reichweite aufbauen, Business aufbauen',
-        desc: 'Monetarisierung, Analytics, Markenpartnerschaften und eine globale Distribution. Alles, was Creators brauchen, um aus Leidenschaft Beruf zu machen.',
-        link: 'Unsere Mission',
+      card3: {
+        tag: 'KI-EINKOMMEN',
+        title: 'Deine KI, dein Weg.',
+        desc: 'Gegen KI zu kämpfen ist Zeitverschwendung. Marken und Creator setzen längst darauf. Sei kein Nachzügler und fang an, mit KI Geld zu verdienen. Auf Xavvi erledigt dein KI-Clone die kommerzielle Arbeit, während du deine eigenen Inhalte postest. Du wählst die Werbetreibenden, du genehmigst die Anzeigen, du behältst die Kontrolle. Dein KI-Clone verdient für dich Geld; du konzentrierst dich auf das, was du liebst.',
+      },
+      card4: {
+        tag: 'TEILEN IST FÜRSORGE',
+        title: 'Ein Dankeschön an deine Fans',
+        desc: 'Teile deine Token und deinen Erfolg mit deinen Fans. Wenn du Xavvi beitrittst, wird automatisch ein Teil deiner Token zum Teilen mit deinen Followern reserviert. Mit den Token können sie Produkte kaufen, Veranstaltungen besuchen, Belohnungen erhalten und das Gefühl haben, etwas zurückzubekommen, weil sie dich unterstützt haben. Wo wärst du schließlich ohne sie?',
       },
     },
     globalTitle: 'Über 200 Märkte. Eine Plattform.',

@@ -44,26 +44,29 @@ export default {
     pillarsSub:
       "Célébrités et influenceurs, bienvenue sur Xavvi : la seule plateforme de commerce social par IA qui crée un écosystème tokenisé pour les créateurs, les fans et les annonceurs. Nous aidons les créateurs à monétiser leur influence. Sur notre plateforme Brand Lab, nous lançons votre propre marque et exploitons la boutique pour vous. Sur l'application sociale Xavvi, vous êtes propriétaire de vos données et générez des revenus grâce aux campagnes publicitaires.",
     eco: {
-      brandLab: {
-        tag: 'Brand Lab',
-        title: "Là où l'IA rencontre le commerce",
+      card1: {
+        tag: 'PROPRIÉTÉ',
+        title: 'Votre trafic, vos données',
         desc:
-          'Nous incubons des marques grand public — portées par l’IA, distribuées par les créateurs et déployées à l’échelle mondiale. De l’insight marché au lancement international en quelques semaines.',
-        link: 'Découvrir Brand Lab',
+          "Nous reconnaissons que c'est vous qui attirez les spectateurs et générez le trafic recherché par les marques. C'est pour cela que sur Xavvi, vous êtes propriétaire de vos données et vous les monétisez. Vous fixez vos propres frais d'accès au trafic, le prix des vidéos avec clone IA et les tarifs au clic. Profitez de 70 % des dépenses publicitaires.",
       },
-      forBusiness: {
-        tag: 'Pour les entreprises',
-        title: 'Transformez l’attention en revenus',
+      card2: {
+        tag: 'CRYPTO',
+        title: "Rejoignez la classe d'actifs numériques",
         desc:
-          'Annonces vidéo natives, marketplace de créateurs et solutions entreprise. Touchez la prochaine génération de consommateurs là où ils passent vraiment leur temps.',
-        link: 'En savoir plus',
+          "Bienvenue dans la nouvelle économie numérique — vous venez de devenir un acteur ! Félicitations ! Lorsque vous rejoignez Xavvi, nous émettons votre token personnel, faisant de vous instantanément un membre de la classe d'actifs numériques. Les marques doivent acquérir votre token pour accéder à votre trafic et lancer des campagnes publicitaires. Vos fans sont récompensés avec votre token lorsqu'ils vous soutiennent par leur comportement et leurs achats. Xavvi, c'est gagnant-gagnant pour tous.",
       },
-      creatorEconomy: {
-        tag: 'Économie des créateurs',
-        title: 'Construisez une audience, construisez une activité',
+      card3: {
+        tag: 'REVENUS IA',
+        title: 'Votre IA, à votre manière.',
         desc:
-          'Monétisation, analytics, partenariats de marques et moteur de distribution mondial. Tout ce dont un créateur a besoin pour faire de sa passion un métier.',
-        link: 'Notre mission',
+          "Lutter contre l'IA est une perte de temps. Marques et créateurs l'adoptent déjà. Ne soyez pas à la traîne et commencez à gagner de l'argent avec l'IA. Sur Xavvi, votre Clone IA fait le travail commercial pendant que vous publiez votre contenu original. Vous choisissez les annonceurs, vous approuvez les annonces, vous gardez le contrôle. Votre Clone IA vous fait gagner de l'argent, vous vous concentrez sur ce que vous aimez.",
+      },
+      card4: {
+        tag: "PARTAGER C'EST AIMER",
+        title: 'Un merci à vos fans',
+        desc:
+          "Partagez vos tokens et votre succès avec vos fans. Lorsque vous rejoignez Xavvi, une partie de vos tokens est automatiquement allouée pour être partagée avec vos abonnés. Avec ces tokens, ils peuvent acheter des produits, accéder à des événements, obtenir des récompenses et sentir qu'ils reçoivent quelque chose en retour pour vous soutenir. Après tout, où seriez-vous sans eux ?",
       },
     },
     globalTitle: 'Plus de 200 marchés. Une plateforme.',

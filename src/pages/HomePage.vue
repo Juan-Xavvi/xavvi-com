@@ -18,31 +18,36 @@ const stats = computed(() => [
 
 const ecosystems = computed(() => [
 	{
-		tag: t('home.eco.brandLab.tag'),
-		title: t('home.eco.brandLab.title'),
-		desc: t('home.eco.brandLab.desc'),
-		link: '/brands',
-		linkText: t('home.eco.brandLab.link'),
+		tag: t('home.eco.card1.tag'),
+		title: t('home.eco.card1.title'),
+		desc: t('home.eco.card1.desc'),
+		image: '/images/page/card1.jpg',
 		panelBg: 'bg-gradient-to-br from-[#1a0a3e] to-[#0e1b47]',
 		iconGradient: 'from-[#7C3AED] to-[#2a55e5]',
 	},
 	{
-		tag: t('home.eco.forBusiness.tag'),
-		title: t('home.eco.forBusiness.title'),
-		desc: t('home.eco.forBusiness.desc'),
-		link: '/business',
-		linkText: t('home.eco.forBusiness.link'),
+		tag: t('home.eco.card2.tag'),
+		title: t('home.eco.card2.title'),
+		desc: t('home.eco.card2.desc'),
+		image: '/images/page/card2.jpg',
 		panelBg: 'bg-gradient-to-br from-[#2a0a14] to-[#1a1005]',
 		iconGradient: 'from-[#FE2C55] to-[#F59E0B]',
 	},
 	{
-		tag: t('home.eco.creatorEconomy.tag'),
-		title: t('home.eco.creatorEconomy.title'),
-		desc: t('home.eco.creatorEconomy.desc'),
-		link: '/about',
-		linkText: t('home.eco.creatorEconomy.link'),
+		tag: t('home.eco.card3.tag'),
+		title: t('home.eco.card3.title'),
+		desc: t('home.eco.card3.desc'),
+		image: '/images/page/card3.jpg',
 		panelBg: 'bg-gradient-to-br from-[#041f15] to-[#0a1628]',
 		iconGradient: 'from-[#059669] to-[#2a55e5]',
+	},
+	{
+		tag: t('home.eco.card4.tag'),
+		title: t('home.eco.card4.title'),
+		desc: t('home.eco.card4.desc'),
+		image: '/images/page/card4.jpg',
+		panelBg: 'bg-gradient-to-br from-[#1a0a3e] to-[#2a0a14]',
+		iconGradient: 'from-[#F59E0B] to-[#FE2C55]',
 	},
 ]);
 
@@ -117,198 +122,39 @@ const offices = computed(() => [
 			<SectionHeader :dark="false" :title="t('home.pillarsTitle')" :subtitle="t('home.pillarsSub')" />
 
 			<div class="mt-12 lg:mt-16 flex flex-col lg:flex-row items-center justify-center gap-6 lg:gap-10">
-				<div v-reveal class="rounded-2xl overflow-hidden shadow-xl bg-white w-[280px] sm:w-[300px] lg:w-[340px] lg:rotate-[3deg]">
-					<img src="/images/page/Brand-Lab.jpg" alt="Brand Lab screenshot" class="block w-full h-auto object-contain" />
+				<div v-reveal class="rounded-2xl overflow-hidden w-[280px] sm:w-[300px] lg:w-[340px] lg:rotate-[3deg]">
+					<img src="/images/page/Brand-Lab.png" alt="Brand Lab screenshot" class="block w-full h-auto object-contain" />
 				</div>
-				<div v-reveal="1" class="rounded-2xl overflow-hidden shadow-xl bg-white w-[280px] sm:w-[300px] lg:w-[340px] lg:-rotate-[3deg]">
-					<img src="/images/page/Xavvi-App.jpg" alt="Xavvi App screenshot" class="block w-full h-auto object-contain" />
+				<div v-reveal="1" class="rounded-2xl overflow-hidden w-[280px] sm:w-[300px] lg:w-[340px] lg:-rotate-[3deg]">
+					<img src="/images/page/Xavvi-App.png" alt="Xavvi App screenshot" class="block w-full h-auto object-contain" />
 				</div>
 			</div>
 
-			<div class="mt-12 lg:mt-16 space-y-6">
+			<div class="mt-12 lg:mt-16 grid grid-cols-1 lg:grid-cols-2 gap-6">
 				<div v-for="(eco, i) in ecosystems" :key="i" v-reveal="i"
-					class="card-light rounded-2xl! overflow-hidden">
-					<div class="grid lg:grid-cols-2 gap-0">
-						<div class="p-8 lg:p-12 flex flex-col justify-center" :class="i % 2 === 1 ? 'lg:order-2' : ''">
-							<div class="inline-flex items-center gap-2 mb-5">
-								<div
-									:class="['w-8 h-8 rounded-lg bg-linear-to-br flex items-center justify-center', eco.iconGradient]">
-									<svg width="14" height="14" viewBox="0 0 24 24" fill="none">
-										<path d="M8 20V4l14 8-14 8z" fill="white" />
-									</svg>
-								</div>
-								<span class="text-[16px] font-semibold text-text-2 tracking-wider uppercase">
-									{{ eco.tag }}
-								</span>
-							</div>
-							<h3
-								class="text-[clamp(1.4rem,2.5vw,1.85rem)] font-bold text-text leading-snug tracking-tight mb-3">
-								{{ eco.title }}
-							</h3>
-							<p class="text-[15px] leading-[1.7] text-text-2 max-w-[420px]">
-								{{ eco.desc }}
-							</p>
-							<RouterLink :to="eco.link"
-								class="mt-6 inline-flex items-center gap-2 text-[14px] font-semibold text-[#FE2C55] hover:text-[#EF2950] transition-colors group">
-								{{ eco.linkText }}
-								<svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"
-									stroke-linecap="round" class="transition-transform group-hover:translate-x-1">
-									<path d="M5 7h5m-2-2.5 2.5 2.5-2.5 2.5" />
+					class="card-light rounded-2xl! overflow-hidden flex flex-col">
+					<div :class="['relative aspect-[4/3] overflow-hidden', eco.panelBg]">
+						<img :src="eco.image" :alt="eco.title" class="w-full h-full object-cover" />
+					</div>
+					<div class="p-8 lg:p-10 flex-1 flex flex-col">
+						<div class="inline-flex items-center gap-2 mb-5">
+							<div
+								:class="['w-8 h-8 rounded-lg bg-linear-to-br flex items-center justify-center', eco.iconGradient]">
+								<svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+									<path d="M8 20V4l14 8-14 8z" fill="white" />
 								</svg>
-							</RouterLink>
+							</div>
+							<span class="text-[16px] font-semibold text-text-2 tracking-wider uppercase">
+								{{ eco.tag }}
+							</span>
 						</div>
-						<div
-							:class="['relative min-h-[280px] lg:min-h-[360px] overflow-hidden', eco.panelBg, i % 2 === 1 ? 'lg:order-1' : '']">
-							<!-- Brand Lab: Product dashboard -->
-							<div v-if="i === 0" class="absolute inset-4 flex items-center justify-center">
-								<svg viewBox="0 0 320 240" class="w-full max-w-[280px] opacity-90" fill="none">
-									<rect x="0" y="0" width="320" height="240" rx="12" fill="white" opacity="0.05"
-										stroke="white" stroke-opacity="0.1" />
-									<rect x="16" y="16" width="180" height="24" rx="6" fill="white" opacity="0.06" />
-									<rect x="24" y="22" width="60" height="12" rx="3" fill="#7C3AED" opacity="0.5" />
-									<rect x="90" y="22" width="40" height="12" rx="3" fill="white" opacity="0.08" />
-									<rect x="136" y="22" width="40" height="12" rx="3" fill="white" opacity="0.08" />
-									<rect x="16" y="56" width="140" height="80" rx="8" fill="white" opacity="0.04"
-										stroke="white" stroke-opacity="0.08" />
-									<path d="M32 120 L52 100 L72 108 L92 88 L112 96 L132 76 L140 80" stroke="#7C3AED"
-										stroke-width="2" stroke-linecap="round" fill="none" />
-									<path d="M32 120 L52 100 L72 108 L92 88 L112 96 L132 76 L140 80 L140 120 L32 120Z"
-										fill="url(#eco-chart-fill)" opacity="0.3" />
-									<defs>
-										<linearGradient id="eco-chart-fill" x1="0" y1="0" x2="0" y2="1">
-											<stop offset="0%" stop-color="#7C3AED" />
-											<stop offset="100%" stop-color="transparent" />
-										</linearGradient>
-									</defs>
-									<rect x="172" y="56" width="132" height="36" rx="8" fill="white" opacity="0.04"
-										stroke="white" stroke-opacity="0.08" />
-									<text x="184" y="70" fill="white" opacity="0.3" font-size="8"
-										font-family="Inter">Revenue</text>
-									<text x="184" y="84" fill="white" opacity="0.7" font-size="14" font-weight="bold"
-										font-family="Inter">$2.4M</text>
-									<rect x="172" y="100" width="132" height="36" rx="8" fill="white" opacity="0.04"
-										stroke="white" stroke-opacity="0.08" />
-									<text x="184" y="114" fill="white" opacity="0.3" font-size="8"
-										font-family="Inter">Products</text>
-									<text x="184" y="128" fill="white" opacity="0.7" font-size="14" font-weight="bold"
-										font-family="Inter">128 SKUs</text>
-									<rect x="16" y="152" width="288" height="72" rx="8" fill="white" opacity="0.04"
-										stroke="white" stroke-opacity="0.08" />
-									<circle cx="48" cy="188" r="20" fill="none" stroke="#7C3AED" stroke-width="3"
-										stroke-dasharray="100" stroke-dashoffset="25" opacity="0.6" />
-									<circle cx="48" cy="188" r="20" fill="none" stroke="white" stroke-width="3"
-										stroke-dasharray="100" stroke-dashoffset="75" opacity="0.1" />
-									<rect x="84" y="172" width="60" height="8" rx="2" fill="white" opacity="0.15" />
-									<rect x="84" y="186" width="100" height="6" rx="2" fill="white" opacity="0.08" />
-									<rect x="84" y="198" width="80" height="6" rx="2" fill="white" opacity="0.06" />
-									<rect x="220" y="178" width="64" height="24" rx="12" fill="#7C3AED" opacity="0.3" />
-									<text x="252" y="194" fill="white" opacity="0.6" font-size="9" font-weight="600"
-										font-family="Inter" text-anchor="middle">Launch</text>
-								</svg>
-							</div>
-							<!-- For Business: Ad analytics -->
-							<div v-else-if="i === 1" class="absolute inset-4 flex items-center justify-center">
-								<svg viewBox="0 0 320 240" class="w-full max-w-[280px] opacity-90" fill="none">
-									<rect x="0" y="0" width="320" height="240" rx="12" fill="white" opacity="0.05"
-										stroke="white" stroke-opacity="0.1" />
-									<rect x="16" y="16" width="120" height="10" rx="3" fill="white" opacity="0.12" />
-									<rect x="220" y="14" width="84" height="14" rx="7" fill="#FE2C55" opacity="0.3" />
-									<text x="262" y="24" fill="white" opacity="0.6" font-size="8" font-weight="600"
-										font-family="Inter" text-anchor="middle">Live</text>
-									<rect x="16" y="42" width="68" height="56" rx="8" fill="white" opacity="0.04"
-										stroke="white" stroke-opacity="0.08" />
-									<text x="50" y="62" fill="white" opacity="0.3" font-size="8" font-family="Inter"
-										text-anchor="middle">Impressions</text>
-									<text x="50" y="82" fill="#FE2C55" opacity="0.8" font-size="16" font-weight="bold"
-										font-family="Inter" text-anchor="middle">4.2M</text>
-									<rect x="92" y="42" width="68" height="56" rx="8" fill="white" opacity="0.04"
-										stroke="white" stroke-opacity="0.08" />
-									<text x="126" y="62" fill="white" opacity="0.3" font-size="8" font-family="Inter"
-										text-anchor="middle">CTR</text>
-									<text x="126" y="82" fill="#F59E0B" opacity="0.8" font-size="16" font-weight="bold"
-										font-family="Inter" text-anchor="middle">8.7%</text>
-									<rect x="168" y="42" width="68" height="56" rx="8" fill="white" opacity="0.04"
-										stroke="white" stroke-opacity="0.08" />
-									<text x="202" y="62" fill="white" opacity="0.3" font-size="8" font-family="Inter"
-										text-anchor="middle">ROAS</text>
-									<text x="202" y="82" fill="#059669" opacity="0.8" font-size="16" font-weight="bold"
-										font-family="Inter" text-anchor="middle">4.8×</text>
-									<rect x="244" y="42" width="60" height="56" rx="8" fill="white" opacity="0.04"
-										stroke="white" stroke-opacity="0.08" />
-									<text x="274" y="62" fill="white" opacity="0.3" font-size="8" font-family="Inter"
-										text-anchor="middle">Conv.</text>
-									<text x="274" y="82" fill="#2a55e5" opacity="0.8" font-size="16" font-weight="bold"
-										font-family="Inter" text-anchor="middle">12K</text>
-									<rect x="16" y="114" width="288" height="110" rx="8" fill="white" opacity="0.04"
-										stroke="white" stroke-opacity="0.08" />
-									<line x1="16" y1="168" x2="304" y2="168" stroke="white" stroke-opacity="0.06"
-										stroke-dasharray="4" />
-									<line x1="16" y1="140" x2="304" y2="140" stroke="white" stroke-opacity="0.04"
-										stroke-dasharray="4" />
-									<path
-										d="M32 200 L62 185 L92 190 L122 170 L152 165 L182 155 L212 148 L242 135 L272 125 L288 130"
-										stroke="#FE2C55" stroke-width="2" stroke-linecap="round" fill="none" />
-									<path
-										d="M32 200 L62 195 L92 192 L122 188 L152 182 L182 178 L212 172 L242 170 L272 168 L288 165"
-										stroke="#F59E0B" stroke-width="1.5" stroke-linecap="round"
-										stroke-dasharray="4 2" fill="none" opacity="0.6" />
-									<circle cx="212" cy="148" r="3" fill="#FE2C55" />
-									<rect x="200" y="132" width="36" height="14" rx="4" fill="#FE2C55" opacity="0.9" />
-									<text x="218" y="142" fill="white" font-size="7" font-weight="600"
-										font-family="Inter" text-anchor="middle">+23%</text>
-								</svg>
-							</div>
-							<!-- Creator Economy: Monetization dashboard -->
-							<div v-else class="absolute inset-4 flex items-center justify-center">
-								<svg viewBox="0 0 320 240" class="w-full max-w-[280px] opacity-90" fill="none">
-									<rect x="0" y="0" width="320" height="240" rx="12" fill="white" opacity="0.05"
-										stroke="white" stroke-opacity="0.1" />
-									<rect x="16" y="16" width="288" height="56" rx="8" fill="white" opacity="0.04"
-										stroke="white" stroke-opacity="0.08" />
-									<circle cx="48" cy="44" r="18" fill="white" opacity="0.08" />
-									<circle cx="48" cy="38" r="6" fill="white" opacity="0.2" />
-									<ellipse cx="48" cy="52" rx="9" ry="6" fill="white" opacity="0.15" />
-									<rect x="76" y="32" width="80" height="10" rx="3" fill="white" opacity="0.15" />
-									<rect x="76" y="48" width="50" height="7" rx="2" fill="white" opacity="0.08" />
-									<rect x="230" y="34" width="58" height="20" rx="10" fill="#059669" opacity="0.3" />
-									<text x="259" y="48" fill="white" opacity="0.6" font-size="8" font-weight="600"
-										font-family="Inter" text-anchor="middle">$12,840</text>
-									<rect x="16" y="88" width="140" height="64" rx="8" fill="white" opacity="0.04"
-										stroke="white" stroke-opacity="0.08" />
-									<text x="28" y="106" fill="white" opacity="0.3" font-size="8"
-										font-family="Inter">Monthly Earnings</text>
-									<text x="28" y="126" fill="white" opacity="0.7" font-size="18" font-weight="bold"
-										font-family="Inter">$12,840</text>
-									<text x="100" y="126" fill="#059669" opacity="0.7" font-size="9"
-										font-family="Inter">↑ 34%</text>
-									<rect x="28" y="136" width="116" height="4" rx="2" fill="white" opacity="0.08" />
-									<rect x="28" y="136" width="80" height="4" rx="2" fill="#059669" opacity="0.4" />
-									<rect x="172" y="88" width="132" height="64" rx="8" fill="white" opacity="0.04"
-										stroke="white" stroke-opacity="0.08" />
-									<text x="184" y="106" fill="white" opacity="0.3" font-size="8"
-										font-family="Inter">Audience</text>
-									<text x="184" y="126" fill="white" opacity="0.7" font-size="18" font-weight="bold"
-										font-family="Inter">847K</text>
-									<text x="232" y="126" fill="#2a55e5" opacity="0.7" font-size="9"
-										font-family="Inter">↑ 12%</text>
-									<rect x="184" y="136" width="108" height="4" rx="2" fill="white" opacity="0.08" />
-									<rect x="184" y="136" width="68" height="4" rx="2" fill="#2a55e5" opacity="0.4" />
-									<rect x="16" y="168" width="288" height="56" rx="8" fill="white" opacity="0.04"
-										stroke="white" stroke-opacity="0.08" />
-									<text x="28" y="186" fill="white" opacity="0.3" font-size="8"
-										font-family="Inter">Revenue Streams</text>
-									<rect x="28" y="196" width="60" height="18" rx="4" fill="#059669" opacity="0.2" />
-									<text x="58" y="209" fill="white" opacity="0.5" font-size="7" font-family="Inter"
-										text-anchor="middle">Tips 38%</text>
-									<rect x="94" y="196" width="68" height="18" rx="4" fill="#2a55e5" opacity="0.2" />
-									<text x="128" y="209" fill="white" opacity="0.5" font-size="7" font-family="Inter"
-										text-anchor="middle">Brands 42%</text>
-									<rect x="168" y="196" width="52" height="18" rx="4" fill="#7C3AED" opacity="0.2" />
-									<text x="194" y="209" fill="white" opacity="0.5" font-size="7" font-family="Inter"
-										text-anchor="middle">Ads 20%</text>
-								</svg>
-							</div>
-						</div>
+						<h3
+							class="text-[clamp(1.4rem,2.5vw,1.85rem)] font-bold text-text leading-snug tracking-tight mb-3">
+							{{ eco.title }}
+						</h3>
+						<p class="text-[15px] leading-[1.7] text-text-2">
+							{{ eco.desc }}
+						</p>
 					</div>
 				</div>
 			</div>
