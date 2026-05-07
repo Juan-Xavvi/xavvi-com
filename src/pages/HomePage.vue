@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from 'vue';
+import { computed, ref, onMounted, onUnmounted } from 'vue';
 import { useI18n } from 'vue-i18n';
 import GradientBlob from '@/components/GradientBlob.vue';
 import PhoneMockup from '@/components/PhoneMockup.vue';
@@ -8,6 +8,23 @@ import StatsCounter from '@/components/StatsCounter.vue';
 import SectionHeader from '@/components/SectionHeader.vue';
 
 const { t } = useI18n();
+
+// News teaser slider — alternates between News and Miss Crypto Apply
+const newsSlide = ref(0);
+let newsTimer: number | undefined;
+onMounted(() => {
+	newsTimer = window.setInterval(() => {
+		newsSlide.value = (newsSlide.value + 1) % 2;
+	}, 5000);
+});
+onUnmounted(() => {
+	if (newsTimer) window.clearInterval(newsTimer);
+});
+
+function scrollToMissCrypto() {
+	const el = document.getElementById('miss-crypto');
+	if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
 
 const stats = computed(() => [
 	{ target: 50, suffix: 'M+', label: t('home.stats.activeCreators') },
@@ -114,19 +131,39 @@ const offices = computed(() => [
        ═══════════════════════════════════════ -->
 	<section class="bg-[#f4f5f8] pt-10 lg:pt-14 pb-2 lg:pb-4">
 		<div class="max-w-[800px] mx-auto px-6">
-			<div v-reveal class="bg-[#FFFCF3] border border-[#212226] rounded-2xl px-6 py-5 lg:px-8 lg:py-6 flex flex-col lg:flex-row items-center gap-4 lg:gap-6">
-				<span class="text-[#FE2C55] font-extrabold text-[18px] tracking-[0.12em]">NEWS</span>
-				<div class="hidden lg:block w-px self-stretch bg-[#212226]" aria-hidden="true"></div>
-				<p class="text-[#212226] text-[15px] lg:text-[17px] leading-snug flex-1 text-center lg:text-left">
-					Xavvi Launches Creator Token Ecosystem
-				</p>
-				<RouterLink to="/news" aria-label="Read news"
-					class="w-10 h-10 rounded-full bg-[#FE2C55] flex items-center justify-center shrink-0 hover:scale-105 transition-transform">
-					<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFCF3" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-						<path d="M5 12h14M13 5l7 7-7 7" />
-					</svg>
-				</RouterLink>
-			</div>
+			<Transition name="news-fade" mode="out-in">
+				<!-- Slide 1: News (cream) -->
+				<div v-if="newsSlide === 0" key="news"
+					class="bg-[#FFFCF3] border border-[#212226] rounded-2xl px-6 py-5 lg:px-8 lg:py-6 flex flex-col lg:flex-row items-center gap-4 lg:gap-6">
+					<span class="text-[#FE2C55] font-extrabold text-[18px] tracking-[0.12em]">NEWS</span>
+					<div class="hidden lg:block w-px self-stretch bg-[#212226]" aria-hidden="true"></div>
+					<p class="text-[#212226] text-[15px] lg:text-[17px] leading-snug flex-1 text-center lg:text-left">
+						Xavvi Launches Creator Token Ecosystem
+					</p>
+					<RouterLink to="/news" aria-label="Read news"
+						class="w-10 h-10 rounded-full bg-[#FE2C55] flex items-center justify-center shrink-0 hover:scale-105 transition-transform">
+						<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFCF3" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M5 12h14M13 5l7 7-7 7" />
+						</svg>
+					</RouterLink>
+				</div>
+
+				<!-- Slide 2: Apply (dark) -->
+				<div v-else key="apply"
+					class="bg-[#212226] border border-[#212226] rounded-2xl px-6 py-5 lg:px-8 lg:py-6 flex flex-col lg:flex-row items-center gap-4 lg:gap-6">
+					<span class="text-[#FE2C55] font-extrabold text-[18px] tracking-[0.12em]">APPLY</span>
+					<div class="hidden lg:block w-px self-stretch bg-[#FFFCF3]" aria-hidden="true"></div>
+					<p class="text-[#FFFCF3] text-[15px] lg:text-[17px] leading-snug flex-1 text-center lg:text-left">
+						Applications for Miss Crypto 2026 now open!
+					</p>
+					<button type="button" @click="scrollToMissCrypto" aria-label="Jump to Miss Crypto section"
+						class="w-10 h-10 rounded-full bg-[#FE2C55] flex items-center justify-center shrink-0 hover:scale-105 transition-transform cursor-pointer">
+						<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFCF3" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M5 12h14M13 5l7 7-7 7" />
+						</svg>
+					</button>
+				</div>
+			</Transition>
 		</div>
 	</section>
 
@@ -146,7 +183,11 @@ const offices = computed(() => [
 				</div>
 			</div>
 
-			<div class="mt-12 lg:mt-16 grid grid-cols-1 lg:grid-cols-2 gap-6">
+			<div class="mt-12 mb-12 flex justify-center">
+				<img src="/images/page/Xavvi-icon.png" alt="Xavvi" class="h-[120px] w-auto" />
+			</div>
+
+			<div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
 				<div v-for="(eco, i) in ecosystems" :key="i" v-reveal="i"
 					class="card-light rounded-2xl! overflow-hidden flex flex-col">
 					<div :class="['relative aspect-[4/3] overflow-hidden', eco.panelBg]">
@@ -180,7 +221,7 @@ const offices = computed(() => [
 	<!-- ═══════════════════════════════════════
        MISS CRYPTO 2026
        ═══════════════════════════════════════ -->
-	<section class="bg-black py-22">
+	<section id="miss-crypto" class="bg-black py-22">
 		<div class="max-w-[1200px] mx-auto px-6 lg:px-8">
 			<div class="grid lg:grid-cols-2 gap-10 lg:gap-16 items-stretch">
 				<!-- Text -->
@@ -238,3 +279,14 @@ const offices = computed(() => [
 		</div>
 	</section>
 </template>
+
+<style scoped>
+.news-fade-enter-active,
+.news-fade-leave-active {
+	transition: opacity 0.2s ease;
+}
+.news-fade-enter-from,
+.news-fade-leave-to {
+	opacity: 0;
+}
+</style>
