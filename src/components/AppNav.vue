@@ -32,7 +32,7 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll));
 				<div class="hidden md:flex items-center gap-12">
 					<template v-for="link in links" :key="link.key">
 						<RouterLink :to="link.to!"
-							class="nav-link text-[16px] font-medium text-[#212226] hover:text-accent transition-colors">
+							class="nav-link text-[16px] font-medium text-[#212226] hover:text-[#AE2049] transition-colors">
 							{{ link.label }}
 						</RouterLink>
 					</template>
