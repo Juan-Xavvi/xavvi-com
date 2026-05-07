@@ -9,9 +9,10 @@ export default {
   },
   footer: {
     tagline: "It's not fantasy, it's Xavvi!",
-    product: 'Product',
+    product: 'Products',
     webApp: 'Web App',
-    download: 'Download',
+    download: 'Download Apps',
+    xavviTokens: 'Xavvi Tokens',
     xavviAds: 'Xavvi Ads',
     company: 'Company',
     about: 'About',
