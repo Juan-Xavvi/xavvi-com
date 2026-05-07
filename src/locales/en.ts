@@ -299,6 +299,44 @@ export default {
       p2: "Xavvi's unique AI social commerce ecosystem and digital assets represent an amazing opportunity where everyone wins.",
     },
   },
+  brandLab: {
+    hero: {
+      title: 'Introducing, Brand Lab',
+      body: 'As part of the package Xavvi offers to creators, you will launch your own brand and store on Brand Lab, an online shopping mall where creators start monetising from the get-go. We connect you to the suppliers, your AI clone generates the ads, and we operate your store and take care of logistics. All for free from within the Xavvi network.',
+    },
+    support: {
+      title: 'Full Support',
+      tabs: {
+        supply: {
+          label: 'SUPPLY CHAIN',
+          body: 'We have an extensive network of suppliers across China, South Korea, Japan, Vietnam, Mexico, and the USA — ranging from top manufacturers and established brands to leading ecommerce vendors. Thousands of experts in design, manufacturing, and supply chain operations are available to help you develop your own brand. From fashion and beauty to toys and technology, there is virtually no product we cannot help you create, produce, and bring to market.',
+        },
+        marketing: {
+          label: 'MARKETING',
+          body: 'Brand Lab also brings together a team of branding and marketing experts dedicated to helping you position your brand and grow your store. By combining traditional marketing best practices with AI-powered marketing, content generation, and customer engagement tools, we help maximize your reach and impact. Together with our global network of logistics partners, your brand is fully equipped to scale and thrive.',
+        },
+      },
+    },
+    roadmap: {
+      title: "Your Brand's Roadmap",
+      phase1: {
+        label: 'PHASE 1',
+        title: 'Kickstart Your Shop',
+        body: "After defining your target audience and product category, we'll connect you with current bestselling products. The goal is to start generating revenue as quickly as possible without the need to market-test products. These early sales also generate valuable customer data and an audience we can engage in Phase 2.",
+      },
+      phase2: {
+        label: 'PHASE 2',
+        title: 'White Labelling',
+        body: "Once we have proven sales performance, we'll connect you with top manufacturers offering high-performing products that can be white-labelled under your brand. This phase is focused on strengthening your brand identity and scaling sales.",
+      },
+      phase3: {
+        label: 'PHASE 3',
+        title: 'Unique Products',
+        body: 'Sales speak for themselves. Once we have achieved sustainable sales and built a loyal customer base, manufacturers become far more willing to invest in the higher-risk and more time-consuming process of developing unique products for your brand.',
+      },
+      summary: 'The purpose of these three phases is to allow you to grow without investing upfront capital, while manufacturers reduce their risk and we support you step by step with realistic, sustainable growth.',
+    },
+  },
   download: {
     title: 'Scan to get Xavvi.',
     subtitle: 'Official Android release.',

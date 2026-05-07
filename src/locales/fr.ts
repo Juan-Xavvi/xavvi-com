@@ -376,6 +376,44 @@ export default {
       p2: "L'écosystème unique de commerce social par IA et les actifs numériques de Xavvi représentent une opportunité incroyable où tout le monde gagne.",
     },
   },
+  brandLab: {
+    hero: {
+      title: 'Voici Brand Lab',
+      body: "Dans le cadre du package que Xavvi propose aux créateurs, vous lancerez votre propre marque et votre propre boutique sur Brand Lab, un centre commercial en ligne où les créateurs commencent à monétiser dès le départ. Nous vous connectons aux fournisseurs, votre clone IA génère les publicités, et nous gérons votre boutique et la logistique. Le tout, gratuitement, au sein du réseau Xavvi.",
+    },
+    support: {
+      title: 'Soutien complet',
+      tabs: {
+        supply: {
+          label: "CHAÎNE D'APPROVISIONNEMENT",
+          body: "Nous disposons d'un vaste réseau de fournisseurs en Chine, en Corée du Sud, au Japon, au Vietnam, au Mexique et aux États-Unis — des plus grands fabricants et marques établies aux principaux vendeurs e-commerce. Des milliers d'experts en design, fabrication et opérations de chaîne d'approvisionnement sont disponibles pour vous aider à développer votre marque. De la mode et la beauté aux jouets et à la technologie, il n'y a pratiquement pas de produit que nous ne puissions vous aider à créer, produire et lancer sur le marché.",
+        },
+        marketing: {
+          label: 'MARKETING',
+          body: "Brand Lab rassemble également une équipe d'experts en branding et marketing dédiée à vous aider à positionner votre marque et faire croître votre boutique. En combinant les meilleures pratiques marketing traditionnelles avec le marketing assisté par IA, la génération de contenu et les outils d'engagement client, nous vous aidons à maximiser votre portée et votre impact. Avec notre réseau mondial de partenaires logistiques, votre marque est pleinement équipée pour scaler et prospérer.",
+        },
+      },
+    },
+    roadmap: {
+      title: 'La roadmap de votre marque',
+      phase1: {
+        label: 'PHASE 1',
+        title: 'Lancez votre boutique',
+        body: "Après avoir défini votre audience cible et votre catégorie de produit, nous vous connecterons aux produits actuellement les plus vendus. L'objectif est de générer des revenus le plus rapidement possible, sans avoir à tester les produits sur le marché. Ces premières ventes génèrent aussi des données clients précieuses et une audience que nous pourrons engager en Phase 2.",
+      },
+      phase2: {
+        label: 'PHASE 2',
+        title: 'White labelling',
+        body: 'Une fois les performances de vente prouvées, nous vous connecterons à de grands fabricants proposant des produits performants pouvant être white-labellisés sous votre marque. Cette phase se concentre sur le renforcement de la identité de votre marque et la scalabilité des ventes.',
+      },
+      phase3: {
+        label: 'PHASE 3',
+        title: 'Produits uniques',
+        body: "Les ventes parlent d'elles-mêmes. Une fois que nous aurons atteint des ventes durables et bâti une base de clients fidèles, les fabricants seront beaucoup plus enclins à investir dans le processus plus risqué et plus long de développement de produits uniques pour votre marque.",
+      },
+      summary: "L'objectif de ces trois phases est de vous permettre de grandir sans investir de capital initial, pendant que les fabricants réduisent leur risque et que nous vous accompagnons étape par étape avec une croissance réaliste et durable.",
+    },
+  },
   download: {
     title: 'Scannez pour obtenir Xavvi.',
     subtitle: 'Version officielle Android.',

@@ -303,6 +303,44 @@ export default {
       p2: 'Das einzigartige KI-Social-Commerce-Ökosystem und die digitalen Assets von Xavvi sind eine großartige Chance, bei der alle gewinnen.',
     },
   },
+  brandLab: {
+    hero: {
+      title: 'Vorhang auf für Brand Lab',
+      body: 'Als Teil des Pakets, das Xavvi Creatorn bietet, launchst du deine eigene Marke und deinen Shop auf Brand Lab — einer Online-Shopping-Mall, in der Creators von Anfang an monetarisieren. Wir bringen dich mit Lieferanten zusammen, dein KI-Clone generiert die Anzeigen und wir betreiben deinen Shop und kümmern uns um die Logistik. Alles kostenlos, innerhalb des Xavvi-Netzwerks.',
+    },
+    support: {
+      title: 'Volle Unterstützung',
+      tabs: {
+        supply: {
+          label: 'SUPPLY CHAIN',
+          body: 'Wir verfügen über ein umfangreiches Netzwerk von Lieferanten in China, Südkorea, Japan, Vietnam, Mexiko und den USA — von Top-Herstellern und etablierten Marken bis hin zu führenden E-Commerce-Anbietern. Tausende Expertinnen und Experten in Design, Fertigung und Supply-Chain-Operations stehen bereit, dir beim Aufbau deiner eigenen Marke zu helfen. Von Mode und Beauty über Spielzeug bis Technologie — es gibt praktisch kein Produkt, das wir nicht für dich entwickeln, produzieren und auf den Markt bringen können.',
+        },
+        marketing: {
+          label: 'MARKETING',
+          body: 'Brand Lab vereint zudem ein Team aus Branding- und Marketing-Experten, das dir hilft, deine Marke zu positionieren und deinen Shop wachsen zu lassen. Indem wir klassische Marketing-Best-Practices mit KI-gestütztem Marketing, Content-Erstellung und Tools für Customer Engagement kombinieren, maximieren wir Reichweite und Wirkung. Mit unserem globalen Netzwerk von Logistikpartnern ist deine Marke bestens aufgestellt, um zu skalieren und erfolgreich zu sein.',
+        },
+      },
+    },
+    roadmap: {
+      title: 'Die Roadmap deiner Marke',
+      phase1: {
+        label: 'PHASE 1',
+        title: 'Starte deinen Shop',
+        body: 'Nachdem wir deine Zielgruppe und Produktkategorie definiert haben, verbinden wir dich mit aktuellen Bestsellern. Ziel ist es, so schnell wie möglich Umsatz zu generieren — ohne Markttests durchführen zu müssen. Diese ersten Verkäufe liefern wertvolle Kundendaten und eine Zielgruppe, mit der wir in Phase 2 arbeiten können.',
+      },
+      phase2: {
+        label: 'PHASE 2',
+        title: 'White Labelling',
+        body: 'Sobald die Verkaufsleistung belegt ist, verbinden wir dich mit Top-Herstellern, die starke Produkte anbieten, die unter deiner Marke white-labelled werden können. In dieser Phase geht es darum, deine Markenidentität zu stärken und den Umsatz zu skalieren.',
+      },
+      phase3: {
+        label: 'PHASE 3',
+        title: 'Eigenständige Produkte',
+        body: 'Die Verkäufe sprechen für sich. Sobald wir nachhaltige Umsätze erreicht und eine treue Kundenbasis aufgebaut haben, sind Hersteller deutlich eher bereit, in den risikoreicheren und zeitaufwändigeren Prozess der Entwicklung einzigartiger Produkte für deine Marke zu investieren.',
+      },
+      summary: 'Sinn dieser drei Phasen ist es, dass du wachsen kannst, ohne Kapital im Voraus zu investieren — während Hersteller ihr Risiko reduzieren und wir dich Schritt für Schritt mit realistischem, nachhaltigem Wachstum begleiten.',
+    },
+  },
   download: {
     title: 'Scannen und Xavvi holen.',
     subtitle: 'Offizielles Android-Release.',
