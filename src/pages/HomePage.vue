@@ -183,7 +183,7 @@ const offices = computed(() => [
 				</div>
 			</div>
 
-			<div class="mt-12 mb-12 flex justify-center">
+			<div class="mt-[100px] mb-[100px] flex justify-center">
 				<img src="/images/page/Xavvi-icon.png" alt="Xavvi" class="h-[120px] w-auto" />
 			</div>
 
@@ -325,13 +325,13 @@ const offices = computed(() => [
 	<!-- ═══════════════════════════════════════
        CTA — Gradient background
        ═══════════════════════════════════════ -->
-	<section class="bg-[#f4f5f8] py-28 lg:py-36 relative overflow-hidden text-center">
-		<div class="relative z-10 mx-auto px-6">
-			<h2 v-reveal class="text-6xl font-black text-black">
-				{{ t('home.ctaTitle') }}
+	<section class="bg-[#f4f5f8] py-28 lg:py-36 relative overflow-hidden">
+		<div class="relative z-10 max-w-[820px] mx-auto px-6">
+			<h2 v-reveal class="text-[clamp(2rem,4.5vw,3rem)] font-bold text-[#212226] leading-tight tracking-tight text-center mb-8 lg:mb-10">
+				{{ t('home.ctaHeading') }}
 			</h2>
-			<p v-reveal="1" class="mt-5 text-[clamp(1rem,1.5vw,1.1rem)] text-text leading-[1.7]">
-				{{ t('home.ctaSub') }}
+			<p v-reveal="1" class="text-[15px] lg:text-[17px] text-[#212226] leading-[1.8] whitespace-pre-line text-left">
+				{{ t('home.ctaTitle') }}
 			</p>
 			<div v-reveal="2" class="mt-10 flex flex-wrap justify-center gap-4">
 				<QrPopover>

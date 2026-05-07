@@ -29,7 +29,7 @@ export default {
     status: 'Tous les systèmes sont opérationnels',
   },
   home: {
-    heroTitle: "Commerce social par l'IA : la majorité numérique des créateurs",
+    heroTitle: "Entrer dans l'ère du Web4 : la majorité numérique des créateurs",
     heroSub:
       "Un changement de paradigme dans la création de richesse gagnant-gagnant pour les créateurs, leurs fans et les annonceurs, à l'ère de l'IA, du commerce social et des actifs numériques.",
     learnMore: 'En savoir plus',
@@ -95,7 +95,8 @@ export default {
       p3: "Postulez dès maintenant et commencez à bâtir votre empire de créatrice dès aujourd'hui.",
       cta: 'POSTULER',
     },
-    ctaTitle: 'Commencez à construire sur Xavvi',
+    ctaHeading: 'Devenez partenaire de Xavvi',
+    ctaTitle: "Les plateformes sociales traditionnelles monétisent votre attention, votre pouvoir d'achat et vos données personnelles — tout en gardant toute la valeur pour elles-mêmes. Chez Xavvi, nous pensons que les personnes qui contribuent à la croissance d'une plateforme devraient aussi profiter de son succès.\n\nC'est pourquoi nous utilisons l'IA, la blockchain et le commerce social pour créer un écosystème plus juste pour tous. Les créateurs obtiennent un meilleur deal, les utilisateurs sont récompensés pour leur engagement et leurs achats, et les marques accèdent à des communautés plus transparentes et plus efficaces.\n\nEnsemble, nous pouvons bâtir une économie numérique plus rapide, plus forte et plus inclusive. Rejoignez la révolution Web4 !",
     ctaSub:
       'Que vous créiez, regardiez ou développiez une entreprise — il y a une place pour vous ici.',
     ctaDownload: "Télécharger l'app",
@@ -429,6 +430,50 @@ export default {
         body: "Les ventes parlent d'elles-mêmes. Une fois que nous aurons atteint des ventes durables et bâti une base de clients fidèles, les fabricants seront beaucoup plus enclins à investir dans le processus plus risqué et plus long de développement de produits uniques pour votre marque.",
       },
       summary: "L'objectif de ces trois phases est de vous permettre de grandir sans investir de capital initial, pendant que les fabricants réduisent leur risque et que nous vous accompagnons étape par étape avec une croissance réaliste et durable.",
+    },
+  },
+  agencies: {
+    hero: {
+      title: 'Aidez votre réseau à débloquer la prochaine révolution des revenus',
+      body: "Xavvi offre aux agences, managers, MCNs et talent connectors la possibilité d'aider les célébrités et les influenceurs à débloquer de toutes nouvelles sources de revenus, propulsées par l'IA, le commerce social et la technologie blockchain. Nous gérons la technologie, l'infrastructure, l'e-commerce, les systèmes IA et la complexité opérationnelle — permettant aux créateurs de générer de nouveaux revenus avec peu d'effort, sans investissement initial et avec un fort potentiel à long terme. Pour les agences et les MCNs, cela signifie pouvoir étendre la valeur que vous apportez à votre réseau tout en participant directement à la croissance de l'écosystème que vous contribuez à bâtir.",
+    },
+    whyCreators: {
+      title: 'Pourquoi les créateurs vont adorer Xavvi',
+      intro1: "L'économie des créateurs évolue vite. Les audiences attendent plus de contenu, plus d'engagement et plus d'accessibilité que jamais. En même temps, les créateurs font face à une pression, un burnout et une concurrence accrus.",
+      intro2: 'Xavvi aide les créateurs à travailler plus intelligemment.',
+      benefitsTitle: 'Avantages pour les créateurs',
+      b1: 'Générer des revenus supplémentaires au-delà des sponsorings et des publicités',
+      b2: "Utiliser des outils d'IA pour réduire la charge de production de contenu",
+      b3: "Faire évoluer l'engagement sans sacrifier de temps personnel",
+      b4: "Récompenser les abonnés pour leur engagement et leurs achats",
+      b5: 'Construire une fidélité fan plus forte et plus de participation communautaire',
+      b6: 'Développer une valeur à long terme grâce aux Creator Tokens et au commerce social',
+      b7: "S'étendre à l'international avec des contenus et campagnes multilingues propulsés par l'IA",
+      closing: "En combinant IA, e-commerce et écosystèmes d'audience tokenisés, les créateurs peuvent se concentrer davantage sur la créativité et moins sur la pression opérationnelle.",
+    },
+    industry: {
+      title: "L'industrie change. Et les risques aussi.",
+      p1: "Le modèle traditionnel des agences et du management fait face à une disruption majeure. De nombreuses agences investissent des années à aider les créateurs à grandir, pour les perdre ensuite au profit d'autres managers, agences ou relations directes avec des marques. Dans d'autres cas, les créateurs deviennent moins actifs avec le temps, réduisant la valeur à long terme pour ceux qui ont contribué à construire leur carrière.",
+      p2: "Dans le même temps, les outils d'IA commencent à automatiser des parties de la production de contenu, du marketing et de la gestion d'audience — rendant les créateurs de plus en plus indépendants. Cela soulève une question essentielle pour les agences et les MCNs : comment continuer à créer de la valeur à long terme à l'ère de l'IA ? Xavvi a été conçu pour aider à répondre à cette question.",
+    },
+    referral: {
+      title: 'Un système de parrainage conçu pour la valeur à long terme',
+      intro: "L'écosystème de parrainage de Xavvi est propulsé par les Creator Tokens. Quand vous intégrez un créateur, vous recevez une part de l'écosystème de tokens de ce créateur via notre structure de parrainage. À mesure que le créateur développe son audience, son engagement et son activité commerciale, votre participation reste connectée à l'écosystème que vous avez contribué à créer.",
+      inAdditionLabel: 'En plus :',
+      a1: 'Vous pouvez aussi onboarder d’autres agences et MCNs',
+      a2: 'Les récompenses de parrainage s’étendent à travers le réseau que vous aidez à construire',
+      a3: "Une fois l'onboarding terminé, le système devient largement autonome",
+      a4: 'Une seule introduction réussie peut générer un upside à long terme',
+      closing: 'Le but est simple : récompenser les personnes qui aident à construire le réseau, pas uniquement la plateforme.',
+    },
+    ecosystem: {
+      title: "Faites partie de l'écosystème",
+      body: "Que vous gériez des célébrités, représentiez des influenceurs, opériez une MCN, ou que vous ayez simplement un solide carnet d'adresses dans l'industrie, Xavvi vous donne l'opportunité de participer à la prochaine évolution de la monétisation des créateurs.",
+      cta: 'EN SAVOIR PLUS',
+    },
+    alsoJoin: {
+      title: 'Les créateurs peuvent aussi rejoindre en tant que MCNs',
+      body: "Les créateurs disposant de solides réseaux dans l'industrie peuvent aussi participer en tant que MCNs et aider à onboarder d'autres créateurs dans l'écosystème — étendant à la fois leur influence et leur potentiel de revenus au sein de Xavvi.",
     },
   },
   download: {
