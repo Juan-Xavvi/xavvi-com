@@ -256,6 +256,73 @@ const offices = computed(() => [
 	</section>
 
 	<!-- ═══════════════════════════════════════
+       MCN & BRANDS — Two-column callout
+       ═══════════════════════════════════════ -->
+	<section class="bg-[#f4f5f8] pt-22 lg:pt-24 pb-16 lg:pb-20">
+		<div class="max-w-[1200px] mx-auto px-6 lg:px-8">
+			<div class="grid lg:grid-cols-2 lg:divide-x lg:divide-[#212226]/15 gap-10 lg:gap-0">
+				<!-- Column 1: Agencies/MCNs -->
+				<div v-reveal class="lg:pr-12">
+					<span class="block text-[#AE2049] text-[12px] font-bold tracking-[0.18em] uppercase mb-4">
+						{{ t('home.mcnBrands.agencies.eyebrow') }}
+					</span>
+					<h3 class="text-[clamp(1.5rem,2.8vw,2.2rem)] font-bold text-text leading-tight mb-5">
+						{{ t('home.mcnBrands.agencies.title') }}
+					</h3>
+					<p class="text-[15px] lg:text-[16px] text-text-2 leading-[1.7] mb-6">
+						{{ t('home.mcnBrands.agencies.body') }}
+					</p>
+					<RouterLink to="/agencies"
+						class="inline-flex items-center gap-2 text-[14px] font-bold tracking-[0.12em] text-[#FE2C55] hover:text-[#EF2950] transition-colors group">
+						{{ t('home.mcnBrands.agencies.cta') }}
+						<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="transition-transform group-hover:translate-x-1">
+							<path d="M5 12h14M13 5l7 7-7 7" />
+						</svg>
+					</RouterLink>
+				</div>
+
+				<!-- Column 2: Brands & Vendors -->
+				<div v-reveal="1" class="lg:pl-12">
+					<span class="block text-[#AE2049] text-[12px] font-bold tracking-[0.18em] uppercase mb-4">
+						{{ t('home.mcnBrands.brands.eyebrow') }}
+					</span>
+					<h3 class="text-[clamp(1.5rem,2.8vw,2.2rem)] font-bold text-text leading-tight mb-5">
+						{{ t('home.mcnBrands.brands.title') }}
+					</h3>
+					<p class="text-[15px] lg:text-[16px] text-text-2 leading-[1.7] mb-6">
+						{{ t('home.mcnBrands.brands.body') }}
+					</p>
+					<RouterLink to="/brands"
+						class="inline-flex items-center gap-2 text-[14px] font-bold tracking-[0.12em] text-[#FE2C55] hover:text-[#EF2950] transition-colors group">
+						{{ t('home.mcnBrands.brands.cta') }}
+						<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="transition-transform group-hover:translate-x-1">
+							<path d="M5 12h14M13 5l7 7-7 7" />
+						</svg>
+					</RouterLink>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ═══════════════════════════════════════
+       DISCLAIMER — Creator Tokens
+       ═══════════════════════════════════════ -->
+	<section class="bg-[#212226] py-10 lg:py-12">
+		<div class="max-w-[800px] mx-auto px-6">
+			<div class="flex flex-col items-center sm:flex-row sm:items-start gap-4 sm:gap-5">
+				<svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="#FE2C55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="shrink-0" aria-hidden="true">
+					<path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" />
+					<line x1="12" y1="9" x2="12" y2="13" />
+					<line x1="12" y1="17" x2="12.01" y2="17" />
+				</svg>
+				<p class="text-[13px] lg:text-[14px] text-[#FFFCF3] leading-[1.7] text-center sm:text-left">
+					{{ t('home.disclaimer.body') }}
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- ═══════════════════════════════════════
        CTA — Gradient background
        ═══════════════════════════════════════ -->
 	<section class="bg-[#f4f5f8] py-28 lg:py-36 relative overflow-hidden text-center">

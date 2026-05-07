@@ -93,6 +93,23 @@ export default {
     ctaSub: "Whether you create, watch, or grow a business — there's a place for you here.",
     ctaDownload: 'Download the App',
     ctaWebApp: 'Open Web App',
+    mcnBrands: {
+      agencies: {
+        eyebrow: 'Agencies/MCNs',
+        title: 'Do you have access to celebrities and influencers?',
+        body: "Xavvi stands apart from traditional social media platforms because our mission is to decentralise growth and share the platform's success with everyone who helps build it. Creators receive a better deal than anywhere else. Users are finally rewarded for their attention. And now, agencies, MCNs, and anyone helping onboard celebrities and influencers are also invited to participate in the ecosystem's growth.",
+        cta: 'LEARN MORE',
+      },
+      brands: {
+        eyebrow: 'Brands & Vendors',
+        title: 'Are you a brand or vendor looking for better ROI?',
+        body: "Xavvi's decentralised, AI-powered advertising model enables brands to collaborate with dozens — or even hundreds — of creators every day, launching campaigns in days instead of weeks or months. Faster and broader creator collaborations translate into stronger ROI. In addition, blockchain-supported traffic data and transparency tools give brands clearer insights into performance and a far better understanding of exactly what they are paying for.",
+        cta: 'LEARN MORE',
+      },
+    },
+    disclaimer: {
+      body: "Creator Tokens are not investment vehicles; their prices fluctuate and can even go to zero. Creator tokens are a utility token that brands use to access a creator's traffic and launch ad campaigns. Fans are rewarded for their attention and purchases with creator tokens, which they use to claim exclusive perks and experiences, get discounts or acquire products from the creator's Brand Lab shop.",
+    },
   },
   about: {
     heroTitle: 'We build infrastructure for the creator economy',

@@ -92,6 +92,23 @@ export default {
     ctaSub: 'Ob du erstellst, schaust oder ein Business skalierst — hier ist Platz für dich.',
     ctaDownload: 'App herunterladen',
     ctaWebApp: 'Web-App öffnen',
+    mcnBrands: {
+      agencies: {
+        eyebrow: 'Agenturen/MCNs',
+        title: 'Hast du Zugang zu Prominenten und Influencern?',
+        body: 'Xavvi unterscheidet sich von klassischen Social-Media-Plattformen, weil unsere Mission ist, Wachstum zu dezentralisieren und den Erfolg der Plattform mit allen zu teilen, die beim Aufbau helfen. Creators erhalten einen besseren Deal als irgendwo sonst. Nutzer werden endlich für ihre Aufmerksamkeit belohnt. Und jetzt sind auch Agenturen, MCNs und alle, die beim Onboarding von Prominenten und Influencern helfen, eingeladen, am Wachstum des Ökosystems teilzuhaben.',
+        cta: 'MEHR ERFAHREN',
+      },
+      brands: {
+        eyebrow: 'Marken & Anbieter',
+        title: 'Du bist eine Marke oder ein Anbieter und suchst besseren ROI?',
+        body: 'Xavvis dezentrales, KI-gestütztes Werbemodell ermöglicht es Marken, mit Dutzenden — oder sogar Hunderten — von Creators täglich zu kollaborieren, und Kampagnen in Tagen statt in Wochen oder Monaten zu launchen. Schnellere und breitere Creator-Kooperationen führen zu stärkerem ROI. Hinzu kommen blockchain-gestützte Traffic-Daten und Transparenz-Tools, die Marken klarere Performance-Einblicke und ein viel besseres Verständnis davon geben, wofür sie eigentlich zahlen.',
+        cta: 'MEHR ERFAHREN',
+      },
+    },
+    disclaimer: {
+      body: 'Creator Tokens sind keine Anlageinstrumente; ihre Preise schwanken und können sogar auf null fallen. Creator Tokens sind ein Utility-Token, mit dem Marken auf den Traffic eines Creators zugreifen und Werbekampagnen launchen. Fans werden für ihre Aufmerksamkeit und Käufe mit Creator Tokens belohnt, die sie nutzen, um exklusive Vorteile und Experiences zu erhalten, Rabatte zu bekommen oder Produkte aus dem Brand-Lab-Shop des Creators zu kaufen.',
+    },
   },
   about: {
     heroTitle: 'Wir bauen Infrastruktur für die Creator Economy',

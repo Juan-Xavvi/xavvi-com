@@ -100,6 +100,23 @@ export default {
       'Que vous créiez, regardiez ou développiez une entreprise — il y a une place pour vous ici.',
     ctaDownload: "Télécharger l'app",
     ctaWebApp: 'Ouvrir l’application web',
+    mcnBrands: {
+      agencies: {
+        eyebrow: 'Agences/MCNs',
+        title: 'Avez-vous accès à des célébrités et à des influenceurs ?',
+        body: "Xavvi se distingue des plateformes sociales traditionnelles car notre mission est de décentraliser la croissance et de partager le succès de la plateforme avec celles et ceux qui contribuent à la construire. Les créateurs reçoivent un meilleur deal que partout ailleurs. Les utilisateurs sont enfin récompensés pour leur attention. Et désormais, les agences, MCNs et toutes les personnes qui aident à recruter des célébrités et des influenceurs sont également invitées à participer à la croissance de l'écosystème.",
+        cta: 'EN SAVOIR PLUS',
+      },
+      brands: {
+        eyebrow: 'Marques et vendeurs',
+        title: "Vous êtes une marque ou un vendeur en quête d'un meilleur ROI ?",
+        body: "Le modèle publicitaire décentralisé et propulsé par l'IA de Xavvi permet aux marques de collaborer avec des dizaines — voire des centaines — de créateurs chaque jour, en lançant des campagnes en quelques jours au lieu de plusieurs semaines ou mois. Des collaborations créateurs plus rapides et plus larges se traduisent par un meilleur ROI. De plus, les données de trafic adossées à la blockchain et les outils de transparence offrent aux marques une vision plus claire de la performance et une bien meilleure compréhension de ce pour quoi elles paient.",
+        cta: 'EN SAVOIR PLUS',
+      },
+    },
+    disclaimer: {
+      body: "Les Creator Tokens ne sont pas des véhicules d'investissement ; leurs prix fluctuent et peuvent même tomber à zéro. Les creator tokens sont un token utilitaire que les marques utilisent pour accéder au trafic d'une créatrice et lancer des campagnes publicitaires. Les fans sont récompensés pour leur attention et leurs achats avec des creator tokens, qu'ils peuvent utiliser pour réclamer des avantages et expériences exclusives, obtenir des réductions ou acquérir des produits dans la boutique Brand Lab de la créatrice.",
+    },
   },
   about: {
     heroTitle: 'Nous bâtissons l’infrastructure de l’économie des créateurs',

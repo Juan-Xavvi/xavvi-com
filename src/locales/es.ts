@@ -100,6 +100,23 @@ export default {
       'Tanto si creas, ves contenido o haces crecer un negocio — aquí tienes tu sitio.',
     ctaDownload: 'Descargar la app',
     ctaWebApp: 'Abrir aplicación web',
+    mcnBrands: {
+      agencies: {
+        eyebrow: 'Agencias/MCNs',
+        title: '¿Tienes acceso a celebridades e influencers?',
+        body: 'Xavvi se distingue de las redes sociales tradicionales porque nuestra misión es descentralizar el crecimiento y compartir el éxito de la plataforma con todos los que ayudan a construirla. Las creadoras reciben un mejor trato que en ningún otro sitio. Los usuarios por fin son recompensados por su atención. Y ahora, las agencias, MCNs y todos los que ayudan a incorporar a celebridades e influencers también están invitados a participar en el crecimiento del ecosistema.',
+        cta: 'SABER MÁS',
+      },
+      brands: {
+        eyebrow: 'Marcas y proveedores',
+        title: '¿Eres una marca o un proveedor en busca de mejor ROI?',
+        body: 'El modelo descentralizado de publicidad con IA de Xavvi permite a las marcas colaborar con docenas — o incluso cientos — de creadoras al día, lanzando campañas en días en lugar de semanas o meses. Colaboraciones más rápidas y amplias se traducen en un ROI más fuerte. Además, los datos de tráfico respaldados por blockchain y las herramientas de transparencia ofrecen a las marcas insights más claros sobre el rendimiento y una comprensión mucho mejor de lo que están pagando.',
+        cta: 'SABER MÁS',
+      },
+    },
+    disclaimer: {
+      body: 'Los Creator Tokens no son vehículos de inversión; sus precios fluctúan e incluso pueden caer a cero. Los creator tokens son un token de utilidad que las marcas usan para acceder al tráfico de la creadora y lanzar campañas publicitarias. Los fans son recompensados por su atención y sus compras con creator tokens, que pueden usar para reclamar ventajas y experiencias exclusivas, obtener descuentos o adquirir productos en la tienda Brand Lab de la creadora.',
+    },
   },
   about: {
     heroTitle: 'Construimos la infraestructura de la economía del creador',
