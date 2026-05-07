@@ -498,6 +498,14 @@ export default {
     messages: '메시지',
     me: '나',
   },
+  news: {
+    title: '뉴스',
+    subtitle: 'Xavvi 생태계의 최신 소식',
+    empty: '아직 소식이 없습니다. 다시 확인해 주세요.',
+    readMore: '더 보기',
+    backToNews: '뉴스로 돌아가기',
+    notFound: '게시물을 찾을 수 없습니다.',
+  },
   meta: {
     home: 'Xavvi — 쇼트폼 & 크리에이터 플랫폼',
     about: '소개 – Xavvi',

@@ -497,6 +497,14 @@ export default {
     messages: 'Mensajes',
     me: 'Yo',
   },
+  news: {
+    title: 'Noticias',
+    subtitle: 'Las últimas novedades del ecosistema Xavvi',
+    empty: 'Aún no hay noticias. Vuelve pronto.',
+    readMore: 'LEER MÁS',
+    backToNews: 'Volver a Noticias',
+    notFound: 'Publicación no encontrada.',
+  },
   meta: {
     home: 'Xavvi — Vídeo corto y plataforma para creadores',
     about: 'Acerca de – Xavvi',

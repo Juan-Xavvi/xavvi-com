@@ -498,6 +498,14 @@ export default {
     messages: 'メッセージ',
     me: 'マイページ',
   },
+  news: {
+    title: 'ニュース',
+    subtitle: 'Xavvi エコシステムの最新情報',
+    empty: 'まだお知らせはありません。またご確認ください。',
+    readMore: '続きを読む',
+    backToNews: 'ニュース一覧へ',
+    notFound: '記事が見つかりませんでした。',
+  },
   meta: {
     home: 'Xavvi — ショート動画＆クリエイタープラットフォーム',
     about: '会社概要 – Xavvi',

@@ -498,6 +498,14 @@ export default {
     messages: 'Messages',
     me: 'Moi',
   },
+  news: {
+    title: 'Actualités',
+    subtitle: "Les dernières actualités de l'écosystème Xavvi",
+    empty: "Pas encore d'actualités. Revenez bientôt.",
+    readMore: 'LIRE LA SUITE',
+    backToNews: 'Retour aux actualités',
+    notFound: 'Article introuvable.',
+  },
   meta: {
     home: 'Xavvi — Vidéo courte et plateforme créateurs',
     about: 'À propos – Xavvi',

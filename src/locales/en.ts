@@ -422,6 +422,14 @@ export default {
     messages: 'Messages',
     me: 'Me',
   },
+  news: {
+    title: 'News',
+    subtitle: 'Latest updates from the Xavvi ecosystem',
+    empty: 'No news yet. Check back soon.',
+    readMore: 'READ MORE',
+    backToNews: 'Back to News',
+    notFound: 'Post not found.',
+  },
   meta: {
     home: 'Xavvi — Short video & creator platform',
     about: 'About – Xavvi',

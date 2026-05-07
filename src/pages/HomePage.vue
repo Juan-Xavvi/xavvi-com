@@ -6,16 +6,34 @@ import PhoneMockup from '@/components/PhoneMockup.vue';
 import QrPopover from '@/components/QrPopover.vue';
 import StatsCounter from '@/components/StatsCounter.vue';
 import SectionHeader from '@/components/SectionHeader.vue';
+import { supabase } from '@/lib/supabase';
 
 const { t } = useI18n();
 
 // News teaser slider — alternates between News and Miss Crypto Apply
 const newsSlide = ref(0);
+const latestNewsTitle = ref('Xavvi Launches Creator Token Ecosystem');
 let newsTimer: number | undefined;
-onMounted(() => {
+
+onMounted(async () => {
 	newsTimer = window.setInterval(() => {
 		newsSlide.value = (newsSlide.value + 1) % 2;
 	}, 5000);
+
+	try {
+		const { data, error } = await supabase
+			.from('news')
+			.select('title')
+			.eq('published', true)
+			.order('published_at', { ascending: false })
+			.limit(1)
+			.single();
+		if (!error && data?.title) {
+			latestNewsTitle.value = data.title;
+		}
+	} catch {
+		// keep fallback
+	}
 });
 onUnmounted(() => {
 	if (newsTimer) window.clearInterval(newsTimer);
@@ -138,7 +156,7 @@ const offices = computed(() => [
 					<span class="text-[#FE2C55] font-extrabold text-[18px] tracking-[0.12em]">NEWS</span>
 					<div class="hidden lg:block w-px self-stretch bg-[#212226]" aria-hidden="true"></div>
 					<p class="text-[#212226] text-[15px] lg:text-[17px] leading-snug flex-1 text-center lg:text-left">
-						Xavvi Launches Creator Token Ecosystem
+						{{ latestNewsTitle }}
 					</p>
 					<RouterLink to="/news" aria-label="Read news"
 						class="w-10 h-10 rounded-full bg-[#FE2C55] flex items-center justify-center shrink-0 hover:scale-105 transition-transform">

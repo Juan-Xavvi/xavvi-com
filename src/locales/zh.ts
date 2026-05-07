@@ -425,6 +425,14 @@ export default {
     messages: '消息',
     me: '我',
   },
+  news: {
+    title: '新闻',
+    subtitle: 'Xavvi 生态最新动态',
+    empty: '暂无新闻，请稍后再来。',
+    readMore: '阅读全文',
+    backToNews: '返回新闻',
+    notFound: '未找到该文章。',
+  },
   meta: {
     home: 'Xavvi — 短视频与创作者平台',
     about: '关于我们 – Xavvi',

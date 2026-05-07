@@ -15,6 +15,7 @@ const router = createRouter({
     { path: '/brand-lab', name: 'brand-lab', component: () => import('@/pages/BrandLabPage.vue'), meta: { title: 'Brand Lab – Xavvi' } },
     { path: '/agencies', name: 'agencies', component: () => import('@/pages/AgenciesPage.vue'), meta: { title: 'Agencies & MCNs – Xavvi' } },
     { path: '/news', name: 'news', component: () => import('@/pages/NewsPage.vue'), meta: { title: 'News – Xavvi' } },
+    { path: '/news/:slug', name: 'news-detail', component: () => import('@/pages/NewsDetailPage.vue'), meta: { title: 'News – Xavvi' } },
     { path: '/contact', name: 'contact', component: () => import('@/pages/ContactPage.vue'), meta: { title: 'Contact – Xavvi' } },
     { path: '/archive', name: 'archive', component: () => import('@/pages/ArchivePage.vue'), meta: { title: 'Archive – Xavvi' } },
     { path: '/download', name: 'download', component: () => import('@/pages/DownloadPage.vue'), meta: { titleKey: 'meta.download' } },

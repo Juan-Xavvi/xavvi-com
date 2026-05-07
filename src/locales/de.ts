@@ -425,6 +425,14 @@ export default {
     messages: 'Nachrichten',
     me: 'Ich',
   },
+  news: {
+    title: 'News',
+    subtitle: 'Aktuelles aus dem Xavvi-Ökosystem',
+    empty: 'Noch keine News. Schau bald wieder vorbei.',
+    readMore: 'MEHR LESEN',
+    backToNews: 'Zurück zu News',
+    notFound: 'Beitrag nicht gefunden.',
+  },
   meta: {
     home: 'Xavvi — Kurzvideos & Creator-Plattform',
     about: 'Über uns – Xavvi',
