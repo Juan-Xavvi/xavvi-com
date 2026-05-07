@@ -348,3 +348,17 @@ svg.inline-icon { display: inline-block !important; vertical-align: middle; }
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
+
+/* ══════════════════════════════════════════
+   Hero — shared dark gradient background
+   Matches the original HomePage hero glow:
+   #0f0f0f base + #2a55e5 blue blob in upper-center
+   ══════════════════════════════════════════ */
+.hero-dark {
+  background-color: #0f0f0f;
+  background-image: radial-gradient(
+    ellipse 900px 700px at 60% 0%,
+    rgba(42, 85, 229, 0.16) 0%,
+    transparent 70%
+  );
+}

@@ -75,7 +75,7 @@ const benefits = computed(() => [
 	<!-- ═══════════════════════════════════════
        SECTION 1 — Hero (dark)
        ═══════════════════════════════════════ -->
-	<section class="bg-black pt-32 pb-20 lg:pt-36 lg:pb-28">
+	<section class="hero-dark pt-32 pb-20 lg:pt-36 lg:pb-28">
 		<div class="max-w-[1200px] mx-auto px-6 lg:px-8">
 			<div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 				<!-- Left: text -->

@@ -65,12 +65,7 @@ const offices = computed(() => [
 	<!-- ═══════════════════════════════════════
        HERO — Left text, right phone
        ═══════════════════════════════════════ -->
-	<section class="relative min-h-dvh overflow-hidden">
-		<!-- Background glow -->
-		<div class="pointer-events-none absolute inset-0">
-			<div class="absolute top-[-10%] left-[60%] -translate-x-1/2 w-[900px] h-[700px] rounded-full bg-[#2a55e5]/12 blur-[120px]" />
-		</div>
-
+	<section class="hero-dark relative min-h-dvh overflow-hidden">
 		<div class="relative z-10 max-w-[1480px] mx-auto px-6 lg:px-8 min-h-dvh grid lg:grid-cols-[1fr_minmax(320px,400px)] items-center gap-10 lg:gap-16 pt-28 pb-24 lg:pt-0 lg:pb-0">
 			<!-- Left: text -->
 			<div class="text-center lg:text-center relative z-20">
