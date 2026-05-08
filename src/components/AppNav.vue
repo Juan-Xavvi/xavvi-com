@@ -12,8 +12,8 @@ const mobileOpen = ref(false);
 const links = [
 	{ to: '/', label: 'Home' },
 	{ to: '/creators', label: 'Creators' },
-	{ to: '/brand-lab', label: 'Brand Lab' },
 	{ to: '/agencies', label: 'Agencies/MCNs' },
+	{ to: '/brand-lab', label: 'Brand Lab' },
 	{ to: '/news', label: 'News' },
 ];
 

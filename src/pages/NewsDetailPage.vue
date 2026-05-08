@@ -10,7 +10,7 @@ interface NewsPost {
 	title: string;
 	excerpt: string | null;
 	content: string | null;
-	cover_image_url: string | null;
+	cover_image: string | null;
 	published_at: string;
 }
 
@@ -68,16 +68,16 @@ function formatDate(iso: string) {
 	<!-- Loading state -->
 	<section v-if="loading" class="hero-dark pt-32 pb-20 lg:pt-36 lg:pb-24">
 		<div class="max-w-[800px] mx-auto px-6 lg:px-8">
-			<div class="h-3 w-32 rounded bg-[#FFFCF3]/10 animate-pulse mb-8"></div>
-			<div class="h-10 w-full rounded bg-[#FFFCF3]/10 animate-pulse mb-3"></div>
-			<div class="h-10 w-2/3 rounded bg-[#FFFCF3]/10 animate-pulse"></div>
+			<div class="h-3 w-32 rounded bg-[#FFFDF9]/10 animate-pulse mb-8"></div>
+			<div class="h-10 w-full rounded bg-[#FFFDF9]/10 animate-pulse mb-3"></div>
+			<div class="h-10 w-2/3 rounded bg-[#FFFDF9]/10 animate-pulse"></div>
 		</div>
 	</section>
 
 	<!-- Not found -->
 	<section v-else-if="notFound" class="hero-dark pt-32 pb-20 lg:pt-36 lg:pb-24 min-h-[60vh] flex items-center">
 		<div class="max-w-[800px] mx-auto px-6 lg:px-8 text-center">
-			<h1 class="text-[clamp(2rem,4vw,3rem)] font-bold text-[#FFFCF3] mb-6">
+			<h1 class="text-[clamp(2rem,4vw,3rem)] font-bold text-[#FFFDF9] mb-6">
 				{{ t('news.notFound') }}
 			</h1>
 			<RouterLink to="/news"
@@ -95,7 +95,7 @@ function formatDate(iso: string) {
 		<section class="hero-dark pt-32 pb-16 lg:pt-36 lg:pb-20">
 			<div class="max-w-[800px] mx-auto px-6 lg:px-8">
 				<RouterLink to="/news"
-					class="inline-flex items-center gap-2 text-[13px] font-bold tracking-[0.12em] text-[#FFFCF3]/70 hover:text-[#FFFCF3] transition-colors mb-8">
+					class="inline-flex items-center gap-2 text-[13px] font-bold tracking-[0.12em] text-[#FFFDF9]/70 hover:text-[#FFFDF9] transition-colors mb-8">
 					<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
 						<path d="M19 12H5M11 5l-7 7 7 7" />
 					</svg>
@@ -104,7 +104,7 @@ function formatDate(iso: string) {
 				<p v-reveal class="text-[12px] lg:text-[13px] font-bold tracking-[0.18em] text-[#FE2C55] uppercase mb-4">
 					{{ formatDate(post.published_at) }}
 				</p>
-				<h1 v-reveal="1" class="text-[clamp(2rem,4.5vw,3.4rem)] font-bold leading-[1.15] tracking-tight text-[#FFFCF3]">
+				<h1 v-reveal="1" class="text-[clamp(2rem,4.5vw,3.4rem)] font-bold leading-[1.15] tracking-tight text-[#FFFDF9]">
 					{{ post.title }}
 				</h1>
 			</div>
@@ -113,8 +113,8 @@ function formatDate(iso: string) {
 		<!-- Article -->
 		<section class="bg-[#f4f5f8] py-12 lg:py-16">
 			<div class="max-w-[800px] mx-auto px-6 lg:px-8">
-				<div v-if="post.cover_image_url" v-reveal class="rounded-2xl overflow-hidden mb-10 lg:mb-12">
-					<img :src="post.cover_image_url" :alt="post.title" class="block w-full h-auto object-cover" />
+				<div v-if="post.cover_image" v-reveal class="rounded-2xl overflow-hidden mb-10 lg:mb-12">
+					<img :src="post.cover_image" :alt="post.title" class="block w-full h-auto object-cover" />
 				</div>
 				<article v-reveal="1" class="news-content text-[16px] lg:text-[17px] text-[#212226] leading-[1.8]"
 					v-html="post.content" />

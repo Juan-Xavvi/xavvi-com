@@ -4,7 +4,7 @@ const { t } = useI18n();
 </script>
 
 <template>
-  <footer class="bg-[#FFFCF3] relative">
+  <footer class="bg-[#FFFDF9] relative">
     <div class="line-gradient" />
 
     <div class="max-w-[1280px] mx-auto px-6 lg:px-8 pt-16 pb-8 lg:pt-20 lg:pb-10">

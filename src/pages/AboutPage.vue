@@ -73,7 +73,7 @@ const compliance = computed(() => [
 
 <template>
 	<!-- ═══ PAGE HEADER — Editorial split ═══ -->
-	<section class="bg-dark pt-28 pb-16 lg:pt-36 lg:pb-20">
+	<section class="hero-dark pt-28 pb-16 lg:pt-36 lg:pb-20">
 		<div class="max-w-[1200px] mx-auto px-6 lg:px-8">
 			<div class="grid lg:grid-cols-[1.2fr_1fr] gap-10 lg:gap-20 items-end">
 				<div v-reveal>

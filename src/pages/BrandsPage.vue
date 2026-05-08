@@ -29,7 +29,7 @@ const stats = computed(() => [
 </script>
 
 <template>
-	<section class="relative bg-dark pt-28 pb-40 lg:pt-36 lg:pb-48 overflow-hidden">
+	<section class="relative hero-dark pt-28 pb-40 lg:pt-36 lg:pb-48 overflow-hidden">
 		<div class="max-w-[1200px] mx-auto px-6 lg:px-8 relative z-10">
 			<SectionHeader :title="t('brands.heroTitle')" />
 			<div class="grid md:grid-cols-3 gap-5">

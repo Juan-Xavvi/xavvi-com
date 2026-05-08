@@ -20,10 +20,10 @@ const tabs = [
 			<div class="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
 				<!-- Left: text -->
 				<div v-reveal>
-					<h1 class="text-[clamp(2.2rem,5vw,4rem)] font-bold leading-[1.1] tracking-tight text-[#FFFCF3] mb-6">
+					<h1 class="text-[clamp(2.2rem,5vw,4rem)] font-bold leading-[1.1] tracking-tight text-[#FFFDF9] mb-6">
 						{{ t('brandLab.hero.title') }}
 					</h1>
-					<p class="text-[15px] lg:text-[17px] leading-[1.8] text-[#FFFCF3]">
+					<p class="text-[15px] lg:text-[17px] leading-[1.8] text-[#FFFDF9]">
 						{{ t('brandLab.hero.body') }}
 					</p>
 				</div>
@@ -104,13 +104,13 @@ const tabs = [
 							</div>
 						</div>
 						<div class="hidden lg:flex items-center justify-start lg:pl-8">
-							<span class="inline-block px-5 py-2 rounded-full bg-[#AE2049] text-[#FFFCF3] text-[14px] font-bold tracking-[0.18em]">
+							<span class="inline-block px-5 py-2 rounded-full bg-[#AE2049] text-[#FFFDF9] text-[14px] font-bold tracking-[0.18em]">
 								{{ t('brandLab.roadmap.phase1.label') }}
 							</span>
 						</div>
 						<!-- Mobile pill -->
 						<div class="lg:hidden flex justify-center mt-6">
-							<span class="inline-block px-4 py-1.5 rounded-full bg-[#AE2049] text-[#FFFCF3] text-[12px] font-bold tracking-[0.18em]">
+							<span class="inline-block px-4 py-1.5 rounded-full bg-[#AE2049] text-[#FFFDF9] text-[12px] font-bold tracking-[0.18em]">
 								{{ t('brandLab.roadmap.phase1.label') }}
 							</span>
 						</div>
@@ -119,7 +119,7 @@ const tabs = [
 					<!-- PHASE 2: pill-left, card-right -->
 					<div v-reveal class="relative lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center lg:pb-20">
 						<div class="hidden lg:flex items-center justify-end lg:pr-8">
-							<span class="inline-block px-5 py-2 rounded-full bg-[#AE2049] text-[#FFFCF3] text-[14px] font-bold tracking-[0.18em]">
+							<span class="inline-block px-5 py-2 rounded-full bg-[#AE2049] text-[#FFFDF9] text-[14px] font-bold tracking-[0.18em]">
 								{{ t('brandLab.roadmap.phase2.label') }}
 							</span>
 						</div>
@@ -135,7 +135,7 @@ const tabs = [
 						</div>
 						<!-- Mobile pill -->
 						<div class="lg:hidden flex justify-center mt-6">
-							<span class="inline-block px-4 py-1.5 rounded-full bg-[#AE2049] text-[#FFFCF3] text-[12px] font-bold tracking-[0.18em]">
+							<span class="inline-block px-4 py-1.5 rounded-full bg-[#AE2049] text-[#FFFDF9] text-[12px] font-bold tracking-[0.18em]">
 								{{ t('brandLab.roadmap.phase2.label') }}
 							</span>
 						</div>
@@ -154,13 +154,13 @@ const tabs = [
 							</div>
 						</div>
 						<div class="hidden lg:flex items-center justify-start lg:pl-8">
-							<span class="inline-block px-5 py-2 rounded-full bg-[#AE2049] text-[#FFFCF3] text-[14px] font-bold tracking-[0.18em]">
+							<span class="inline-block px-5 py-2 rounded-full bg-[#AE2049] text-[#FFFDF9] text-[14px] font-bold tracking-[0.18em]">
 								{{ t('brandLab.roadmap.phase3.label') }}
 							</span>
 						</div>
 						<!-- Mobile pill -->
 						<div class="lg:hidden flex justify-center mt-6">
-							<span class="inline-block px-4 py-1.5 rounded-full bg-[#AE2049] text-[#FFFCF3] text-[12px] font-bold tracking-[0.18em]">
+							<span class="inline-block px-4 py-1.5 rounded-full bg-[#AE2049] text-[#FFFDF9] text-[12px] font-bold tracking-[0.18em]">
 								{{ t('brandLab.roadmap.phase3.label') }}
 							</span>
 						</div>

@@ -8,7 +8,7 @@ interface NewsPost {
 	slug: string;
 	title: string;
 	excerpt: string | null;
-	cover_image_url: string | null;
+	cover_image: string | null;
 	published_at: string;
 }
 
@@ -47,10 +47,10 @@ function formatDate(iso: string) {
 	<!-- Hero -->
 	<section class="hero-dark pt-32 pb-20 lg:pt-36 lg:pb-24">
 		<div class="max-w-[1200px] mx-auto px-6 lg:px-8 text-center">
-			<h1 v-reveal class="text-[clamp(2.4rem,5vw,4rem)] font-bold leading-[1.1] tracking-tight text-[#FFFCF3] mb-5">
+			<h1 v-reveal class="text-[clamp(2.4rem,5vw,4rem)] font-bold leading-[1.1] tracking-tight text-[#FFFDF9] mb-5">
 				{{ t('news.title') }}
 			</h1>
-			<p v-reveal="1" class="text-[15px] lg:text-[18px] text-[#FFFCF3]/85 leading-[1.7]">
+			<p v-reveal="1" class="text-[15px] lg:text-[18px] text-[#FFFDF9]/85 leading-[1.7]">
 				{{ t('news.subtitle') }}
 			</p>
 		</div>
@@ -83,8 +83,8 @@ function formatDate(iso: string) {
 			<div v-else class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 				<RouterLink v-for="(post, i) in posts" :key="post.id" :to="`/news/${post.slug}`" v-reveal="i"
 					class="group rounded-2xl overflow-hidden bg-white border border-[#212226]/8 flex flex-col hover:shadow-lg transition-shadow">
-					<div v-if="post.cover_image_url" class="aspect-[16/10] overflow-hidden">
-						<img :src="post.cover_image_url" :alt="post.title"
+					<div v-if="post.cover_image" class="aspect-[16/10] overflow-hidden">
+						<img :src="post.cover_image" :alt="post.title"
 							class="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-500" />
 					</div>
 					<div class="p-6 flex-1 flex flex-col">

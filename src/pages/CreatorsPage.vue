@@ -79,7 +79,7 @@ const benefits = computed(() => [
 		<div class="max-w-[1200px] mx-auto px-6 lg:px-8">
 			<div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 				<!-- Left: text -->
-				<div v-reveal class="text-[#FFFCF3]">
+				<div v-reveal class="text-[#FFFDF9]">
 					<h1 class="text-[clamp(2.2rem,5vw,4rem)] font-bold leading-[1.1] tracking-tight mb-8">
 						{{ t('creators.hero.title') }}
 					</h1>
@@ -201,7 +201,7 @@ const benefits = computed(() => [
 	<section class="bg-[#111111] py-22">
 		<div class="max-w-[1200px] mx-auto px-6 lg:px-8">
 			<h2 v-reveal
-				class="text-[clamp(2rem,4vw,3rem)] font-bold text-[#FFFCF3] text-center leading-tight mb-14 lg:mb-16">
+				class="text-[clamp(2rem,4vw,3rem)] font-bold text-[#FFFDF9] text-center leading-tight mb-14 lg:mb-16">
 				{{ t('creators.monetize.title') }}
 			</h2>
 			<div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -215,10 +215,10 @@ const benefits = computed(() => [
 							<line x1="2" y1="11" x2="22" y2="11" />
 						</svg>
 					</div>
-					<h3 class="text-[18px] lg:text-[20px] font-bold text-[#FFFCF3] mb-3">
+					<h3 class="text-[18px] lg:text-[20px] font-bold text-[#FFFDF9] mb-3">
 						{{ t('creators.monetize.daily.label') }}
 					</h3>
-					<p class="text-[14px] lg:text-[15px] leading-[1.7] text-[#FFFCF3]/80">
+					<p class="text-[14px] lg:text-[15px] leading-[1.7] text-[#FFFDF9]/80">
 						{{ t('creators.monetize.daily.desc') }}
 					</p>
 				</div>
@@ -233,10 +233,10 @@ const benefits = computed(() => [
 							<path d="M9 21V14h6v7" />
 						</svg>
 					</div>
-					<h3 class="text-[18px] lg:text-[20px] font-bold text-[#FFFCF3] mb-3">
+					<h3 class="text-[18px] lg:text-[20px] font-bold text-[#FFFDF9] mb-3">
 						{{ t('creators.monetize.store.label') }}
 					</h3>
-					<p class="text-[14px] lg:text-[15px] leading-[1.7] text-[#FFFCF3]/80">
+					<p class="text-[14px] lg:text-[15px] leading-[1.7] text-[#FFFDF9]/80">
 						{{ t('creators.monetize.store.desc') }}
 					</p>
 				</div>
@@ -251,10 +251,10 @@ const benefits = computed(() => [
 							<path d="M16 9.5c0-1.4-1.8-2.5-4-2.5s-4 1-4 2.5 1.8 2.5 4 2.5 4 1 4 2.5-1.8 2.5-4 2.5-4-1.1-4-2.5" />
 						</svg>
 					</div>
-					<h3 class="text-[18px] lg:text-[20px] font-bold text-[#FFFCF3] mb-3">
+					<h3 class="text-[18px] lg:text-[20px] font-bold text-[#FFFDF9] mb-3">
 						{{ t('creators.monetize.token.label') }}
 					</h3>
-					<p class="text-[14px] lg:text-[15px] leading-[1.7] text-[#FFFCF3]/80">
+					<p class="text-[14px] lg:text-[15px] leading-[1.7] text-[#FFFDF9]/80">
 						{{ t('creators.monetize.token.desc') }}
 					</p>
 				</div>
@@ -296,13 +296,13 @@ const benefits = computed(() => [
 		<div class="relative z-10 min-h-[500px] flex items-center justify-center px-6 py-20 lg:py-28">
 			<div class="text-center max-w-[800px]">
 				<h2 v-reveal
-					class="text-[clamp(2rem,4.5vw,3.5rem)] font-bold text-[#FFFCF3] leading-tight tracking-tight mb-6">
+					class="text-[clamp(2rem,4.5vw,3.5rem)] font-bold text-[#FFFDF9] leading-tight tracking-tight mb-6">
 					{{ t('creators.legacy.title') }}
 				</h2>
-				<p v-reveal="1" class="text-[15px] lg:text-[18px] leading-[1.8] text-[#FFFCF3] mb-3">
+				<p v-reveal="1" class="text-[15px] lg:text-[18px] leading-[1.8] text-[#FFFDF9] mb-3">
 					{{ t('creators.legacy.p1') }}
 				</p>
-				<p v-reveal="2" class="text-[15px] lg:text-[18px] leading-[1.8] text-[#FFFCF3]">
+				<p v-reveal="2" class="text-[15px] lg:text-[18px] leading-[1.8] text-[#FFFDF9]">
 					{{ t('creators.legacy.p2') }}
 				</p>
 			</div>

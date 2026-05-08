@@ -28,7 +28,7 @@ onUnmounted(() => document.removeEventListener('click', onClickOutside, true));
 <template>
   <div ref="el" class="relative">
     <button
-      class="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[13px] font-medium bg-[#212226] text-[#FFFCF3] hover:text-white transition-colors cursor-pointer border border-white/10 hover:border-white/20"
+      class="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[13px] font-medium bg-[#212226] text-[#FFFDF9] hover:text-white transition-colors cursor-pointer border border-white/10 hover:border-white/20"
       @click="open = !open"
     >
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>

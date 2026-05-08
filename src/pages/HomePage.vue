@@ -82,7 +82,7 @@ const ecosystems = computed(() => [
 		desc: t('home.eco.card4.desc'),
 		image: '/images/page/card4.jpg',
 		panelBg: 'bg-gradient-to-br from-[#1a0a3e] to-[#2a0a14]',
-		iconGradient: 'from-[#F59E0B] to-[#FE2C55]',
+		iconGradient: 'from-[#AE2049] to-[#FF6B35]',
 	},
 ]);
 
@@ -152,7 +152,7 @@ const offices = computed(() => [
 			<Transition name="news-fade" mode="out-in">
 				<!-- Slide 1: News (cream) -->
 				<div v-if="newsSlide === 0" key="news"
-					class="bg-[#FFFCF3] border border-[#212226] rounded-2xl px-6 py-5 lg:px-8 lg:py-6 flex flex-col lg:flex-row items-center gap-4 lg:gap-6">
+					class="bg-[#FFFDF9] border border-[#212226] rounded-2xl px-6 py-5 lg:px-8 lg:py-6 flex flex-col lg:flex-row items-center gap-4 lg:gap-6">
 					<span class="text-[#FE2C55] font-extrabold text-[18px] tracking-[0.12em]">NEWS</span>
 					<div class="hidden lg:block w-px self-stretch bg-[#212226]" aria-hidden="true"></div>
 					<p class="text-[#212226] text-[15px] lg:text-[17px] leading-snug flex-1 text-center lg:text-left">
@@ -160,7 +160,7 @@ const offices = computed(() => [
 					</p>
 					<RouterLink to="/news" aria-label="Read news"
 						class="w-10 h-10 rounded-full bg-[#FE2C55] flex items-center justify-center shrink-0 hover:scale-105 transition-transform">
-						<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFCF3" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+						<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFDF9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
 							<path d="M5 12h14M13 5l7 7-7 7" />
 						</svg>
 					</RouterLink>
@@ -170,13 +170,13 @@ const offices = computed(() => [
 				<div v-else key="apply"
 					class="bg-[#212226] border border-[#212226] rounded-2xl px-6 py-5 lg:px-8 lg:py-6 flex flex-col lg:flex-row items-center gap-4 lg:gap-6">
 					<span class="text-[#FE2C55] font-extrabold text-[18px] tracking-[0.12em]">APPLY</span>
-					<div class="hidden lg:block w-px self-stretch bg-[#FFFCF3]" aria-hidden="true"></div>
-					<p class="text-[#FFFCF3] text-[15px] lg:text-[17px] leading-snug flex-1 text-center lg:text-left">
+					<div class="hidden lg:block w-px self-stretch bg-[#FFFDF9]" aria-hidden="true"></div>
+					<p class="text-[#FFFDF9] text-[15px] lg:text-[17px] leading-snug flex-1 text-center lg:text-left">
 						Applications for Miss Crypto 2026 now open!
 					</p>
 					<button type="button" @click="scrollToMissCrypto" aria-label="Jump to Miss Crypto section"
 						class="w-10 h-10 rounded-full bg-[#FE2C55] flex items-center justify-center shrink-0 hover:scale-105 transition-transform cursor-pointer">
-						<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFCF3" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+						<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFDF9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
 							<path d="M5 12h14M13 5l7 7-7 7" />
 						</svg>
 					</button>
@@ -215,9 +215,7 @@ const offices = computed(() => [
 						<div class="inline-flex items-center gap-2 mb-5">
 							<div
 								:class="['w-8 h-8 rounded-lg bg-linear-to-br flex items-center justify-center', eco.iconGradient]">
-								<svg width="14" height="14" viewBox="0 0 24 24" fill="none">
-									<path d="M8 20V4l14 8-14 8z" fill="white" />
-								</svg>
+								<img src="/X-white.svg" alt="" class="w-3.5 h-3.5" />
 							</div>
 							<span class="text-[16px] font-semibold text-text-2 tracking-wider uppercase">
 								{{ eco.tag }}
@@ -244,16 +242,16 @@ const offices = computed(() => [
 			<div class="grid lg:grid-cols-2 gap-10 lg:gap-16 items-stretch">
 				<!-- Text -->
 				<div v-reveal class="flex flex-col justify-center">
-					<h2 class="text-[clamp(2rem,4vw,3.25rem)] font-bold text-[#FFFCF3] leading-tight tracking-tight mb-6">
+					<h2 class="text-[clamp(2rem,4vw,3.25rem)] font-bold text-[#FFFDF9] leading-tight tracking-tight mb-6">
 						{{ t('home.missCrypto.title') }}
 					</h2>
-					<p class="text-[15px] lg:text-[16px] leading-[1.75] text-[#FFFCF3] mb-5">
+					<p class="text-[15px] lg:text-[16px] leading-[1.75] text-[#FFFDF9] mb-5">
 						{{ t('home.missCrypto.p1') }}
 					</p>
-					<p class="text-[15px] lg:text-[16px] leading-[1.75] text-[#FFFCF3] mb-5">
+					<p class="text-[15px] lg:text-[16px] leading-[1.75] text-[#FFFDF9] mb-5">
 						{{ t('home.missCrypto.p2') }}
 					</p>
-					<p class="text-[15px] lg:text-[16px] leading-[1.75] text-[#FFFCF3] font-semibold mb-8">
+					<p class="text-[15px] lg:text-[16px] leading-[1.75] text-[#FFFDF9] font-semibold mb-8">
 						{{ t('home.missCrypto.p3') }}
 					</p>
 					<div>
@@ -333,7 +331,7 @@ const offices = computed(() => [
 					<line x1="12" y1="9" x2="12" y2="13" />
 					<line x1="12" y1="17" x2="12.01" y2="17" />
 				</svg>
-				<p class="text-[13px] lg:text-[14px] text-[#FFFCF3] leading-[1.7] text-center sm:text-left">
+				<p class="text-[13px] lg:text-[14px] text-[#FFFDF9] leading-[1.7] text-center sm:text-left">
 					{{ t('home.disclaimer.body') }}
 				</p>
 			</div>

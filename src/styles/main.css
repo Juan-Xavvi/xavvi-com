@@ -59,12 +59,12 @@ svg.inline-icon { display: inline-block !important; vertical-align: middle; }
    Navigation
    ══════════════════════════════════════════ */
 .nav-wrap {
-  background: #FFFCF3;
+  background: #FFFDF9;
   transition: background 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
   border-bottom: 1px solid transparent;
 }
 .nav-scrolled {
-  background: #FFFCF3;
+  background: #FFFDF9;
   border-bottom-color: rgba(0, 0, 0, 0.06);
 }
 
@@ -358,8 +358,9 @@ svg.inline-icon { display: inline-block !important; vertical-align: middle; }
 .hero-dark {
   background-color: #0f0f0f;
   background-image: radial-gradient(
-    ellipse 900px 700px at 60% 0%,
-    rgba(42, 85, 229, 0.16) 0%,
-    transparent 70%
+    ellipse 1300px 900px at 60% 0%,
+    rgba(42, 85, 229, 0.32) 0%,
+    rgba(42, 85, 229, 0.08) 45%,
+    transparent 78%
   );
 }

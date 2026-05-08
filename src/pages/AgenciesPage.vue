@@ -30,10 +30,10 @@ const referralAdditions = computed(() => [
 		<div class="max-w-[1200px] mx-auto px-6 lg:px-8">
 			<div class="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
 				<div v-reveal>
-					<h1 class="text-[clamp(2rem,4.5vw,3.6rem)] font-bold leading-[1.15] tracking-tight text-[#FFFCF3] mb-8">
+					<h1 class="text-[clamp(2rem,4.5vw,3.6rem)] font-bold leading-[1.15] tracking-tight text-[#FFFDF9] mb-8">
 						{{ t('agencies.hero.title') }}
 					</h1>
-					<p class="text-[15px] lg:text-[17px] leading-[1.8] text-[#FFFCF3]">
+					<p class="text-[15px] lg:text-[17px] leading-[1.8] text-[#FFFDF9]">
 						{{ t('agencies.hero.body') }}
 					</p>
 				</div>
@@ -87,13 +87,13 @@ const referralAdditions = computed(() => [
 			<div class="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
 				<!-- Left: text -->
 				<div v-reveal>
-					<h2 class="text-[clamp(2rem,4vw,3rem)] font-bold text-[#FFFCF3] leading-tight mb-8">
+					<h2 class="text-[clamp(2rem,4vw,3rem)] font-bold text-[#FFFDF9] leading-tight mb-8">
 						{{ t('agencies.industry.title') }}
 					</h2>
-					<p class="text-[15px] lg:text-[17px] leading-[1.8] text-[#FFFCF3] mb-5">
+					<p class="text-[15px] lg:text-[17px] leading-[1.8] text-[#FFFDF9] mb-5">
 						{{ t('agencies.industry.p1') }}
 					</p>
-					<p class="text-[15px] lg:text-[17px] leading-[1.8] text-[#FFFCF3]">
+					<p class="text-[15px] lg:text-[17px] leading-[1.8] text-[#FFFDF9]">
 						{{ t('agencies.industry.p2') }}
 					</p>
 				</div>
@@ -149,10 +149,10 @@ const referralAdditions = computed(() => [
        ═══════════════════════════════════════ -->
 	<section class="bg-[#212226] py-22 lg:py-24">
 		<div class="max-w-[700px] mx-auto px-6 text-center">
-			<h2 v-reveal class="text-[clamp(2rem,4vw,3rem)] font-bold text-[#FFFCF3] leading-tight mb-6">
+			<h2 v-reveal class="text-[clamp(2rem,4vw,3rem)] font-bold text-[#FFFDF9] leading-tight mb-6">
 				{{ t('agencies.ecosystem.title') }}
 			</h2>
-			<p v-reveal="1" class="text-[15px] lg:text-[17px] leading-[1.8] text-[#FFFCF3] mb-10">
+			<p v-reveal="1" class="text-[15px] lg:text-[17px] leading-[1.8] text-[#FFFDF9] mb-10">
 				{{ t('agencies.ecosystem.body') }}
 			</p>
 			<div v-reveal="2">
