@@ -181,27 +181,37 @@ export default {
     ctaHome: 'Back to Home',
   },
   brands: {
-    heroTitle: 'Brands built on Xavvi',
-    steps: {
-      s1: { title: 'AI Market Analysis', desc: 'Our models scan billions of consumer interactions to identify product-market fit opportunities before anyone else.' },
-      s2: { title: 'Brand Creation', desc: 'Product design, identity, packaging, and positioning — designed by AI, refined by our in-house creative team.' },
-      s3: { title: 'Creator Distribution', desc: 'Launch through our network of 50M+ creators. Authentic content, real audiences, immediate traction.' },
-      s4: { title: 'Scale & Optimize', desc: 'Real-time analytics across every channel. AI continuously optimizes pricing, placement, and messaging.' },
+    hero: {
+      title: 'Brands & Vendors',
+      p1: 'The Xavvi app gives brands and vendors a more transparent, scalable, and efficient way to advertise. With just a few clicks, collaborate with dozens or even hundreds of creators, expand globally, and launch campaigns designed around measurable performance and better ROI.',
+      p2: 'At the same time, Brand Lab allows manufacturers, brands, and suppliers to power creator-led shops, opening new distribution channels and direct access to highly engaged audiences around the world.',
     },
-    cards: {
-      kaimono: { name: 'Kaimono', cat: 'Consumer Electronics', desc: 'AI-curated lifestyle tech, distributed through 15K+ creator partners across 40 markets.' },
-      molynk: { name: 'Molynk', cat: 'Skincare & Beauty', desc: 'Data-driven beauty brand achieving 300% ROI through creator-led product launches.' },
-      veloura: { name: 'Veloura', cat: 'Fashion & Accessories', desc: 'Trend-forward fashion label, from concept to 1M units sold in under 6 months.' },
+    brandLab: {
+      eyebrow: 'Brand Lab',
+      title: 'Partner with Creators',
+      p1: 'Brand Lab is the launchpad for creator-led brands and online shops. Partnering with celebrities and influencers not only helps increase sales, but also strengthens brand awareness and builds greater trust around your products.',
+      p2: 'Brand Lab integrates with major ERP systems, making onboarding and operations seamless for manufacturers, suppliers, and vendors. Offer high-quality products at competitive prices and grow alongside the creators who promote them.',
+      p3: 'In addition, Brand Lab incentivises consumers through brand tokens and rewards systems, helping creators and vendors build stronger communities and a loyal long-term customer base.',
     },
-    stats: {
-      incubated: 'Brands Incubated',
-      gmv: 'Combined GMV',
-      markets: 'Markets Reached',
-      roi: 'Avg. Brand ROI',
+    ai: {
+      eyebrow: 'Xavvi App',
+      title: 'Why Using AI?',
+      p1: 'AI is transforming video production — and for advertising in particular, it is dramatically reducing both production time and costs. Soon, waiting weeks or even months to coordinate filming schedules with creators will become a thing of the past.',
+      p2: "By licensing a creator's AI clone and using Xavvi's MuaiTai AI video generation tool, brands can produce high-quality, engaging content in minutes. Want to scale globally? No problem. Campaigns can be generated in dozens of languages for different markets around the world.",
+      p3: 'Need to work with hundreds of creators simultaneously? AI makes it possible to maintain visual consistency, branding, and campaign quality at scale — opening the door to a faster, more efficient, and far more scalable era of advertising.',
     },
-    ctaTitle: 'Have a brand idea?',
-    ctaSub: 'We partner with founders, agencies, and enterprises to turn product ideas into global brands.',
-    ctaBtn: 'Partner With Us',
+    tokenization: {
+      eyebrow: 'Xavvi App & Brand Lab',
+      title: 'Why Tokenization Is the Way?',
+      p1: 'Brands operating globally — or looking to expand internationally — often face major challenges with cross-border payments. Traditional money transfers can be slow, expensive, and complicated. Xavvi solves this through the BFC Ad Credits system, allowing brands to work seamlessly with creators around the world without worrying about local currencies.',
+      p2: 'Transfers take seconds and can be processed at minimal cost, making both ad spending and creator payments faster, more convenient, and more efficient for everyone involved.',
+      p3: 'The Xavvi app also uses Creator Tokens to grant brands access to creator audiences in a transparent and scalable way. This model gives creators ownership over their traffic and audience data, while helping brands and vendors reach highly targeted communities more efficiently and economically.',
+    },
+    cta: {
+      title: 'Partner with Xavvi',
+      body: "Enter the new Web4 era in style. Get in touch and let's discuss how we can grow together.",
+      button: 'CONTACT US',
+    },
   },
   business: {
     heroTitle: 'Reach the next generation{br}of consumers',
@@ -433,7 +443,7 @@ export default {
   meta: {
     home: 'Xavvi — Short video & creator platform',
     about: 'About – Xavvi',
-    brands: 'Brand Lab – Xavvi',
+    brands: 'Brands & Vendors – Xavvi',
     business: 'For Business – Xavvi',
     download: 'Download – Xavvi',
   },

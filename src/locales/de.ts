@@ -180,27 +180,37 @@ export default {
     ctaHome: 'Zur Startseite',
   },
   brands: {
-    heroTitle: 'Marken, die auf Xavvi entstehen',
-    steps: {
-      s1: { title: 'KI-Marktanalyse', desc: 'Unsere Modelle werten Milliarden von Consumer-Interaktionen aus und erkennen Product-Market-Fit, bevor andere es tun.' },
-      s2: { title: 'Markenaufbau', desc: 'Produktdesign, Identität, Verpackung und Positionierung — von KI entworfen, von unserem Inhouse-Team verfeinert.' },
-      s3: { title: 'Creator-Distribution', desc: 'Launch über unser Netzwerk von über 50 Mio. Creators. Authentische Inhalte, echte Zielgruppen, sofortige Traktion.' },
-      s4: { title: 'Skalieren & optimieren', desc: 'Echtzeit-Analytics über alle Kanäle. KI optimiert Preise, Platzierung und Messaging kontinuierlich.' },
+    hero: {
+      title: 'Marken & Anbieter',
+      p1: 'Die Xavvi-App bietet Marken und Anbietern eine transparentere, skalierbarere und effizientere Art, Werbung zu schalten. Mit wenigen Klicks kollaborierst du mit Dutzenden — oder sogar Hunderten — von Creators, expandierst global und launchst Kampagnen, die auf messbare Performance und besseren ROI ausgelegt sind.',
+      p2: 'Gleichzeitig ermöglicht Brand Lab Herstellern, Marken und Lieferanten, Creator-geführte Shops zu betreiben — und öffnet so neue Vertriebskanäle und direkten Zugang zu hoch engagierten Audiences weltweit.',
     },
-    cards: {
-      kaimono: { name: 'Kaimono', cat: 'Consumer Electronics', desc: 'KI-kuratierte Lifestyle-Tech, verteilt über 15.000+ Creator-Partner in 40 Märkten.' },
-      molynk: { name: 'Molynk', cat: 'Hautpflege & Beauty', desc: 'Datengetriebene Beauty-Marke mit 300 % ROI durch Creator-getriebene Produktlaunches.' },
-      veloura: { name: 'Veloura', cat: 'Mode & Accessoires', desc: 'Trendstarke Fashion-Marke — von der Idee bis zu 1 Mio. verkauften Einheiten in unter 6 Monaten.' },
+    brandLab: {
+      eyebrow: 'Brand Lab',
+      title: 'Mit Creators zusammenarbeiten',
+      p1: 'Brand Lab ist die Launchpad für Creator-geführte Marken und Online-Shops. Partnerschaften mit Prominenten und Influencern steigern nicht nur den Umsatz, sondern stärken auch die Markenbekanntheit und schaffen mehr Vertrauen rund um deine Produkte.',
+      p2: 'Brand Lab integriert sich mit den großen ERP-Systemen, was Onboarding und Betrieb für Hersteller, Lieferanten und Anbieter nahtlos macht. Biete hochwertige Produkte zu wettbewerbsfähigen Preisen und wachse gemeinsam mit den Creators, die sie bewerben.',
+      p3: 'Zusätzlich incentiviert Brand Lab Konsumenten über Marken-Tokens und Reward-Systeme — damit Creators und Anbieter stärkere Communitys und eine langfristig loyale Kundenbasis aufbauen.',
     },
-    stats: {
-      incubated: 'Inkubierte Marken',
-      gmv: 'Kombinierter GMV',
-      markets: 'Erreichte Märkte',
-      roi: 'Ø Marken-ROI',
+    ai: {
+      eyebrow: 'Xavvi-App',
+      title: 'Warum KI?',
+      p1: 'KI verändert die Videoproduktion — und für Werbung insbesondere reduziert sie Produktionszeit und -kosten drastisch. Bald gehört das Warten von Wochen oder Monaten, um Drehs mit Creators zu koordinieren, der Vergangenheit an.',
+      p2: 'Indem Marken den KI-Clone eines Creators lizenzieren und das MuaiTai-Tool von Xavvi für KI-Videogenerierung nutzen, können sie hochwertige, ansprechende Inhalte in Minuten produzieren. Du willst global skalieren? Kein Problem. Kampagnen können in Dutzenden Sprachen für verschiedene Märkte weltweit generiert werden.',
+      p3: 'Du musst mit Hunderten von Creators gleichzeitig arbeiten? KI macht es möglich, visuelle Konsistenz, Branding und Kampagnenqualität in Skala zu halten — und öffnet die Tür zu einer schnelleren, effizienteren und deutlich skalierbareren Ära der Werbung.',
     },
-    ctaTitle: 'Eine Markenidee im Kopf?',
-    ctaSub: 'Wir arbeiten mit Gründerinnen, Agenturen und Konzernen zusammen, um Produktideen zu globalen Marken zu machen.',
-    ctaBtn: 'Mit uns partnern',
+    tokenization: {
+      eyebrow: 'Xavvi-App & Brand Lab',
+      title: 'Warum Tokenisierung der Weg ist',
+      p1: 'Global tätige Marken — oder solche, die international expandieren wollen — stehen oft vor großen Herausforderungen bei grenzüberschreitenden Zahlungen. Klassische Geldtransfers können langsam, teuer und kompliziert sein. Xavvi löst das mit dem BFC-Ad-Credits-System: Marken arbeiten reibungslos mit Creators weltweit zusammen, ohne sich um lokale Währungen sorgen zu müssen.',
+      p2: 'Transfers dauern Sekunden und lassen sich zu minimalen Kosten abwickeln — Werbeausgaben und Creator-Zahlungen werden für alle Beteiligten schneller, bequemer und effizienter.',
+      p3: 'Die Xavvi-App nutzt zudem Creator Tokens, um Marken transparenten und skalierbaren Zugang zu Creator-Audiences zu geben. Dieses Modell gibt Creators das Eigentum an ihrem Traffic und ihren Audience-Daten, während es Marken und Anbietern hilft, hoch zielgerichtete Communitys effizienter und ökonomischer zu erreichen.',
+    },
+    cta: {
+      title: 'Werde Partner von Xavvi',
+      body: 'Steig stilvoll in die neue Web4-Ära ein. Melde dich, und lass uns besprechen, wie wir gemeinsam wachsen können.',
+      button: 'KONTAKT',
+    },
   },
   business: {
     heroTitle: 'Die nächste Generation{br}von Konsumentinnen erreichen',
@@ -436,7 +446,7 @@ export default {
   meta: {
     home: 'Xavvi — Kurzvideos & Creator-Plattform',
     about: 'Über uns – Xavvi',
-    brands: 'Brand Lab – Xavvi',
+    brands: 'Marken & Anbieter – Xavvi',
     business: 'Für Unternehmen – Xavvi',
     download: 'Download – Xavvi',
   },

@@ -191,59 +191,37 @@ export default {
     ctaHome: 'Volver al inicio',
   },
   brands: {
-    heroTitle: 'Marcas construidas en Xavvi',
-    steps: {
-      s1: {
-        title: 'Análisis de mercado con IA',
-        desc:
-          'Nuestros modelos analizan miles de millones de interacciones de consumo para detectar oportunidades de encaje producto-mercado antes que nadie.',
-      },
-      s2: {
-        title: 'Creación de marca',
-        desc:
-          'Diseño de producto, identidad, packaging y posicionamiento — diseñado con IA y pulido por nuestro equipo creativo interno.',
-      },
-      s3: {
-        title: 'Distribución con creadores',
-        desc:
-          'Lanza a través de nuestra red de más de 50 millones de creadores. Contenido auténtico, audiencias reales, tracción inmediata.',
-      },
-      s4: {
-        title: 'Escala y optimización',
-        desc:
-          'Analíticas en tiempo real en todos los canales. La IA optimiza de forma continua precios, ubicación y mensajes.',
-      },
+    hero: {
+      title: 'Marcas y proveedores',
+      p1: 'La app Xavvi ofrece a marcas y proveedores una forma más transparente, escalable y eficiente de hacer publicidad. Con apenas unos clics, colabora con docenas — o incluso cientos — de creadoras, expándete globalmente y lanza campañas diseñadas para un rendimiento medible y mejor ROI.',
+      p2: 'Al mismo tiempo, Brand Lab permite a fabricantes, marcas y proveedores impulsar tiendas lideradas por creadoras, abriendo nuevos canales de distribución y acceso directo a audiencias altamente comprometidas en todo el mundo.',
     },
-    cards: {
-      kaimono: {
-        name: 'Kaimono',
-        cat: 'Electrónica de consumo',
-        desc:
-          'Tecnología lifestyle seleccionada con IA, distribuida con más de 15.000 socios creadores en 40 mercados.',
-      },
-      molynk: {
-        name: 'Molynk',
-        cat: 'Cuidado de la piel y belleza',
-        desc:
-          'Marca de belleza basada en datos que alcanza un ROI del 300 % con lanzamientos de producto liderados por creadores.',
-      },
-      veloura: {
-        name: 'Veloura',
-        cat: 'Moda y complementos',
-        desc:
-          'Firma de moda a la última, de la idea a 1 millón de unidades vendidas en menos de 6 meses.',
-      },
+    brandLab: {
+      eyebrow: 'Brand Lab',
+      title: 'Asóciate con creadoras',
+      p1: 'Brand Lab es la plataforma de lanzamiento para marcas y tiendas online lideradas por creadoras. Asociarte con celebridades e influencers no solo ayuda a aumentar las ventas, sino que también refuerza la notoriedad de marca y genera mayor confianza en tus productos.',
+      p2: 'Brand Lab se integra con los principales sistemas ERP, simplificando la incorporación y operaciones para fabricantes, proveedores y vendedores. Ofrece productos de alta calidad a precios competitivos y crece junto a las creadoras que los promocionan.',
+      p3: 'Además, Brand Lab incentiva a los consumidores mediante tokens de marca y sistemas de recompensas, ayudando a creadoras y proveedores a construir comunidades más fuertes y una base de clientes leales a largo plazo.',
     },
-    stats: {
-      incubated: 'Marcas incubadas',
-      gmv: 'GMV combinado',
-      markets: 'Mercados alcanzados',
-      roi: 'ROI medio de marca',
+    ai: {
+      eyebrow: 'App Xavvi',
+      title: '¿Por qué usar IA?',
+      p1: 'La IA está transformando la producción de vídeo — y para la publicidad en particular, está reduciendo drásticamente tanto el tiempo como los costes de producción. Pronto, esperar semanas o incluso meses para coordinar grabaciones con creadoras será cosa del pasado.',
+      p2: 'Al licenciar el clon de IA de una creadora y usar la herramienta de generación de vídeos MuaiTai de Xavvi, las marcas pueden producir contenido de alta calidad y atractivo en minutos. ¿Quieres escalar globalmente? Sin problema. Las campañas pueden generarse en docenas de idiomas para distintos mercados del mundo.',
+      p3: '¿Necesitas trabajar con cientos de creadoras simultáneamente? La IA hace posible mantener consistencia visual, branding y calidad de campaña a escala — abriendo la puerta a una era publicitaria más rápida, más eficiente y mucho más escalable.',
     },
-    ctaTitle: '¿Tienes una idea de marca?',
-    ctaSub:
-      'Colaboramos con fundadores, agencias y empresas para convertir ideas de producto en marcas globales.',
-    ctaBtn: 'Colaborar con nosotros',
+    tokenization: {
+      eyebrow: 'App Xavvi y Brand Lab',
+      title: '¿Por qué la tokenización es el camino?',
+      p1: 'Las marcas que operan globalmente — o que buscan expandirse internacionalmente — suelen enfrentarse a grandes desafíos con los pagos transfronterizos. Las transferencias tradicionales pueden ser lentas, caras y complicadas. Xavvi lo resuelve con el sistema BFC Ad Credits, que permite a las marcas colaborar con creadoras de todo el mundo sin preocuparse por las divisas locales.',
+      p2: 'Las transferencias se realizan en segundos y pueden procesarse con un coste mínimo, haciendo que tanto el gasto publicitario como los pagos a creadoras sean más rápidos, cómodos y eficientes para todos los implicados.',
+      p3: 'La app Xavvi también utiliza Creator Tokens para conceder a las marcas acceso a las audiencias de las creadoras de forma transparente y escalable. Este modelo da a las creadoras la propiedad sobre su tráfico y datos de audiencia, ayudando al mismo tiempo a marcas y proveedores a llegar a comunidades altamente segmentadas de manera más eficiente y económica.',
+    },
+    cta: {
+      title: 'Asóciate con Xavvi',
+      body: 'Entra en la nueva era Web4 con estilo. Ponte en contacto y hablemos de cómo podemos crecer juntos.',
+      button: 'CONTÁCTANOS',
+    },
   },
   business: {
     heroTitle: 'Llega a la próxima generación{br}de consumidores',
@@ -508,7 +486,7 @@ export default {
   meta: {
     home: 'Xavvi — Vídeo corto y plataforma para creadores',
     about: 'Acerca de – Xavvi',
-    brands: 'Brand Lab – Xavvi',
+    brands: 'Marcas y proveedores – Xavvi',
     business: 'Para empresas – Xavvi',
     download: 'Descargar – Xavvi',
   },

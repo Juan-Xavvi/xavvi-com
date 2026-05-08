@@ -42,7 +42,7 @@ const { t } = useI18n();
         <div>
           <h4 class="text-[12px] font-semibold text-[#212226] tracking-[0.12em] uppercase mb-5">Brands &amp; Vendors</h4>
           <ul class="space-y-3">
-            <li><RouterLink to="/brands" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">Brands</RouterLink></li>
+            <li><RouterLink to="/brands" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">Brands &amp; Vendors</RouterLink></li>
             <li><a href="https://ad.xavvi.com" target="_blank" rel="noopener" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">Ad Centre</a></li>
           </ul>
         </div>
