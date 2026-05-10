@@ -7,7 +7,7 @@ const { t } = useI18n();
 const route = useRoute();
 
 const categories = [
-	{ id: 'creators', color: '#AE2049' },
+	{ id: 'creators', color: '#FE2C55' },
 	{ id: 'brands', color: '#0ea5e9' },
 	{ id: 'agencies', color: '#7C3AED' },
 	{ id: 'media', color: '#0f766e' },
@@ -17,9 +17,11 @@ const categories = [
 
 type CategoryId = (typeof categories)[number]['id'];
 
-// Pre-select category from ?from=brands etc.
-const fromParam = typeof route.query.from === 'string' ? route.query.from : '';
-const initial = (categories.find((c) => c.id === fromParam)?.id ?? null) as CategoryId | null;
+// Pre-select category from ?category=creators (preferred) or legacy ?from=brands
+const queryCategory = typeof route.query.category === 'string' ? route.query.category : '';
+const queryFrom = typeof route.query.from === 'string' ? route.query.from : '';
+const preselected = queryCategory || queryFrom;
+const initial = (categories.find((c) => c.id === preselected)?.id ?? null) as CategoryId | null;
 const selected = ref<CategoryId | null>(initial);
 
 const form = reactive({
@@ -123,7 +125,7 @@ async function submit() {
 				<div v-if="selected" ref="formRef" class="mt-12 lg:mt-16 max-w-[640px] mx-auto">
 					<!-- Success state -->
 					<div v-if="success" class="text-center py-12">
-						<p class="text-[#AE2049] font-bold text-[clamp(1.5rem,3vw,2rem)] leading-tight">
+						<p class="text-[#FE2C55] font-bold text-[clamp(1.5rem,3vw,2rem)] leading-tight">
 							✓ {{ t('contact.success') }}
 						</p>
 					</div>
@@ -157,7 +159,7 @@ async function submit() {
 							class="field resize-y"></textarea>
 
 						<button type="submit" :disabled="loading"
-							class="w-full h-12 rounded-lg bg-[#AE2049] hover:bg-[#971b3f] text-[#FFFDF9] font-bold tracking-wider text-[15px] transition-colors disabled:opacity-60 disabled:cursor-not-allowed cursor-pointer">
+							class="w-full h-12 rounded-lg bg-[#FE2C55] hover:bg-[#EF2950] text-[#FFFDF9] font-bold tracking-wider text-[15px] transition-colors disabled:opacity-60 disabled:cursor-not-allowed cursor-pointer">
 							{{ loading ? t('contact.form.sending') : t('contact.form.submit') }}
 						</button>
 
@@ -188,7 +190,7 @@ async function submit() {
 }
 .field:focus {
 	outline: none;
-	border-color: #AE2049;
+	border-color: #FE2C55;
 	box-shadow: 0 0 0 3px rgba(174, 32, 73, 0.12);
 }
 

@@ -112,59 +112,39 @@ export default {
     },
   },
   about: {
-    heroTitle: '我们为创作者经济打造基础设施',
-    heroSub: 'Xavvi 是一家总部位于美国的技术公司，团队遍布欧洲、中东与亚太地区。我们设计平台、工具与 AI 系统，帮助创作者与品牌触达全球受众。',
+    heroTitle: '开拓 Web4 商业模式，让生态中的每个人都赢',
+    heroSub: '我们的使命是打造一个社交电商生态，让所有用户因其贡献获得回报，并与平台一起成长。名人、网红、MCN、品牌、供应商、制造商、物流公司、合作伙伴、投资人和 Xavvi 团队，我们都在同一支队伍。我们承诺践行去中心化的商业模式，帮助大家共同迈入「共赢」的新时代，告别如今让我们彼此对立的「赢家通吃」思维。我们的总部位于美国，但拥有国际化基因和全球视野。',
+    statsTitle: '2026 年生态目标',
     stats: {
-      creatorsValue: '50M+',
-      creators: '活跃创作者',
-      marketsValue: '200+',
-      markets: '全球市场',
-      viewsValue: '10B+',
-      views: '月视频播放量',
-      officesValue: '6',
-      offices: '全球办公室',
+      creators: { value: '10,000', label: '创作者' },
+      mcns: { value: '500', label: 'MCN' },
+      vendors: { value: '2,000', label: '供应商' },
+      users: { value: '10,000,000', label: '用户' },
     },
-    goalsTitle: '发展目标',
-    goals: {
-      shortTerm: {
-        title: '短期目标',
-        items: [
-          '连接 1 万名创作者',
-          '服务 1 万家企业',
-          '建设 20 个海外中心',
-          '达成 5 亿美元交易规模',
-        ],
+    storyTitle: '我们的故事',
+    story: {
+      s1: {
+        body: 'Xavvi 于 2023 年由 Peter Wu 与 Juan Vargas 在巴黎创立。最初的愿景是开发由 AI 驱动的工具，帮助创作者与供应商在迅速到来的社交电商时代轻松产出内容。',
       },
-      midTerm: {
-        title: '中期目标',
-        items: [
-          '部署 100 个海外中心',
-          '累计服务 10 万家企业',
-          '创造 100 万个就业岗位',
-          '交易规模超过 50 亿美元',
-        ],
+      s2: {
+        body: '随后 Xavvi 迁至伦敦，为运营 TikTok Shop UK 的品牌提供支持——这是 ByteDance 测试并扩展其平台电商能力的欧洲试点市场。凭借 Peter 在电商与培训领域数十年的经验，Xavvi 迅速壮大，成为英国 TikTok Shop 的头部合作伙伴之一，赢得了包括 L\'Oréal The Beauty Shop 运营合同在内的多个重要项目。',
       },
-      longTerm: {
-        title: '长期目标',
-        items: [
-          '完成 240 个全球可信数据空间建设',
-          '成为全球标准制定者',
-          '服务 100 万家企业',
-          '创造 1000 万个就业岗位',
-          '交易规模超过 200 亿美元',
-        ],
+      s3: {
+        body: 'TikTok Shop US 邀请 Xavvi 开店、提供大规模培训，并支持品牌与创作者入驻平台。与此同时，Xavvi Ads——公司基于 AI 的广告与自动化平台——为客户带来了出色的 ROI。\n\nXavvi 将总部迁至洛杉矶，并推出 Creators Showroom，这是结合实体展厅与 AI 工具的创新混合模式。该系统省去了品牌反复寄送样品的高昂成本，同时极大加速了创作者的内容与视频生产。',
+      },
+      s4: {
+        body: '通过为品牌全面运营电商业务，Xavvi 第一手洞察到了传统社交电商模式的弊端——这一系统对供应商和创作者来说常常难以为继。\n\nPeter 与 Juan 早在 2018 年就在中国推出过一家代币化电商初创公司，验证了基于代币的激励机制的有效性。基于这些经验，他们决定让 Xavvi 转向去中心化、代币化、AI 驱动的生态系统，并将于 2026 年夏天在全球范围正式推出。',
       },
     },
     officesTitle: '办公室与运营',
-    officesSub: 'Xavvi 全球总部设在 Los Angeles，在全球六座城市设有区域办公室。',
-    officeRoles: {
-      globalHQ: 'Global HQ',
-      emea: 'EMEA Operations',
-      mena: 'MENA Operations',
-      apac: 'APAC Operations',
-      latam: 'LATAM Operations',
-      europe: 'Europe Operations',
+    officesSub: 'Xavvi 汇聚一支国际化团队，对全球各地的文化与市场有深入理解，并在电商、IT、广告、影视制作、时尚与品牌打造领域拥有丰富的综合经验。',
+    offices: {
+      losAngeles: { city: '洛杉矶', role: '全球总部', entity: 'Xavvi Holdings Inc' },
+      berlin: { city: '柏林', role: '欧洲运营', entity: 'Xavvi Germany GmbH' },
+      dubai: { city: '迪拜', role: '中东与北非运营', entity: '代表处' },
+      hongKong: { city: '香港', role: '亚洲运营', entity: 'Xavvi Brand Lab' },
     },
+    /* Kept for src/components/archive/ArchivedTrustComplianceV1.vue */
     complianceTitle: '信任与合规',
     complianceSub: '企业级安全与隐私，经独立审计验证。',
     compliance: {
@@ -174,10 +154,10 @@ export default {
       iso: { name: 'ISO 27001', desc: '信息安全管理' },
       coppa: { name: 'COPPA', desc: '儿童隐私保护' },
     },
+    /* TODO: review — boilerplate from old "查看在招职位" CTA */
     ctaTitle: '与我们一起书写下一章',
     ctaSub: '我们正在构建前所未有的东西。若你同样兴奋，我们期待听到你的声音。',
-    ctaRoles: '查看在招职位',
-    ctaHome: '返回首页',
+    ctaButton: '联系我们',
   },
   brands: {
     hero: {
@@ -329,6 +309,7 @@ export default {
       title: '新生活、新形象、新传承',
       p1: '在 AI 全面到来的世界里，让它为我们所有人工作。',
       p2: 'Xavvi 独有的 AI 社交电商生态与数字资产，是一次让所有人共赢的绝佳机会。',
+      cta: '预留你的席位',
     },
   },
   brandLab: {

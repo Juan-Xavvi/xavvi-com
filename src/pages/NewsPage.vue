@@ -88,7 +88,7 @@ function formatDate(iso: string) {
 							class="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-500" />
 					</div>
 					<div class="p-6 flex-1 flex flex-col">
-						<p class="text-[12px] font-bold tracking-[0.12em] text-[#AE2049] uppercase mb-3">
+						<p class="text-[12px] font-bold tracking-[0.12em] text-[#FE2C55] uppercase mb-3">
 							{{ formatDate(post.published_at) }}
 						</p>
 						<h2 class="text-[18px] lg:text-[20px] font-bold text-[#212226] leading-snug mb-3">
@@ -97,7 +97,7 @@ function formatDate(iso: string) {
 						<p v-if="post.excerpt" class="text-[14px] lg:text-[15px] text-[#212226]/70 leading-[1.7] mb-5 flex-1">
 							{{ post.excerpt }}
 						</p>
-						<span class="inline-flex items-center gap-2 text-[13px] font-bold tracking-[0.12em] text-[#AE2049] mt-auto">
+						<span class="inline-flex items-center gap-2 text-[13px] font-bold tracking-[0.12em] text-[#FE2C55] mt-auto">
 							{{ t('news.readMore') }}
 							<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="transition-transform group-hover:translate-x-1">
 								<path d="M5 12h14M13 5l7 7-7 7" />

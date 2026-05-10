@@ -54,7 +54,7 @@ const tabs = [
 					:class="activeTab === tab.id ? 'text-[#212226]' : 'text-[#212226]/45 hover:text-[#212226]/80'">
 					{{ t(tab.labelKey) }}
 					<span v-if="activeTab === tab.id"
-						class="absolute -bottom-px left-0 right-0 h-[2px] bg-[#AE2049]"></span>
+						class="absolute -bottom-px left-0 right-0 h-[2px] bg-[#FE2C55]"></span>
 				</button>
 			</div>
 
@@ -104,13 +104,13 @@ const tabs = [
 							</div>
 						</div>
 						<div class="hidden lg:flex items-center justify-start lg:pl-8">
-							<span class="inline-block px-5 py-2 rounded-full bg-[#AE2049] text-[#FFFDF9] text-[14px] font-bold tracking-[0.18em]">
+							<span class="inline-block px-5 py-2 rounded-full bg-[#FE2C55] text-[#FFFDF9] text-[14px] font-bold tracking-[0.18em]">
 								{{ t('brandLab.roadmap.phase1.label') }}
 							</span>
 						</div>
 						<!-- Mobile pill -->
 						<div class="lg:hidden flex justify-center mt-6">
-							<span class="inline-block px-4 py-1.5 rounded-full bg-[#AE2049] text-[#FFFDF9] text-[12px] font-bold tracking-[0.18em]">
+							<span class="inline-block px-4 py-1.5 rounded-full bg-[#FE2C55] text-[#FFFDF9] text-[12px] font-bold tracking-[0.18em]">
 								{{ t('brandLab.roadmap.phase1.label') }}
 							</span>
 						</div>
@@ -119,7 +119,7 @@ const tabs = [
 					<!-- PHASE 2: pill-left, card-right -->
 					<div v-reveal class="relative lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center lg:pb-20">
 						<div class="hidden lg:flex items-center justify-end lg:pr-8">
-							<span class="inline-block px-5 py-2 rounded-full bg-[#AE2049] text-[#FFFDF9] text-[14px] font-bold tracking-[0.18em]">
+							<span class="inline-block px-5 py-2 rounded-full bg-[#FE2C55] text-[#FFFDF9] text-[14px] font-bold tracking-[0.18em]">
 								{{ t('brandLab.roadmap.phase2.label') }}
 							</span>
 						</div>
@@ -135,7 +135,7 @@ const tabs = [
 						</div>
 						<!-- Mobile pill -->
 						<div class="lg:hidden flex justify-center mt-6">
-							<span class="inline-block px-4 py-1.5 rounded-full bg-[#AE2049] text-[#FFFDF9] text-[12px] font-bold tracking-[0.18em]">
+							<span class="inline-block px-4 py-1.5 rounded-full bg-[#FE2C55] text-[#FFFDF9] text-[12px] font-bold tracking-[0.18em]">
 								{{ t('brandLab.roadmap.phase2.label') }}
 							</span>
 						</div>
@@ -154,13 +154,13 @@ const tabs = [
 							</div>
 						</div>
 						<div class="hidden lg:flex items-center justify-start lg:pl-8">
-							<span class="inline-block px-5 py-2 rounded-full bg-[#AE2049] text-[#FFFDF9] text-[14px] font-bold tracking-[0.18em]">
+							<span class="inline-block px-5 py-2 rounded-full bg-[#FE2C55] text-[#FFFDF9] text-[14px] font-bold tracking-[0.18em]">
 								{{ t('brandLab.roadmap.phase3.label') }}
 							</span>
 						</div>
 						<!-- Mobile pill -->
 						<div class="lg:hidden flex justify-center mt-6">
-							<span class="inline-block px-4 py-1.5 rounded-full bg-[#AE2049] text-[#FFFDF9] text-[12px] font-bold tracking-[0.18em]">
+							<span class="inline-block px-4 py-1.5 rounded-full bg-[#FE2C55] text-[#FFFDF9] text-[12px] font-bold tracking-[0.18em]">
 								{{ t('brandLab.roadmap.phase3.label') }}
 							</span>
 						</div>

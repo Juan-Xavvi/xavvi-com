@@ -113,59 +113,39 @@ export default {
     },
   },
   about: {
-    heroTitle: 'We build infrastructure for the creator economy',
-    heroSub: 'Xavvi is a technology company headquartered in the United States, with teams across Europe, the Middle East, and Asia-Pacific. We design the platforms, tools, and AI systems that enable creators and brands to reach global audiences.',
+    heroTitle: 'Pioneering Web4 Business Models Where Everyone in the Ecosystem Wins',
+    heroSub: "Our mission is to create a social commerce ecosystem where all users are rewarded for their contributions and grow with the platform. Celebrities, influencers, MCNs, brands, vendors, manufacturers, logistics companies, partners, investors and the Xavvi staff, we're all in the same team. We vow to implement decentralised business models to help us enter an era of win-win mentality, and leave behind the winner-takes-all ethos that's dividing us today. We are headquartered in the US but we have an international DNA and a global outlook.",
+    statsTitle: 'Ecosystem Target for 2026',
     stats: {
-      creatorsValue: '50M+',
-      creators: 'Active creators',
-      marketsValue: '200+',
-      markets: 'Markets worldwide',
-      viewsValue: '10B+',
-      views: 'Monthly video views',
-      officesValue: '6',
-      offices: 'Global offices',
+      creators: { value: '10,000', label: 'Creators' },
+      mcns: { value: '500', label: 'MCNs' },
+      vendors: { value: '2,000', label: 'Vendors' },
+      users: { value: '10,000,000', label: 'Users' },
     },
-    goalsTitle: 'Development Goals',
-    goals: {
-      shortTerm: {
-        title: 'Short-term Goals',
-        items: [
-          'Connect 10,000 creators',
-          'Serve 10,000 enterprises',
-          'Build 20 overseas centers',
-          'Reach $500M transaction volume',
-        ],
+    storyTitle: 'Our Story',
+    story: {
+      s1: {
+        body: 'Xavvi was founded in Paris in 2023 by Peter Wu and Juan Vargas. The vision was to develop AI-powered tools that would help creators and vendors produce content effortlessly in the rapidly emerging era of social commerce.',
       },
-      midTerm: {
-        title: 'Mid-term Goals',
-        items: [
-          'Deploy 100 overseas centers',
-          'Serve 100,000 enterprises cumulatively',
-          'Create 1 million jobs',
-          'Exceed $5B transaction volume',
-        ],
+      s2: {
+        body: "Xavvi later moved to London to support brands operating on TikTok Shop UK — the pilot market in Europe where ByteDance was testing and expanding the ecommerce capabilities of its platform. Leveraging Peter's decades of experience in ecommerce and training, Xavvi expanded rapidly and soon became one of the top TikTok Shop partners in the UK, securing major projects including L'Oréal's The Beauty Shop operations contract.",
       },
-      longTerm: {
-        title: 'Long-term Goals',
-        items: [
-          'Complete 240 global trusted data space construction',
-          'Become global standard setter',
-          'Serve 1 million enterprises',
-          'Create 10 million jobs',
-          'Exceed $20B transaction volume',
-        ],
+      s3: {
+        body: "TikTok Shop US invited Xavvi to open shops, provide large-scale training, and support brands and creators entering the platform. At the same time, Xavvi Ads — the company's AI-powered advertising and automation platform — was delivering exceptional ROI for clients.\n\nXavvi relocated its headquarters to Los Angeles and launched the Creators Showroom, an innovative hybrid model combining a physical showroom with AI tools. The system helped eliminate the costly need for brands to ship samples repeatedly while significantly accelerating content and video production for creators.",
+      },
+      s4: {
+        body: 'By fully managing ecommerce operations for brands, Xavvi gained firsthand insight into the flaws of the traditional social commerce model — a system that often proves unsustainable for both vendors and creators.\n\nPeter and Juan had previously launched a tokenised ecommerce startup in China in 2018, where they demonstrated the effectiveness of token-based incentive systems. Building on those experiences, they decided to pivot Xavvi toward the decentralised, tokenised, and AI-powered ecosystem the company is rolling out globally in the summer of 2026.',
       },
     },
-    officesTitle: 'Offices & operations',
-    officesSub: "Xavvi's global headquarters are in Los Angeles, with regional offices across six cities worldwide.",
-    officeRoles: {
-      globalHQ: 'Global HQ',
-      emea: 'EMEA Operations',
-      mena: 'MENA Operations',
-      apac: 'APAC Operations',
-      latam: 'LATAM Operations',
-      europe: 'Europe Operations',
+    officesTitle: 'Offices and Operations',
+    officesSub: 'Xavvi brings together an international team with deep understanding of cultures and markets around the world, as well as extensive combined experience across ecommerce, IT, advertising, film production, fashion and branding.',
+    offices: {
+      losAngeles: { city: 'Los Angeles', role: 'Global HQ', entity: 'Xavvi Holdings Inc' },
+      berlin: { city: 'Berlin', role: 'Europe Operations', entity: 'Xavvi Germany GmbH' },
+      dubai: { city: 'Dubai', role: 'MENA Operations', entity: 'Rep Office' },
+      hongKong: { city: 'Hong Kong', role: 'Asia Operations', entity: 'Xavvi Brand Lab' },
     },
+    /* Kept for src/components/archive/ArchivedTrustComplianceV1.vue */
     complianceTitle: 'Trust & compliance',
     complianceSub: 'Enterprise-grade security and privacy, verified by independent auditors.',
     compliance: {
@@ -175,10 +155,10 @@ export default {
       iso: { name: 'ISO 27001', desc: 'Info security mgmt' },
       coppa: { name: 'COPPA', desc: "Children's privacy" },
     },
+    /* TODO: review — current ctaTitle/ctaSub were written for the old "View Open Roles" CTA and may be boilerplate for the new "Contact Us" CTA */
     ctaTitle: 'Discover your next chapter with us',
     ctaSub: "We're building something that hasn't existed before. If that excites you, we want to hear from you.",
-    ctaRoles: 'View Open Roles',
-    ctaHome: 'Back to Home',
+    ctaButton: 'CONTACT US',
   },
   brands: {
     hero: {
@@ -326,6 +306,7 @@ export default {
       title: 'New Life, New Likeness, New Legacy',
       p1: "In a world where AI is taking over, let's ensure it works for all of us.",
       p2: "Xavvi's unique AI social commerce ecosystem and digital assets represent an amazing opportunity where everyone wins.",
+      cta: 'Reserve Your Seat',
     },
   },
   brandLab: {

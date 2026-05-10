@@ -89,7 +89,7 @@ const benefits = computed(() => [
 					<ul class="space-y-3">
 						<li v-for="(b, i) in heroBullets" :key="i"
 							class="flex items-start gap-3 text-[15px] lg:text-[16px] leading-[1.7]">
-							<span class="mt-2 inline-block w-1.5 h-1.5 rounded-full bg-[#AE2049] shrink-0"></span>
+							<span class="mt-2 inline-block w-1.5 h-1.5 rounded-full bg-[#FE2C55] shrink-0"></span>
 							<span>{{ b }}</span>
 						</li>
 					</ul>
@@ -126,7 +126,7 @@ const benefits = computed(() => [
 					:class="activeTab === tab.id ? 'text-[#212226]' : 'text-[#212226]/45 hover:text-[#212226]/80'">
 					{{ t(tab.labelKey) }}
 					<span v-if="activeTab === tab.id"
-						class="absolute -bottom-px left-0 right-0 h-[2px] bg-[#AE2049]"></span>
+						class="absolute -bottom-px left-0 right-0 h-[2px] bg-[#FE2C55]"></span>
 				</button>
 			</div>
 
@@ -137,7 +137,7 @@ const benefits = computed(() => [
 					<div v-if="activeTab === 'pricing'" key="pricing"
 						class="flex flex-col sm:flex-row gap-5 items-start">
 						<div
-							class="shrink-0 w-12 h-12 rounded-xl bg-[#AE2049]/10 flex items-center justify-center text-[#AE2049]">
+							class="shrink-0 w-12 h-12 rounded-xl bg-[#FE2C55]/10 flex items-center justify-center text-[#FE2C55]">
 							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 								stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 								<path d="M20.59 13.41 13.42 20.58a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" />
@@ -151,7 +151,7 @@ const benefits = computed(() => [
 							<ul class="space-y-2">
 								<li v-for="(item, i) in pricingItems" :key="i"
 									class="flex items-start gap-3 text-[15px] lg:text-[16px] text-[#212226]/80 leading-[1.7]">
-									<span class="text-[#AE2049] font-bold mt-0.5">—</span>
+									<span class="text-[#FE2C55] font-bold mt-0.5">—</span>
 									<span>{{ item }}</span>
 								</li>
 							</ul>
@@ -161,7 +161,7 @@ const benefits = computed(() => [
 					<!-- Full Control -->
 					<div v-else key="full" class="flex flex-col sm:flex-row gap-5 items-start">
 						<div
-							class="shrink-0 w-12 h-12 rounded-xl bg-[#AE2049]/10 flex items-center justify-center text-[#AE2049]">
+							class="shrink-0 w-12 h-12 rounded-xl bg-[#FE2C55]/10 flex items-center justify-center text-[#FE2C55]">
 							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 								stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 								<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
@@ -174,7 +174,7 @@ const benefits = computed(() => [
 							<ul class="space-y-2">
 								<li v-for="(item, i) in fullItems" :key="i"
 									class="flex items-start gap-3 text-[15px] lg:text-[16px] text-[#212226]/80 leading-[1.7]">
-									<span class="text-[#AE2049] font-bold mt-0.5">—</span>
+									<span class="text-[#FE2C55] font-bold mt-0.5">—</span>
 									<span>{{ item }}</span>
 								</li>
 							</ul>
@@ -208,7 +208,7 @@ const benefits = computed(() => [
 				<div v-reveal="0"
 					class="bg-[#1a1a1a] border border-white/8 rounded-2xl p-8 flex flex-col">
 					<div
-						class="w-14 h-14 rounded-xl bg-[#AE2049]/15 flex items-center justify-center text-[#AE2049] mb-6">
+						class="w-14 h-14 rounded-xl bg-[#FE2C55]/15 flex items-center justify-center text-[#FE2C55] mb-6">
 						<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 							stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 							<rect x="2" y="6" width="20" height="14" rx="2" />
@@ -225,7 +225,7 @@ const benefits = computed(() => [
 				<div v-reveal="1"
 					class="bg-[#1a1a1a] border border-white/8 rounded-2xl p-8 flex flex-col">
 					<div
-						class="w-14 h-14 rounded-xl bg-[#AE2049]/15 flex items-center justify-center text-[#AE2049] mb-6">
+						class="w-14 h-14 rounded-xl bg-[#FE2C55]/15 flex items-center justify-center text-[#FE2C55] mb-6">
 						<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 							stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 							<path d="M3 9l1-5h16l1 5" />
@@ -243,7 +243,7 @@ const benefits = computed(() => [
 				<div v-reveal="2"
 					class="bg-[#1a1a1a] border border-white/8 rounded-2xl p-8 flex flex-col">
 					<div
-						class="w-14 h-14 rounded-xl bg-[#AE2049]/15 flex items-center justify-center text-[#AE2049] mb-6">
+						class="w-14 h-14 rounded-xl bg-[#FE2C55]/15 flex items-center justify-center text-[#FE2C55] mb-6">
 						<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 							stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 							<circle cx="12" cy="12" r="10" />
@@ -274,7 +274,7 @@ const benefits = computed(() => [
 			<div class="grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-5">
 				<div v-for="(b, i) in benefits" :key="i" v-reveal="i" class="flex items-start gap-4">
 					<div
-						class="shrink-0 w-7 h-7 rounded-full bg-[#AE2049]/10 flex items-center justify-center text-[#AE2049]">
+						class="shrink-0 w-7 h-7 rounded-full bg-[#FE2C55]/10 flex items-center justify-center text-[#FE2C55]">
 						<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 							stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
 							<polyline points="5 12 10 17 19 7" />
@@ -302,9 +302,15 @@ const benefits = computed(() => [
 				<p v-reveal="1" class="text-[15px] lg:text-[18px] leading-[1.8] text-[#FFFDF9] mb-3">
 					{{ t('creators.legacy.p1') }}
 				</p>
-				<p v-reveal="2" class="text-[15px] lg:text-[18px] leading-[1.8] text-[#FFFDF9]">
+				<p v-reveal="2" class="text-[15px] lg:text-[18px] leading-[1.8] text-[#FFFDF9] mb-8">
 					{{ t('creators.legacy.p2') }}
 				</p>
+				<div v-reveal="3">
+					<RouterLink to="/contact?category=creators"
+						class="inline-flex items-center justify-center h-12 px-8 rounded-lg bg-[#FE2C55] hover:bg-[#EF2950] text-[#FFFDF9] font-semibold text-[15px] tracking-wider transition-colors">
+						{{ t('creators.legacy.cta') }}
+					</RouterLink>
+				</div>
 			</div>
 		</div>
 	</section>

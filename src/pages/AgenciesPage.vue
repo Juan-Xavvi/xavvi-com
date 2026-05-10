@@ -64,7 +64,7 @@ const referralAdditions = computed(() => [
 				</h3>
 				<ul class="space-y-3 mb-8">
 					<li v-for="(b, i) in benefits" :key="i" class="flex items-start gap-3">
-						<div class="shrink-0 mt-0.5 w-5 h-5 rounded-full bg-[#AE2049]/10 flex items-center justify-center text-[#AE2049]">
+						<div class="shrink-0 mt-0.5 w-5 h-5 rounded-full bg-[#FE2C55]/10 flex items-center justify-center text-[#FE2C55]">
 							<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
 								<polyline points="5 12 10 17 19 7" />
 							</svg>
@@ -128,7 +128,7 @@ const referralAdditions = computed(() => [
 					</p>
 					<ul class="space-y-3 mb-6">
 						<li v-for="(item, i) in referralAdditions" :key="i" class="flex items-start gap-3">
-							<div class="shrink-0 mt-0.5 w-5 h-5 rounded-full bg-[#AE2049]/10 flex items-center justify-center text-[#AE2049]">
+							<div class="shrink-0 mt-0.5 w-5 h-5 rounded-full bg-[#FE2C55]/10 flex items-center justify-center text-[#FE2C55]">
 								<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
 									<polyline points="5 12 10 17 19 7" />
 								</svg>

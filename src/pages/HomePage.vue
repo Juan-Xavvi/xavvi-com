@@ -82,7 +82,7 @@ const ecosystems = computed(() => [
 		desc: t('home.eco.card4.desc'),
 		image: '/images/page/card4.jpg',
 		panelBg: 'bg-gradient-to-br from-[#1a0a3e] to-[#2a0a14]',
-		iconGradient: 'from-[#AE2049] to-[#FF6B35]',
+		iconGradient: 'from-[#FE2C55] to-[#FF6B35]',
 	},
 ]);
 
@@ -289,7 +289,7 @@ const offices = computed(() => [
 			<div class="grid lg:grid-cols-2 lg:divide-x lg:divide-[#212226]/15 gap-10 lg:gap-0">
 				<!-- Column 1: Agencies/MCNs -->
 				<div v-reveal class="lg:pr-12">
-					<span class="block text-[#AE2049] text-[12px] font-bold tracking-[0.18em] uppercase mb-4">
+					<span class="block text-[#FE2C55] text-[12px] font-bold tracking-[0.18em] uppercase mb-4">
 						{{ t('home.mcnBrands.agencies.eyebrow') }}
 					</span>
 					<h3 class="text-[clamp(1.5rem,2.8vw,2.2rem)] font-bold text-text leading-tight mb-5">
@@ -309,7 +309,7 @@ const offices = computed(() => [
 
 				<!-- Column 2: Brands & Vendors -->
 				<div v-reveal="1" class="lg:pl-12">
-					<span class="block text-[#AE2049] text-[12px] font-bold tracking-[0.18em] uppercase mb-4">
+					<span class="block text-[#FE2C55] text-[12px] font-bold tracking-[0.18em] uppercase mb-4">
 						{{ t('home.mcnBrands.brands.eyebrow') }}
 					</span>
 					<h3 class="text-[clamp(1.5rem,2.8vw,2.2rem)] font-bold text-text leading-tight mb-5">

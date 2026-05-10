@@ -120,61 +120,41 @@ export default {
     },
   },
   about: {
-    heroTitle: '크리에이터 이코노미를 위한 인프라를 만듭니다',
+    heroTitle: '생태계 모두가 이기는 Web4 비즈니스 모델을 개척합니다',
     heroSub:
-      'Xavvi는 미국에 본사를 둔 기술 기업으로, 유럽·중동·아시아 태평양 전역에 팀이 있습니다. 크리에이터와 브랜드가 글로벌 오디언스에 닿을 수 있도록 플랫폼, 도구, AI 시스템을 설계합니다.',
+      '저희의 미션은 모든 사용자가 자신의 기여에 따라 보상받고, 플랫폼과 함께 성장하는 소셜 커머스 생태계를 만드는 것입니다. 셀러브리티, 인플루언서, MCN, 브랜드, 벤더, 제조사, 물류 회사, 파트너, 투자자, 그리고 Xavvi 팀 — 우리는 모두 같은 팀입니다. 우리는 분산형 비즈니스 모델을 도입해, 오늘 우리를 갈라놓고 있는 「승자독식」의 사고에서 벗어나 「윈-윈」의 시대로 나아갈 것을 약속합니다. 본사는 미국에 있지만, 우리는 국제적인 DNA와 글로벌한 시야를 가지고 있습니다.',
+    statsTitle: '2026 년 생태계 목표',
     stats: {
-      creatorsValue: '50M+',
-      creators: '활동 크리에이터',
-      marketsValue: '200+',
-      markets: '전 세계 시장',
-      viewsValue: '10B+',
-      views: '월간 비디오 조회수',
-      officesValue: '6',
-      offices: '글로벌 오피스',
+      creators: { value: '10,000', label: '크리에이터' },
+      mcns: { value: '500', label: 'MCN' },
+      vendors: { value: '2,000', label: '벤더' },
+      users: { value: '10,000,000', label: '사용자' },
     },
-    goalsTitle: '발전 목표',
-    goals: {
-      shortTerm: {
-        title: '단기 목표',
-        items: [
-          '크리에이터 1만 명 연결',
-          '기업 1만 곳 서비스',
-          '해외 센터 20곳 구축',
-          '거래액 5억 달러 달성',
-        ],
+    storyTitle: '우리의 이야기',
+    story: {
+      s1: {
+        body: 'Xavvi는 2023년 Peter Wu와 Juan Vargas가 파리에서 창업했습니다. 빠르게 떠오르던 소셜 커머스 시대에 크리에이터와 벤더가 손쉽게 콘텐츠를 만들 수 있도록, AI 기반 도구를 개발하는 것이 그 비전이었습니다.',
       },
-      midTerm: {
-        title: '중기 목표',
-        items: [
-          '해외 센터 100곳 운영',
-          '누적 기업 10만 곳 서비스',
-          '100만 개 일자리 창출',
-          '거래액 50억 달러 초과',
-        ],
+      s2: {
+        body: "이후 Xavvi는 TikTok Shop UK에서 활동하는 브랜드를 지원하기 위해 런던으로 이전했습니다. 이곳은 ByteDance가 자사 플랫폼의 이커머스 역량을 시험하고 확장한 유럽의 파일럿 시장이었습니다. 이커머스와 트레이닝에서 수십 년 경험을 가진 Peter를 중심으로, Xavvi는 빠르게 성장해 영국의 TikTok Shop 최상위 파트너 중 하나로 자리잡았고, L'Oréal The Beauty Shop의 운영 계약을 비롯한 주요 프로젝트들을 따냈습니다.",
       },
-      longTerm: {
-        title: '장기 목표',
-        items: [
-          '글로벌 신뢰 데이터 공간 240곳 구축 완료',
-          '글로벌 표준 제정 주체로 성장',
-          '기업 100만 곳 서비스',
-          '일자리 1천만 개 창출',
-          '거래액 200억 달러 초과',
-        ],
+      s3: {
+        body: 'TikTok Shop US는 Xavvi에 스토어를 오픈하고, 대규모 트레이닝을 제공하며, 플랫폼에 진입하는 브랜드와 크리에이터를 지원할 것을 요청했습니다. 동시에 Xavvi의 AI 기반 광고·자동화 플랫폼인 Xavvi Ads는 클라이언트들에게 탁월한 ROI를 안기고 있었습니다.\n\nXavvi는 본사를 로스앤젤레스로 옮기고, 실물 쇼룸과 AI 도구를 결합한 혁신적인 하이브리드 모델 「Creators Showroom」을 선보였습니다. 이 시스템은 브랜드가 반복적으로 샘플을 보내야 하는 비싼 절차를 없앴고, 동시에 크리에이터의 콘텐츠와 영상 제작 속도를 크게 끌어올렸습니다.',
+      },
+      s4: {
+        body: '브랜드의 이커머스 운영을 직접 전담하면서, Xavvi는 전통적인 소셜 커머스 모델의 결함을 가까이서 목격했습니다. 그것은 벤더에게도 크리에이터에게도 종종 지속 가능하지 않은 시스템이었습니다.\n\nPeter와 Juan은 2018년 중국에서 토큰화된 이커머스 스타트업을 이미 런칭한 적이 있었고, 그곳에서 토큰 기반 인센티브 시스템의 효과를 입증했습니다. 그 경험을 토대로, 두 사람은 Xavvi를 분산형, 토큰화, AI 기반의 생태계로 피벗하기로 결정했고, 그 생태계는 2026년 여름 글로벌하게 출시됩니다.',
       },
     },
-    officesTitle: '오피스 및 운영',
+    officesTitle: '오피스와 운영',
     officesSub:
-      'Xavvi의 글로벌 본사는 Los Angeles에 있으며, 전 세계 6개 도시에 지역 오피스가 있습니다.',
-    officeRoles: {
-      globalHQ: '글로벌 본사',
-      emea: 'EMEA 운영',
-      mena: 'MENA 운영',
-      apac: 'APAC 운영',
-      latam: 'LATAM 운영',
-      europe: '유럽 운영',
+      'Xavvi는 전 세계 문화와 시장에 대한 깊은 이해, 그리고 이커머스, IT, 광고, 영상 제작, 패션과 브랜딩을 아우르는 폭넓은 경험을 함께 가진 국제적인 팀을 한데 모으고 있습니다.',
+    offices: {
+      losAngeles: { city: '로스앤젤레스', role: '글로벌 본사', entity: 'Xavvi Holdings Inc' },
+      berlin: { city: '베를린', role: '유럽 운영', entity: 'Xavvi Germany GmbH' },
+      dubai: { city: '두바이', role: 'MENA 운영', entity: '대표 사무소' },
+      hongKong: { city: '홍콩', role: '아시아 운영', entity: 'Xavvi Brand Lab' },
     },
+    /* Kept for src/components/archive/ArchivedTrustComplianceV1.vue */
     complianceTitle: '신뢰와 컴플라이언스',
     complianceSub:
       '독립 감사로 검증된 엔터프라이즈급 보안과 개인정보 보호.',
@@ -185,11 +165,11 @@ export default {
       iso: { name: 'ISO 27001', desc: '정보보안 관리' },
       coppa: { name: 'COPPA', desc: '아동 개인정보' },
     },
+    /* TODO: review — boilerplate from old "채용 공고 보기" CTA */
     ctaTitle: '함께할 다음 챕터를 발견하세요',
     ctaSub:
       '지금까지 없었던 것을 만들고 있습니다. 그게 흥분된다면, 우리는 당신의 이야기를 듣고 싶습니다.',
-    ctaRoles: '채용 공고 보기',
-    ctaHome: '홈으로 돌아가기',
+    ctaButton: '문의하기',
   },
   brands: {
     hero: {
@@ -370,6 +350,7 @@ export default {
       title: '새로운 삶, 새로운 모습, 새로운 레거시',
       p1: 'AI가 자리잡는 세상에서, 모두를 위해 일하도록 만들어 갑시다.',
       p2: 'Xavvi의 독창적인 AI 소셜 커머스 생태계와 디지털 자산은, 모두가 이기는 놀라운 기회입니다.',
+      cta: '자리를 예약하세요',
     },
   },
   brandLab: {

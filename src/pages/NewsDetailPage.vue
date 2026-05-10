@@ -144,7 +144,7 @@ function formatDate(iso: string) {
 	margin-bottom: 1.25rem;
 }
 .news-content :deep(a) {
-	color: #AE2049;
+	color: #FE2C55;
 	text-decoration: underline;
 	text-underline-offset: 3px;
 }
@@ -160,7 +160,7 @@ function formatDate(iso: string) {
 .news-content :deep(ol) { list-style: decimal; }
 .news-content :deep(li) { margin-bottom: 0.4rem; }
 .news-content :deep(blockquote) {
-	border-left: 3px solid #AE2049;
+	border-left: 3px solid #FE2C55;
 	padding-left: 1.25rem;
 	font-style: italic;
 	color: #212226;
