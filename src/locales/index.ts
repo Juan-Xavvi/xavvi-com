@@ -6,15 +6,21 @@ import de from './de';
 import zh from './zh';
 import ko from './ko';
 import ja from './ja';
+import pt from './pt';
+import ru from './ru';
+import ar from './ar';
 
 export const SUPPORTED_LOCALES = [
   { code: 'en', label: 'English' },
   { code: 'es', label: 'Español' },
   { code: 'fr', label: 'Français' },
   { code: 'de', label: 'Deutsch' },
+  { code: 'pt', label: 'Português' },
+  { code: 'ru', label: 'Русский' },
   { code: 'zh', label: '中文' },
   { code: 'ko', label: '한국어' },
   { code: 'ja', label: '日本語' },
+  { code: 'ar', label: 'العربية' },
 ] as const;
 
 function getDefaultLocale(): string {
@@ -29,7 +35,7 @@ const i18n = createI18n({
   legacy: false,
   locale: getDefaultLocale(),
   fallbackLocale: 'en',
-  messages: { en, es, fr, de, zh, ko, ja },
+  messages: { en, es, fr, de, zh, ko, ja, pt, ru, ar },
 });
 
 export default i18n;
