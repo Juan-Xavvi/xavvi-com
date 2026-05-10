@@ -8,7 +8,7 @@ export default {
     downloadXavvi: 'Xavvi herunterladen',
   },
   footer: {
-    tagline: 'Keine Fantasie, das ist Xavvi!',
+    tagline: 'Lass uns gemeinsam gewinnen!',
     product: 'Produkt',
     webApp: 'Web-App',
     download: 'Download',

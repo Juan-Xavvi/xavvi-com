@@ -8,7 +8,7 @@ export default {
     downloadXavvi: '下载 Xavvi',
   },
   footer: {
-    tagline: '这不是幻想，这就是 Xavvi！',
+    tagline: '我们一起赢！',
     product: '产品',
     webApp: '网页版',
     download: '下载',

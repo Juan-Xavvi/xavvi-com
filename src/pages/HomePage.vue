@@ -193,11 +193,21 @@ const offices = computed(() => [
 			<SectionHeader :dark="false" :title="t('home.pillarsTitle')" :subtitle="t('home.pillarsSub')" />
 
 			<div class="mt-12 lg:mt-16 flex flex-col lg:flex-row items-center justify-center gap-6 lg:gap-10">
-				<div v-reveal class="rounded-2xl overflow-hidden w-[280px] sm:w-[300px] lg:w-[340px] lg:rotate-[3deg]">
-					<img src="/images/page/Brand-Lab.png" alt="Brand Lab screenshot" class="block w-full h-auto object-contain" />
+				<div v-reveal class="flex flex-col items-center">
+					<div class="rounded-2xl overflow-hidden w-[280px] sm:w-[300px] lg:w-[340px] lg:rotate-[3deg]">
+						<img src="/images/page/Brand-Lab.png" alt="Brand Lab screenshot" class="block w-full h-auto object-contain" />
+					</div>
+					<p class="mt-4 lg:mt-6 font-bold text-[16px] lg:text-[18px] text-[#212226] text-center">
+						Brand Lab Platform
+					</p>
 				</div>
-				<div v-reveal="1" class="rounded-2xl overflow-hidden w-[260px] sm:w-[280px] lg:w-[310px] lg:-rotate-[3deg]">
-					<img src="/images/page/Xavvi-App.png" alt="Xavvi App screenshot" class="block w-full h-auto object-contain" />
+				<div v-reveal="1" class="flex flex-col items-center">
+					<div class="rounded-2xl overflow-hidden w-[260px] sm:w-[280px] lg:w-[310px] lg:-rotate-[3deg]">
+						<img src="/images/page/Xavvi-App.png" alt="Xavvi App screenshot" class="block w-full h-auto object-contain" />
+					</div>
+					<p class="mt-4 lg:mt-6 font-bold text-[16px] lg:text-[18px] text-[#212226] text-center">
+						Xavvi App
+					</p>
 				</div>
 			</div>
 

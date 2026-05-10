@@ -8,7 +8,7 @@ export default {
     downloadXavvi: 'Xavvi 다운로드',
   },
   footer: {
-    tagline: '환상이 아니에요, Xavvi예요!',
+    tagline: '함께 이깁시다!',
     product: '제품',
     webApp: '웹 앱',
     download: '다운로드',
