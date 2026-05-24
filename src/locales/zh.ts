@@ -15,6 +15,7 @@ export default {
     xavviAds: 'Xavvi Ads',
     company: '公司',
     about: '关于我们',
+    whitePaper: '白皮书',
     brandLab: 'Brand Lab',
     forBusiness: '面向企业',
     resources: '资源',
@@ -51,6 +52,9 @@ export default {
         tag: '加密',
         title: '加入数字资产新阶层',
         desc: '向新数字经济问好——你已经成为参与者了！恭喜！当你加入 Xavvi，我们会发行属于你的个人代币，让你立刻成为数字资产阶层的一员。品牌必须获得你的代币，才能访问你的流量并发起广告活动。你的粉丝因其行为和购买支持你，而获得你的代币作为奖励。Xavvi 是所有人的共赢。',
+        descExtra1: '如果你想进一步了解 Creator Tokens 以及代币经济模型，',
+        descExtraLink: '请阅读白皮书',
+        descExtra2: '。',
       },
       card3: {
         tag: 'AI 收入',

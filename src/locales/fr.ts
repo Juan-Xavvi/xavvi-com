@@ -15,6 +15,7 @@ export default {
     xavviAds: 'Xavvi Ads',
     company: 'Entreprise',
     about: 'À propos',
+    whitePaper: 'White Paper',
     brandLab: 'Brand Lab',
     forBusiness: 'Pour les entreprises',
     resources: 'Ressources',
@@ -55,6 +56,9 @@ export default {
         title: "Rejoignez la classe d'actifs numériques",
         desc:
           "Bienvenue dans la nouvelle économie numérique — vous venez de devenir un acteur ! Félicitations ! Lorsque vous rejoignez Xavvi, nous émettons votre token personnel, faisant de vous instantanément un membre de la classe d'actifs numériques. Les marques doivent acquérir votre token pour accéder à votre trafic et lancer des campagnes publicitaires. Vos fans sont récompensés avec votre token lorsqu'ils vous soutiennent par leur comportement et leurs achats. Xavvi, c'est gagnant-gagnant pour tous.",
+        descExtra1: "Si vous souhaitez en savoir plus sur les Creator Tokens et le modèle économique du token, ",
+        descExtraLink: 'lisez le White Paper',
+        descExtra2: '.',
       },
       card3: {
         tag: 'REVENUS IA',

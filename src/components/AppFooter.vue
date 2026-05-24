@@ -51,6 +51,7 @@ const { t } = useI18n();
           <h4 class="text-[12px] font-semibold text-[#212226] tracking-[0.12em] uppercase mb-5">{{ t('footer.company') }}</h4>
           <ul class="space-y-3">
             <li><RouterLink to="/about" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.about') }}</RouterLink></li>
+            <li><a href="https://whitepaper.xavvi.com" target="_blank" rel="noopener" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.whitePaper') }}</a></li>
             <li><RouterLink to="/contact" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">Contact</RouterLink></li>
           </ul>
         </div>

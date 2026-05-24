@@ -15,6 +15,7 @@ export default {
     xavviAds: 'Xavvi Ads',
     company: '회사',
     about: '소개',
+    whitePaper: '백서',
     brandLab: '브랜드 랩',
     forBusiness: '기업용',
     resources: '리소스',
@@ -55,6 +56,9 @@ export default {
         title: '디지털 자산 클래스에 합류하세요',
         desc:
           '새로운 디지털 경제에 어서 오세요 — 당신은 이제 플레이어입니다! 축하합니다! Xavvi에 가입하면 당신만의 개인 토큰을 발행해, 그 즉시 디지털 자산 클래스의 구성원이 됩니다. 브랜드는 당신의 트래픽에 접근하고 광고 캠페인을 시작하려면 당신의 토큰을 확보해야 합니다. 당신의 팬은 행동과 구매로 당신을 지원함으로써 당신의 토큰을 보상으로 받습니다. Xavvi는 모두를 위한 윈윈입니다.',
+        descExtra1: 'Creator Tokens와 토큰 경제 모델에 대해 더 알고 싶다면, ',
+        descExtraLink: '백서를 읽어보세요',
+        descExtra2: '.',
       },
       card3: {
         tag: 'AI 수익',

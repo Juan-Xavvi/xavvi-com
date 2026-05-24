@@ -15,6 +15,7 @@ export default {
     xavviAds: 'Xavvi Ads',
     company: 'Unternehmen',
     about: 'Über uns',
+    whitePaper: 'White Paper',
     brandLab: 'Brand Lab',
     forBusiness: 'Für Unternehmen',
     resources: 'Ressourcen',
@@ -51,6 +52,9 @@ export default {
         tag: 'CRYPTO',
         title: 'Werde Teil der digitalen Anlageklasse',
         desc: 'Sag Hallo zur neuen digitalen Wirtschaft — du bist gerade Akteur geworden! Glückwunsch! Wenn du Xavvi beitrittst, geben wir deinen persönlichen Token aus und machen dich sofort zum Mitglied der digitalen Anlageklasse. Marken müssen deinen Token erwerben, um auf deinen Traffic zuzugreifen und Kampagnen zu starten. Deine Fans werden mit deinem Token belohnt, wenn sie dich durch ihr Verhalten und ihre Käufe unterstützen. Xavvi ist Win-Win für alle.',
+        descExtra1: 'Wenn du mehr über die Creator Tokens und das ökonomische Token-Modell erfahren möchtest, ',
+        descExtraLink: 'lies das White Paper',
+        descExtra2: '.',
       },
       card3: {
         tag: 'KI-EINKOMMEN',

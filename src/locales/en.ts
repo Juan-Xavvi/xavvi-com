@@ -16,6 +16,7 @@ export default {
     xavviAds: 'Xavvi Ads',
     company: 'Company',
     about: 'About',
+    whitePaper: 'White Paper',
     brandLab: 'Brand Lab',
     forBusiness: 'For Business',
     resources: 'Resources',
@@ -52,6 +53,9 @@ export default {
         tag: 'CRYPTO',
         title: 'Join the Digital Asset Class',
         desc: "Say hello to the new digital economy, you've just become a player! Congratulations! When you join Xavvi, we issue your own personal token, instantly making you a member of the digital asset class. Brands must acquire your token to access your traffic and launch ad campaigns. Your fans get rewarded with your token for supporting you through their behaviour and their purchases. Xavvi is a win-win for all.",
+        descExtra1: 'If you want to learn more about the Creator Tokens and the token economic model, ',
+        descExtraLink: 'read the White Paper',
+        descExtra2: '.',
       },
       card3: {
         tag: 'AI INCOME',

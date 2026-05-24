@@ -238,6 +238,12 @@ const offices = computed(() => [
 						<p class="text-[15px] leading-[1.7] text-text-2">
 							{{ eco.desc }}
 						</p>
+						<p v-if="i === 1" class="text-[15px] leading-[1.7] text-text-2 mt-3">
+							{{ t('home.eco.card2.descExtra1') }}
+							<a href="https://whitepaper.xavvi.com" target="_blank" rel="noopener" class="text-[#AE2049] underline hover:opacity-80">
+								{{ t('home.eco.card2.descExtraLink') }}
+							</a>{{ t('home.eco.card2.descExtra2') }}
+						</p>
 					</div>
 				</div>
 			</div>
