@@ -1,6 +1,7 @@
 export default {
   nav: {
     home: 'ホーム',
+    connectors: 'コネクター',
     brandLab: 'ブランドラボ',
     business: 'ビジネス',
     about: '会社概要',
@@ -107,7 +108,7 @@ export default {
     ctaWebApp: 'ウェブアプリを開く',
     mcnBrands: {
       agencies: {
-        eyebrow: 'エージェンシー/MCN',
+        eyebrow: 'コネクター',
         title: '芸能人やインフルエンサーへの接点をお持ちですか？',
         body: 'Xavvi は従来のソーシャルメディアプラットフォームとは一線を画します。私たちのミッションは、成長を分散化し、プラットフォームの成功を構築に関わる全員と分かち合うことです。クリエイターはどこよりも良い条件を得ます。ユーザーはようやく自分のアテンションに対して報酬を受け取れます。そして今、エージェンシー、MCN、芸能人やインフルエンサーのオンボーディングを支えるすべての人も、エコシステムの成長への参加を歓迎します。',
         cta: '詳しく見る',
@@ -467,7 +468,7 @@ export default {
     categories: {
       creators: 'クリエイター',
       brands: 'ブランドとベンダー',
-      agencies: 'エージェンシー / MCN',
+      agencies: 'コネクター',
       media: 'メディア',
       investors: '投資家',
       general: 'その他',

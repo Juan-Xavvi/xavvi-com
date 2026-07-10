@@ -1,6 +1,7 @@
 export default {
   nav: {
     home: 'Início',
+    connectors: 'Conectores',
     brandLab: 'Brand Lab',
     business: 'Business',
     about: 'Sobre',
@@ -12,7 +13,7 @@ export default {
     product: 'Produtos',
     webApp: 'Web App',
     download: 'Baixar Apps',
-    xavviTokens: 'Xavvi Tokens',
+    xavviTokens: 'Xavvi AI Credits',
     xavviAds: 'Xavvi Ads',
     company: 'Empresa',
     about: 'Sobre',
@@ -100,7 +101,7 @@ export default {
     ctaWebApp: 'Abrir o Web App',
     mcnBrands: {
       agencies: {
-        eyebrow: 'Agências/MCNs',
+        eyebrow: 'Conectores',
         title: 'Você tem acesso a celebridades e influenciadores?',
         body: 'A Xavvi se destaca das redes sociais tradicionais porque a nossa missão é descentralizar o crescimento e compartilhar o sucesso da plataforma com todos que ajudam a construí-la. Os criadores recebem um trato melhor do que em qualquer outro lugar. Os usuários são finalmente recompensados pela sua atenção. E agora, agências, MCNs e qualquer pessoa que ajude a integrar celebridades e influenciadores também são convidadas a participar do crescimento do ecossistema.',
         cta: 'SAIBA MAIS',
@@ -423,7 +424,7 @@ export default {
     categories: {
       creators: 'Criadores',
       brands: 'Marcas e fornecedores',
-      agencies: 'Agências / MCNs',
+      agencies: 'Conectores',
       media: 'Imprensa',
       investors: 'Investidores',
       general: 'Geral',

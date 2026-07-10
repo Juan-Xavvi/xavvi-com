@@ -11,6 +11,7 @@
 export default {
   nav: {
     home: 'الرئيسية',
+    connectors: 'الموصِّلون',
     brandLab: 'Brand Lab',
     business: 'Business',
     about: 'من نحن',
@@ -22,7 +23,7 @@ export default {
     product: 'المنتجات',
     webApp: 'تطبيق الويب',
     download: 'تنزيل التطبيقات',
-    xavviTokens: 'Xavvi Tokens',
+    xavviTokens: 'Xavvi AI Credits',
     xavviAds: 'Xavvi Ads',
     company: 'الشركة',
     about: 'من نحن',
@@ -110,7 +111,7 @@ export default {
     ctaWebApp: 'افتح تطبيق الويب',
     mcnBrands: {
       agencies: {
-        eyebrow: 'الوكالات/MCNs',
+        eyebrow: 'الموصِّلون',
         title: 'هل لديك وصول إلى المشاهير والمؤثرين؟',
         body: 'تتميّز Xavvi عن منصات التواصل التقليدية لأن مهمّتنا هي توزيع النمو ومشاركة نجاح المنصة مع كل من يساهم في بنائها. يحصل المبدعون على شروط أفضل من أي مكان آخر. ويُكافأ المستخدمون أخيرًا على اهتمامهم. والآن مدعوّة الوكالات و MCNs، وكل من يساعد في انضمام المشاهير والمؤثرين، للمشاركة في نمو المنظومة.',
         cta: 'اعرف المزيد',
@@ -433,7 +434,7 @@ export default {
     categories: {
       creators: 'المبدعون',
       brands: 'العلامات والمورّدون',
-      agencies: 'الوكالات / MCNs',
+      agencies: 'الموصِّلون',
       media: 'الإعلام',
       investors: 'المستثمرون',
       general: 'عام',

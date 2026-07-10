@@ -38,8 +38,7 @@ const { t } = useI18n();
         <div>
           <h4 class="text-[12px] font-semibold text-[#212226] tracking-[0.12em] uppercase mb-5">{{ t('footer.product') }}</h4>
           <ul class="space-y-3">
-            <li><RouterLink to="/download" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.download') }}</RouterLink></li>
-            <li><a href="https://app.xavvi.com" target="_blank" rel="noopener" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.webApp') }}</a></li>
+            <li><a href="https://social.xavvi.com/" target="_blank" rel="noopener" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.webApp') }}</a></li>
             <li><RouterLink to="/brand-lab" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.brandLab') }}</RouterLink></li>
             <li><a href="https://tokens.xavvi.com" target="_blank" rel="noopener" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.xavviTokens') }}</a></li>
           </ul>
@@ -49,7 +48,6 @@ const { t } = useI18n();
           <h4 class="text-[12px] font-semibold text-[#212226] tracking-[0.12em] uppercase mb-5">Brands &amp; Vendors</h4>
           <ul class="space-y-3">
             <li><RouterLink to="/brands" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">Brands &amp; Vendors</RouterLink></li>
-            <li><a href="https://ad.xavvi.com" target="_blank" rel="noopener" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">Ad Centre</a></li>
           </ul>
         </div>
 
@@ -57,7 +55,6 @@ const { t } = useI18n();
           <h4 class="text-[12px] font-semibold text-[#212226] tracking-[0.12em] uppercase mb-5">{{ t('footer.company') }}</h4>
           <ul class="space-y-3">
             <li><RouterLink to="/about" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.about') }}</RouterLink></li>
-            <li><a href="https://whitepaper.xavvi.com" target="_blank" rel="noopener" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.whitePaper') }}</a></li>
             <li><RouterLink to="/contact" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">Contact</RouterLink></li>
           </ul>
         </div>

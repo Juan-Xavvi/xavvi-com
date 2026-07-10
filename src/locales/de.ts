@@ -1,6 +1,7 @@
 export default {
   nav: {
     home: 'Start',
+    connectors: 'Konnektoren',
     brandLab: 'Brand Lab',
     business: 'Business',
     about: 'Über uns',
@@ -99,7 +100,7 @@ export default {
     ctaWebApp: 'Web-App öffnen',
     mcnBrands: {
       agencies: {
-        eyebrow: 'Agenturen/MCNs',
+        eyebrow: 'Konnektoren',
         title: 'Hast du Zugang zu Prominenten und Influencern?',
         body: 'Xavvi unterscheidet sich von klassischen Social-Media-Plattformen, weil unsere Mission ist, Wachstum zu dezentralisieren und den Erfolg der Plattform mit allen zu teilen, die beim Aufbau helfen. Creators erhalten einen besseren Deal als irgendwo sonst. Nutzer werden endlich für ihre Aufmerksamkeit belohnt. Und jetzt sind auch Agenturen, MCNs und alle, die beim Onboarding von Prominenten und Influencern helfen, eingeladen, am Wachstum des Ökosystems teilzuhaben.',
         cta: 'MEHR ERFAHREN',
@@ -426,7 +427,7 @@ export default {
     categories: {
       creators: 'Creators',
       brands: 'Marken & Anbieter',
-      agencies: 'Agenturen / MCNs',
+      agencies: 'Konnektoren',
       media: 'Presse',
       investors: 'Investoren',
       general: 'Allgemein',

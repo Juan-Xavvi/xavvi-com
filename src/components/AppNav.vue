@@ -12,7 +12,7 @@ const mobileOpen = ref(false);
 const links = [
 	{ to: '/', label: 'Home' },
 	{ to: '/creators', label: 'Creators' },
-	{ to: '/agencies', label: 'Agencies/MCNs' },
+	{ to: '/agencies', label: t('nav.connectors') },
 	{ to: '/brand-lab', label: 'Brand Lab' },
 	{ to: '/news', label: 'News' },
 	{ to: '/about', label: t('nav.about') },

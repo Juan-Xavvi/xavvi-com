@@ -1,6 +1,7 @@
 export default {
   nav: {
     home: 'Главная',
+    connectors: 'Коннекторы',
     brandLab: 'Brand Lab',
     business: 'Business',
     about: 'О нас',
@@ -12,7 +13,7 @@ export default {
     product: 'Продукты',
     webApp: 'Веб-приложение',
     download: 'Скачать приложения',
-    xavviTokens: 'Xavvi Tokens',
+    xavviTokens: 'Xavvi AI Credits',
     xavviAds: 'Xavvi Ads',
     company: 'Компания',
     about: 'О нас',
@@ -100,7 +101,7 @@ export default {
     ctaWebApp: 'Открыть веб-приложение',
     mcnBrands: {
       agencies: {
-        eyebrow: 'Агентства/MCN',
+        eyebrow: 'Коннекторы',
         title: 'У вас есть доступ к знаменитостям и инфлюенсерам?',
         body: 'Xavvi отличается от классических соцсетей, потому что наша миссия — децентрализовать рост и делиться успехом платформы со всеми, кто помогает её строить. Авторы получают условия лучше, чем где-либо. Пользователи наконец вознаграждаются за своё внимание. И теперь агентства, MCN и все, кто помогает выводить знаменитостей и инфлюенсеров, тоже приглашены участвовать в росте экосистемы.',
         cta: 'УЗНАТЬ БОЛЬШЕ',
@@ -423,7 +424,7 @@ export default {
     categories: {
       creators: 'Авторы',
       brands: 'Бренды и поставщики',
-      agencies: 'Агентства / MCN',
+      agencies: 'Коннекторы',
       media: 'Пресса',
       investors: 'Инвесторы',
       general: 'Общее',

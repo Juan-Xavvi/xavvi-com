@@ -1,6 +1,7 @@
 export default {
   nav: {
     home: '홈',
+    connectors: '커넥터',
     brandLab: '브랜드 랩',
     business: '비즈니스',
     about: '소개',
@@ -107,7 +108,7 @@ export default {
     ctaWebApp: '웹 앱 열기',
     mcnBrands: {
       agencies: {
-        eyebrow: '에이전시/MCN',
+        eyebrow: '커넥터',
         title: '셀러브리티와 인플루언서에 접근할 수 있는 분이신가요?',
         body: 'Xavvi는 기존 소셜 미디어 플랫폼과 다릅니다. 우리의 미션은 성장을 분산화하고, 플랫폼의 성공을 그 구축에 함께한 모든 사람과 공유하는 것이기 때문입니다. 크리에이터는 어디에서보다 더 나은 조건을 받습니다. 사용자는 마침내 자신의 관심에 대해 보상을 받습니다. 이제는 에이전시, MCN, 그리고 셀러브리티와 인플루언서를 온보딩하는 데 도움을 주는 모든 분들도 생태계 성장에 함께할 수 있도록 초대합니다.',
         cta: '자세히 보기',
@@ -467,7 +468,7 @@ export default {
     categories: {
       creators: '크리에이터',
       brands: '브랜드와 벤더',
-      agencies: '에이전시 / MCN',
+      agencies: '커넥터',
       media: '미디어',
       investors: '투자자',
       general: '기타',

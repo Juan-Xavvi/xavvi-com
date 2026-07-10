@@ -1,6 +1,7 @@
 export default {
   nav: {
     home: 'Home',
+    connectors: 'Connectors',
     brandLab: 'Brand Lab',
     business: 'Business',
     about: 'About',
@@ -12,7 +13,7 @@ export default {
     product: 'Products',
     webApp: 'Web App',
     download: 'Download Apps',
-    xavviTokens: 'Xavvi Tokens',
+    xavviTokens: 'Xavvi AI Credits',
     xavviAds: 'Xavvi Ads',
     company: 'Company',
     about: 'About',
@@ -100,7 +101,7 @@ export default {
     ctaWebApp: 'Open Web App',
     mcnBrands: {
       agencies: {
-        eyebrow: 'Agencies/MCNs',
+        eyebrow: 'Connectors',
         title: 'Do you have access to celebrities and influencers?',
         body: "Xavvi stands apart from traditional social media platforms because our mission is to decentralise growth and share the platform's success with everyone who helps build it. Creators receive a better deal than anywhere else. Users are finally rewarded for their attention. And now, agencies, MCNs, and anyone helping onboard celebrities and influencers are also invited to participate in the ecosystem's growth.",
         cta: 'LEARN MORE',
@@ -423,7 +424,7 @@ export default {
     categories: {
       creators: 'Creators',
       brands: 'Brands & Vendors',
-      agencies: 'Agencies / MCNs',
+      agencies: 'Connectors',
       media: 'Media',
       investors: 'Investors',
       general: 'General',

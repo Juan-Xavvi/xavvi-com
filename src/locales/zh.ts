@@ -1,6 +1,7 @@
 export default {
   nav: {
     home: '首页',
+    connectors: '连接者',
     brandLab: 'Brand Lab',
     business: '商业',
     about: '关于我们',
@@ -99,7 +100,7 @@ export default {
     ctaWebApp: '打开网页版',
     mcnBrands: {
       agencies: {
-        eyebrow: '机构/MCN',
+        eyebrow: '连接者',
         title: '你能接触到名人和网红吗？',
         body: 'Xavvi 与传统社交媒体平台不同，因为我们的使命是去中心化增长，并将平台的成功分享给所有帮助构建它的人。创作者获得的回报比任何地方都更好。用户终于因其关注而获得回报。而现在，机构、MCN 以及帮助引入名人和网红的所有伙伴，也被邀请共享生态的成长。',
         cta: '了解更多',
@@ -426,7 +427,7 @@ export default {
     categories: {
       creators: '创作者',
       brands: '品牌与供应商',
-      agencies: '机构 / MCN',
+      agencies: '连接者',
       media: '媒体',
       investors: '投资者',
       general: '其他',

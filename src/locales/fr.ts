@@ -1,6 +1,7 @@
 export default {
   nav: {
     home: 'Accueil',
+    connectors: 'Connecteurs',
     brandLab: 'Brand Lab',
     business: 'Entreprises',
     about: 'À propos',
@@ -107,7 +108,7 @@ export default {
     ctaWebApp: 'Ouvrir l’application web',
     mcnBrands: {
       agencies: {
-        eyebrow: 'Agences/MCNs',
+        eyebrow: 'Connecteurs',
         title: 'Avez-vous accès à des célébrités et à des influenceurs ?',
         body: "Xavvi se distingue des plateformes sociales traditionnelles car notre mission est de décentraliser la croissance et de partager le succès de la plateforme avec celles et ceux qui contribuent à la construire. Les créateurs reçoivent un meilleur deal que partout ailleurs. Les utilisateurs sont enfin récompensés pour leur attention. Et désormais, les agences, MCNs et toutes les personnes qui aident à recruter des célébrités et des influenceurs sont également invitées à participer à la croissance de l'écosystème.",
         cta: 'EN SAVOIR PLUS',
@@ -467,7 +468,7 @@ export default {
     categories: {
       creators: 'Créateurs',
       brands: 'Marques et vendeurs',
-      agencies: 'Agences / MCNs',
+      agencies: 'Connecteurs',
       media: 'Presse',
       investors: 'Investisseurs',
       general: 'Général',
