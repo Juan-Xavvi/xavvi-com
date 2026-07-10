@@ -38,9 +38,9 @@ const { t } = useI18n();
         <div>
           <h4 class="text-[12px] font-semibold text-[#212226] tracking-[0.12em] uppercase mb-5">{{ t('footer.product') }}</h4>
           <ul class="space-y-3">
-            <li><a href="/download" target="_blank" rel="noopener" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.download') }}</a></li>
+            <li><RouterLink to="/download" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.download') }}</RouterLink></li>
             <li><a href="https://app.xavvi.com" target="_blank" rel="noopener" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.webApp') }}</a></li>
-            <li><a href="/brand-lab" target="_blank" rel="noopener" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.brandLab') }}</a></li>
+            <li><RouterLink to="/brand-lab" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.brandLab') }}</RouterLink></li>
             <li><a href="https://tokens.xavvi.com" target="_blank" rel="noopener" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.xavviTokens') }}</a></li>
           </ul>
         </div>
