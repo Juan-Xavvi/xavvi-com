@@ -7,11 +7,11 @@ const router = createRouter({
     return savedPosition || { top: 0 };
   },
   routes: [
-    { path: '/', name: 'home', component: () => import('@/pages/HomePage.vue'), meta: { titleKey: 'meta.home', description: 'Xavvi is the AI social commerce platform creating a tokenized ecosystem for creators, fans, and advertisers. Enter the Web4 era.' } },
+    { path: '/', name: 'home', component: () => import('@/pages/HomePage.vue'), meta: { titleKey: 'meta.home', description: 'Xavvi is the AI social commerce platform creating an AI Credits ecosystem for creators, fans, and advertisers. Enter the Web4 era.' } },
     { path: '/about', name: 'about', component: () => import('@/pages/AboutPage.vue'), meta: { titleKey: 'meta.about', description: "Learn about Xavvi's mission to power the creator economy through AI, social commerce, and digital assets." } },
     { path: '/brands', name: 'brands', component: () => import('@/pages/BrandsPage.vue'), meta: { titleKey: 'meta.brands', description: 'Brands and vendors: collaborate with hundreds of creators, launch AI-powered campaigns, and achieve better ROI with Xavvi.' } },
     { path: '/business', name: 'business', component: () => import('@/pages/BusinessPage.vue'), meta: { titleKey: 'meta.business' } },
-    { path: '/creators', name: 'creators', component: () => import('@/pages/CreatorsPage.vue'), meta: { title: 'Creators – Xavvi', description: 'Celebrities and influencers: own your data, launch your brand, monetize your audience with AI and Creator Tokens on Xavvi.' } },
+    { path: '/creators', name: 'creators', component: () => import('@/pages/CreatorsPage.vue'), meta: { title: 'Creators – Xavvi', description: 'Celebrities and influencers: own your data, launch your brand, monetize your audience with AI and AI Credits on Xavvi.' } },
     { path: '/brand-lab', name: 'brand-lab', component: () => import('@/pages/BrandLabPage.vue'), meta: { title: 'Brand Lab – Xavvi', description: 'Launch your own brand and store on Brand Lab. Xavvi connects you to suppliers, operates your store, and handles logistics — all for free.' } },
     { path: '/agencies', name: 'agencies', component: () => import('@/pages/AgenciesPage.vue'), meta: { title: 'Connectors – Xavvi', description: 'Connectors: help your network unlock new revenue streams powered by AI, social commerce, and blockchain technology.' } },
     { path: '/news', name: 'news', component: () => import('@/pages/NewsPage.vue'), meta: { title: 'News – Xavvi', description: 'Latest news and updates from the Xavvi ecosystem.' } },

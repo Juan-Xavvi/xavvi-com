@@ -32,8 +32,8 @@ export default {
     status: 'Todos os sistemas operando',
   },
   home: {
-    heroTitle: 'Entrando na era da Web4: a maioridade dos criadores',
-    heroSub: 'Uma mudança de paradigma na geração de riqueza ganha-ganha para criadores, seus fãs e anunciantes na era da IA, do social commerce e dos ativos digitais.',
+    heroTitle: 'Construindo um ecossistema de marcas de criadores, marcas em expansão global e fãs que finalmente são recompensados pela sua lealdade.',
+    heroSub: 'Uma mudança de paradigma na geração de riqueza ganha-ganha para criadores, seus parceiros e fornecedores. Usamos a IA para reduzir custos e acelerar o crescimento, a web3 para garantir transparência, e o nosso modelo de negócio foi desenhado para recompensar generosamente a força vital de qualquer plataforma: os usuários.',
     learnMore: 'Saiba mais',
     getTheApp: 'Baixe o app',
     stats: {
@@ -42,8 +42,8 @@ export default {
       monthlyViews: 'Visualizações mensais',
       lowerMarketingCost: 'Custo de marketing menor',
     },
-    pillarsTitle: 'O social commerce encontra a nova classe de ativos digitais',
-    pillarsSub: 'Celebridades e influenciadores, sejam bem-vindos à Xavvi: a única plataforma de social commerce com IA que cria um ecossistema tokenizado para criadores, fãs e anunciantes. Ajudamos criadores a monetizar sua influência. Na nossa plataforma Brand Lab, lançamos a sua marca e operamos a loja por você. No app social Xavvi, você é dono dos seus dados e gera renda com campanhas publicitárias.',
+    pillarsTitle: 'Social commerce movido por IA, guiado por criadores',
+    pillarsSub: 'Celebridades e influenciadores, sejam bem-vindos à Xavvi: a única plataforma de social commerce com IA onde você é dono dos seus dados e recebe os seus próprios AI Credits, que as marcas compram para lançar campanhas publicitárias com o seu AI Avatar. Ajudamos criadores a monetizar sua influência. Na nossa plataforma Brand Lab, lançamos a sua marca e operamos a loja por você. No app social Xavvi, você é dono dos seus dados e gera renda com micro dramas e campanhas publicitárias.',
     eco: {
       card1: {
         tag: 'PROPRIEDADE',
@@ -51,10 +51,10 @@ export default {
         desc: 'Reconhecemos que é você que atrai o público e gera o tráfego que as marcas buscam. Por isso, na Xavvi, você é dono dos seus dados e os monetiza. Você define a sua tarifa de acesso ao tráfego, o preço dos vídeos com clone de IA e o custo por clique. Receba 70% do investimento em anúncios.',
       },
       card2: {
-        tag: 'CRYPTO',
-        title: 'Junte-se à classe de ativos digitais',
-        desc: 'Diga olá à nova economia digital — você acaba de virar um jogador! Parabéns! Quando você entra na Xavvi, emitimos o seu próprio token pessoal, tornando-o instantaneamente parte da classe de ativos digitais. As marcas precisam adquirir o seu token para acessar o seu tráfego e lançar campanhas. Os seus fãs são recompensados com o seu token por apoiarem você através do comportamento e das compras. Xavvi é ganha-ganha para todos.',
-        descExtra1: 'Se você quiser saber mais sobre os Creator Tokens e o modelo econômico do token, ',
+        tag: 'AI CREDITS',
+        title: 'AI Credits',
+        desc: 'Diga olá à nova economia digital — você acaba de virar um jogador! Quando você entra na Xavvi, emitimos os seus próprios AI Credits pessoais, tornando-o instantaneamente parte da classe de ativos digitais. As marcas precisam adquirir os seus AI Credits para acessar o seu tráfego e lançar campanhas. Os seus fãs são recompensados com os seus AI Credits por apoiarem você através do engajamento e das compras. Xavvi é ganha-ganha para todos.',
+        descExtra1: 'Se você quiser saber mais sobre os AI Credits e o modelo econômico por trás deles, ',
         descExtraLink: 'leia o White Paper',
         descExtra2: '.',
       },
@@ -66,7 +66,7 @@ export default {
       card4: {
         tag: 'COMPARTILHAR É CUIDAR',
         title: 'Um obrigado aos seus fãs',
-        desc: 'Compartilhe seus tokens e seu sucesso com seus fãs. Quando você entra na Xavvi, parte dos seus tokens é automaticamente alocada para os seus seguidores. Com os tokens, eles podem comprar produtos, acessar eventos, receber recompensas e sentir que estão recebendo algo em troca por apoiarem você. Afinal, onde você estaria sem eles?',
+        desc: 'Compartilhe seus AI Credits e seu sucesso com seus fãs. Quando você entra na Xavvi, parte dos seus AI Credits é automaticamente alocada para os seus seguidores. Com os AI Credits, eles podem comprar produtos, acessar eventos, receber recompensas e sentir que estão recebendo algo em troca por apoiarem você. Afinal, onde você estaria sem eles?',
       },
     },
     globalTitle: 'Mais de 200 mercados. Uma plataforma.',
@@ -87,11 +87,9 @@ export default {
       latam: 'LATAM',
       europe: 'Europa',
     },
-    missCrypto: {
-      title: 'Miss Crypto 2026',
-      p1: 'Miss Crypto Creator Queen não é um concurso de beleza, é uma competição de criadores de nova geração com IA × Web3, criada para ajudar influenciadoras a transformar a sua influência em um negócio de longo prazo. As participantes lançam o seu próprio Creator Token, a sua marca e a sua loja. Todos os anúncios são gerados por IA para economizar o seu tempo, enquanto a Xavvi cuida das operações, da logística e leva marcas até a sua conta.',
-      p2: 'A competição acontece em quatro rodadas focadas em crescimento do criador, criação de conteúdo, engajamento dos fãs e desenvolvimento de negócios. As participantes disputam prêmios exclusivos como recompensas em dinheiro, parcerias com marcas, suporte de negócios com IA, exposição global, benefícios de creator tokens e oportunidades de colaboração de longo prazo dentro do ecossistema Xavvi. Seja em moda, beleza, fitness, viagem, IA ou lifestyle, Miss Crypto é a sua oportunidade de se tornar uma verdadeira AI + Crypto Creator Queen.',
-      p3: 'Inscreva-se agora e comece a construir o seu império de criadora hoje.',
+    marketingCampaign: {
+      title: 'Xavvi Empire: Viagem à China',
+      body: 'Em parceria com a Phoenix New Media Limited e a vasta rede de fornecedores da Xavvi, estamos lançando um programa acelerado para ajudar criadores norte-americanos a lançar as suas marcas. Apertem os cintos — vamos levar você em uma viagem de 10 dias com tudo incluído à China, onde você conhecerá as principais marcas e fabricantes da categoria de beleza. Veja em primeira mão as capacidades dessas empresas, negocie descontos especiais para os seus fãs e defina as condições para lançar as suas próprias linhas de produtos. E, se isso não bastasse, você receberá um bônus de US$ 10.000 antes de embarcar para poder fazer compras à vontade na China!',
       cta: 'INSCREVA-SE',
     },
     ctaHeading: 'Faça parceria com a Xavvi',
@@ -99,11 +97,12 @@ export default {
     ctaSub: 'Quer você crie, assista ou cresça um negócio — aqui tem um lugar para você.',
     ctaDownload: 'Baixar o app',
     ctaWebApp: 'Abrir o Web App',
+    ctaJoinNow: 'Participar',
     mcnBrands: {
       agencies: {
         eyebrow: 'Conectores',
         title: 'Você tem acesso a celebridades e influenciadores?',
-        body: 'A Xavvi se destaca das redes sociais tradicionais porque a nossa missão é descentralizar o crescimento e compartilhar o sucesso da plataforma com todos que ajudam a construí-la. Os criadores recebem um trato melhor do que em qualquer outro lugar. Os usuários são finalmente recompensados pela sua atenção. E agora, agências, MCNs e qualquer pessoa que ajude a integrar celebridades e influenciadores também são convidadas a participar do crescimento do ecossistema.',
+        body: 'A Xavvi se destaca das redes sociais tradicionais porque a nossa missão é descentralizar o crescimento e compartilhar o sucesso da plataforma com todos que ajudam a construí-la. Os criadores recebem um trato melhor do que em qualquer outro lugar. Os usuários são finalmente recompensados pela sua atenção. E agora, agências, Conectores e qualquer pessoa que ajude a integrar celebridades e influenciadores também são convidadas a participar do crescimento do ecossistema.',
         cta: 'SAIBA MAIS',
       },
       brands: {
@@ -119,11 +118,11 @@ export default {
   },
   about: {
     heroTitle: 'Pioneirismo em modelos de negócio Web4 onde todo o ecossistema ganha',
-    heroSub: 'Nossa missão é criar um ecossistema de social commerce no qual todos os usuários são recompensados pelas suas contribuições e crescem junto com a plataforma. Celebridades, influenciadores, MCNs, marcas, fornecedores, fabricantes, empresas de logística, parceiros, investidores e a equipe Xavvi: estamos todos no mesmo time. Comprometemo-nos a implementar modelos de negócio descentralizados para entrarmos numa era de mentalidade ganha-ganha, deixando para trás a cultura do "vencedor leva tudo" que hoje nos divide. Temos sede nos EUA, mas o nosso DNA é internacional e o nosso olhar é global.',
+    heroSub: 'Nossa missão é criar um ecossistema de social commerce no qual todos os usuários são recompensados pelas suas contribuições e crescem junto com a plataforma. Celebridades, influenciadores, Conectores, marcas, fornecedores, fabricantes, empresas de logística, parceiros, investidores e a equipe Xavvi: estamos todos no mesmo time. Comprometemo-nos a implementar modelos de negócio descentralizados para entrarmos numa era de mentalidade ganha-ganha, deixando para trás a cultura do "vencedor leva tudo" que hoje nos divide. Temos sede nos EUA, mas o nosso DNA é internacional e o nosso olhar é global.',
     statsTitle: 'Meta do ecossistema para 2026',
     stats: {
       creators: { value: '10.000', label: 'Criadores' },
-      mcns: { value: '500', label: 'MCNs' },
+      mcns: { value: '500', label: 'Conectores' },
       vendors: { value: '2.000', label: 'Fornecedores' },
       users: { value: '10.000.000', label: 'Usuários' },
     },
@@ -176,7 +175,7 @@ export default {
       title: 'Faça parceria com criadores',
       p1: 'O Brand Lab é a plataforma de lançamento para marcas e lojas online lideradas por criadores. Fazer parceria com celebridades e influenciadores não só aumenta as vendas como também fortalece o reconhecimento de marca e cria mais confiança nos seus produtos.',
       p2: 'O Brand Lab integra-se aos principais sistemas ERP, tornando a integração e as operações fáceis para fabricantes, fornecedores e vendedores. Ofereça produtos de alta qualidade a preços competitivos e cresça lado a lado com os criadores que os promovem.',
-      p3: 'Além disso, o Brand Lab incentiva os consumidores por meio de tokens de marca e sistemas de recompensas, ajudando criadores e fornecedores a construir comunidades mais fortes e uma base de clientes leal de longo prazo.',
+      p3: 'Além disso, o Brand Lab incentiva os consumidores por meio de AI Credits e sistemas de recompensas, ajudando criadores e fornecedores a construir comunidades mais fortes e uma base de clientes leal de longo prazo.',
     },
     ai: {
       eyebrow: 'Xavvi App',
@@ -187,15 +186,15 @@ export default {
     },
     tokenization: {
       eyebrow: 'Xavvi App & Brand Lab',
-      title: 'Por que tokenização é o caminho?',
+      title: 'Por que os AI Credits são o caminho?',
       p1: 'Marcas que operam globalmente — ou que querem se expandir internacionalmente — costumam enfrentar grandes desafios com pagamentos transfronteiriços. Transferências tradicionais podem ser lentas, caras e complicadas. A Xavvi resolve isso com o sistema BFC Ad Credits, permitindo que marcas trabalhem sem fricção com criadores no mundo todo, sem se preocuparem com moedas locais.',
       p2: 'As transferências levam segundos e podem ser processadas a um custo mínimo, tornando tanto o investimento em anúncios quanto os pagamentos a criadores mais rápidos, convenientes e eficientes para todos os envolvidos.',
-      p3: 'O app Xavvi também usa Creator Tokens para conceder às marcas acesso ao público dos criadores de forma transparente e escalável. Esse modelo dá aos criadores a posse sobre o seu tráfego e dados de audiência, ao mesmo tempo que ajuda marcas e fornecedores a alcançar comunidades altamente segmentadas de forma mais eficiente e econômica.',
+      p3: 'O app Xavvi também usa AI Credits para conceder às marcas acesso ao público dos criadores de forma transparente e escalável. Esse modelo dá aos criadores a posse sobre o seu tráfego e dados de audiência, ao mesmo tempo que ajuda marcas e fornecedores a alcançar comunidades altamente segmentadas de forma mais eficiente e econômica.',
     },
     cta: {
       title: 'Faça parceria com a Xavvi',
       body: 'Entre na nova era Web4 com estilo. Entre em contato e vamos conversar sobre como podemos crescer juntos.',
-      button: 'FALE CONOSCO',
+      button: 'PARTICIPE AGORA',
     },
   },
   business: {
@@ -258,7 +257,7 @@ export default {
     hero: {
       title: 'Os criadores Xavvi estão no centro',
       intro: 'Na Xavvi, celebridades e influenciadores (criadores) são donos dos próprios dados e monetizam o próprio tráfego. Ajudamos você a monetizar a sua influência por meio de:',
-      b1: 'Lançamento de um Creator Token que representa o seu potencial de tráfego',
+      b1: 'Lançamento dos seus próprios AI Credits que representam o seu potencial de tráfego',
       b2: 'Repasse de 70% do investimento em anúncios para você',
       b3: 'Lançamento da sua própria marca',
       b4: 'Abertura e operação da sua própria loja de marca',
@@ -288,20 +287,20 @@ export default {
     },
     support: {
       title: 'A tecnologia e o suporte para fazer a sua influência durar',
-      body: 'Tudo é cuidado dentro do ecossistema Xavvi. Marcas, anunciantes, jurídico, tecnologia de IA e até consultoria financeira sobre a gestão do seu token. Tudo de graça.',
+      body: 'Tudo é cuidado dentro do ecossistema Xavvi. Marcas, anunciantes, jurídico, tecnologia de IA e até consultoria financeira sobre a gestão dos seus AI Credits. Tudo de graça.',
     },
     monetize: {
       title: 'Como você monetiza',
       daily: { label: 'Renda diária de anúncios', desc: 'Tarifas de vídeo e custo por clique: receba renda diariamente, com recarga em cartão de crédito' },
       store: { label: 'Vendas mensais da loja', desc: 'Vendas da loja de marca: liquidação mensal' },
-      token: { label: 'Cashout do Creator Token', desc: '30M de Creator Tokens próprios: fale com o seu Token Manager pessoal sempre que quiser sacar' },
+      token: { label: 'Cashout de AI Credits', desc: '30M de AI Credits próprios: fale com o seu AI Credits Manager pessoal sempre que quiser sacar' },
     },
     benefits: {
       title: 'Principais benefícios',
       b1: 'Os AI Avatars vendem por você, sob a sua direção',
       b2: 'Você mantém o controle de tudo',
       b3: 'É dono dos próprios dados e da sua IP',
-      b4: 'Lance o seu próprio token digital',
+      b4: 'Lance os seus próprios AI Credits',
       b5: 'Compartilhe o seu sucesso com seus seguidores e fãs',
       b6: 'Lance a sua própria marca',
       b7: 'Operamos a sua loja por você',
@@ -355,7 +354,7 @@ export default {
   agencies: {
     hero: {
       title: 'Ajude a sua rede a destravar a próxima revolução de receita',
-      body: 'A Xavvi dá a agências, managers, MCNs e talent connectors a oportunidade de ajudar celebridades e influenciadores a destravar fontes de receita totalmente novas, impulsionadas por IA, social commerce e tecnologia blockchain. Cuidamos da tecnologia, da infraestrutura, do e-commerce, dos sistemas de IA e da complexidade operacional — permitindo que os criadores gerem nova renda com pouco esforço, sem investimento adiantado e com alto potencial de longo prazo. Para agências e MCNs, isso significa ampliar o valor que vocês trazem à sua rede enquanto participam diretamente do crescimento do ecossistema que ajudam a construir.',
+      body: 'A Xavvi dá a agências, managers e Conectores a oportunidade de ajudar celebridades e influenciadores a destravar fontes de receita totalmente novas, impulsionadas por IA, social commerce e tecnologia blockchain. Cuidamos da tecnologia, da infraestrutura, do e-commerce, dos sistemas de IA e da complexidade operacional — permitindo que os criadores gerem nova renda com pouco esforço, sem investimento adiantado e com alto potencial de longo prazo. Para os Conectores, isso significa ampliar o valor que vocês trazem à sua rede enquanto participam diretamente do crescimento do ecossistema que ajudam a construir.',
     },
     whyCreators: {
       title: 'Por que os criadores vão amar a Xavvi',
@@ -367,20 +366,20 @@ export default {
       b3: 'Escalar o engajamento sem sacrificar tempo pessoal',
       b4: 'Recompensar seguidores pelo engajamento e pelas compras',
       b5: 'Construir mais lealdade de fãs e participação da comunidade',
-      b6: 'Desenvolver valor de longo prazo via Creator Tokens e social commerce',
+      b6: 'Desenvolver valor de longo prazo via AI Credits e social commerce',
       b7: 'Expandir-se globalmente com conteúdo e campanhas multilíngues impulsionados por IA',
-      closing: 'Combinando IA, e-commerce e ecossistemas de audiência tokenizados, os criadores podem se concentrar mais na criatividade e menos na pressão operacional.',
+      closing: 'Combinando IA, e-commerce e ecossistemas de audiência potencializados por AI Credits, os criadores podem se concentrar mais na criatividade e menos na pressão operacional.',
     },
     industry: {
       title: 'A indústria está mudando. E os riscos também.',
       p1: 'O modelo tradicional de agências e management enfrenta uma grande disrupção. Muitas agências investem anos ajudando criadores a crescer, só para perdê-los depois para outros managers, agências ou relações diretas com marcas. Em outros casos, criadores se tornam menos ativos com o tempo, reduzindo o valor de longo prazo para quem ajudou a construir suas carreiras.',
-      p2: 'Ao mesmo tempo, ferramentas de IA estão começando a automatizar partes da produção de conteúdo, do marketing e da gestão de audiência — tornando os criadores cada vez mais independentes. Isso cria uma pergunta crítica para agências e MCNs: como continuar criando valor de longo prazo na era da IA? A Xavvi foi desenhada para ajudar a responder essa pergunta.',
+      p2: 'Ao mesmo tempo, ferramentas de IA estão começando a automatizar partes da produção de conteúdo, do marketing e da gestão de audiência — tornando os criadores cada vez mais independentes. Isso cria uma pergunta crítica para os Conectores: como continuar criando valor de longo prazo na era da IA? A Xavvi foi desenhada para ajudar a responder essa pergunta.',
     },
     referral: {
       title: 'Um sistema de indicação pensado para gerar valor de longo prazo',
-      intro: 'O ecossistema de indicações da Xavvi é movido pelos Creator Tokens. Quando você integra um criador, recebe uma fatia do ecossistema de tokens dele através da nossa estrutura de indicação. À medida que o criador cresce a sua audiência, engajamento e atividade comercial, a sua participação permanece conectada ao ecossistema que vocês ajudaram a criar.',
+      intro: 'O ecossistema de indicações da Xavvi é movido pelos AI Credits. Quando você integra um criador, recebe uma fatia do ecossistema de AI Credits dele através da nossa estrutura de indicação. À medida que o criador cresce a sua audiência, engajamento e atividade comercial, a sua participação permanece conectada ao ecossistema que vocês ajudaram a criar.',
       inAdditionLabel: 'Além disso:',
-      a1: 'Você também pode integrar outras agências e MCNs',
+      a1: 'Você também pode integrar outros Conectores',
       a2: 'As recompensas de indicação se estendem por toda a rede que você ajuda a construir',
       a3: 'Após a integração, o sistema funciona praticamente sozinho',
       a4: 'Uma única apresentação bem-sucedida pode gerar upside de longo prazo',
@@ -388,12 +387,12 @@ export default {
     },
     ecosystem: {
       title: 'Faça parte do ecossistema',
-      body: 'Quer você gerencie celebridades, represente influenciadores, opere uma MCN ou simplesmente tenha uma rede de contatos forte na indústria, a Xavvi te dá a oportunidade de participar da próxima evolução da monetização de criadores.',
+      body: 'Quer você gerencie celebridades, represente influenciadores, opere como Conector ou simplesmente tenha uma rede de contatos forte na indústria, a Xavvi te dá a oportunidade de participar da próxima evolução da monetização de criadores.',
       cta: 'SAIBA MAIS',
     },
     alsoJoin: {
-      title: 'Criadores também podem entrar como MCNs',
-      body: 'Criadores com redes fortes na indústria também podem participar como MCNs e ajudar a integrar outros criadores ao ecossistema — ampliando tanto a sua influência quanto o seu potencial de ganhos dentro da Xavvi.',
+      title: 'Criadores também podem entrar como Conectores',
+      body: 'Criadores com redes fortes na indústria também podem participar como Conectores e ajudar a integrar outros criadores ao ecossistema — ampliando tanto a sua influência quanto o seu potencial de ganhos dentro da Xavvi.',
     },
   },
   download: {

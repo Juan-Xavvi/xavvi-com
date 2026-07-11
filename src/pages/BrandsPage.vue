@@ -139,10 +139,10 @@ const { t } = useI18n();
 				{{ t('brands.cta.body') }}
 			</p>
 			<div v-reveal="2">
-				<RouterLink to="/contact?from=brands"
+				<a href="https://launchpad.xavvi.com/china-trip" target="_blank" rel="noopener"
 					class="inline-flex items-center justify-center gap-2 h-12 px-8 rounded-lg bg-[#FE2C55] hover:bg-[#EF2950] text-[#FFFDF9] font-semibold text-[15px] tracking-wider transition-colors">
 					{{ t('brands.cta.button') }}
-				</RouterLink>
+				</a>
 			</div>
 		</div>
 	</section>

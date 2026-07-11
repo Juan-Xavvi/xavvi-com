@@ -10,9 +10,9 @@ import { supabase } from '@/lib/supabase';
 
 const { t } = useI18n();
 
-// News teaser slider — alternates between News and Miss Crypto Apply
+// News teaser slider — alternates between News and China Trip Apply
 const newsSlide = ref(0);
-const latestNewsTitle = ref('Xavvi Launches Creator Token Ecosystem');
+const latestNewsTitle = ref('Xavvi Launches AI Credits Ecosystem');
 let newsTimer: number | undefined;
 
 onMounted(async () => {
@@ -39,8 +39,8 @@ onUnmounted(() => {
 	if (newsTimer) window.clearInterval(newsTimer);
 });
 
-function scrollToMissCrypto() {
-	const el = document.getElementById('miss-crypto');
+function scrollToChinaTrip() {
+	const el = document.getElementById('china-trip');
 	if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
@@ -172,9 +172,9 @@ const offices = computed(() => [
 					<span class="text-[#FE2C55] font-extrabold text-[18px] tracking-[0.12em]">APPLY</span>
 					<div class="hidden lg:block w-px self-stretch bg-[#FFFDF9]" aria-hidden="true"></div>
 					<p class="text-[#FFFDF9] text-[15px] lg:text-[17px] leading-snug flex-1 text-center lg:text-left">
-						Applications for Miss Crypto 2026 now open!
+						Xavvi Empire China Trip applications now open!
 					</p>
-					<button type="button" @click="scrollToMissCrypto" aria-label="Jump to Miss Crypto section"
+					<button type="button" @click="scrollToChinaTrip" aria-label="Jump to China Trip section"
 						class="w-10 h-10 rounded-full bg-[#FE2C55] flex items-center justify-center shrink-0 hover:scale-105 transition-transform cursor-pointer">
 						<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFDF9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
 							<path d="M5 12h14M13 5l7 7-7 7" />
@@ -253,27 +253,21 @@ const offices = computed(() => [
 	<!-- ═══════════════════════════════════════
        MISS CRYPTO 2026
        ═══════════════════════════════════════ -->
-	<section id="miss-crypto" class="bg-black py-22">
+	<section id="china-trip" class="bg-black py-22">
 		<div class="max-w-[1200px] mx-auto px-6 lg:px-8">
 			<div class="grid lg:grid-cols-2 gap-10 lg:gap-16 items-stretch">
 				<!-- Text -->
 				<div v-reveal class="flex flex-col justify-center">
 					<h2 class="text-[clamp(2rem,4vw,3.25rem)] font-bold text-[#FFFDF9] leading-tight tracking-tight mb-6">
-						{{ t('home.missCrypto.title') }}
+						{{ t('home.marketingCampaign.title') }}
 					</h2>
-					<p class="text-[15px] lg:text-[16px] leading-[1.75] text-[#FFFDF9] mb-5">
-						{{ t('home.missCrypto.p1') }}
-					</p>
-					<p class="text-[15px] lg:text-[16px] leading-[1.75] text-[#FFFDF9] mb-5">
-						{{ t('home.missCrypto.p2') }}
-					</p>
-					<p class="text-[15px] lg:text-[16px] leading-[1.75] text-[#FFFDF9] font-semibold mb-8">
-						{{ t('home.missCrypto.p3') }}
+					<p class="text-[15px] lg:text-[16px] leading-[1.75] text-[#FFFDF9] mb-8">
+						{{ t('home.marketingCampaign.body') }}
 					</p>
 					<div>
 						<a href="https://misscrypto.xavvi.com" target="_blank" rel="noopener"
 							class="btn-primary h-12! px-8! text-[15px]! tracking-wider">
-							{{ t('home.missCrypto.cta') }}
+							{{ t('home.marketingCampaign.cta') }}
 						</a>
 					</div>
 				</div>
@@ -337,24 +331,6 @@ const offices = computed(() => [
 	</section>
 
 	<!-- ═══════════════════════════════════════
-       DISCLAIMER — Creator Tokens
-       ═══════════════════════════════════════ -->
-	<section class="bg-[#212226] py-10 lg:py-12">
-		<div class="max-w-[800px] mx-auto px-6">
-			<div class="flex flex-col items-center sm:flex-row sm:items-start gap-4 sm:gap-5">
-				<svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="#FE2C55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="shrink-0" aria-hidden="true">
-					<path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" />
-					<line x1="12" y1="9" x2="12" y2="13" />
-					<line x1="12" y1="17" x2="12.01" y2="17" />
-				</svg>
-				<p class="text-[13px] lg:text-[14px] text-[#FFFDF9] leading-[1.7] text-center sm:text-left">
-					{{ t('home.disclaimer.body') }}
-				</p>
-			</div>
-		</div>
-	</section>
-
-	<!-- ═══════════════════════════════════════
        CTA — Gradient background
        ═══════════════════════════════════════ -->
 	<section class="bg-[#f4f5f8] py-28 lg:py-36 relative overflow-hidden">
@@ -366,13 +342,8 @@ const offices = computed(() => [
 				{{ t('home.ctaTitle') }}
 			</p>
 			<div v-reveal="2" class="mt-10 flex flex-wrap justify-center gap-4">
-				<QrPopover>
-					<button class="btn-primary h-12! px-8! text-[16px]! cursor-pointer">
-						{{ t('home.ctaDownload') }}
-					</button>
-				</QrPopover>
-				<a href="https://social.xavvi.com" target="_blank" class="btn-ghost bg-black! text-white! h-12! px-8! text-[16px]!">
-					{{ t('home.ctaWebApp') }}
+				<a href="https://launchpad.xavvi.com/" target="_blank" rel="noopener" class="btn-primary h-12! px-8! text-[16px]!">
+					{{ t('home.ctaJoinNow') }}
 				</a>
 			</div>
 		</div>
