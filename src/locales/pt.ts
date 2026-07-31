@@ -32,8 +32,9 @@ export default {
     status: 'Todos os sistemas operando',
   },
   home: {
-    heroTitle: 'Construindo um ecossistema de marcas de criadores, marcas em expansão global e fãs que finalmente são recompensados pela sua lealdade.',
-    heroSub: 'Uma mudança de paradigma na geração de riqueza ganha-ganha para criadores, seus parceiros e fornecedores. Usamos a IA para reduzir custos e acelerar o crescimento, a web3 para garantir transparência, e o nosso modelo de negócio foi desenhado para recompensar generosamente a força vital de qualquer plataforma: os usuários.',
+    heroTitle: 'Xavvi, We help you grow like crazy!',
+    heroTitleLocal: 'Xavvi, ajudamos você a crescer como um louco!',
+    heroSub: 'Movido por IA e blockchain, o Xavvi é o ecossistema de comércio da próxima geração onde todo mundo ganha. Criadores constroem suas próprias marcas e lojas. Marcas lançam campanhas globais e otimizam o ROI. Fãs são recompensados pela sua lealdade e podem abrir a sua própria Empresa de Uma Pessoa Só.',
     learnMore: 'Saiba mais',
     getTheApp: 'Baixe o app',
     stats: {
@@ -45,6 +46,11 @@ export default {
     pillarsTitle: 'Social commerce movido por IA, guiado por criadores',
     pillarsSub: 'Celebridades e influenciadores, sejam bem-vindos à Xavvi: a única plataforma de social commerce com IA onde você é dono dos seus dados e recebe os seus próprios AI Credits, que as marcas compram para lançar campanhas publicitárias com o seu AI Avatar. Ajudamos criadores a monetizar sua influência. Na nossa plataforma Brand Lab, lançamos a sua marca e operamos a loja por você. No app social Xavvi, você é dono dos seus dados e gera renda com micro dramas e campanhas publicitárias.',
     eco: {
+      card0: {
+        tag: 'NÃO APENAS VENDA, SEJA DONO',
+        title: 'Construa a sua própria marca',
+        desc: 'Quando você entra na Xavvi, recebe automaticamente um agente de conta humano e é conectado à nossa vasta rede de marcas, fabricantes e fornecedores.\n\nIsso significa que você não só ganha especialistas ajudando no seu negócio, como também um time dos sonhos para desenvolver a sua própria marca e loja, totalmente de graça e sem precisar de nenhuma experiência. Fazemos tudo por você.\n\nSeus agentes trabalham com você na parte difícil, sua IA cuida das vendas, enquanto você opera, quase, no piloto automático.',
+      },
       card1: {
         tag: 'PROPRIEDADE',
         title: 'Seu tráfego, seus dados',
@@ -68,6 +74,11 @@ export default {
         title: 'Um obrigado aos seus fãs',
         desc: 'Compartilhe seus AI Credits e seu sucesso com seus fãs. Quando você entra na Xavvi, parte dos seus AI Credits é automaticamente alocada para os seus seguidores. Com os AI Credits, eles podem comprar produtos, acessar eventos, receber recompensas e sentir que estão recebendo algo em troca por apoiarem você. Afinal, onde você estaria sem eles?',
       },
+      card5: {
+        tag: 'GANHE, NÃO PAGUE',
+        title: 'De graça, para sempre!',
+        desc: 'Todos esses benefícios incríveis? Como é possível que tudo isso seja de graça?\n\nO segredo está debaixo do capô, e é do que mais nos orgulhamos. A Xavvi é construída sobre um sistema tokenizado, e todos os nossos parceiros operam na economia tokenizada. O crescimento é automaticamente embutido em cada venda, então você não gera apenas receita, mas também aumenta o seu valor a cada vez. Isso não só paga por tudo o que entregamos a você, como também constrói riqueza para você, sem que precise entregar um único centavo. É realmente um ganha-ganha, dentro de um sistema justo que recompensa todo mundo.',
+      },
     },
     globalTitle: 'Mais de 200 mercados. Uma plataforma.',
     globalSub: 'Conteúdo que cruza fronteiras. Nosso motor coloca em destaque criadores e tendências em diferentes culturas, idiomas e mercados.',
@@ -89,7 +100,7 @@ export default {
     },
     marketingCampaign: {
       title: 'Xavvi Empire: Viagem à China',
-      body: 'Em parceria com a Phoenix New Media Limited e a vasta rede de fornecedores da Xavvi, estamos lançando um programa acelerado para ajudar criadores norte-americanos a lançar as suas marcas. Apertem os cintos — vamos levar você em uma viagem de 10 dias com tudo incluído à China, onde você conhecerá as principais marcas e fabricantes da categoria de beleza. Veja em primeira mão as capacidades dessas empresas, negocie descontos especiais para os seus fãs e defina as condições para lançar as suas próprias linhas de produtos. E, se isso não bastasse, você receberá um bônus de US$ 10.000 antes de embarcar para poder fazer compras à vontade na China!',
+      body: 'Em parceria com a Phoenix New Media Limited e a vasta rede de fornecedores da Xavvi, estamos lançando um programa acelerado para ajudar criadores norte-americanos a lançar as suas marcas. Apertem os cintos — vamos levar você em uma viagem de 10 dias com tudo incluído à China, onde você conhecerá as principais marcas e fabricantes da categoria de beleza. Veja em primeira mão as capacidades dessas empresas, negocie descontos especiais para os seus fãs e defina as condições para lançar as suas próprias linhas de produtos. Na volta, o seu AI Avatar vai estrelar um micro drama com merchandising dos produtos da sua marca.',
       cta: 'INSCREVA-SE',
     },
     ctaHeading: 'Faça parceria com a Xavvi',
@@ -117,13 +128,13 @@ export default {
     },
   },
   about: {
-    heroTitle: 'Pioneirismo em modelos de negócio Web4 onde todo o ecossistema ganha',
+    heroTitle: 'Pioneirismo em modelos de negócio onde todo o ecossistema ganha',
     heroSub: 'Nossa missão é criar um ecossistema de social commerce no qual todos os usuários são recompensados pelas suas contribuições e crescem junto com a plataforma. Celebridades, influenciadores, Conectores, marcas, fornecedores, fabricantes, empresas de logística, parceiros, investidores e a equipe Xavvi: estamos todos no mesmo time. Comprometemo-nos a implementar modelos de negócio descentralizados para entrarmos numa era de mentalidade ganha-ganha, deixando para trás a cultura do "vencedor leva tudo" que hoje nos divide. Temos sede nos EUA, mas o nosso DNA é internacional e o nosso olhar é global.',
-    statsTitle: 'Meta do ecossistema para 2026',
+    statsTitle: 'Meta do ecossistema para 2027',
     stats: {
       creators: { value: '10.000', label: 'Criadores' },
-      mcns: { value: '500', label: 'Conectores' },
-      vendors: { value: '2.000', label: 'Fornecedores' },
+      mcns: { value: '1.000', label: 'Conectores' },
+      vendors: { value: '20.000', label: 'Fornecedores' },
       users: { value: '10.000.000', label: 'Usuários' },
     },
     storyTitle: 'Nossa história',

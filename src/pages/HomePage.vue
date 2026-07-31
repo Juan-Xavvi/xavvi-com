@@ -8,7 +8,7 @@ import StatsCounter from '@/components/StatsCounter.vue';
 import SectionHeader from '@/components/SectionHeader.vue';
 import { supabase } from '@/lib/supabase';
 
-const { t } = useI18n();
+const { t, locale } = useI18n();
 
 // News teaser slider — alternates between News and China Trip Apply
 const newsSlide = ref(0);
@@ -53,6 +53,14 @@ const stats = computed(() => [
 
 const ecosystems = computed(() => [
 	{
+		tag: t('home.eco.card0.tag'),
+		title: t('home.eco.card0.title'),
+		desc: t('home.eco.card0.desc'),
+		image: '/images/page/card0.jpg',
+		panelBg: 'bg-gradient-to-br from-[#2a1505] to-[#1a0e05]',
+		iconGradient: 'from-[#92400e] to-[#d97706]',
+	},
+	{
 		tag: t('home.eco.card1.tag'),
 		title: t('home.eco.card1.title'),
 		desc: t('home.eco.card1.desc'),
@@ -84,6 +92,14 @@ const ecosystems = computed(() => [
 		panelBg: 'bg-gradient-to-br from-[#1a0a3e] to-[#2a0a14]',
 		iconGradient: 'from-[#FE2C55] to-[#FF6B35]',
 	},
+	{
+		tag: t('home.eco.card5.tag'),
+		title: t('home.eco.card5.title'),
+		desc: t('home.eco.card5.desc'),
+		image: '/images/page/card5.jpg',
+		panelBg: 'bg-gradient-to-br from-[#2a1a05] to-[#1a1205]',
+		iconGradient: 'from-[#b45309] to-[#fbbf24]',
+	},
 ]);
 
 const offices = computed(() => [
@@ -104,7 +120,12 @@ const offices = computed(() => [
 		<div class="relative z-10 max-w-[1480px] mx-auto px-6 lg:px-8 min-h-dvh grid lg:grid-cols-[1fr_minmax(320px,400px)] items-center gap-10 lg:gap-16 pt-28 pb-24 lg:pt-0 lg:pb-0">
 			<!-- Left: text -->
 			<div class="text-center lg:text-center relative z-20">
-				<h1 v-reveal="1" v-html="t('home.heroTitle', { br: '<br>' })" class="text-[clamp(2.8rem,5.5vw,5.2rem)] font-bold leading-[1.15] tracking-[-0.03em] text-white"></h1>
+				<h1 v-reveal="1" class="text-[clamp(2.8rem,5.5vw,5.2rem)] font-bold leading-[1.15] tracking-[-0.03em] text-white">
+					{{ t('home.heroTitle') }}
+				</h1>
+				<p v-if="locale !== 'en'" v-reveal="1" class="mt-4 text-[clamp(1.4rem,2.6vw,2.2rem)] font-bold leading-[1.25] tracking-[-0.02em] text-white">
+					{{ t('home.heroTitleLocal') }}
+				</p>
 				<p v-reveal="2" class="mt-9 text-[clamp(1.05rem,1.7vw,1.25rem)] leading-[1.8] text-white/70 max-w-[600px] mx-auto lg:mx-auto">
 					{{ t('home.heroSub') }}
 				</p>
@@ -235,10 +256,10 @@ const offices = computed(() => [
 							class="text-[clamp(1.4rem,2.5vw,1.85rem)] font-bold text-text leading-snug tracking-tight mb-3">
 							{{ eco.title }}
 						</h3>
-						<p class="text-[15px] leading-[1.7] text-text-2">
+						<p class="text-[15px] leading-[1.7] text-text-2 whitespace-pre-line">
 							{{ eco.desc }}
 						</p>
-						<p v-if="i === 1" class="text-[15px] leading-[1.7] text-text-2 mt-3">
+						<p v-if="i === 2" class="text-[15px] leading-[1.7] text-text-2 mt-3">
 							{{ t('home.eco.card2.descExtra1') }}
 							<a href="https://whitepaper.xavvi.com" target="_blank" rel="noopener" class="text-[#AE2049] underline hover:opacity-80">
 								{{ t('home.eco.card2.descExtraLink') }}
@@ -274,7 +295,7 @@ const offices = computed(() => [
 
 				<!-- Image -->
 				<div v-reveal="1" class="rounded-2xl overflow-hidden aspect-[4/5] lg:aspect-auto lg:min-h-[600px] shadow-[0_0_40px_10px_rgba(212,175,55,0.4)]">
-					<img src="/images/page/miss-crypto.jpg" alt="Miss Crypto 2026"
+					<img src="/images/page/china-trip.jpg" :alt="t('home.marketingCampaign.title')"
 						class="w-full h-full object-cover" />
 				</div>
 			</div>

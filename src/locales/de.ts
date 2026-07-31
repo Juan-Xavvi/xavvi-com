@@ -31,8 +31,9 @@ export default {
     status: 'Alle Systeme betriebsbereit',
   },
   home: {
-    heroTitle: 'Ein Ökosystem aus Creator-Marken, global expandierenden Marken und Fans, die endlich für ihre Treue belohnt werden.',
-    heroSub: 'Ein Paradigmenwechsel bei der Win-Win-Wertschöpfung für Creator, ihre Partner und Anbieter. Wir nutzen KI, um Kosten zu senken und Wachstum zu beschleunigen, Web3, um Transparenz zu garantieren, und unser Geschäftsmodell ist darauf ausgelegt, das Lebenselixier jeder Plattform großzügig zu belohnen: die Nutzer.',
+    heroTitle: 'Xavvi, We help you grow like crazy!',
+    heroTitleLocal: 'Xavvi, wir helfen euch, wie verrückt zu wachsen!',
+    heroSub: 'Angetrieben von KI und Blockchain ist Xavvi das Commerce-Ökosystem der nächsten Generation, in dem alle gewinnen. Creator bauen ihre eigenen Marken und Shops auf. Marken starten globale Kampagnen und optimieren ihren ROI. Fans werden für ihre Treue belohnt und können ihr eigenes Ein-Personen-Unternehmen gründen.',
     learnMore: 'Mehr erfahren',
     getTheApp: 'App laden',
     stats: {
@@ -44,6 +45,11 @@ export default {
     pillarsTitle: 'Social Commerce, angetrieben von KI, vorangetrieben von Creatorn',
     pillarsSub: 'Prominente und Influencer, willkommen bei Xavvi: der einzigen KI-Social-Commerce-Plattform, auf der Ihnen Ihre Daten gehören und Sie Ihre eigenen AI Credits erhalten, die Marken kaufen, um mit Ihrem AI Avatar Werbekampagnen zu starten. Wir helfen Creatorn, ihren Einfluss zu monetarisieren. Auf unserer Brand-Lab-Plattform lancieren wir Ihre eigene Marke und betreiben den Shop für Sie. In der Social-Media-App Xavvi gehören Ihnen Ihre Daten, und Sie erzielen Einnahmen aus Mikro-Dramen und Werbekampagnen.',
     eco: {
+      card0: {
+        tag: 'NICHT NUR VERKAUFEN — BESITZEN',
+        title: 'Baue deine eigene Marke auf',
+        desc: 'Wenn du Xavvi beitrittst, bekommst du automatisch einen menschlichen Account-Agenten an deine Seite und wirst mit unserem riesigen Netzwerk aus Marken, Herstellern und Anbietern verbunden.\n\nDas heißt: Du hast nicht nur Expertinnen und Experten, die dir bei deinem Business helfen, sondern auch ein Dream-Team, das deine ganz eigene Marke und deinen Shop entwickelt — vollkommen kostenlos und ohne jegliche Vorkenntnisse. Alles wird für dich erledigt.\n\nDeine Agenten übernehmen mit dir die schwierigen Aufgaben, deine KI übernimmt den Verkauf, während du fast wie im Autopilot arbeitest.',
+      },
       card1: {
         tag: 'EIGENTUM',
         title: 'Dein Traffic, deine Daten',
@@ -67,6 +73,11 @@ export default {
         title: 'Ein Dankeschön an deine Fans',
         desc: 'Teile deine AI Credits und deinen Erfolg mit deinen Fans. Wenn du Xavvi beitrittst, wird automatisch ein Teil deiner AI Credits zum Teilen mit deinen Followern reserviert. Mit den AI Credits können sie Produkte kaufen, Veranstaltungen besuchen, Belohnungen erhalten und das Gefühl haben, etwas zurückzubekommen, weil sie dich unterstützt haben. Wo wärst du schließlich ohne sie?',
       },
+      card5: {
+        tag: 'VERDIENEN STATT ZAHLEN',
+        title: 'Kostenlos, für immer!',
+        desc: 'All diese großartigen Vorteile? Wie kann das alles kostenlos sein?\n\nDas Geheimnis steckt unter der Haube — und darauf sind wir am stolzesten. Xavvi basiert auf einem tokenisierten System, und alle unsere Partner agieren in der tokenisierten Ökonomie. Wachstum ist automatisch in jeden Verkauf eingebaut: Du erzielst also nicht nur Umsatz, sondern steigerst jedes Mal auch deinen Wert. Das finanziert nicht nur alles, was wir dir geben, sondern baut auch für dich Vermögen auf, ohne dass du je einen einzigen Cent abgibst. Das ist echtes Win-Win — in einem fairen System, das alle belohnt.',
+      },
     },
     globalTitle: 'Über 200 Märkte. Eine Plattform.',
     globalSub: 'Inhalte, die Grenzen überwinden. Unsere Engine bringt Creators und Trends über Kulturen, Sprachen und Märkte hinweg zusammen.',
@@ -88,7 +99,7 @@ export default {
     },
     marketingCampaign: {
       title: 'Xavvi Empire China-Reise',
-      body: 'In Partnerschaft mit Phoenix New Media Limited und dem riesigen Lieferantennetzwerk von Xavvi starten wir ein Fast-Track-Programm, das nordamerikanischen Creatorn hilft, ihre Marken zu launchen. Schnallt euch an — wir nehmen euch mit auf eine 10-tägige All-inclusive-Reise nach China, wo ihr die Top-Marken und Hersteller der Beauty-Kategorie trefft. Erlebt aus erster Hand, was diese Unternehmen leisten, verhandelt Sonderrabatte für eure Fans und legt die Bedingungen für den Launch eurer eigenen Produktlinien fest. Und als wäre das nicht genug, erhaltet ihr vor dem Abflug einen Bonus von 10.000 $, damit ihr in China nach Herzenslust shoppen könnt!',
+      body: 'In Partnerschaft mit Phoenix New Media Limited und dem riesigen Lieferantennetzwerk von Xavvi starten wir ein Fast-Track-Programm, das nordamerikanischen Creatorn hilft, ihre Marken zu launchen. Schnallt euch an — wir nehmen euch mit auf eine 10-tägige All-inclusive-Reise nach China, wo ihr die Top-Marken und Hersteller der Beauty-Kategorie trefft. Erlebt aus erster Hand, was diese Unternehmen leisten, verhandelt Sonderrabatte für eure Fans und legt die Bedingungen für den Launch eurer eigenen Produktlinien fest. Nach eurer Rückkehr spielt euer AI Avatar die Hauptrolle in einem Mikro-Drama mit Produktplatzierung eurer eigenen Markenprodukte.',
       cta: 'JETZT BEWERBEN',
     },
     ctaHeading: 'Werde Partner von Xavvi',
@@ -116,13 +127,13 @@ export default {
     },
   },
   about: {
-    heroTitle: 'Pionier von Web4-Geschäftsmodellen, in denen das gesamte Ökosystem gewinnt',
+    heroTitle: 'Pionier von Geschäftsmodellen, in denen das gesamte Ökosystem gewinnt',
     heroSub: 'Unsere Mission ist ein Social-Commerce-Ökosystem, in dem alle Beteiligten für ihren Beitrag belohnt werden und gemeinsam mit der Plattform wachsen. Prominente, Influencer, Konnektoren, Marken, Anbieter, Hersteller, Logistikunternehmen, Partner, Investoren und das Xavvi-Team — wir sind alle in einem Team. Wir verpflichten uns zu dezentralen Geschäftsmodellen, mit denen wir in eine Win-Win-Ära aufbrechen und die Winner-takes-all-Mentalität, die uns heute spaltet, hinter uns lassen. Unser Hauptsitz liegt in den USA, doch unsere DNA ist international und unser Blick global.',
-    statsTitle: 'Ökosystem-Ziel für 2026',
+    statsTitle: 'Ökosystem-Ziel für 2027',
     stats: {
       creators: { value: '10.000', label: 'Creators' },
-      mcns: { value: '500', label: 'Konnektoren' },
-      vendors: { value: '2.000', label: 'Anbieter' },
+      mcns: { value: '1.000', label: 'Konnektoren' },
+      vendors: { value: '20.000', label: 'Anbieter' },
       users: { value: '10.000.000', label: 'Nutzer' },
     },
     storyTitle: 'Unsere Geschichte',

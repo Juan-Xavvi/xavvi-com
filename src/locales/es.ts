@@ -31,9 +31,10 @@ export default {
     status: 'Todos los sistemas en funcionamiento',
   },
   home: {
-    heroTitle: 'Construyendo un ecosistema de marcas de creadores, marcas que se expanden globalmente y fans que por fin son recompensados por su lealtad.',
+    heroTitle: 'Xavvi, We help you grow like crazy!',
+    heroTitleLocal: '¡Xavvi, te ayudamos a crecer como locos!',
     heroSub:
-      'Un cambio de paradigma en la generación de riqueza beneficiosa para todos —creadores, sus socios y proveedores—. Aprovechamos la IA para reducir costes y acelerar el crecimiento, la web3 para garantizar la transparencia, y nuestro modelo de negocio está diseñado para recompensar generosamente al alma de cualquier plataforma: los usuarios.',
+      'Impulsado por IA y blockchain, Xavvi es el ecosistema de comercio de nueva generación donde todos ganan. Los creadores construyen sus propias marcas y tiendas. Las marcas lanzan campañas globales y optimizan su ROI. Los fans son recompensados por su lealtad y pueden crear su propia Empresa de Una Sola Persona.',
     learnMore: 'Saber más',
     getTheApp: 'Obtener la app',
     stats: {
@@ -46,6 +47,12 @@ export default {
     pillarsSub:
       'Celebridades e influencers, bienvenidos a Xavvi: la única plataforma de comercio social con IA donde eres dueño de tus datos y obtienes tus propios AI Credits, que las marcas compran para lanzar campañas publicitarias con tu AI Avatar. Ayudamos a los creadores a monetizar su influencia. En nuestra plataforma Brand Lab lanzamos tu propia marca y operamos la tienda por ti. En la app social Xavvi, eres dueño de tus datos y generas ingresos con micro dramas y campañas publicitarias.',
     eco: {
+      card0: {
+        tag: 'NO SOLO VENDAS, SÉ DUEÑO',
+        title: 'Crea tu propia marca',
+        desc:
+          'Cuando te unes a Xavvi, se te asigna automáticamente un agente de cuenta humano y quedas conectado a nuestra enorme red de marcas, fabricantes y proveedores.\n\nEsto significa que no solo tienes expertos ayudándote con tu negocio, sino también un equipo de ensueño para desarrollar tu propia marca y tienda, completamente gratis y sin necesidad de experiencia. Lo hacemos todo por ti.\n\nTus agentes trabajan contigo en lo difícil, tu IA se encarga de vender, y tú operas, casi, en piloto automático.',
+      },
       card1: {
         tag: 'PROPIEDAD',
         title: 'Tu tráfico, tus datos',
@@ -73,6 +80,12 @@ export default {
         desc:
           'Comparte tus AI Credits y tu éxito con tus fans. Cuando te unes a Xavvi, asignas automáticamente parte de tus AI Credits para compartirlos con tus seguidores. Con los AI Credits pueden comprar productos, acceder a eventos, obtener recompensas y sentir que reciben algo a cambio por apoyarte. Al fin y al cabo, ¿dónde estarías sin ellos?',
       },
+      card5: {
+        tag: 'GANA, NO PAGUES',
+        title: '¡Gratis, para siempre!',
+        desc:
+          '¿Todas estas ventajas increíbles? ¿Cómo es posible que todo esto sea gratis?\n\nEl secreto está bajo el capó, y es de lo que más orgullosos estamos. Xavvi está construido sobre un sistema tokenizado, y todos nuestros socios operan en la economía tokenizada. El crecimiento está integrado automáticamente en cada venta, así que no solo generas ingresos, sino que además aumentas tu valor cada vez. Esto no solo paga todo lo que te damos, sino que también construye riqueza para ti, sin que entregues ni un solo céntimo. Es realmente un win-win, dentro de un sistema justo que recompensa a todos.',
+      },
     },
     globalTitle: 'Más de 200 mercados. Una plataforma.',
     globalSub:
@@ -95,7 +108,7 @@ export default {
     },
     marketingCampaign: {
       title: 'Xavvi Empire: Viaje a China',
-      body: 'En colaboración con Phoenix New Media Limited y la vasta red de proveedores de Xavvi, lanzamos un programa acelerado para ayudar a los creadores norteamericanos a lanzar sus marcas. Abróchate el cinturón — te llevamos a un viaje de 10 días con todo incluido a China, donde conocerás a las mejores marcas y fabricantes de la categoría de belleza. Comprueba de primera mano las capacidades de estas empresas, negocia descuentos especiales para tus fans y define las condiciones para lanzar tus propias líneas de productos. Y por si fuera poco, ¡recibirás un bono de 10.000 $ antes de despegar para que puedas comprar a tu antojo en China!',
+      body: 'En colaboración con Phoenix New Media Limited y la vasta red de proveedores de Xavvi, lanzamos un programa acelerado para ayudar a los creadores norteamericanos a lanzar sus marcas. Abróchate el cinturón — te llevamos a un viaje de 10 días con todo incluido a China, donde conocerás a las mejores marcas y fabricantes de la categoría de belleza. Comprueba de primera mano las capacidades de estas empresas, negocia descuentos especiales para tus fans y define las condiciones para lanzar tus propias líneas de productos. A tu regreso, tu AI Avatar protagonizará un micro drama con emplazamiento de los productos de tu marca.',
       cta: 'INSCRÍBETE',
     },
     ctaHeading: 'Asóciate con Xavvi',
@@ -124,14 +137,14 @@ export default {
     },
   },
   about: {
-    heroTitle: 'Pionera en modelos de negocio Web4 donde todo el ecosistema gana',
+    heroTitle: 'Pionera en modelos de negocio donde todo el ecosistema gana',
     heroSub:
       'Nuestra misión es crear un ecosistema de comercio social donde todos los usuarios sean recompensados por sus aportaciones y crezcan junto a la plataforma. Celebridades, influencers, Conectores, marcas, proveedores, fabricantes, empresas de logística, partners, inversores y el equipo de Xavvi: todos jugamos en el mismo equipo. Apostamos por modelos de negocio descentralizados que nos ayuden a entrar en una era de mentalidad win-win, dejando atrás la cultura del "el ganador se lo lleva todo" que hoy nos divide. Tenemos sede en EE. UU., pero nuestro ADN es internacional y nuestra mirada, global.',
-    statsTitle: 'Objetivo del ecosistema para 2026',
+    statsTitle: 'Objetivo del ecosistema para 2027',
     stats: {
       creators: { value: '10.000', label: 'Creadores' },
-      mcns: { value: '500', label: 'Conectores' },
-      vendors: { value: '2.000', label: 'Proveedores' },
+      mcns: { value: '1.000', label: 'Conectores' },
+      vendors: { value: '20.000', label: 'Proveedores' },
       users: { value: '10.000.000', label: 'Usuarios' },
     },
     storyTitle: 'Nuestra historia',

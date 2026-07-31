@@ -32,8 +32,8 @@ export default {
     status: 'All systems operational',
   },
   home: {
-    heroTitle: 'Building an ecosystem of creator brands, brands expanding globally, and fans that finally get rewarded for their loyalty.',
-    heroSub: 'A paradigm shift in win-win wealth generation for creators, their partners, and vendors. We leverage AI to cut costs and speed up growth, web3 to guarantee transparency, and our business model is designed to handsomely reward the lifeblood of any platform: the users.',
+    heroTitle: 'Xavvi, We help you grow like crazy!',
+    heroSub: 'Powered by AI and blockchain, Xavvi is the next generation commerce ecosystem where everybody wins. Creators build their own brands and shops. Brands run global campaigns and optimise ROI. Fans get rewarded for their loyalty and can start their own One Person Company.',
     learnMore: 'Learn More',
     getTheApp: 'Get the App',
     stats: {
@@ -45,6 +45,11 @@ export default {
     pillarsTitle: 'Social Commerce Powered by AI, Driven by Creators',
     pillarsSub: 'Celebrities and influencers, welcome to Xavvi: the only AI social commerce platform where you own your data and get your own AI Credits, which brands buy to launch ad campaigns with your AI Avatar. We help creators monetize their influence. On our Brand Lab platform, we launch your own brand and operate the store for you. On the social media Xavvi app, you own your data and generate an income from micro dramas and advertising campaigns.',
     eco: {
+      card0: {
+        tag: "DON'T JUST SELL, OWN",
+        title: 'Build your Own Brand',
+        desc: "When you join Xavvi, you're automatically given a human account agent, and plugged into our vast network of brands, manufacturers, and providers.\n\nThis means not only do you get experts helping you with your business, but also a dream team to develop your very own brand and store, completely free of charge, and no expertise necessary. It's all done for you.\n\nYour agents work with you to do the hard stuff, your AI does the selling, while you operate, almost, on auto-pilot.",
+      },
       card1: {
         tag: 'OWNERSHIP',
         title: 'Your traffic, your data',
@@ -68,6 +73,11 @@ export default {
         title: 'A Thank-You to Your Fans',
         desc: "Share your AI Credits and your success with your fans. When you join Xavvi, you automatically allocate some of your AI Credits to share with your followers. With the AI Credits, they can buy products, access events, get rewards, and feel like they're getting something back for supporting you. After all, where would you be without them?",
       },
+      card5: {
+        tag: "EARN, DON'T PAY",
+        title: 'For free, forever!',
+        desc: "All of these amazing benefits? How is it possible that all of this is for free?\n\nThe secret is under the hood, and it's what we're most proud of. Xavvi is built on a tokenized system, and all our partners operate in the tokenized economy. Growth is automatically baked into every sale, so you don't just generate revenue, but also increase your value every time. Not only does this pay for everything we give you, it also builds wealth for you too, without ever handing over a single cent. It is truly a win-win, within a fair system that rewards everyone.",
+      },
     },
     globalTitle: '200+ markets. One platform.',
     globalSub: 'Content that crosses borders. Our engine surfaces creators and trends across cultures, languages, and markets.',
@@ -89,7 +99,7 @@ export default {
     },
     marketingCampaign: {
       title: 'Xavvi Empire China Trip',
-      body: "In partnership with Phoenix New Media Limited and Xavvi's vast supplier network, we are launching a fast-track program to help North American creators launch their brands. Fasten your seatbelts — we're taking you on a 10-day, all-inclusive trip to China, where you'll meet top brands and manufacturers in the beauty category. See first-hand the capabilities of these companies, negotiate special discounts for your fans, and set the terms for launching your own product lines. And if that wasn't enough, you'll receive a $10,000 bonus before you take off so you can shop to your heart's content in China!",
+      body: "In partnership with Phoenix New Media Limited and Xavvi's vast supplier network, we are launching a fast-track program to help North American creators launch their brands. Fasten your seatbelts — we're taking you on a 10-day, all-inclusive trip to China, where you'll meet top brands and manufacturers in the beauty category. See first-hand the capabilities of these companies, negotiate special discounts for your fans, and set the terms for launching your own product lines. Upon returning, your AI Avatar will star in a micro-drama with product placement of your brand's products.",
       cta: 'APPLY NOW',
     },
     ctaHeading: 'Partner with Xavvi',
@@ -117,13 +127,13 @@ export default {
     },
   },
   about: {
-    heroTitle: 'Pioneering Web4 Business Models Where Everyone in the Ecosystem Wins',
+    heroTitle: 'Pioneering Business Models Where Everyone in the Ecosystem Wins',
     heroSub: "Our mission is to create a social commerce ecosystem where all users are rewarded for their contributions and grow with the platform. Celebrities, influencers, Connectors, brands, vendors, manufacturers, logistics companies, partners, investors and the Xavvi staff, we're all in the same team. We vow to implement decentralised business models to help us enter an era of win-win mentality, and leave behind the winner-takes-all ethos that's dividing us today. We are headquartered in the US but we have an international DNA and a global outlook.",
-    statsTitle: 'Ecosystem Target for 2026',
+    statsTitle: 'Ecosystem Target for 2027',
     stats: {
       creators: { value: '10,000', label: 'Creators' },
-      mcns: { value: '500', label: 'Connectors' },
-      vendors: { value: '2,000', label: 'Vendors' },
+      mcns: { value: '1,000', label: 'Connectors' },
+      vendors: { value: '20,000', label: 'Vendors' },
       users: { value: '10,000,000', label: 'Users' },
     },
     storyTitle: 'Our Story',
