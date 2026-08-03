@@ -61,28 +61,12 @@ const ecosystems = computed(() => [
 		iconGradient: 'from-[#92400e] to-[#d97706]',
 	},
 	{
-		tag: t('home.eco.card1.tag'),
-		title: t('home.eco.card1.title'),
-		desc: t('home.eco.card1.desc'),
-		image: '/images/page/card1.jpg',
-		panelBg: 'bg-gradient-to-br from-[#1a0a3e] to-[#0e1b47]',
-		iconGradient: 'from-[#7C3AED] to-[#2a55e5]',
-	},
-	{
 		tag: t('home.eco.card2.tag'),
 		title: t('home.eco.card2.title'),
 		desc: t('home.eco.card2.desc'),
 		image: '/images/page/card2.jpg',
 		panelBg: 'bg-gradient-to-br from-[#2a0a14] to-[#1a1005]',
 		iconGradient: 'from-[#FE2C55] to-[#F59E0B]',
-	},
-	{
-		tag: t('home.eco.card3.tag'),
-		title: t('home.eco.card3.title'),
-		desc: t('home.eco.card3.desc'),
-		image: '/images/page/card3.jpg',
-		panelBg: 'bg-gradient-to-br from-[#041f15] to-[#0a1628]',
-		iconGradient: 'from-[#059669] to-[#2a55e5]',
 	},
 	{
 		tag: t('home.eco.card4.tag'),
@@ -259,7 +243,7 @@ const offices = computed(() => [
 						<p class="text-[15px] leading-[1.7] text-text-2 whitespace-pre-line">
 							{{ eco.desc }}
 						</p>
-						<p v-if="i === 2" class="text-[15px] leading-[1.7] text-text-2 mt-3">
+						<p v-if="i === 1" class="text-[15px] leading-[1.7] text-text-2 mt-3">
 							{{ t('home.eco.card2.descExtra1') }}
 							<a href="https://whitepaper.xavvi.com" target="_blank" rel="noopener" class="text-[#AE2049] underline hover:opacity-80">
 								{{ t('home.eco.card2.descExtraLink') }}
@@ -294,9 +278,9 @@ const offices = computed(() => [
 				</div>
 
 				<!-- Image -->
-				<div v-reveal="1" class="rounded-2xl overflow-hidden aspect-[4/5] lg:aspect-auto lg:min-h-[600px] shadow-[0_0_40px_10px_rgba(212,175,55,0.4)]">
+				<div v-reveal="1" class="self-center rounded-2xl overflow-hidden shadow-[0_0_40px_10px_rgba(212,175,55,0.4)]">
 					<img src="/images/page/china-trip.jpg" :alt="t('home.marketingCampaign.title')"
-						class="w-full h-full object-cover" />
+						class="block w-full h-auto object-contain" />
 				</div>
 			</div>
 		</div>

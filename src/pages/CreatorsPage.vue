@@ -35,7 +35,6 @@ const currentLabelStyle = computed(() => {
 // ── Hero bullets ────────────────────────────
 const heroBullets = computed(() => [
 	t('creators.hero.b1'),
-	t('creators.hero.b2'),
 	t('creators.hero.b3'),
 	t('creators.hero.b4'),
 	t('creators.hero.b5'),
@@ -50,7 +49,6 @@ const tabs = [
 const pricingItems = computed(() => [
 	t('creators.tabs.pricing.i1'),
 	t('creators.tabs.pricing.i2'),
-	t('creators.tabs.pricing.i3'),
 ]);
 const fullItems = computed(() => [
 	t('creators.tabs.full.i1'),
@@ -204,25 +202,8 @@ const benefits = computed(() => [
 				class="text-[clamp(2rem,4vw,3rem)] font-bold text-[#FFFDF9] text-center leading-tight mb-14 lg:mb-16">
 				{{ t('creators.monetize.title') }}
 			</h2>
-			<div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+			<div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
 				<div v-reveal="0"
-					class="bg-[#1a1a1a] border border-white/8 rounded-2xl p-8 flex flex-col">
-					<div
-						class="w-14 h-14 rounded-xl bg-[#FE2C55]/15 flex items-center justify-center text-[#FE2C55] mb-6">
-						<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-							stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-							<rect x="2" y="6" width="20" height="14" rx="2" />
-							<line x1="2" y1="11" x2="22" y2="11" />
-						</svg>
-					</div>
-					<h3 class="text-[18px] lg:text-[20px] font-bold text-[#FFFDF9] mb-3">
-						{{ t('creators.monetize.daily.label') }}
-					</h3>
-					<p class="text-[14px] lg:text-[15px] leading-[1.7] text-[#FFFDF9]/80">
-						{{ t('creators.monetize.daily.desc') }}
-					</p>
-				</div>
-				<div v-reveal="1"
 					class="bg-[#1a1a1a] border border-white/8 rounded-2xl p-8 flex flex-col">
 					<div
 						class="w-14 h-14 rounded-xl bg-[#FE2C55]/15 flex items-center justify-center text-[#FE2C55] mb-6">
@@ -240,7 +221,7 @@ const benefits = computed(() => [
 						{{ t('creators.monetize.store.desc') }}
 					</p>
 				</div>
-				<div v-reveal="2"
+				<div v-reveal="1"
 					class="bg-[#1a1a1a] border border-white/8 rounded-2xl p-8 flex flex-col">
 					<div
 						class="w-14 h-14 rounded-xl bg-[#FE2C55]/15 flex items-center justify-center text-[#FE2C55] mb-6">

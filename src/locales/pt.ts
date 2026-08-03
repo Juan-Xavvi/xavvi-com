@@ -9,7 +9,7 @@ export default {
     downloadXavvi: 'Baixar Xavvi',
   },
   footer: {
-    tagline: 'Vamos vencer juntos!',
+    tagline: 'We help you grow like crazy!',
     product: 'Produtos',
     webApp: 'Web App',
     download: 'Baixar Apps',
@@ -32,8 +32,8 @@ export default {
     status: 'Todos os sistemas operando',
   },
   home: {
-    heroTitle: 'Xavvi, We help you grow like crazy!',
-    heroTitleLocal: 'Xavvi, ajudamos você a crescer como um louco!',
+    heroTitle: 'We help you grow like crazy!',
+    heroTitleLocal: 'Ajudamos você a crescer como um louco!',
     heroSub: 'Movido por IA e blockchain, o Xavvi é o ecossistema de comércio da próxima geração onde todo mundo ganha. Criadores constroem suas próprias marcas e lojas. Marcas lançam campanhas globais e otimizam o ROI. Fãs são recompensados pela sua lealdade e podem abrir a sua própria Empresa de Uma Pessoa Só.',
     learnMore: 'Saiba mais',
     getTheApp: 'Baixe o app',
@@ -47,19 +47,19 @@ export default {
     pillarsSub: 'Celebridades e influenciadores, sejam bem-vindos à Xavvi: a única plataforma de social commerce com IA onde você é dono dos seus dados e recebe os seus próprios AI Credits, que as marcas compram para lançar campanhas publicitárias com o seu AI Avatar. Ajudamos criadores a monetizar sua influência. Na nossa plataforma Brand Lab, lançamos a sua marca e operamos a loja por você. No app social Xavvi, você é dono dos seus dados e gera renda com micro dramas e campanhas publicitárias.',
     eco: {
       card0: {
-        tag: 'NÃO APENAS VENDA, SEJA DONO',
+        tag: 'LEGADO',
         title: 'Construa a sua própria marca',
-        desc: 'Quando você entra na Xavvi, recebe automaticamente um agente de conta humano e é conectado à nossa vasta rede de marcas, fabricantes e fornecedores.\n\nIsso significa que você não só ganha especialistas ajudando no seu negócio, como também um time dos sonhos para desenvolver a sua própria marca e loja, totalmente de graça e sem precisar de nenhuma experiência. Fazemos tudo por você.\n\nSeus agentes trabalham com você na parte difícil, sua IA cuida das vendas, enquanto você opera, quase, no piloto automático.',
+        desc: 'A carreira de uma celebridade ou de um influenciador costuma ser curta e é sempre imprevisível. Quando você entra na Xavvi, começa a trabalhar na construção da sua própria marca. Essa é a única estratégia de riqueza capaz de durar mais do que a sua influência.\n\nQuando Michael Jordan pendurou as chuteiras, os tênis Nike Jordan não pararam de vender. Na verdade, eles continuam vendendo mais de duas décadas depois da aposentadoria dele.\n\nA Xavvi conecta você a fabricantes e investidores, construímos a sua loja e a operamos por você. O seu AI Avatar produz a maior parte do conteúdo. Tudo o que você precisa fazer é ser você mesmo e promover o seu próprio IP.',
       },
       card1: {
         tag: 'PROPRIEDADE',
         title: 'Seu tráfego, seus dados',
-        desc: 'Reconhecemos que é você que atrai o público e gera o tráfego que as marcas buscam. Por isso, na Xavvi, você é dono dos seus dados e os monetiza. Você define a sua tarifa de acesso ao tráfego, o preço dos vídeos com clone de IA e o custo por clique. Receba 70% do investimento em anúncios.',
+        desc: 'Reconhecemos que é você que atrai o público e gera o tráfego que as marcas buscam. Por isso, na Xavvi, você é dono dos seus dados e os monetiza. Você define a sua tarifa de acesso ao tráfego, o preço dos vídeos com AI Avatar e o custo por clique. Receba 70% do investimento em anúncios.',
       },
       card2: {
-        tag: 'AI CREDITS',
-        title: 'AI Credits',
-        desc: 'Diga olá à nova economia digital — você acaba de virar um jogador! Quando você entra na Xavvi, emitimos os seus próprios AI Credits pessoais, tornando-o instantaneamente parte da classe de ativos digitais. As marcas precisam adquirir os seus AI Credits para acessar o seu tráfego e lançar campanhas. Os seus fãs são recompensados com os seus AI Credits por apoiarem você através do engajamento e das compras. Xavvi é ganha-ganha para todos.',
+        tag: 'MONETIZAÇÃO DA INFLUÊNCIA',
+        title: 'Os seus próprios AI Credits',
+        desc: 'Diga olá à nova economia digital. Quando você entra na Xavvi, emitimos os seus próprios AI Credits pessoais, tornando-o instantaneamente parte da classe de ativos digitais. As marcas precisam adquirir os seus AI Credits para acessar o seu tráfego e lançar campanhas publicitárias.\n\nCom uma oferta limitada de AI Credits e um mecanismo que os queima sempre que são consumidos, os seus AI Credits se tornam um ativo precioso com o tempo. Os seus AI Credits se tornam um gerador de riqueza sustentável.\n\nAlém dos seus AI Credits pessoais, a sua marca tem os seus próprios Brand Commerce Tokens, abrindo caminho para apresentar a sua marca ao mercado de capitais quando for a hora certa.',
         descExtra1: 'Se você quiser saber mais sobre os AI Credits e o modelo econômico por trás deles, ',
         descExtraLink: 'leia o White Paper',
         descExtra2: '.',
@@ -67,17 +67,17 @@ export default {
       card3: {
         tag: 'RENDA COM IA',
         title: 'Sua IA, do seu jeito.',
-        desc: 'Lutar contra a IA é perder tempo. Marcas e criadores já estão adotando-a. Não fique para trás e comece a ganhar dinheiro com IA. Na Xavvi, o seu Clone de IA cuida do trabalho comercial enquanto você posta o seu conteúdo original. Você escolhe os anunciantes, aprova os anúncios e mantém o controle. O seu Clone de IA gera renda; você foca no que ama fazer.',
+        desc: 'Lutar contra a IA é perder tempo. Marcas e criadores já estão adotando-a. Não fique para trás e comece a ganhar dinheiro com IA. Na Xavvi, o seu AI Avatar cuida do trabalho comercial enquanto você posta o seu conteúdo original. Você escolhe os anunciantes, aprova os anúncios e mantém o controle. O seu AI Avatar gera renda; você foca no que ama fazer.',
       },
       card4: {
         tag: 'COMPARTILHAR É CUIDAR',
         title: 'Um obrigado aos seus fãs',
-        desc: 'Compartilhe seus AI Credits e seu sucesso com seus fãs. Quando você entra na Xavvi, parte dos seus AI Credits é automaticamente alocada para os seus seguidores. Com os AI Credits, eles podem comprar produtos, acessar eventos, receber recompensas e sentir que estão recebendo algo em troca por apoiarem você. Afinal, onde você estaria sem eles?',
+        desc: 'Compartilhe seus AI Credits e seu sucesso com seus fãs. Quando você entra na Xavvi, parte dos seus AI Credits é automaticamente alocada para os seus seguidores. Com os AI Credits, eles podem comprar produtos, acessar eventos, receber recompensas e sentir que estão recebendo algo em troca por apoiarem você. Afinal, onde você estaria sem eles?\n\nVocê também compartilha os seus Brand Tokens com os seus fãs, recompensando-os pela lealdade à marca e retribuindo com um gesto de agradecimento.',
       },
       card5: {
         tag: 'GANHE, NÃO PAGUE',
         title: 'De graça, para sempre!',
-        desc: 'Todos esses benefícios incríveis? Como é possível que tudo isso seja de graça?\n\nO segredo está debaixo do capô, e é do que mais nos orgulhamos. A Xavvi é construída sobre um sistema tokenizado, e todos os nossos parceiros operam na economia tokenizada. O crescimento é automaticamente embutido em cada venda, então você não gera apenas receita, mas também aumenta o seu valor a cada vez. Isso não só paga por tudo o que entregamos a você, como também constrói riqueza para você, sem que precise entregar um único centavo. É realmente um ganha-ganha, dentro de um sistema justo que recompensa todo mundo.',
+        desc: 'Todos esses benefícios incríveis? Como é possível que tudo isso seja de graça? Na Xavvi, acreditamos em modelos de negócio ganha-ganha. Celebridades e influenciadores estão no centro do nosso ecossistema — afinal, são vocês que geram o tráfego e a confiança. Temos o compromisso de oferecer a você uma parceria gratuita e que exija o mínimo de esforço possível.',
       },
     },
     globalTitle: 'Mais de 200 mercados. Uma plataforma.',
@@ -192,7 +192,7 @@ export default {
       eyebrow: 'Xavvi App',
       title: 'Por que usar IA?',
       p1: 'A IA está transformando a produção de vídeo — e na publicidade em particular, está reduzindo de forma drástica tanto o tempo quanto o custo de produção. Em breve, esperar semanas ou até meses para alinhar agendas de gravação com criadores será coisa do passado.',
-      p2: 'Ao licenciar o clone de IA de um criador e usar a ferramenta MuaiTai de geração de vídeos com IA da Xavvi, marcas conseguem produzir conteúdo envolvente e de alta qualidade em minutos. Quer escalar globalmente? Sem problema. Campanhas podem ser geradas em dezenas de idiomas para diferentes mercados pelo mundo.',
+      p2: 'Ao licenciar o AI Avatar de um criador e usar a ferramenta MuaiTai de geração de vídeos com IA da Xavvi, marcas conseguem produzir conteúdo envolvente e de alta qualidade em minutos. Quer escalar globalmente? Sem problema. Campanhas podem ser geradas em dezenas de idiomas para diferentes mercados pelo mundo.',
       p3: 'Precisa trabalhar com centenas de criadores ao mesmo tempo? A IA permite manter consistência visual, branding e qualidade da campanha em escala — abrindo a porta para uma era publicitária mais rápida, mais eficiente e muito mais escalável.',
     },
     tokenization: {
@@ -206,6 +206,7 @@ export default {
       title: 'Faça parceria com a Xavvi',
       body: 'Entre na nova era Web4 com estilo. Entre em contato e vamos conversar sobre como podemos crescer juntos.',
       button: 'PARTICIPE AGORA',
+      btn: 'Começar',
     },
   },
   business: {
@@ -269,7 +270,6 @@ export default {
       title: 'Os criadores Xavvi estão no centro',
       intro: 'Na Xavvi, celebridades e influenciadores (criadores) são donos dos próprios dados e monetizam o próprio tráfego. Ajudamos você a monetizar a sua influência por meio de:',
       b1: 'Lançamento dos seus próprios AI Credits que representam o seu potencial de tráfego',
-      b2: 'Repasse de 70% do investimento em anúncios para você',
       b3: 'Lançamento da sua própria marca',
       b4: 'Abertura e operação da sua própria loja de marca',
       b5: 'Tudo sem custos — agora ou nunca',
@@ -285,14 +285,13 @@ export default {
         label: 'CONTROLE DE PREÇOS',
         intro: 'Os criadores definem os preços de:',
         i1: 'Acesso ao público e lançamento de campanhas publicitárias',
-        i2: 'Produção de vídeo com o seu Clone de IA',
-        i3: 'Custo por clique em campanhas publicitárias',
+        i2: 'Produção de vídeo com o seu AI Avatar',
       },
       full: {
         label: 'CONTROLE TOTAL',
         intro: 'Os criadores têm controle total:',
         i1: 'Você decide com quais marcas quer colaborar',
-        i2: 'Você aprova cada anúncio produzido com o seu Clone de IA',
+        i2: 'Você aprova cada anúncio produzido com o seu AI Avatar',
         i3: 'Você decide quais produtos a sua marca vai vender',
       },
     },
@@ -327,7 +326,7 @@ export default {
   brandLab: {
     hero: {
       title: 'Apresentamos o Brand Lab',
-      body: 'Como parte do pacote que a Xavvi oferece aos criadores, você vai lançar a sua própria marca e loja no Brand Lab, um shopping online onde criadores começam a monetizar desde o início. Conectamos você aos fornecedores, o seu clone de IA gera os anúncios, e operamos a sua loja e cuidamos da logística. Tudo de graça, dentro da rede Xavvi.',
+      body: 'Como parte do pacote que a Xavvi oferece aos criadores, você vai lançar a sua própria marca e loja no Brand Lab, um shopping online onde criadores começam a monetizar desde o início. Conectamos você aos fornecedores, o seu AI Avatar gera os anúncios, e operamos a sua loja e cuidamos da logística. Tudo de graça, dentro da rede Xavvi.',
     },
     support: {
       title: 'Suporte completo',
