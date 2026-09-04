@@ -3,7 +3,6 @@ export default {
     home: '홈',
     connectors: '커넥터',
     brandLab: '브랜드 랩',
-    business: '비즈니스',
     about: '소개',
     getApp: '앱 받기',
     downloadXavvi: 'Xavvi 다운로드',
@@ -218,95 +217,6 @@ export default {
       btn: '시작하기',
     },
   },
-  business: {
-    heroTitle: '다음 세대 소비자에게{br}도달하세요',
-    heroSub:
-      '200개 이상의 시장에서 비디오 우선 광고. 네이티브 노출, 크리에이터 파트너십, 전환을 이끄는 엔터프라이즈 도구.',
-    startAdvertising: '광고 시작하기',
-    contactSales: '영업 문의',
-    kpis: {
-      k1: { value: '85%+', label: '동영상 가시성' },
-      k2: { value: '3.2×', label: '더 높은 참여' },
-      k3: { value: '70%', label: '더 낮은 CPA' },
-      k4: { value: '4.8×', label: '평균 ROAS' },
-    },
-    adFormats: {
-      f1: {
-        num: '01',
-        title: '피드 인동영상 광고',
-        desc:
-          '콘텐츠 피드 속 네이티브 풀스크린 동영상. 발견 흐름을 끊지 않는 매끄러운 경험으로 85%+ 가시성.',
-        highlight: '85%+ 가시성',
-      },
-      f2: {
-        num: '02',
-        title: '시리즈 스폰서십',
-        desc:
-          '에피소드 콘텐츠 내 독점 브랜딩. 프리롤·미드롤·제품 노출 — 시청자가 가장 몰입하는 순간에 도달.',
-        highlight: '3× 브랜드 기억',
-      },
-      f3: {
-        num: '03',
-        title: '크리에이터 협업',
-        desc:
-          'AI가 브랜드에 맞는 크리에이터와 매칭. 진짜 전환을 이끄는 진정성 있는 콘텐츠를 수백만에게 자동 배포.',
-        highlight: '50M+ 크리에이터',
-      },
-      f4: {
-        num: '04',
-        title: '쇼퍼블 동영상',
-        desc:
-          '첫 노출부터 결제까지 30초 미만. 동영상 경험 안에 커머스를 통합 — 리디렉션 없이, 마찰 없이.',
-        highlight: '<30s 구매까지',
-      },
-    },
-    workflowTitle: '세 단계로 바로 시작',
-    workflowSub: '전략부터 스케일까지, 달이 아니라 분 단위로.',
-    workflow: {
-      s1: {
-        title: '목표 설정',
-        desc:
-          '브랜드 인지도, 전환, 앱 설치 — 목표를 고르면 플랫폼이 그에 맞게 최적화합니다.',
-      },
-      s2: {
-        title: '오디언스 정의',
-        desc:
-          '인구통계, 관심사, 행동, 크리에이터 친화도를 겹쳐 200개 이상의 시장에서 정밀 타겟팅.',
-      },
-      s3: {
-        title: '론칭과 최적화',
-        desc:
-          '몇 분 만에 라이브. AI가 입찰, 노출, 소재를 실시간으로 자동 최적화해 ROI를 극대화합니다.',
-      },
-    },
-    toolsTitle: '모든 규모를 위한 도구',
-    toolsSub: '셀프 서브든 풀 매니지드든 — 고객이 있는 곳에서 만납니다.',
-    tools: {
-      selfServe: {
-        title: '셀프 서브 플랫폼',
-        desc:
-          '예산, 타겟팅, 소재를 직접 조절하며 몇 분 안에 캠페인을 론칭하세요.',
-      },
-      managed: {
-        title: '매니지드 서비스',
-        desc:
-          '엔터프라이즈 고객을 위한 전담 계정 팀. 전략, 크리에이티브, 최적화 — 맡기면 됩니다.',
-      },
-      marketplace: {
-        title: '크리에이터 마켓플레이스',
-        desc:
-          '검증된 크리에이터 5천만 명 이상. 오디언스, 참여도, 지역, 카테고리로 필터링.',
-      },
-      api: {
-        title: 'API & Integrations',
-        desc:
-          '프로그래매틱 바잉, 실시간 리포팅, 마케팅 스택 전체 연동.',
-      },
-    },
-    ctaTitle: '성장할 준비 되셨나요?',
-    ctaSub: '이미 Xavvi에서 광고하는 수천 개 브랜드에 합류하세요.',
-    talkToSales: '영업팀과 상담',
-  },
   creators: {
     hero: {
       title: 'Xavvi에서는 크리에이터가 중심입니다',
@@ -507,7 +417,6 @@ export default {
     home: 'Xavvi — 쇼트폼 & 크리에이터 플랫폼',
     about: '소개 – Xavvi',
     brands: '브랜드와 벤더 – Xavvi',
-    business: '기업용 – Xavvi',
     download: '다운로드 – Xavvi',
   },
 };

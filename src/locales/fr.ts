@@ -3,7 +3,6 @@ export default {
     home: 'Accueil',
     connectors: 'Connecteurs',
     brandLab: 'Brand Lab',
-    business: 'Entreprises',
     about: 'À propos',
     getApp: "Télécharger l'app",
     downloadXavvi: 'Télécharger Xavvi',
@@ -218,95 +217,6 @@ export default {
       btn: 'Commencer',
     },
   },
-  business: {
-    heroTitle: 'Touchez la prochaine génération{br}de consommateurs',
-    heroSub:
-      'Publicité vidéo prioritaire dans plus de 200 marchés. Emplacements natifs, partenariats créateurs et outils entreprise qui convertissent.',
-    startAdvertising: 'Lancer une campagne',
-    contactSales: 'Contacter les ventes',
-    kpis: {
-      k1: { value: '85%+', label: 'Visibilité vidéo' },
-      k2: { value: '3.2×', label: 'Engagement supérieur' },
-      k3: { value: '70%', label: 'CPA plus bas' },
-      k4: { value: '4.8×', label: 'ROAS moyen' },
-    },
-    adFormats: {
-      f1: {
-        num: '01',
-        title: 'Annonces vidéo dans le fil',
-        desc:
-          'Placements vidéo natifs plein écran dans le fil de contenu. Plus de 85 % de visibilité avec une expérience fluide qui n’interrompt pas la découverte.',
-        highlight: '85%+ de visibilité',
-      },
-      f2: {
-        num: '02',
-        title: 'Sponsoring de séries',
-        desc:
-          'Branding exclusif dans du contenu épisodique. Pré-roll, mid-roll et intégration produit — pour toucher les spectateurs à leurs moments d’engagement maximal.',
-        highlight: '3× mémorisation de marque',
-      },
-      f3: {
-        num: '03',
-        title: 'Collaborations avec des créateurs',
-        desc:
-          'Appariés par l’IA au bon créateur pour votre marque. Du contenu authentique qui génère de vraies conversions, distribué automatiquement à des millions de personnes.',
-        highlight: '50M+ de créateurs',
-      },
-      f4: {
-        num: '04',
-        title: 'Vidéo shoppable',
-        desc:
-          'De la première impression au paiement en moins de 30 secondes. Commerce intégré dans l’expérience vidéo — sans redirection ni friction.',
-        highlight: '<30s jusqu’à l’achat',
-      },
-    },
-    workflowTitle: 'En ligne en trois étapes',
-    workflowSub: 'De la stratégie à l’échelle en minutes, pas en mois.',
-    workflow: {
-      s1: {
-        title: 'Définissez votre objectif',
-        desc:
-          'Notoriété, conversions, installations d’app — choisissez un objectif et laissez la plateforme l’optimiser.',
-      },
-      s2: {
-        title: 'Définissez votre audience',
-        desc:
-          'Combinez démographie, centres d’intérêt, comportements et affinité créateurs pour un ciblage précis sur plus de 200 marchés.',
-      },
-      s3: {
-        title: 'Lancez et optimisez',
-        desc:
-          'Passez en ligne en minutes. L’IA optimise en temps réel les enchères, les emplacements et les créas pour un ROI maximal.',
-      },
-    },
-    toolsTitle: 'Des outils pour chaque envergure',
-    toolsSub: 'En libre-service ou entièrement géré — nous nous adaptons à vous.',
-    tools: {
-      selfServe: {
-        title: 'Plateforme en libre-service',
-        desc:
-          'Lancez des campagnes en minutes avec un contrôle total des budgets, du ciblage et des créations.',
-      },
-      managed: {
-        title: 'Services gérés',
-        desc:
-          'Équipes dédiées pour les clients entreprise. Stratégie, création, optimisation — nous nous en chargeons.',
-      },
-      marketplace: {
-        title: 'Marketplace créateurs',
-        desc:
-          'Plus de 50 millions de créateurs vérifiés. Filtrez par audience, engagement, géographie et catégorie.',
-      },
-      api: {
-        title: 'API et intégrations',
-        desc:
-          'Achat programmatique, reporting temps réel et connexion complète à votre stack marketing.',
-      },
-    },
-    ctaTitle: 'Prêt à accélérer ?',
-    ctaSub: 'Rejoignez les milliers de marques qui annoncent déjà sur Xavvi.',
-    talkToSales: 'Parler aux ventes',
-  },
   creators: {
     hero: {
       title: 'Les créateurs Xavvi sont au centre',
@@ -507,7 +417,6 @@ export default {
     home: 'Xavvi — Vidéo courte et plateforme créateurs',
     about: 'À propos – Xavvi',
     brands: 'Marques et vendeurs – Xavvi',
-    business: 'Pour les entreprises – Xavvi',
     download: 'Télécharger – Xavvi',
   },
 };

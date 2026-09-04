@@ -3,7 +3,6 @@ export default {
     home: 'Inicio',
     connectors: 'Conectores',
     brandLab: 'Brand Lab',
-    business: 'Empresas',
     about: 'Acerca de',
     getApp: 'Obtener la app',
     downloadXavvi: 'Descargar Xavvi',
@@ -217,95 +216,6 @@ export default {
       btn: 'Empezar',
     },
   },
-  business: {
-    heroTitle: 'Llega a la próxima generación{br}de consumidores',
-    heroSub:
-      'Publicidad centrada en vídeo en más de 200 mercados. Ubicaciones nativas, alianzas con creadores y herramientas enterprise que convierten.',
-    startAdvertising: 'Empezar a anunciarse',
-    contactSales: 'Contactar con ventas',
-    kpis: {
-      k1: { value: '85%+', label: 'Visibilidad del vídeo' },
-      k2: { value: '3.2×', label: 'Mayor interacción' },
-      k3: { value: '70%', label: 'CPA más bajo' },
-      k4: { value: '4.8×', label: 'ROAS medio' },
-    },
-    adFormats: {
-      f1: {
-        num: '01',
-        title: 'Anuncios de vídeo en el feed',
-        desc:
-          'Colocaciones de vídeo a pantalla completa y nativas dentro del contenido. Más del 85 % de visibilidad con una experiencia fluida que no interrumpe el descubrimiento.',
-        highlight: '85%+ de visibilidad',
-      },
-      f2: {
-        num: '02',
-        title: 'Patrocinio de series',
-        desc:
-          'Branding exclusivo en contenido en episodios. Pre-roll, mid-roll e integración de producto — llegando a los espectadores en sus momentos de mayor implicación.',
-        highlight: '3× recuerdo de marca',
-      },
-      f3: {
-        num: '03',
-        title: 'Colaboraciones con creadores',
-        desc:
-          'Emparejados por IA con el creador adecuado para tu marca. Contenido auténtico que impulsa conversiones reales, distribuido automáticamente a millones.',
-        highlight: '50M+ de creadores',
-      },
-      f4: {
-        num: '04',
-        title: 'Vídeo comprable',
-        desc:
-          'De la primera impresión al pago en menos de 30 segundos. Comercio integrado en la experiencia de vídeo — sin redirecciones ni fricción.',
-        highlight: '<30s hasta la compra',
-      },
-    },
-    workflowTitle: 'En marcha en tres pasos',
-    workflowSub: 'De la estrategia a la escala en minutos, no en meses.',
-    workflow: {
-      s1: {
-        title: 'Define tu objetivo',
-        desc:
-          'Notoriedad de marca, conversiones, instalaciones de app — elige un objetivo y deja que la plataforma optimice hacia él.',
-      },
-      s2: {
-        title: 'Define tu audiencia',
-        desc:
-          'Combina demografía, intereses, comportamiento y afinidad con creadores para un targeting preciso en más de 200 mercados.',
-      },
-      s3: {
-        title: 'Lanza y optimiza',
-        desc:
-          'Sal en vivo en minutos. La IA optimiza pujas, ubicaciones y creatividades en tiempo real para maximizar el ROI.',
-      },
-    },
-    toolsTitle: 'Herramientas para cada escala',
-    toolsSub: 'Autoservicio o gestión integral — nos adaptamos a ti.',
-    tools: {
-      selfServe: {
-        title: 'Plataforma en autoservicio',
-        desc:
-          'Lanza campañas en minutos con control total de presupuestos, targeting y creatividad.',
-      },
-      managed: {
-        title: 'Servicios gestionados',
-        desc:
-          'Equipos de cuenta dedicados para clientes enterprise. Estrategia, creatividad, optimización — cubierto.',
-      },
-      marketplace: {
-        title: 'Marketplace de creadores',
-        desc:
-          'Más de 50 millones de creadores verificados. Filtra por audiencia, engagement, geografía y categoría.',
-      },
-      api: {
-        title: 'API e integraciones',
-        desc:
-          'Compra programática, informes en tiempo real y conexión completa con tu stack de marketing.',
-      },
-    },
-    ctaTitle: '¿Listo para crecer?',
-    ctaSub: 'Únete a miles de marcas que ya anuncian en Xavvi.',
-    talkToSales: 'Hablar con ventas',
-  },
   creators: {
     hero: {
       title: 'Las creadoras de Xavvi están en el centro',
@@ -506,7 +416,6 @@ export default {
     home: 'Xavvi — Vídeo corto y plataforma para creadores',
     about: 'Acerca de – Xavvi',
     brands: 'Marcas y proveedores – Xavvi',
-    business: 'Para empresas – Xavvi',
     download: 'Descargar – Xavvi',
   },
 };

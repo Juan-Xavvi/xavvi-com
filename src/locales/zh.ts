@@ -3,7 +3,6 @@ export default {
     home: '首页',
     connectors: '连接者',
     brandLab: 'Brand Lab',
-    business: '商业',
     about: '关于我们',
     getApp: '获取 App',
     downloadXavvi: '下载 Xavvi',
@@ -208,66 +207,6 @@ export default {
       btn: '立即开始',
     },
   },
-  business: {
-    heroTitle: '触达下一代{br}消费者',
-    heroSub: '覆盖 200+ 市场的视频优先广告。原生版位、创作者合作与可转化的企业工具。',
-    startAdvertising: '开始投放',
-    contactSales: '联系销售',
-    kpis: {
-      k1: { value: '85%+', label: '视频可见率' },
-      k2: { value: '3.2×', label: '更高互动' },
-      k3: { value: '70%', label: '更低 CPA' },
-      k4: { value: '4.8×', label: '平均 ROAS' },
-    },
-    adFormats: {
-      f1: {
-        num: '01',
-        title: '信息流视频广告',
-        desc:
-          '内容流中的原生全屏视频版位。85%+ 可见率，体验流畅不打断发现。',
-        highlight: '85%+ 可见率',
-      },
-      f2: {
-        num: '02',
-        title: '剧集赞助',
-        desc:
-          '在剧集内容中的独家品牌呈现。片头、片中与产品植入 —— 在用户最投入的时刻触达。',
-        highlight: '3× 品牌回忆度',
-      },
-      f3: {
-        num: '03',
-        title: '创作者合作',
-        desc:
-          '由 AI 匹配适合品牌的创作者。真实内容驱动转化，自动分发至海量用户。',
-        highlight: '50M+ 创作者',
-      },
-      f4: {
-        num: '04',
-        title: '可购物视频',
-        desc:
-          '从首曝到结账不到 30 秒。视频内嵌购物 —— 无跳转、无摩擦。',
-        highlight: '<30s 完成购买',
-      },
-    },
-    workflowTitle: '三步即可上线',
-    workflowSub: '从策略到规模化，以分钟计，而非以月计。',
-    workflow: {
-      s1: { title: '设定目标', desc: '品牌认知、转化、应用安装 —— 选定目标，平台为你优化达成路径。' },
-      s2: { title: '定义受众', desc: '叠加人口统计、兴趣、行为与创作者偏好，在 200+ 市场精准定向。' },
-      s3: { title: '上线并优化', desc: '分钟级上线。AI 实时优化出价、版位与创意，追求最高 ROI。' },
-    },
-    toolsTitle: '各规模皆适用的工具',
-    toolsSub: '自助或全托管 —— 我们匹配你的阶段。',
-    tools: {
-      selfServe: { title: '自助平台', desc: '分钟级发起投放，预算、定向与创意尽在掌握。' },
-      managed: { title: '托管服务', desc: '企业客户专属团队。策略、创意、优化 —— 一站式包办。' },
-      marketplace: { title: '创作者市场', desc: '5000 万+ 认证创作者。按受众、互动、地域与品类筛选。' },
-      api: { title: 'API 与集成', desc: '程序化购买、实时报表与完整营销栈连通。' },
-    },
-    ctaTitle: '准备增长？',
-    ctaSub: '加入已在 Xavvi 投放的数千品牌。',
-    talkToSales: '与销售沟通',
-  },
   creators: {
     hero: {
       title: 'Xavvi 让创作者居于核心',
@@ -468,7 +407,6 @@ export default {
     home: 'Xavvi — 短视频与创作者平台',
     about: '关于我们 – Xavvi',
     brands: '品牌与供应商 – Xavvi',
-    business: '面向企业 – Xavvi',
     download: '下载 – Xavvi',
   },
 };
