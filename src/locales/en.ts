@@ -131,6 +131,7 @@ export default {
       },
       footer: 'Xavvi HQ, Los Angeles. In partnership with ifeng.com North America (NYSE: FENG).',
       cta: 'APPLY NOW',
+      bookCall: 'Book a Call',
       qrNote: 'If you qualify as a creator (more than 1 million followers) and want to learn more, you can book a 1-on-1 video call by scanning this QR code:',
     },
     mcnBrands: {

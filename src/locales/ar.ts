@@ -142,6 +142,7 @@ export default {
       },
       footer: 'مقر Xavvi، لوس أنجلوس. بالشراكة مع ifeng.com North America (NYSE: FENG).',
       cta: 'قدّم الآن',
+      bookCall: 'احجز مكالمة',
       qrNote: 'إذا كنت مؤهلاً كمبدع (أكثر من مليون متابع) وترغب في معرفة المزيد، يمكنك حجز مكالمة فيديو فردية بمسح رمز QR هذا:',
     },
     mcnBrands: {

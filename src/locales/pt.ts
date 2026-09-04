@@ -132,6 +132,7 @@ export default {
       },
       footer: 'Xavvi HQ, Los Angeles. Em parceria com a ifeng.com North America (NYSE: FENG).',
       cta: 'CANDIDATE-SE',
+      bookCall: 'Agende uma chamada',
       qrNote: 'Se você se qualifica como criador (mais de 1 milhão de seguidores) e quer saber mais, pode agendar uma videochamada individual escaneando este QR code:',
     },
     mcnBrands: {

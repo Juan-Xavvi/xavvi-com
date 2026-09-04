@@ -137,6 +137,7 @@ export default {
       },
       footer: 'Xavvi本社、ロサンゼルス。ifeng.com North America（NYSE: FENG）とのパートナーシップにより開催。',
       cta: '今すぐ応募',
+      bookCall: '通話を予約',
       qrNote: 'クリエイターとしての条件（フォロワー100万人以上）を満たし、詳細を知りたい方は、このQRコードを読み取って1対1のビデオ通話を予約できます：',
     },
     mcnBrands: {

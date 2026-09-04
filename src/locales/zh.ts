@@ -131,6 +131,7 @@ export default {
       },
       footer: 'Xavvi 总部，洛杉矶。与 ifeng.com North America（纽交所代码：FENG）合作举办。',
       cta: '立即申请',
+      bookCall: '预约通话',
       qrNote: '如果你符合创作者资格（粉丝超过100万）并希望了解更多，可扫描此二维码预约一对一视频通话：',
     },
     mcnBrands: {

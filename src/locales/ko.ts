@@ -137,6 +137,7 @@ export default {
       },
       footer: 'Xavvi 본사, 로스앤젤레스. ifeng.com North America(NYSE: FENG)와 파트너십으로 진행됩니다.',
       cta: '지금 지원하기',
+      bookCall: '통화 예약',
       qrNote: '크리에이터 자격(팔로워 100만 명 이상)을 충족하고 더 알아보고 싶다면, 이 QR 코드를 스캔해 1:1 화상 통화를 예약할 수 있습니다:',
     },
     mcnBrands: {

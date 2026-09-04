@@ -137,6 +137,7 @@ export default {
       },
       footer: 'Xavvi HQ, Los Angeles. En partenariat avec ifeng.com North America (NYSE : FENG).',
       cta: 'POSTULER',
+      bookCall: 'Réserver un appel',
       qrNote: 'Si vous êtes éligible en tant que créateur (plus d\'un million d\'abonnés) et souhaitez en savoir plus, vous pouvez réserver un appel vidéo individuel en scannant ce QR code :',
     },
     mcnBrands: {
