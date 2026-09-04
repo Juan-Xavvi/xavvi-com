@@ -346,7 +346,7 @@ const offices = computed(() => [
 					<div class="mt-5 flex flex-col sm:flex-row items-center sm:items-start justify-center sm:justify-start gap-5">
 						<a href="https://docs.google.com/forms/d/e/1FAIpQLSe70nB2njCwICR4MWjAJzLwFzKLaB-z2VP6-7bdJ8CRBCChrg/viewform?usp=sharing&amp;ouid=110677559468855878131"
 							target="_blank" rel="noopener"
-							class="inline-flex items-center justify-center h-12 px-8 rounded-lg bg-[#AE2049] text-[#FFFCF3] font-semibold text-[15px] tracking-wider uppercase hover:opacity-90 transition-opacity shrink-0">
+							class="btn-primary h-12! px-8! text-[15px]! tracking-wider uppercase shrink-0">
 							{{ t('home.fasttrack.bookCall') }}
 						</a>
 						<img src="/images/page/QR-1on1.png" :alt="t('home.fasttrack.qrNote')"
