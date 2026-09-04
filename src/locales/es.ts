@@ -2,6 +2,7 @@ export default {
   nav: {
     home: 'Inicio',
     connectors: 'Conectores',
+    suppliers: 'Proveedores',
     brandLab: 'Brand Lab',
     about: 'Acerca de',
     getApp: 'Obtener la app',
@@ -17,6 +18,7 @@ export default {
     about: 'Acerca de',
     whitePaper: 'White Paper',
     brandLab: 'Brand Lab',
+    globe365: 'Globe 365',
     forBusiness: 'Para empresas',
     resources: 'Recursos',
     advertiserPortal: 'Portal del anunciante',
@@ -113,6 +115,30 @@ export default {
     ctaDownload: 'Descargar la app',
     ctaWebApp: 'Abrir aplicación web',
     ctaJoinNow: 'Únete ahora',
+    newsTeaser: {
+      apply: '¡Las solicitudes para Brand Lab Fast-track ya están abiertas!',
+    },
+    fasttrack: {
+      title: 'Brand Lab Fast-track',
+      intro: 'Los mejores fabricantes de China, de categorías que van desde belleza hasta moda y tecnología, vienen a Los Ángeles listos para construir algo real contigo. Un maratón de speed-dating empresarial, reuniones 1 a 1, talleres, muestras y contenido, todo condensado en unos pocos días diseñados para impulsar tu nuevo negocio. Brand Lab Fast-track es una aceleradora para creadores con más de un millón de seguidores y para afiliados con experiencia en ecommerce, dropshipping o ventas.',
+      more: 'MÁS',
+      manufacturerNotePre: 'Si eres fabricante y quieres lanzar una marca en colaboración con un creador, ',
+      manufacturerNoteLink: 'haz clic aquí',
+      manufacturerNotePost: '.',
+      creators: {
+        label: 'Creadores — 4 días',
+        text: 'Talleres de diseño y negocio, speed-dating empresarial, reuniones 1 a 1 y una sesión de fotos profesional. Impulsa tu propia marca.',
+        badge: '10-13 oct · Gratis para creadores',
+      },
+      affiliates: {
+        label: 'Afiliados — 2 días',
+        text: 'Conecta con nuevas marcas, recibe muestras y crea tu nuevo canal de ingresos impulsado por IA.',
+        badge: '14-15 oct · Gratis para afiliados',
+      },
+      footer: 'Xavvi HQ, Los Ángeles. En colaboración con ifeng.com North America (NYSE: FENG).',
+      cta: 'APLICAR AHORA',
+      qrNote: 'Si cumples los requisitos como creador (más de 1 millón de seguidores) y quieres saber más, puedes reservar una videollamada 1 a 1 escaneando este código QR:',
+    },
     mcnBrands: {
       agencies: {
         eyebrow: 'Conectores',
@@ -121,9 +147,9 @@ export default {
         cta: 'SABER MÁS',
       },
       brands: {
-        eyebrow: 'Marcas y proveedores',
-        title: '¿Eres una marca o un proveedor en busca de mejor ROI?',
-        body: 'El modelo descentralizado de publicidad con IA de Xavvi permite a las marcas colaborar con docenas — o incluso cientos — de creadoras al día, lanzando campañas en días en lugar de semanas o meses. Colaboraciones más rápidas y amplias se traducen en un ROI más fuerte. Además, los datos de tráfico respaldados por blockchain y las herramientas de transparencia ofrecen a las marcas insights más claros sobre el rendimiento y una comprensión mucho mejor de lo que están pagando.',
+        eyebrow: 'Proveedores',
+        title: '¿Eres una marca, proveedor o fabricante que busca un mejor ROI?',
+        body: 'El modelo publicitario descentralizado e impulsado por IA de Xavvi permite a las marcas colaborar con decenas —o incluso cientos— de creadores cada día, lanzando campañas en días en lugar de semanas o meses. Colaboraciones más rápidas y amplias con creadores se traducen en un ROI más fuerte. Además, los datos de tráfico respaldados por blockchain y las herramientas de transparencia ofrecen a las marcas una visión más clara del rendimiento y una comprensión mucho mejor de lo que realmente están pagando. Para los fabricantes, Xavvi facilita la creación de líneas de producto exclusivas con celebridades y grandes influencers, respaldadas por un ejército de afiliados que impulsan las ventas 24/7 en todo el mundo.',
         cta: 'SABER MÁS',
       },
     },
@@ -184,9 +210,25 @@ export default {
   },
   brands: {
     hero: {
-      title: 'Marcas y proveedores',
-      p1: 'La app Xavvi ofrece a marcas y proveedores una forma más transparente, escalable y eficiente de hacer publicidad. Con apenas unos clics, colabora con docenas — o incluso cientos — de creadoras, expándete globalmente y lanza campañas diseñadas para un rendimiento medible y mejor ROI.',
-      p2: 'Al mismo tiempo, Brand Lab permite a fabricantes, marcas y proveedores impulsar tiendas lideradas por creadoras, abriendo nuevos canales de distribución y acceso directo a audiencias altamente comprometidas en todo el mundo.',
+      title: 'Proveedores',
+      p1: 'La app de Xavvi ofrece a marcas y proveedores una forma de publicitarse más transparente, escalable y eficiente. Con unos pocos clics, colabora con decenas o incluso cientos de creadores, expándete globalmente y lanza campañas diseñadas en torno a un rendimiento medible y un mejor ROI.',
+      p2: 'Al mismo tiempo, Brand Lab permite a los fabricantes lanzar líneas de producto exclusivas para marcas de creadores, abriendo nuevos canales de distribución y acceso directo a audiencias muy comprometidas en todo el mundo.',
+    },
+    globe365: {
+      title: 'GLOBE365: una feria comercial permanente para tu marca',
+      intro1: 'GLOBE365 ayuda a los fabricantes chinos a dejar de perseguir ferias comerciales por el mundo y empezar a tener la suya propia, de forma permanente. En lugar de pagar por un stand en otra feria más, GLOBE365 construye para tu fábrica una marca real en EE. UU.: una red dedicada de creadores y contenido impulsado por IA que promociona tus productos en todo el mundo, de forma continua, 365 días al año. No es un escaparate puntual: es un sistema siempre activo de contenido, distribución y captación de compradores construido específicamente en torno a tu marca.',
+      intro2: 'El programa se desarrolla en dos fases: preparación antes de tu llegada y después un lanzamiento intensivo de 10 días en EE. UU. que pone en marcha 365 días de operación continua: construcción de marca, contenido, colaboraciones con creadores y captación B2B global. GLOBE365 es una alianza basada en un emparejamiento y una ejecución reales, no en resultados garantizados: los resultados dependen de tu producto, su encaje en el mercado y las relaciones que se creen por el camino.',
+      days: {
+        d1Label: 'Días 1–4 — Brand Lab Fast-Track con creadores',
+        d1Text: 'Construye tu escaparate. El día 1 es speed-dating empresarial: los creadores ven, prueban y seleccionan los SKU con los que quieren trabajar. El día 2 es emparejamiento individual Marca × Creador para definir posicionamiento, precios y modelo de colaboración: afiliación, directo, embajador de marca o co-branding completo. El día 3 es creación de contenido in situ —guiones, vídeo, contenido multilingüe asistido por IA— grabado con tu producto real y creadores reales. El día 4 cierra con una primera propuesta de marca, packaging y página de venta para tus mejores emparejamientos con creadores.',
+        d2Label: 'Días 5–6 — Brand Lab Fast-Track con afiliados',
+        d2Text: 'Escala. Construimos una matriz multilingüe de captación B2B, diseñamos tu estructura de distribución y comisiones, y hacemos una prueba integral en vivo del sistema de captación de leads con IA y del CRM.',
+        d3Label: 'Días 7–9 — Talleres de negocio y cumplimiento',
+        d3Text: 'Prepárate para operar. El día 7 cubre logística, aduanas, almacenamiento y modelado de costes de cumplimiento para tus SKU. El día 8 aborda constitución de la empresa, marcas y propiedad intelectual, fiscalidad, aspectos legales y conformidad del producto. El día 9 te conecta con asociaciones comerciales de EE. UU., posibles compradores y distribuidores, y validación de canales retail.',
+        d4Label: 'Día 10 — Evaluación y hoja de ruta',
+        d4Text: 'Cada empresa se marcha con una revisión clara de lo conseguido y una hoja de ruta de crecimiento a 30/90/180/365 días con responsables y plazos definidos.',
+      },
+      cta: 'APLICAR AHORA',
     },
     brandLab: {
       eyebrow: 'Brand Lab',
@@ -413,9 +455,9 @@ export default {
     notFound: 'Publicación no encontrada.',
   },
   meta: {
-    home: 'Xavvi — Vídeo corto y plataforma para creadores',
+    home: 'Xavvi — Lanzamos marcas de creadores y ayudamos a proveedores a vender globalmente',
     about: 'Acerca de – Xavvi',
-    brands: 'Marcas y proveedores – Xavvi',
+    brands: 'Proveedores – Xavvi',
     download: 'Descargar – Xavvi',
   },
 };

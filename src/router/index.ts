@@ -4,10 +4,15 @@ import i18n from '@/locales';
 const router = createRouter({
   history: createWebHistory(),
   scrollBehavior(_to, _from, savedPosition) {
-    return savedPosition || { top: 0 };
+    if (savedPosition) return savedPosition;
+    // #hash targets are scrolled by the destination page itself (see BrandsPage.vue):
+    // scrollBehavior does not run on the first navigation, so a page-level handler is
+    // the only thing that covers both cold loads and in-app navigation. Reset to the
+    // top here so the outgoing page's offset doesn't carry over before it runs.
+    return { top: 0 };
   },
   routes: [
-    { path: '/', name: 'home', component: () => import('@/pages/HomePage.vue'), meta: { titleKey: 'meta.home', description: 'Xavvi is the AI social commerce platform creating an AI Credits ecosystem for creators, fans, and advertisers. Enter the Web4 era.' } },
+    { path: '/', name: 'home', component: () => import('@/pages/HomePage.vue'), meta: { titleKey: 'meta.home', description: 'Launching creator brands and helping suppliers sell globally' } },
     { path: '/about', name: 'about', component: () => import('@/pages/AboutPage.vue'), meta: { titleKey: 'meta.about', description: "Learn about Xavvi's mission to power the creator economy through AI, social commerce, and digital assets." } },
     { path: '/brands', name: 'brands', component: () => import('@/pages/BrandsPage.vue'), meta: { titleKey: 'meta.brands', description: 'Brands and vendors: collaborate with hundreds of creators, launch AI-powered campaigns, and achieve better ROI with Xavvi.' } },
     { path: '/creators', name: 'creators', component: () => import('@/pages/CreatorsPage.vue'), meta: { title: 'Creators – Xavvi', description: 'Celebrities and influencers: own your data, launch your brand, monetize your audience with AI and AI Credits on Xavvi.' } },
@@ -26,7 +31,7 @@ const router = createRouter({
 
 const { t } = i18n.global;
 
-const DEFAULT_DESCRIPTION = 'Xavvi — Powering the Creator Economy';
+const DEFAULT_DESCRIPTION = 'Launching creator brands and helping suppliers sell globally';
 const SITE_ORIGIN = 'https://xavvi.com';
 
 function setMetaName(name: string, content: string) {

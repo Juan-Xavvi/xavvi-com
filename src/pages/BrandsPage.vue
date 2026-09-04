@@ -1,7 +1,38 @@
 <script setup lang="ts">
+import { computed, onMounted, nextTick } from 'vue';
+import { useRoute } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 
 const { t } = useI18n();
+const route = useRoute();
+
+// The router's scrollBehavior does not fire on the very first navigation, so a
+// cold load of /brands#globe365 (pasted URL, bookmark, external link) would open
+// at the top. Handle the hash here once the page — and its images — have settled.
+onMounted(() => {
+	const hash = route.hash;
+	if (!hash) return;
+
+	const scrollToHash = () => {
+		const el = document.querySelector(hash);
+		if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+	};
+
+	nextTick(() => {
+		if (document.readyState === 'complete') {
+			setTimeout(scrollToHash, 120);
+		} else {
+			window.addEventListener('load', () => setTimeout(scrollToHash, 120), { once: true });
+		}
+	});
+});
+
+const globeDays = computed(() => [
+	{ label: t('brands.globe365.days.d1Label'), text: t('brands.globe365.days.d1Text') },
+	{ label: t('brands.globe365.days.d2Label'), text: t('brands.globe365.days.d2Text') },
+	{ label: t('brands.globe365.days.d3Label'), text: t('brands.globe365.days.d3Text') },
+	{ label: t('brands.globe365.days.d4Label'), text: t('brands.globe365.days.d4Text') },
+]);
 </script>
 
 <template>
@@ -25,7 +56,55 @@ const { t } = useI18n();
 				</div>
 				<!-- Right: image -->
 				<div v-reveal="1" class="rounded-2xl overflow-hidden">
-					<img src="/images/page/brands-hero.jpg" alt="" class="block w-full h-auto object-cover" />
+					<img src="/images/page/brands-hero.jpg" alt="" width="1448" height="1086" class="block w-full h-auto object-cover" />
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ═══════════════════════════════════════
+       GLOBE 365
+       ═══════════════════════════════════════ -->
+	<section id="globe365" class="bg-[#FFFDF9] py-22 scroll-mt-24">
+		<div class="max-w-[1200px] mx-auto px-6 lg:px-8">
+			<div class="grid lg:grid-cols-2 gap-10 lg:gap-16 items-start">
+				<!-- Left: text -->
+				<div v-reveal>
+					<h2 class="text-[clamp(1.9rem,3.6vw,2.75rem)] font-bold text-[#212226] leading-tight tracking-tight mb-6">
+						{{ t('brands.globe365.title') }}
+					</h2>
+					<p class="text-[15px] lg:text-[17px] leading-[1.8] text-text-2 mb-5">
+						{{ t('brands.globe365.intro1') }}
+					</p>
+					<p class="text-[15px] lg:text-[17px] leading-[1.8] text-text-2 mb-8">
+						{{ t('brands.globe365.intro2') }}
+					</p>
+
+					<!-- 10-day itinerary -->
+					<div class="flex flex-col gap-4 mb-8">
+						<div v-for="day in globeDays" :key="day.label"
+							class="rounded-2xl border border-[#212226]/10 bg-white px-6 py-5">
+							<p class="text-[15px] lg:text-[16px] font-bold text-[#AE2049] mb-2">
+								{{ day.label }}
+							</p>
+							<p class="text-[15px] leading-[1.7] text-text-2">
+								{{ day.text }}
+							</p>
+						</div>
+					</div>
+
+					<div>
+						<a href="https://opc.xavvi.com/globe-365" target="_blank" rel="noopener"
+							class="inline-flex items-center justify-center h-12 px-8 rounded-lg bg-[#AE2049] text-white font-semibold text-[15px] tracking-wider hover:opacity-90 transition-opacity">
+							{{ t('brands.globe365.cta') }}
+						</a>
+					</div>
+				</div>
+
+				<!-- Right: image -->
+				<div v-reveal="1" class="rounded-2xl overflow-hidden lg:sticky lg:top-28">
+					<img src="/images/page/Globe-365.jpg" :alt="t('brands.globe365.title')"
+						width="1024" height="1024" class="block w-full h-auto object-cover" />
 				</div>
 			</div>
 		</div>

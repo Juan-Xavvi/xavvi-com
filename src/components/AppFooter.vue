@@ -45,9 +45,10 @@ const { t } = useI18n();
         </div>
 
         <div>
-          <h4 class="text-[12px] font-semibold text-[#212226] tracking-[0.12em] uppercase mb-5">Brands &amp; Vendors</h4>
+          <h4 class="text-[12px] font-semibold text-[#212226] tracking-[0.12em] uppercase mb-5">{{ t('nav.suppliers') }}</h4>
           <ul class="space-y-3">
-            <li><RouterLink to="/brands" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">Brands &amp; Vendors</RouterLink></li>
+            <li><RouterLink to="/brands" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('nav.suppliers') }}</RouterLink></li>
+            <li><a href="https://opc.xavvi.com/globe-365" target="_blank" rel="noopener" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.globe365') }}</a></li>
           </ul>
         </div>
 

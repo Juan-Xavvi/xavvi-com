@@ -2,6 +2,7 @@ export default {
   nav: {
     home: 'Accueil',
     connectors: 'Connecteurs',
+    suppliers: 'Fournisseurs',
     brandLab: 'Brand Lab',
     about: 'À propos',
     getApp: "Télécharger l'app",
@@ -17,6 +18,7 @@ export default {
     about: 'À propos',
     whitePaper: 'White Paper',
     brandLab: 'Brand Lab',
+    globe365: 'Globe 365',
     forBusiness: 'Pour les entreprises',
     resources: 'Ressources',
     advertiserPortal: 'Portail annonceur',
@@ -113,6 +115,30 @@ export default {
     ctaDownload: "Télécharger l'app",
     ctaWebApp: 'Ouvrir l’application web',
     ctaJoinNow: 'Rejoindre',
+    newsTeaser: {
+      apply: 'Les candidatures pour Brand Lab Fast-track sont ouvertes !',
+    },
+    fasttrack: {
+      title: 'Brand Lab Fast-track',
+      intro: 'Les meilleurs fabricants de Chine, de la beauté à la mode en passant par la tech, viennent à Los Angeles prêts à construire quelque chose de concret avec vous. Un marathon de speed-dating professionnel, de rendez-vous individuels, d\'ateliers, d\'échantillons et de contenu, le tout condensé en quelques jours conçus pour lancer votre nouvelle activité. Brand Lab Fast-track est un accélérateur pour les créateurs de plus d\'un million d\'abonnés et pour les affiliés ayant une expérience en e-commerce, dropshipping ou vente.',
+      more: 'PLUS',
+      manufacturerNotePre: 'Si vous êtes fabricant et souhaitez lancer une marque en partenariat avec un créateur, ',
+      manufacturerNoteLink: 'cliquez ici',
+      manufacturerNotePost: '.',
+      creators: {
+        label: 'Créateurs — 4 jours',
+        text: 'Ateliers de design et de business, speed-dating professionnel, rendez-vous individuels, séance photo professionnelle. Lancez votre propre marque.',
+        badge: '10-13 oct. · Gratuit pour les créateurs',
+      },
+      affiliates: {
+        label: 'Affiliés — 2 jours',
+        text: 'Soyez mis en relation avec de nouvelles marques, échantillons en main, et créez votre nouveau canal de revenus propulsé par l\'IA.',
+        badge: '14-15 oct. · Gratuit pour les affiliés',
+      },
+      footer: 'Xavvi HQ, Los Angeles. En partenariat avec ifeng.com North America (NYSE : FENG).',
+      cta: 'POSTULER',
+      qrNote: 'Si vous êtes éligible en tant que créateur (plus d\'un million d\'abonnés) et souhaitez en savoir plus, vous pouvez réserver un appel vidéo individuel en scannant ce QR code :',
+    },
     mcnBrands: {
       agencies: {
         eyebrow: 'Connecteurs',
@@ -121,9 +147,9 @@ export default {
         cta: 'EN SAVOIR PLUS',
       },
       brands: {
-        eyebrow: 'Marques et vendeurs',
-        title: "Vous êtes une marque ou un vendeur en quête d'un meilleur ROI ?",
-        body: "Le modèle publicitaire décentralisé et propulsé par l'IA de Xavvi permet aux marques de collaborer avec des dizaines — voire des centaines — de créateurs chaque jour, en lançant des campagnes en quelques jours au lieu de plusieurs semaines ou mois. Des collaborations créateurs plus rapides et plus larges se traduisent par un meilleur ROI. De plus, les données de trafic adossées à la blockchain et les outils de transparence offrent aux marques une vision plus claire de la performance et une bien meilleure compréhension de ce pour quoi elles paient.",
+        eyebrow: 'Fournisseurs',
+        title: 'Vous êtes une marque, un vendeur ou un fabricant à la recherche d\'un meilleur ROI ?',
+        body: 'Le modèle publicitaire décentralisé et propulsé par l\'IA de Xavvi permet aux marques de collaborer avec des dizaines — voire des centaines — de créateurs chaque jour, en lançant des campagnes en quelques jours plutôt qu\'en semaines ou en mois. Des collaborations plus rapides et plus larges se traduisent par un meilleur ROI. De plus, les données de trafic adossées à la blockchain et les outils de transparence offrent aux marques une vision plus claire des performances et une bien meilleure compréhension de ce pour quoi elles paient. Pour les fabricants, Xavvi facilite la création de gammes de produits exclusives avec des célébrités et de grands influenceurs, soutenues par une armée d\'affiliés qui génèrent des ventes 24h/24 et 7j/7 dans le monde entier.',
         cta: 'EN SAVOIR PLUS',
       },
     },
@@ -185,9 +211,25 @@ export default {
   },
   brands: {
     hero: {
-      title: 'Marques et vendeurs',
-      p1: "L'application Xavvi offre aux marques et aux vendeurs une manière plus transparente, scalable et efficace de faire de la publicité. En quelques clics, collaborez avec des dizaines — voire des centaines — de créateurs, étendez-vous mondialement et lancez des campagnes conçues autour d'une performance mesurable et d'un meilleur ROI.",
-      p2: "Dans le même temps, Brand Lab permet aux fabricants, marques et fournisseurs d'alimenter des boutiques pilotées par les créateurs, ouvrant de nouveaux canaux de distribution et un accès direct à des audiences hautement engagées partout dans le monde.",
+      title: 'Fournisseurs',
+      p1: 'L\'application Xavvi offre aux marques et aux vendeurs un moyen de faire de la publicité plus transparent, plus évolutif et plus efficace. En quelques clics, collaborez avec des dizaines, voire des centaines de créateurs, développez-vous à l\'international et lancez des campagnes conçues autour de performances mesurables et d\'un meilleur ROI.',
+      p2: 'Dans le même temps, Brand Lab permet aux fabricants de lancer des gammes de produits exclusives pour les marques de créateurs, ouvrant de nouveaux canaux de distribution et un accès direct à des audiences très engagées partout dans le monde.',
+    },
+    globe365: {
+      title: 'GLOBE365 : un salon professionnel permanent pour votre marque',
+      intro1: 'GLOBE365 aide les fabricants chinois à cesser de courir après les salons internationaux pour organiser le leur, en permanence. Plutôt que de payer un stand dans un énième salon, GLOBE365 construit pour votre usine une véritable marque aux États-Unis : un réseau dédié de créateurs et de contenus pilotés par l\'IA qui commercialise vos produits dans le monde entier, en continu, 365 jours par an. Ce n\'est pas une vitrine ponctuelle, c\'est un système toujours actif de contenu, de distribution et de prospection acheteurs conçu spécifiquement autour de votre marque.',
+      intro2: 'Le programme se déroule en deux phases : la préparation avant votre arrivée, puis un lancement intensif de 10 jours aux États-Unis qui met en place 365 jours d\'activité continue — construction de marque, contenu, partenariats avec des créateurs et prospection B2B mondiale. GLOBE365 est un partenariat fondé sur un vrai matching et une vraie exécution, non sur des résultats garantis : les résultats dépendent de votre produit, de son adéquation au marché et des relations nouées en chemin.',
+      days: {
+        d1Label: 'Jours 1–4 — Brand Lab Fast-Track avec les créateurs',
+        d1Text: 'Construisez votre vitrine. Le jour 1 est un speed-dating professionnel : les créateurs voient, testent et sélectionnent les références avec lesquelles ils veulent travailler. Le jour 2 est un matching individuel Marque × Créateur pour définir positionnement, prix et mode de collaboration — affiliation, live, ambassadeur de marque ou co-branding complet. Le jour 3 est consacré à la création de contenu sur place — scripts, vidéo, contenu multilingue assisté par IA — tourné avec votre produit réel et de vrais créateurs. Le jour 4 se conclut par un premier concept de marque, de packaging et de page de vente pour vos meilleures associations avec des créateurs.',
+        d2Label: 'Jours 5–6 — Brand Lab Fast-Track avec les affiliés',
+        d2Text: 'Passez à l\'échelle. Nous construisons une matrice de prospection B2B multilingue, concevons votre structure de distribution et de commissions, et réalisons un test complet en conditions réelles du pipeline d\'acquisition de leads par IA et du CRM.',
+        d3Label: 'Jours 7–9 — Ateliers business et conformité',
+        d3Text: 'Préparez-vous à opérer. Le jour 7 couvre la logistique, les douanes, l\'entreposage et la modélisation des coûts de traitement des commandes pour vos références. Le jour 8 traite de la création d\'entreprise, des marques et de la propriété intellectuelle, de la fiscalité, du juridique et de la conformité produit. Le jour 9 vous met en relation avec des associations professionnelles américaines, des acheteurs et distributeurs potentiels, et valide vos canaux de distribution.',
+        d4Label: 'Jour 10 — Évaluation et feuille de route',
+        d4Text: 'Chaque entreprise repart avec un bilan clair de ce qui a été accompli et une feuille de route de croissance à 30/90/180/365 jours, avec des responsables désignés et des échéances.',
+      },
+      cta: 'POSTULER',
     },
     brandLab: {
       eyebrow: 'Brand Lab',
@@ -414,9 +456,9 @@ export default {
     notFound: 'Article introuvable.',
   },
   meta: {
-    home: 'Xavvi — Vidéo courte et plateforme créateurs',
+    home: 'Xavvi — Nous lançons les marques de créateurs et aidons les fournisseurs à vendre partout dans le monde',
     about: 'À propos – Xavvi',
-    brands: 'Marques et vendeurs – Xavvi',
+    brands: 'Fournisseurs – Xavvi',
     download: 'Télécharger – Xavvi',
   },
 };

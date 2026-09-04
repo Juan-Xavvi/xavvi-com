@@ -2,6 +2,7 @@ export default {
   nav: {
     home: 'Home',
     connectors: 'Connectors',
+    suppliers: 'Suppliers',
     brandLab: 'Brand Lab',
     about: 'About',
     getApp: 'Get App',
@@ -18,6 +19,7 @@ export default {
     about: 'About',
     whitePaper: 'White Paper',
     brandLab: 'Brand Lab',
+    globe365: 'Globe 365',
     forBusiness: 'For Business',
     resources: 'Resources',
     advertiserPortal: 'Advertiser Portal',
@@ -107,6 +109,30 @@ export default {
     ctaDownload: 'Download the App',
     ctaWebApp: 'Open Web App',
     ctaJoinNow: 'Join Now',
+    newsTeaser: {
+      apply: 'Brand Lab Fast-track applications now open!',
+    },
+    fasttrack: {
+      title: 'Brand Lab Fast-track',
+      intro: 'Top manufacturers from China, across categories from beauty to fashion to tech, come to Los Angeles ready to build something real with you. A marathon of business speed-dating, 1-on-1 meetings, workshops, samples and content — all condensed into a few days designed to kickstart your new business. Brand Lab Fast-track is an accelerator for creators with over a million followers, and for affiliates with experience in ecommerce, dropshipping or sales.',
+      more: 'MORE',
+      manufacturerNotePre: 'If you are a manufacturer and want to launch a brand in partnership with a creator, ',
+      manufacturerNoteLink: 'click here',
+      manufacturerNotePost: '.',
+      creators: {
+        label: 'Creators — 4 days',
+        text: 'Design & business workshops, business speed-dating, 1-on-1 meetings, a professional photoshoot. Kickstart your own brand.',
+        badge: 'Oct 10-13 · Free for creators',
+      },
+      affiliates: {
+        label: 'Affiliates — 2 days',
+        text: 'Get matched to new brands, samples in hand, and set up your new revenue channel powered by AI.',
+        badge: 'Oct 14-15 · Free for affiliates',
+      },
+      footer: 'Xavvi HQ, Los Angeles. In partnership with ifeng.com North America (NYSE: FENG).',
+      cta: 'APPLY NOW',
+      qrNote: 'If you qualify as a creator (more than 1 million followers) and want to learn more, you can book a 1-on-1 video call by scanning this QR code:',
+    },
     mcnBrands: {
       agencies: {
         eyebrow: 'Connectors',
@@ -115,9 +141,9 @@ export default {
         cta: 'LEARN MORE',
       },
       brands: {
-        eyebrow: 'Brands & Vendors',
-        title: 'Are you a brand or vendor looking for better ROI?',
-        body: "Xavvi's decentralised, AI-powered advertising model enables brands to collaborate with dozens — or even hundreds — of creators every day, launching campaigns in days instead of weeks or months. Faster and broader creator collaborations translate into stronger ROI. In addition, blockchain-supported traffic data and transparency tools give brands clearer insights into performance and a far better understanding of exactly what they are paying for.",
+        eyebrow: 'Suppliers',
+        title: 'Are you a brand, vendor or manufacturer looking for better ROI?',
+        body: 'Xavvi\'s decentralised, AI-powered advertising model enables brands to collaborate with dozens — or even hundreds — of creators every day, launching campaigns in days instead of weeks or months. Faster and broader creator collaborations translate into stronger ROI. In addition, blockchain-supported traffic data and transparency tools give brands clearer insights into performance and a far better understanding of exactly what they are paying for. For manufacturers, Xavvi facilitates the creation of exclusive product lines with celebrities and top influencers, backed by a sales army of affiliates that drive sales 24/7 all over the world.',
         cta: 'LEARN MORE',
       },
     },
@@ -175,9 +201,25 @@ export default {
   },
   brands: {
     hero: {
-      title: 'Brands & Vendors',
+      title: 'Suppliers',
       p1: 'The Xavvi app gives brands and vendors a more transparent, scalable, and efficient way to advertise. With just a few clicks, collaborate with dozens or even hundreds of creators, expand globally, and launch campaigns designed around measurable performance and better ROI.',
-      p2: 'At the same time, Brand Lab allows manufacturers, brands, and suppliers to power creator-led shops, opening new distribution channels and direct access to highly engaged audiences around the world.',
+      p2: 'At the same time, Brand Lab allows manufacturers to launch exclusive product lines for creator brands, opening new distribution channels and direct access to highly engaged audiences around the world.',
+    },
+    globe365: {
+      title: 'GLOBE365: A Perpetual Trade Show for Your Brand',
+      intro1: 'GLOBE365 helps Chinese manufacturers stop chasing global trade shows and start running their own — permanently. Instead of paying for a booth at yet another expo, GLOBE365 builds your factory a real U.S. brand: a dedicated network of Creators and AI-driven content that markets your products worldwide, continuously, 365 days a year. It\'s not a one-time showcase — it\'s an always-on system of content, distribution, and buyer outreach built around your brand specifically.',
+      intro2: 'The program runs in two phases: preparation before you arrive, then a focused 10-day launch in the U.S. that sets up 365 days of ongoing operations — brand building, content, Creator partnerships, and global B2B outreach. GLOBE365 is a partnership built on real matching and real execution, not guaranteed outcomes — results depend on your product, market fit, and the relationships formed along the way.',
+      days: {
+        d1Label: 'Days 1–4 — Brand Lab Fast-Track with Creators',
+        d1Text: 'Build your showcase. Day 1 is business speed-dating: Creators see, try, and select the SKUs they want to work with. Day 2 is one-on-one Brand × Creator matchmaking to nail down positioning, pricing, and collaboration mode — affiliate, livestream, brand ambassador, or full co-branding. Day 3 is on-site content creation — scripts, video, AI-assisted multilingual content — shot with your real product and real Creators. Day 4 wraps with a first-round brand, packaging, and sales-page concept for your best-matched Creator pairings.',
+        d2Label: 'Days 5–6 — Brand Lab Fast-Track with Affiliates',
+        d2Text: 'Scale up. We build out a multilingual B2B outreach matrix, design your distribution and commission structure, and run a live end-to-end test of the AI lead-intake and CRM pipeline.',
+        d3Label: 'Days 7–9 — Business and Compliance Workshops',
+        d3Text: 'Get ready to operate. Day 7 covers logistics, customs, warehousing, and fulfillment-cost modeling for your SKUs. Day 8 works through company registration, trademark/IP, tax, legal, and product compliance. Day 9 connects you with U.S. trade associations, potential buyers and distributors, and retail-channel validation.',
+        d4Label: 'Day 10 — Evaluation & Roadmap',
+        d4Text: 'Every company leaves with a clear review of what was achieved and a 30/90/180/365-day growth roadmap with named owners and deadlines.',
+      },
+      cta: 'APPLY NOW',
     },
     brandLab: {
       eyebrow: 'Brand Lab',
@@ -404,9 +446,9 @@ export default {
     notFound: 'Post not found.',
   },
   meta: {
-    home: 'Xavvi — Short video & creator platform',
+    home: 'Xavvi — Launching creator brands and helping suppliers sell globally',
     about: 'About – Xavvi',
-    brands: 'Brands & Vendors – Xavvi',
+    brands: 'Suppliers – Xavvi',
     download: 'Download – Xavvi',
   },
 };
