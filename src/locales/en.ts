@@ -207,7 +207,7 @@ export default {
       p2: 'At the same time, Brand Lab allows manufacturers to launch exclusive product lines for creator brands, opening new distribution channels and direct access to highly engaged audiences around the world.',
     },
     globe365: {
-      title: 'Globe 365: A Perpetual Trade Show for Your Brand',
+      title: 'Globe 365: A Permanent Trade Show for Your Brand',
       intro1: 'Globe 365 helps Chinese manufacturers stop chasing global trade shows and start running their own — permanently. Instead of paying for a booth at yet another expo, Globe 365 builds your factory a real U.S. brand: a dedicated network of Creators and AI-driven content that markets your products worldwide, continuously, 365 days a year. It\'s not a one-time showcase — it\'s an always-on system of content, distribution, and buyer outreach built around your brand specifically.',
       intro2: 'The program runs in two phases: preparation before you arrive, then a focused 10-day launch in the U.S. that sets up 365 days of ongoing operations — brand building, content, Creator partnerships, and global B2B outreach. Globe 365 is a partnership built on real matching and real execution, not guaranteed outcomes — results depend on your product, market fit, and the relationships formed along the way.',
       days: {

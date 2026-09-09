@@ -131,7 +131,8 @@ const offices = computed(() => [
 						{{ t('home.learnMore') }}
 						<svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5.5 7.5h5.5m-2.5-3 3 3-3 3" /></svg>
 					</RouterLink>
-					<QrPopover>
+					<!-- Hidden 2026-09-09 — re-enable by removing v-if="false" -->
+					<QrPopover v-if="false">
 						<button class="btn-ghost h-12! px-7! text-[15px]! cursor-pointer">
 							<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
 							{{ t('home.getTheApp') }}
@@ -316,7 +317,7 @@ const offices = computed(() => [
 					<div class="flex flex-col gap-5 mb-8">
 						<div v-for="block in fasttrackBlocks" :key="block.label"
 							class="rounded-2xl border border-[#FFFDF9]/15 bg-[#FFFDF9]/[0.04] px-6 py-5">
-							<p class="text-[15px] lg:text-[16px] font-bold text-[#AE2049] mb-2">
+							<p class="text-[15px] lg:text-[16px] font-bold text-[#FE2C55] mb-2">
 								{{ block.label }}
 							</p>
 							<p class="text-[15px] leading-[1.7] text-[#FFFDF9] mb-3">
@@ -444,9 +445,9 @@ const offices = computed(() => [
 				{{ t('home.ctaTitle') }}
 			</p>
 			<div v-reveal="2" class="mt-10 flex flex-wrap justify-center gap-4">
-				<a href="https://launchpad.xavvi.com/" target="_blank" rel="noopener" class="btn-primary h-12! px-8! text-[16px]!">
-					{{ t('home.ctaJoinNow') }}
-				</a>
+				<RouterLink to="/contact" class="btn-primary h-12! px-8! text-[16px]!">
+					{{ t('home.learnMore') }}
+				</RouterLink>
 			</div>
 		</div>
 	</section>

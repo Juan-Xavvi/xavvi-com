@@ -95,7 +95,7 @@ const globeDays = computed(() => [
 
 					<div>
 						<a href="https://opc.xavvi.com/globe-365" target="_blank" rel="noopener"
-							class="inline-flex items-center justify-center h-12 px-8 rounded-lg bg-[#AE2049] text-white font-semibold text-[15px] tracking-wider hover:opacity-90 transition-opacity">
+							class="btn-primary h-12! px-8! text-[15px]! tracking-wider">
 							{{ t('brands.globe365.cta') }}
 						</a>
 					</div>
