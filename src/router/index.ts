@@ -26,6 +26,7 @@ const router = createRouter({
     { path: '/terms', name: 'terms', component: () => import('@/pages/TermsPage.vue'), meta: { title: 'Terms of Service – Xavvi', description: 'Xavvi Terms of Service.' } },
     { path: '/privacy', name: 'privacy', component: () => import('@/pages/PrivacyPage.vue'), meta: { title: 'Privacy Policy – Xavvi', description: 'Xavvi Privacy Policy.' } },
     { path: '/community-guidelines', name: 'community-guidelines', component: () => import('@/pages/CommunityGuidelinesPage.vue'), meta: { title: 'Community Guidelines – Xavvi', description: 'Xavvi Community Guidelines.' } },
+    { path: '/data-addendum', name: 'data-addendum', component: () => import('@/pages/DataAddendumPage.vue'), meta: { title: 'Data Processing Addendum – Xavvi', description: 'Xavvi Data Processing Addendum.', noindex: true } },
   ],
 });
 

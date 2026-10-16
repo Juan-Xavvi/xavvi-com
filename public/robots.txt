@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
 Disallow: /archive
+Disallow: /data-addendum
 
 Sitemap: https://xavvi.com/sitemap.xml
