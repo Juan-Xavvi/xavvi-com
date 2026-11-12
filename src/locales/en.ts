@@ -487,6 +487,46 @@ export default {
     backToNews: 'Back to News',
     notFound: 'Post not found.',
   },
+  microDramas: {
+    hero: {
+      title: 'AI Microdramas Starring Real Creators',
+      sub: '60 to 100 episodes. One minute each. Vertical video. Starring your favorite creators — powered by AI, sponsored by brands, and shoppable from every scene.',
+      cta: 'Apply as a Creator',
+    },
+    how: {
+      title: 'How It Works',
+      cast: {
+        label: 'CAST',
+        body: 'We onboard actors, musicians, influencers, and athletes as the stars of original microdrama series.',
+      },
+      produce: {
+        label: 'PRODUCE',
+        body: 'Our AI studio produces 60–100 episodes of vertical video, each one minute long, scripted around brands and products.',
+      },
+      monetize: {
+        label: 'MONETIZE',
+        body: 'Each series is sponsored by brands and every scene is shoppable. Creators earn from sponsorships and sales commissions.',
+      },
+    },
+    stars: {
+      title: 'Who Stars in Xavvi Microdramas',
+      actors: { label: 'ACTORS', desc: 'Bring drama, emotion, and storytelling to every episode.' },
+      musicians: { label: 'MUSICIANS', desc: 'Perform, act, and build a fanbase beyond the stage.' },
+      influencers: { label: 'INFLUENCERS', desc: 'Turn your audience into viewers of your own series.' },
+      athletes: { label: 'ATHLETES', desc: 'Inspire millions with stories on and off the field.' },
+    },
+    brands: {
+      eyebrow: 'For Brands',
+      title: 'Built for Brand Deals',
+      body: 'Every microdrama series is built around a sponsor. Your brand appears naturally in the story — not as an ad, but as part of the world. Add shoppable links to any scene and track sales in real time.',
+      cta: 'Partner with Us',
+    },
+    cta: {
+      title: 'Ready to Star in a Microdrama?',
+      sub: 'Applications are open for creators with an audience ready to watch.',
+      button: 'Apply Now',
+    },
+  },
   meta: {
     home: 'Xavvi — Launching creator brands and helping suppliers sell globally',
     about: 'About – Xavvi',
