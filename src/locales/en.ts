@@ -491,7 +491,8 @@ export default {
     hero: {
       title: 'AI Microdramas Starring Real Creators',
       sub: '60 to 100 episodes. One minute each. Vertical video. Starring your favorite creators — powered by AI, sponsored by brands, and shoppable from every scene.',
-      cta: 'Apply as a Creator',
+      cta: 'Learn More',
+      ctaApply: 'Apply Now',
     },
     how: {
       title: 'How It Works',
@@ -518,7 +519,6 @@ export default {
     brands: {
       eyebrow: 'For Brands',
       title: 'Built for Brand Deals',
-      body: 'Every microdrama series is built around a sponsor. Your brand appears naturally in the story — not as an ad, but as part of the world. Add shoppable links to any scene and track sales in real time.',
       cta: 'Partner with Us',
     },
     cta: {
