@@ -527,6 +527,44 @@ export default {
       button: 'Apply Now',
     },
   },
+  videoPacks: {
+    hero: {
+      title: 'AI Video Packs for E-Commerce Sellers',
+      sub: 'Professional shoppable videos for TikTok Shop and Amazon — produced by AI, starring real creators, delivered fast.',
+      cta: 'Get Your Video Pack',
+    },
+    packs: {
+      title: 'Choose Your Pack',
+      shoppable: {
+        pill: 'SHOPPABLE',
+        title: 'Shoppable Pack',
+        body: '10 short-form videos, 15 seconds to 1 minute each. Each video is shoppable — viewers tap to buy directly from the scene. Perfect for TikTok Shop and Amazon listings.',
+        price: 'Starting from [PRICE]',
+      },
+      brand: {
+        pill: 'BRANDING',
+        title: 'Brand Pack',
+        body: '1 premium brand video up to 1 minute. Tell your brand story with a creator as the face of your product. Built for ads, landing pages, and brand awareness.',
+        price: 'Starting from [PRICE]',
+      },
+    },
+    how: {
+      title: 'How It Works',
+      brief: { label: 'BRIEF', body: "Tell us about your product, your audience, and the vibe you're going for." },
+      match: { label: 'MATCH', body: 'We match you with a creator whose audience fits your product.' },
+      produce: { label: 'PRODUCE', body: "Our AI studio produces your videos with the creator's avatar or on-camera appearance." },
+      deliver: { label: 'DELIVER', body: 'Videos are ready to upload directly to TikTok Shop or Amazon.' },
+    },
+    creator: {
+      title: 'With or Without a Creator',
+      body: "Every video pack can be produced with a creator's AI avatar — giving you their face, voice, and audience trust without a full influencer deal. Or go brand-only for a clean product-focused video.",
+    },
+    cta: {
+      title: 'Ready to Sell More with Video?',
+      sub: 'Get professional shoppable videos for your store in days, not weeks.',
+      button: 'Order a Video Pack',
+    },
+  },
   meta: {
     home: 'Xavvi — Launching creator brands and helping suppliers sell globally',
     about: 'About – Xavvi',
