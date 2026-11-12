@@ -11,7 +11,7 @@ const { t } = useI18n();
       <div class="grid sm:grid-cols-2 lg:grid-cols-6 gap-y-12 gap-x-8">
         <div class="lg:col-span-2 lg:pr-8">
           <div class="mb-5">
-            <img src="/xavvi-logo.png" alt="Xavvi" class="h-8" style="filter: brightness(0) invert(1)" />
+            <img src="/xavvi-logo.png" alt="Xavvi" class="h-8" />
           </div>
           <p class="text-[14px] leading-[1.7] text-white max-w-[280px]">
             {{ t('footer.tagline') }}
