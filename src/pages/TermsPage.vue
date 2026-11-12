@@ -20,7 +20,7 @@
 		<div class="max-w-[820px] mx-auto px-6 lg:px-8">
 			<article class="legal-prose">
 
-				<p>These Terms of Service ("Terms") are an agreement between you and Xavvi US Inc. ("Xavvi," "we," or "us"), which governs your use of or access to the Applications defined below. Please read these Terms carefully.</p>
+				<p>These Terms of Service ("Terms") are an agreement between you and Xavvi Holdings, Inc. ("Xavvi," "we," or "us"), which governs your use of or access to the Applications defined below. Please read these Terms carefully.</p>
 
 				<ul>
 					<li>You form a contract with us when you accept these Terms or when you otherwise use or access the Applications.</li>

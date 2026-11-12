@@ -10,39 +10,37 @@ import { supabase } from '@/lib/supabase';
 
 const { t, locale } = useI18n();
 
-// News teaser slider — alternates between News and Fast-track Apply
+// News teaser slider — rotates through the 3 most recent published news items
+type NewsTeaserItem = { title: string; slug: string | null };
+const newsItems = ref<NewsTeaserItem[]>([{ title: 'Xavvi Launches AI Credits Ecosystem', slug: null }]);
 const newsSlide = ref(0);
-const latestNewsTitle = ref('Xavvi Launches AI Credits Ecosystem');
+const currentNews = computed(() => newsItems.value[newsSlide.value % newsItems.value.length]);
 let newsTimer: number | undefined;
 
 onMounted(async () => {
-	newsTimer = window.setInterval(() => {
-		newsSlide.value = (newsSlide.value + 1) % 2;
-	}, 5000);
-
 	try {
 		const { data, error } = await supabase
 			.from('news')
-			.select('title')
+			.select('title, slug')
 			.eq('published', true)
 			.order('published_at', { ascending: false })
-			.limit(1)
-			.single();
-		if (!error && data?.title) {
-			latestNewsTitle.value = data.title;
+			.limit(3);
+		if (!error && data?.length) {
+			newsItems.value = data.filter((n) => n.title).map((n) => ({ title: n.title, slug: n.slug ?? null }));
 		}
 	} catch {
 		// keep fallback
+	}
+
+	if (newsItems.value.length > 1) {
+		newsTimer = window.setInterval(() => {
+			newsSlide.value = (newsSlide.value + 1) % newsItems.value.length;
+		}, 5000);
 	}
 });
 onUnmounted(() => {
 	if (newsTimer) window.clearInterval(newsTimer);
 });
-
-function scrollToFasttrack() {
-	const el = document.getElementById('china-trip');
-	if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-}
 
 const stats = computed(() => [
 	{ target: 50, suffix: 'M+', label: t('home.stats.activeCreators') },
@@ -52,14 +50,6 @@ const stats = computed(() => [
 ]);
 
 const ecosystems = computed(() => [
-	{
-		tag: t('home.eco.card0.tag'),
-		title: t('home.eco.card0.title'),
-		desc: t('home.eco.card0.desc'),
-		image: '/images/page/card0.jpg',
-		panelBg: 'bg-gradient-to-br from-[#2a1505] to-[#1a0e05]',
-		iconGradient: 'from-[#92400e] to-[#d97706]',
-	},
 	{
 		tag: t('home.eco.card2.tag'),
 		title: t('home.eco.card2.title'),
@@ -83,19 +73,6 @@ const ecosystems = computed(() => [
 		image: '/images/page/card5.jpg',
 		panelBg: 'bg-gradient-to-br from-[#2a1a05] to-[#1a1205]',
 		iconGradient: 'from-[#b45309] to-[#fbbf24]',
-	},
-]);
-
-const fasttrackBlocks = computed(() => [
-	{
-		label: t('home.fasttrack.creators.label'),
-		text: t('home.fasttrack.creators.text'),
-		badge: t('home.fasttrack.creators.badge'),
-	},
-	{
-		label: t('home.fasttrack.affiliates.label'),
-		text: t('home.fasttrack.affiliates.text'),
-		badge: t('home.fasttrack.affiliates.badge'),
 	},
 ]);
 
@@ -127,8 +104,8 @@ const offices = computed(() => [
 					{{ t('home.heroSub') }}
 				</p>
 				<div v-reveal="3" class="mt-12 flex flex-wrap justify-center gap-4 relative z-30">
-					<RouterLink to="/about" class="btn-primary h-12! px-7! text-[15px]!">
-						{{ t('home.learnMore') }}
+					<RouterLink to="/micro-dramas" class="btn-primary h-12! px-7! text-[15px]!">
+						{{ t('home.exploreMicroDramas') }}
 						<svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5.5 7.5h5.5m-2.5-3 3 3-3 3" /></svg>
 					</RouterLink>
 					<!-- Hidden 2026-09-09 — re-enable by removing v-if="false" -->
@@ -169,68 +146,24 @@ const offices = computed(() => [
 	<section class="bg-[#f4f5f8] pt-10 lg:pt-14 pb-2 lg:pb-4">
 		<div class="max-w-[800px] mx-auto px-6">
 			<Transition name="news-fade" mode="out-in">
-				<!-- Slide 1: News (cream) -->
-				<div v-if="newsSlide === 0" key="news"
+				<div v-if="currentNews" :key="newsSlide"
 					class="bg-[#FFFDF9] border border-[#212226] rounded-2xl px-6 py-5 lg:px-8 lg:py-6 flex flex-col lg:flex-row items-center gap-4 lg:gap-6">
 					<span class="text-[#FE2C55] font-extrabold text-[18px] tracking-[0.12em]">NEWS</span>
 					<div class="hidden lg:block w-px self-stretch bg-[#212226]" aria-hidden="true"></div>
 					<p class="text-[#212226] text-[15px] lg:text-[17px] leading-snug flex-1 text-center lg:text-left">
-						{{ latestNewsTitle }}
+						{{ currentNews.title }}
 					</p>
-					<RouterLink to="/news" aria-label="Read news"
+					<RouterLink :to="currentNews.slug ? `/news/${currentNews.slug}` : '/news'" aria-label="Read news"
 						class="w-10 h-10 rounded-full bg-[#FE2C55] flex items-center justify-center shrink-0 hover:scale-105 transition-transform">
 						<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFDF9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
 							<path d="M5 12h14M13 5l7 7-7 7" />
 						</svg>
 					</RouterLink>
 				</div>
-
-				<!-- Slide 2: Apply (dark) -->
-				<div v-else key="apply"
-					class="bg-[#212226] border border-[#212226] rounded-2xl px-6 py-5 lg:px-8 lg:py-6 flex flex-col lg:flex-row items-center gap-4 lg:gap-6">
-					<span class="text-[#FE2C55] font-extrabold text-[18px] tracking-[0.12em]">APPLY</span>
-					<div class="hidden lg:block w-px self-stretch bg-[#FFFDF9]" aria-hidden="true"></div>
-					<p class="text-[#FFFDF9] text-[15px] lg:text-[17px] leading-snug flex-1 text-center lg:text-left">
-						{{ t('home.newsTeaser.apply') }}
-					</p>
-					<button type="button" @click="scrollToFasttrack" aria-label="Jump to Brand Lab Fast-track section"
-						class="w-10 h-10 rounded-full bg-[#FE2C55] flex items-center justify-center shrink-0 hover:scale-105 transition-transform cursor-pointer">
-						<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFDF9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-							<path d="M5 12h14M13 5l7 7-7 7" />
-						</svg>
-					</button>
-				</div>
 			</Transition>
 		</div>
 	</section>
 
-	<!-- ═══════════════════════════════════════
-       FAST-TRACK BANNER
-       ═══════════════════════════════════════ -->
-	<section class="bg-[#f4f5f8] pt-6 lg:pt-8 pb-2">
-		<div class="max-w-[800px] mx-auto px-6">
-			<button type="button" @click="scrollToFasttrack"
-				class="block w-full rounded-2xl overflow-hidden cursor-pointer group"
-				:aria-label="t('home.fasttrack.title')">
-				<img src="/images/page/Fast-track-M.jpg" :alt="t('home.fasttrack.title')"
-					class="block md:hidden w-full h-auto" />
-				<img src="/images/page/Fast-track-D.jpg" :alt="t('home.fasttrack.title')"
-					class="hidden md:block w-full h-auto" />
-			</button>
-
-			<div class="mt-5 flex justify-center">
-				<button type="button" @click="scrollToFasttrack"
-					class="btn-ghost-on-light h-11! px-8! text-[14px]! tracking-wider">
-					{{ t('home.fasttrack.more') }}
-				</button>
-			</div>
-
-			<p class="mt-6 text-[15px] lg:text-[16px] leading-[1.7] text-[#212226] text-center">
-				{{ t('home.fasttrack.manufacturerNotePre') }}<RouterLink to="/brands#globe365"
-					class="text-[#AE2049] underline hover:opacity-80">{{ t('home.fasttrack.manufacturerNoteLink') }}</RouterLink>{{ t('home.fasttrack.manufacturerNotePost') }}
-			</p>
-		</div>
-	</section>
 
 	<!-- ═══════════════════════════════════════
        ECOSYSTEM — Alternating cards (LIGHT)
@@ -285,7 +218,7 @@ const offices = computed(() => [
 						<p class="text-[15px] leading-[1.7] text-text-2 whitespace-pre-line">
 							{{ eco.desc }}
 						</p>
-						<p v-if="i === 1" class="text-[15px] leading-[1.7] text-text-2 mt-3">
+						<p v-if="i === 0" class="text-[15px] leading-[1.7] text-text-2 mt-3">
 							{{ t('home.eco.card2.descExtra1') }}
 							<a href="https://whitepaper.xavvi.com" target="_blank" rel="noopener" class="text-[#AE2049] underline hover:opacity-80">
 								{{ t('home.eco.card2.descExtraLink') }}
@@ -297,72 +230,6 @@ const offices = computed(() => [
 		</div>
 	</section>
 
-	<!-- ═══════════════════════════════════════
-       BRAND LAB FAST-TRACK
-       ═══════════════════════════════════════ -->
-	<section id="china-trip" class="bg-black py-22">
-		<span id="brand-lab-fasttrack" class="block" aria-hidden="true"></span>
-		<div class="max-w-[1200px] mx-auto px-6 lg:px-8">
-			<div class="grid lg:grid-cols-2 gap-10 lg:gap-16 items-start">
-				<!-- Text -->
-				<div v-reveal class="flex flex-col justify-start lg:order-2">
-					<h2 class="text-[clamp(2rem,4vw,3.25rem)] font-bold text-[#FFFDF9] leading-tight tracking-tight mb-6">
-						{{ t('home.fasttrack.title') }}
-					</h2>
-					<p class="text-[15px] lg:text-[16px] leading-[1.75] text-[#FFFDF9] mb-8">
-						{{ t('home.fasttrack.intro') }}
-					</p>
-
-					<!-- Itinerary blocks -->
-					<div class="flex flex-col gap-5 mb-8">
-						<div v-for="block in fasttrackBlocks" :key="block.label"
-							class="rounded-2xl border border-[#FFFDF9]/15 bg-[#FFFDF9]/[0.04] px-6 py-5">
-							<p class="text-[15px] lg:text-[16px] font-bold text-[#FE2C55] mb-2">
-								{{ block.label }}
-							</p>
-							<p class="text-[15px] leading-[1.7] text-[#FFFDF9] mb-3">
-								{{ block.text }}
-							</p>
-							<span class="inline-flex items-center rounded-full border border-[#FFFDF9]/25 px-3 py-1 text-[13px] font-semibold text-[#FFFDF9]/85">
-								{{ block.badge }}
-							</span>
-						</div>
-					</div>
-
-					<p class="text-[13px] leading-[1.6] text-[#FFFDF9]/60 mb-8">
-						{{ t('home.fasttrack.footer') }}
-					</p>
-
-					<div>
-						<a href="https://docs.google.com/forms/d/e/1FAIpQLSe70nB2njCwICR4MWjAJzLwFzKLaB-z2VP6-7bdJ8CRBCChrg/viewform?usp=dialog"
-							target="_blank" rel="noopener"
-							class="btn-primary h-12! px-8! text-[15px]! tracking-wider">
-							{{ t('home.fasttrack.cta') }}
-						</a>
-					</div>
-
-					<p class="mt-8 text-[15px] leading-[1.7] text-[#FFFDF9]">
-						{{ t('home.fasttrack.qrNote') }}
-					</p>
-					<div class="mt-5 flex flex-col sm:flex-row items-center sm:items-start justify-center sm:justify-start gap-5">
-						<a href="https://docs.google.com/forms/d/e/1FAIpQLSe70nB2njCwICR4MWjAJzLwFzKLaB-z2VP6-7bdJ8CRBCChrg/viewform?usp=sharing&amp;ouid=110677559468855878131"
-							target="_blank" rel="noopener"
-							class="btn-primary h-12! px-8! text-[15px]! tracking-wider uppercase shrink-0">
-							{{ t('home.fasttrack.bookCall') }}
-						</a>
-						<img src="/images/page/QR-1on1.png" :alt="t('home.fasttrack.qrNote')"
-							class="w-full max-w-[200px] h-auto rounded-xl" />
-					</div>
-				</div>
-
-				<!-- Image -->
-				<div v-reveal="1" class="self-start rounded-2xl overflow-hidden order-first lg:order-1 lg:sticky lg:top-28">
-					<img src="/images/page/Fast-track.jpg" :alt="t('home.fasttrack.title')"
-						class="block w-full h-auto object-cover" />
-				</div>
-			</div>
-		</div>
-	</section>
 
 	<!-- ═══════════════════════════════════════
        MCN & BRANDS — Two-column callout
@@ -413,25 +280,6 @@ const offices = computed(() => [
 		</div>
 	</section>
 
-	<!-- ═══════════════════════════════════════
-       GLOBE 365 BANNER
-       ═══════════════════════════════════════ -->
-	<section class="bg-[#f4f5f8] pb-16 lg:pb-20">
-		<div class="max-w-[1200px] mx-auto px-6 lg:px-8">
-			<div v-reveal class="rounded-2xl overflow-hidden">
-				<img src="/images/page/Globe365-M.jpg" alt="Globe 365"
-					class="block md:hidden w-full h-auto" />
-				<img src="/images/page/Globe365-D.jpg" alt="Globe 365"
-					class="hidden md:block w-full h-auto" />
-			</div>
-			<div class="mt-6 flex justify-center">
-				<RouterLink to="/brands#globe365"
-					class="btn-ghost-on-light h-11! px-8! text-[14px]! tracking-wider">
-					{{ t('home.mcnBrands.brands.cta') }}
-				</RouterLink>
-			</div>
-		</div>
-	</section>
 
 	<!-- ═══════════════════════════════════════
        CTA — Gradient background

@@ -33,22 +33,28 @@ const { t } = useI18n();
               <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
             </a>
           </div>
+          <address class="mt-6 text-[14px] leading-[1.7] text-[#212226]/60 not-italic">
+            Xavvi Holdings Inc<br />
+            801 S. Figueroa Street, Suite 500<br />
+            Los Angeles, CA 90017
+          </address>
         </div>
 
         <div>
-          <h4 class="text-[12px] font-semibold text-[#212226] tracking-[0.12em] uppercase mb-5">{{ t('footer.product') }}</h4>
+          <h4 class="text-[12px] font-semibold text-[#212226] tracking-[0.12em] uppercase mb-5">{{ t('footer.websites') }}</h4>
           <ul class="space-y-3">
-            <li><a href="https://social.xavvi.com/" target="_blank" rel="noopener" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.webApp') }}</a></li>
+            <li><a href="https://a2a.xavvi.com" target="_blank" rel="noopener" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.aiVideoStudio') }}</a></li>
             <li><RouterLink to="/brand-lab" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.brandLab') }}</RouterLink></li>
-            <li><a href="https://tokens.xavvi.com" target="_blank" rel="noopener" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.xavviTokens') }}</a></li>
+            <li><a href="https://learn.xavvi.com" target="_blank" rel="noopener" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.education') }}</a></li>
           </ul>
         </div>
 
         <div>
-          <h4 class="text-[12px] font-semibold text-[#212226] tracking-[0.12em] uppercase mb-5">{{ t('nav.suppliers') }}</h4>
+          <h4 class="text-[12px] font-semibold text-[#212226] tracking-[0.12em] uppercase mb-5">{{ t('footer.partners') }}</h4>
           <ul class="space-y-3">
-            <li><RouterLink to="/brands" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('nav.suppliers') }}</RouterLink></li>
-            <li><a href="https://opc.xavvi.com/globe-365" target="_blank" rel="noopener" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.globe365') }}</a></li>
+            <li><RouterLink to="/brands" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.suppliers') }}</RouterLink></li>
+            <li><RouterLink to="/agencies" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.connectors') }}</RouterLink></li>
+            <li><RouterLink to="/creators" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.creators') }}</RouterLink></li>
           </ul>
         </div>
 
@@ -56,7 +62,7 @@ const { t } = useI18n();
           <h4 class="text-[12px] font-semibold text-[#212226] tracking-[0.12em] uppercase mb-5">{{ t('footer.company') }}</h4>
           <ul class="space-y-3">
             <li><RouterLink to="/about" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.about') }}</RouterLink></li>
-            <li><RouterLink to="/contact" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">Contact</RouterLink></li>
+            <li><RouterLink to="/contact" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.contact') }}</RouterLink></li>
           </ul>
         </div>
 
@@ -66,6 +72,7 @@ const { t } = useI18n();
             <li><RouterLink to="/privacy" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.privacyPolicy') }}</RouterLink></li>
             <li><RouterLink to="/terms" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.termsOfService') }}</RouterLink></li>
             <li><RouterLink to="/community-guidelines" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.communityGuidelines') }}</RouterLink></li>
+            <li><RouterLink to="/data-addendum" class="text-[14px] text-[#212226]/60 hover:text-[#212226] transition-colors">{{ t('footer.dataAddendum') }}</RouterLink></li>
           </ul>
         </div>
       </div>

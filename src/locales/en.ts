@@ -1,15 +1,17 @@
 export default {
   nav: {
     home: 'Home',
-    connectors: 'Connectors',
-    suppliers: 'Suppliers',
+    microDramas: 'Micro Dramas',
+    videoPacks: 'Video Packs',
     brandLab: 'Brand Lab',
+    aiCredits: 'AI Credits',
+    news: 'News',
     about: 'About',
     getApp: 'Get App',
     downloadXavvi: 'Download Xavvi',
   },
   footer: {
-    tagline: 'We help you grow like crazy!',
+    tagline: 'The AI micro drama studio for creators.',
     product: 'Products',
     webApp: 'Web App',
     download: 'Download Apps',
@@ -29,13 +31,23 @@ export default {
     privacyPolicy: 'Privacy Policy',
     termsOfService: 'Terms of Service',
     communityGuidelines: 'Community Guidelines',
-    copyright: '© {year} Xavvi Inc. All rights reserved.',
+    dataAddendum: 'Data Processing Addendum',
+    websites: 'Websites',
+    aiVideoStudio: 'AI Video Studio',
+    education: 'Education',
+    partners: 'Partners',
+    suppliers: 'Suppliers',
+    connectors: 'Connectors',
+    creators: 'Creators',
+    contact: 'Contact',
+    copyright: '© {year} Xavvi Holdings, Inc. All rights reserved.',
     status: 'All systems operational',
   },
   home: {
-    heroTitle: 'We help you grow like crazy!',
-    heroSub: 'Powered by AI and blockchain, Xavvi is the next generation commerce ecosystem where everybody wins. Creators build their own brands and shops. Brands run global campaigns and optimise ROI. Fans get rewarded for their loyalty and can start their own One Person Company.',
+    heroTitle: 'The AI Micro Drama Studio for Creators',
+    heroSub: 'We produce branded micro dramas starring real creators — monetized through sponsorships, e-commerce, and sales commissions.',
     learnMore: 'Learn More',
+    exploreMicroDramas: 'Explore Micro Dramas',
     getTheApp: 'Get the App',
     stats: {
       activeCreators: 'Active Creators',
@@ -109,9 +121,6 @@ export default {
     ctaDownload: 'Download the App',
     ctaWebApp: 'Open Web App',
     ctaJoinNow: 'Join Now',
-    newsTeaser: {
-      apply: 'Brand Lab Fast-track applications now open!',
-    },
     fasttrack: {
       title: 'Brand Lab Fast-track',
       intro: 'Top manufacturers from China, across categories from beauty to fashion to tech, come to Los Angeles ready to build something real with you. A marathon of business speed-dating, 1-on-1 meetings, workshops, samples and content — all condensed into a few days designed to kickstart your new business. Brand Lab Fast-track is an accelerator for creators with over a million followers, and for affiliates with experience in ecommerce, dropshipping or sales.',
@@ -310,8 +319,8 @@ export default {
   },
   brandLab: {
     hero: {
-      title: 'Introducing, Brand Lab',
-      body: 'As part of the package Xavvi offers to creators, you will launch your own brand and store on Brand Lab, an online shopping mall where creators start monetising from the get-go. We connect you to the suppliers, your AI avatar generates the ads, and we operate your store and take care of logistics. All for free from within the Xavvi network.',
+      title: 'Launch Your Own Brand',
+      body: 'We match creators with manufacturers, secure investment, and launch real brands together.',
     },
     support: {
       title: 'Full Support',
@@ -328,6 +337,36 @@ export default {
     },
     roadmap: {
       title: "Your Brand's Roadmap",
+      step1: {
+        label: 'STEP 1',
+        title: 'Enroll',
+        body: "Sign up for Brand Lab and tell us about your audience, niche, and brand vision.",
+      },
+      step2: {
+        label: 'STEP 2',
+        title: 'Match',
+        body: "We introduce you to vetted manufacturers. When there's a fit, you sign a Letter of Intent.",
+      },
+      step3: {
+        label: 'STEP 3',
+        title: 'Build',
+        body: "Work with your matched manufacturer on samples, your business plan, brand strategy, and brand story.",
+      },
+      step4: {
+        label: 'STEP 4',
+        title: 'Agreement',
+        body: "Sign your Brand Formation Agreement — the legal foundation of your new company.",
+      },
+      step5: {
+        label: 'STEP 5',
+        title: 'Incorporate',
+        body: "We set up your US corporation and secure the initial investment to launch.",
+      },
+      step6: {
+        label: 'STEP 6',
+        title: 'Launch',
+        body: "Your brand goes live. Sell through TikTok Shop, Amazon, and the Xavvi ecosystem.",
+      },
       phase1: {
         label: 'PHASE 1',
         title: 'Kickstart Your Shop',

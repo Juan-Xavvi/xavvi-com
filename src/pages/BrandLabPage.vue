@@ -9,6 +9,8 @@ const tabs = [
 	{ id: 'supply' as const, labelKey: 'brandLab.support.tabs.supply.label' },
 	{ id: 'marketing' as const, labelKey: 'brandLab.support.tabs.marketing.label' },
 ];
+
+const roadmapSteps = [1, 2, 3, 4, 5, 6].map((n) => `brandLab.roadmap.step${n}`);
 </script>
 
 <template>
@@ -91,87 +93,33 @@ const tabs = [
 				<div class="hidden lg:block absolute left-1/2 top-0 bottom-0 w-[3px] bg-linear-to-b from-[#FFD700] via-[#FFD700] to-[#1a2744] -translate-x-1/2 rounded-full" />
 
 				<div class="space-y-12 lg:space-y-0">
-					<!-- PHASE 1: card-left, pill-right -->
-					<div v-reveal class="relative lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center lg:pb-20">
-						<div class="lg:pr-8">
+					<!-- Steps alternate: even index card-left/pill-right, odd index pill-left/card-right -->
+					<div v-for="(key, i) in roadmapSteps" :key="key" v-reveal
+						:class="['relative lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center', i < roadmapSteps.length - 1 ? 'lg:pb-20' : '']">
+						<div :class="['hidden lg:flex items-center', i % 2 === 0 ? 'lg:order-2 justify-start lg:pl-8' : 'justify-end lg:pr-8']">
+							<span class="inline-block px-5 py-2 rounded-full bg-[#FE2C55] text-[#FFFDF9] text-[14px] font-bold tracking-[0.18em]">
+								{{ t(`${key}.label`) }}
+							</span>
+						</div>
+						<div :class="i % 2 === 0 ? 'lg:order-1 lg:pr-8' : 'lg:pl-8'">
 							<div class="rounded-2xl p-8 lg:p-10 bg-white shadow-sm">
 								<h3 class="text-[20px] lg:text-[22px] font-bold text-text mb-4 leading-snug">
-									{{ t('brandLab.roadmap.phase1.title') }}
+									{{ t(`${key}.title`) }}
 								</h3>
 								<p class="text-[15px] text-text-2 leading-[1.7]">
-									{{ t('brandLab.roadmap.phase1.body') }}
-								</p>
-							</div>
-						</div>
-						<div class="hidden lg:flex items-center justify-start lg:pl-8">
-							<span class="inline-block px-5 py-2 rounded-full bg-[#FE2C55] text-[#FFFDF9] text-[14px] font-bold tracking-[0.18em]">
-								{{ t('brandLab.roadmap.phase1.label') }}
-							</span>
-						</div>
-						<!-- Mobile pill -->
-						<div class="lg:hidden flex justify-center mt-6">
-							<span class="inline-block px-4 py-1.5 rounded-full bg-[#FE2C55] text-[#FFFDF9] text-[12px] font-bold tracking-[0.18em]">
-								{{ t('brandLab.roadmap.phase1.label') }}
-							</span>
-						</div>
-					</div>
-
-					<!-- PHASE 2: pill-left, card-right -->
-					<div v-reveal class="relative lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center lg:pb-20">
-						<div class="hidden lg:flex items-center justify-end lg:pr-8">
-							<span class="inline-block px-5 py-2 rounded-full bg-[#FE2C55] text-[#FFFDF9] text-[14px] font-bold tracking-[0.18em]">
-								{{ t('brandLab.roadmap.phase2.label') }}
-							</span>
-						</div>
-						<div class="lg:pl-8">
-							<div class="rounded-2xl p-8 lg:p-10 bg-white shadow-sm">
-								<h3 class="text-[20px] lg:text-[22px] font-bold text-text mb-4 leading-snug">
-									{{ t('brandLab.roadmap.phase2.title') }}
-								</h3>
-								<p class="text-[15px] text-text-2 leading-[1.7]">
-									{{ t('brandLab.roadmap.phase2.body') }}
+									{{ t(`${key}.body`) }}
 								</p>
 							</div>
 						</div>
 						<!-- Mobile pill -->
 						<div class="lg:hidden flex justify-center mt-6">
 							<span class="inline-block px-4 py-1.5 rounded-full bg-[#FE2C55] text-[#FFFDF9] text-[12px] font-bold tracking-[0.18em]">
-								{{ t('brandLab.roadmap.phase2.label') }}
-							</span>
-						</div>
-					</div>
-
-					<!-- PHASE 3: card-left, pill-right -->
-					<div v-reveal class="relative lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center">
-						<div class="lg:pr-8">
-							<div class="rounded-2xl p-8 lg:p-10 bg-white shadow-sm">
-								<h3 class="text-[20px] lg:text-[22px] font-bold text-text mb-4 leading-snug">
-									{{ t('brandLab.roadmap.phase3.title') }}
-								</h3>
-								<p class="text-[15px] text-text-2 leading-[1.7]">
-									{{ t('brandLab.roadmap.phase3.body') }}
-								</p>
-							</div>
-						</div>
-						<div class="hidden lg:flex items-center justify-start lg:pl-8">
-							<span class="inline-block px-5 py-2 rounded-full bg-[#FE2C55] text-[#FFFDF9] text-[14px] font-bold tracking-[0.18em]">
-								{{ t('brandLab.roadmap.phase3.label') }}
-							</span>
-						</div>
-						<!-- Mobile pill -->
-						<div class="lg:hidden flex justify-center mt-6">
-							<span class="inline-block px-4 py-1.5 rounded-full bg-[#FE2C55] text-[#FFFDF9] text-[12px] font-bold tracking-[0.18em]">
-								{{ t('brandLab.roadmap.phase3.label') }}
+								{{ t(`${key}.label`) }}
 							</span>
 						</div>
 					</div>
 				</div>
 			</div>
-
-			<p v-reveal
-				class="mt-12 lg:mt-16 max-w-[820px] mx-auto text-center text-[15px] lg:text-[16px] leading-[1.7] text-text-2/75">
-				{{ t('brandLab.roadmap.summary') }}
-			</p>
 		</div>
 	</section>
 </template>

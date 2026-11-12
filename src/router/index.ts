@@ -12,11 +12,11 @@ const router = createRouter({
     return { top: 0 };
   },
   routes: [
-    { path: '/', name: 'home', component: () => import('@/pages/HomePage.vue'), meta: { titleKey: 'meta.home', description: 'Launching creator brands and helping suppliers sell globally' } },
+    { path: '/', name: 'home', component: () => import('@/pages/HomePage.vue'), meta: { title: 'Xavvi — AI Micro Drama Studio for Creators', description: 'Xavvi produces AI micro dramas and shoppable videos starring real creators, powered by our decentralized platform.' } },
     { path: '/about', name: 'about', component: () => import('@/pages/AboutPage.vue'), meta: { titleKey: 'meta.about', description: "Learn about Xavvi's mission to power the creator economy through AI, social commerce, and digital assets." } },
     { path: '/brands', name: 'brands', component: () => import('@/pages/BrandsPage.vue'), meta: { titleKey: 'meta.brands', description: 'Brands and vendors: collaborate with hundreds of creators, launch AI-powered campaigns, and achieve better ROI with Xavvi.' } },
     { path: '/creators', name: 'creators', component: () => import('@/pages/CreatorsPage.vue'), meta: { title: 'Creators – Xavvi', description: 'Celebrities and influencers: own your data, launch your brand, monetize your audience with AI and AI Credits on Xavvi.' } },
-    { path: '/brand-lab', name: 'brand-lab', component: () => import('@/pages/BrandLabPage.vue'), meta: { title: 'Brand Lab – Xavvi', description: 'Launch your own brand and store on Brand Lab. Xavvi connects you to suppliers, operates your store, and handles logistics — all for free.' } },
+    { path: '/brand-lab', name: 'brand-lab', component: () => import('@/pages/BrandLabPage.vue'), meta: { title: 'Launch Your Own Brand – Xavvi', description: 'Launch your own brand and store on Brand Lab. Xavvi connects you to suppliers, operates your store, and handles logistics — all for free.' } },
     { path: '/agencies', name: 'agencies', component: () => import('@/pages/AgenciesPage.vue'), meta: { title: 'Connectors – Xavvi', description: 'Connectors: help your network unlock new revenue streams powered by AI, social commerce, and blockchain technology.' } },
     { path: '/news', name: 'news', component: () => import('@/pages/NewsPage.vue'), meta: { title: 'News – Xavvi', description: 'Latest news and updates from the Xavvi ecosystem.' } },
     { path: '/news/:slug', name: 'news-detail', component: () => import('@/pages/NewsDetailPage.vue'), meta: { title: 'News – Xavvi', description: 'Latest news and updates from the Xavvi ecosystem.' } },
@@ -27,6 +27,9 @@ const router = createRouter({
     { path: '/privacy', name: 'privacy', component: () => import('@/pages/PrivacyPage.vue'), meta: { title: 'Privacy Policy – Xavvi', description: 'Xavvi Privacy Policy.' } },
     { path: '/community-guidelines', name: 'community-guidelines', component: () => import('@/pages/CommunityGuidelinesPage.vue'), meta: { title: 'Community Guidelines – Xavvi', description: 'Xavvi Community Guidelines.' } },
     { path: '/data-addendum', name: 'data-addendum', component: () => import('@/pages/DataAddendumPage.vue'), meta: { title: 'Data Processing Addendum – Xavvi', description: 'Xavvi Data Processing Addendum.', noindex: true } },
+    { path: '/micro-dramas', name: 'micro-dramas', component: () => import('@/pages/MicroDramasPage.vue'), meta: { title: 'Micro Dramas – Xavvi', description: 'AI micro dramas starring real creators' } },
+    { path: '/video-packs', name: 'video-packs', component: () => import('@/pages/VideoPacksPage.vue'), meta: { title: 'Video Packs – Xavvi', description: 'AI video packs for e-commerce sellers' } },
+    { path: '/ai-credits', name: 'ai-credits', component: () => import('@/pages/AICreditsPage.vue'), meta: { title: 'AI Credits – Xavvi', description: 'Purchase AI credits for video production' } },
   ],
 });
 

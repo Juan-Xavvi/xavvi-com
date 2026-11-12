@@ -20,7 +20,7 @@
 		<div class="max-w-[820px] mx-auto px-6 lg:px-8">
 			<article class="legal-prose" v-reveal>
 
-				<p>This Privacy Policy applies to Xavvi services (the "<strong>Services</strong>"), which include Xavvi applications, websites, software, and related services, accessed via any platform or device that links to this Privacy Policy, including Xavvi Ad Center. The Services are operated by Xavvi US Inc. ("<strong>Xavvi</strong>," "<strong>we</strong>," or "<strong>us</strong>").</p>
+				<p>This Privacy Policy applies to Xavvi services (the "<strong>Services</strong>"), which include Xavvi applications, websites, software, and related services, accessed via any platform or device that links to this Privacy Policy, including Xavvi Ad Center. The Services are operated by Xavvi Holdings, Inc. ("<strong>Xavvi</strong>," "<strong>we</strong>," or "<strong>us</strong>").</p>
 				<p>We are committed to protecting and respecting your privacy. This Privacy Policy explains how we collect, use, share, and otherwise process personal information in connection with the Services.</p>
 				<p>Capitalized terms not defined in this Privacy Policy have the meanings given to them in the <RouterLink to="/terms" class="text-[#2a55e5] hover:underline">Terms of Service</RouterLink>.</p>
 
