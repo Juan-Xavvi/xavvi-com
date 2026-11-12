@@ -22,7 +22,7 @@ const links = computed(() => [
 		<div class="max-w-[1680px] mx-auto px-6 lg:px-8 h-20 flex items-center justify-between">
 			<div class="flex items-center gap-30">
 				<RouterLink to="/" class="flex items-center group shrink-0">
-					<img src="/xavvi-logo.png" alt="Xavvi" class="h-8 w-auto" />
+					<img src="/xavvi-logo.png" alt="Xavvi" class="h-8 w-auto" style="filter: brightness(0) invert(1)" />
 				</RouterLink>
 				<div class="hidden md:flex items-center gap-12">
 					<template v-for="link in links" :key="link.to">

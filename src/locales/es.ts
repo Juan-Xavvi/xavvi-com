@@ -46,7 +46,7 @@ export default {
     },
     pillarsTitle: 'Comercio social impulsado por IA, liderado por creadores',
     pillarsSub:
-      'Celebridades e influencers, bienvenidos a Xavvi: la única plataforma de comercio social con IA donde eres dueño de tus datos y obtienes tus propios AI Credits, que las marcas compran para lanzar campañas publicitarias con tu AI Avatar. Ayudamos a los creadores a monetizar su influencia. En nuestra plataforma Brand Lab lanzamos tu propia marca y operamos la tienda por ti. En la app social Xavvi, eres dueño de tus datos y generas ingresos con micro dramas y campañas publicitarias.',
+      'Celebridades e influencers, bienvenidos a Xavvi: la única plataforma de comercio social con IA donde eres dueño de tus datos y obtienes tus propios AI Credits, que las marcas compran para lanzar campañas publicitarias con tu AI Avatar. Ayudamos a los creadores a monetizar su influencia. En nuestra plataforma Brand Lab lanzamos tu propia marca y operamos la tienda por ti. En la app social Xavvi, eres dueño de tus datos y generas ingresos con microdramas y campañas publicitarias.',
     eco: {
       card0: {
         tag: 'LEGADO',
@@ -105,7 +105,7 @@ export default {
     },
     marketingCampaign: {
       title: 'Xavvi Empire: Viaje a China',
-      body: 'En colaboración con Phoenix New Media Limited y la vasta red de proveedores de Xavvi, lanzamos un programa acelerado para ayudar a los creadores norteamericanos a lanzar sus marcas. Abróchate el cinturón — te llevamos a un viaje de 10 días con todo incluido a China, donde conocerás a las mejores marcas y fabricantes de la categoría de belleza. Comprueba de primera mano las capacidades de estas empresas, negocia descuentos especiales para tus fans y define las condiciones para lanzar tus propias líneas de productos. A tu regreso, tu AI Avatar protagonizará un micro drama con emplazamiento de los productos de tu marca.',
+      body: 'En colaboración con Phoenix New Media Limited y la vasta red de proveedores de Xavvi, lanzamos un programa acelerado para ayudar a los creadores norteamericanos a lanzar sus marcas. Abróchate el cinturón — te llevamos a un viaje de 10 días con todo incluido a China, donde conocerás a las mejores marcas y fabricantes de la categoría de belleza. Comprueba de primera mano las capacidades de estas empresas, negocia descuentos especiales para tus fans y define las condiciones para lanzar tus propias líneas de productos. A tu regreso, tu AI Avatar protagonizará un microdrama con emplazamiento de los productos de tu marca.',
       cta: 'INSCRÍBETE',
     },
     ctaHeading: 'Asóciate con Xavvi',

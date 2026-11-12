@@ -1,7 +1,7 @@
 export default {
   nav: {
     home: 'Home',
-    microDramas: 'Micro Dramas',
+    microDramas: 'Microdramas',
     videoPacks: 'Video Packs',
     brandLab: 'Brand Lab',
     aiCredits: 'AI Credits',
@@ -11,7 +11,7 @@ export default {
     downloadXavvi: 'Download Xavvi',
   },
   footer: {
-    tagline: 'The AI micro drama studio for creators.',
+    tagline: 'The AI microdrama studio for creators.',
     product: 'Products',
     webApp: 'Web App',
     download: 'Download Apps',
@@ -35,6 +35,8 @@ export default {
     websites: 'Websites',
     aiVideoStudio: 'AI Video Studio',
     education: 'Education',
+    aiCenters: 'AI Centers',
+    launchpad: 'Launchpad',
     partners: 'Partners',
     suppliers: 'Suppliers',
     connectors: 'Connectors',
@@ -44,10 +46,10 @@ export default {
     status: 'All systems operational',
   },
   home: {
-    heroTitle: 'The AI Micro Drama Studio for Creators',
-    heroSub: 'We produce branded micro dramas starring real creators — monetized through sponsorships, e-commerce, and sales commissions.',
+    heroTitle: 'The AI Microdrama Studio for Creators',
+    heroSub: 'We produce branded microdramas starring real creators — monetized through sponsorships, e-commerce, and sales commissions.',
     learnMore: 'Learn More',
-    exploreMicroDramas: 'Explore Micro Dramas',
+    exploreMicroDramas: 'Explore Microdramas',
     getTheApp: 'Get the App',
     stats: {
       activeCreators: 'Active Creators',
@@ -56,7 +58,7 @@ export default {
       lowerMarketingCost: 'Lower Marketing Cost',
     },
     pillarsTitle: 'Social Commerce Powered by AI, Driven by Creators',
-    pillarsSub: 'Celebrities and influencers, welcome to Xavvi: the only AI social commerce platform where you own your data and get your own AI Credits, which brands buy to launch ad campaigns with your AI Avatar. We help creators monetize their influence. On our Brand Lab platform, we launch your own brand and operate the store for you. On the social media Xavvi app, you own your data and generate an income from micro dramas and advertising campaigns.',
+    pillarsSub: 'Celebrities and influencers, welcome to Xavvi: the only AI social commerce platform where you own your data and get your own AI Credits, which brands buy to launch ad campaigns with your AI Avatar. We help creators monetize their influence. On our Brand Lab platform, we launch your own brand and operate the store for you. On the social media Xavvi app, you own your data and generate an income from microdramas and advertising campaigns.',
     eco: {
       card0: {
         tag: 'LEGACY',
@@ -112,7 +114,7 @@ export default {
     },
     marketingCampaign: {
       title: 'Xavvi Empire China Trip',
-      body: "In partnership with Phoenix New Media Limited and Xavvi's vast supplier network, we are launching a fast-track program to help North American creators launch their brands. Fasten your seatbelts — we're taking you on a 10-day, all-inclusive trip to China, where you'll meet top brands and manufacturers in the beauty category. See first-hand the capabilities of these companies, negotiate special discounts for your fans, and set the terms for launching your own product lines. Upon returning, your AI Avatar will star in a micro-drama with product placement of your brand's products.",
+      body: "In partnership with Phoenix New Media Limited and Xavvi's vast supplier network, we are launching a fast-track program to help North American creators launch their brands. Fasten your seatbelts — we're taking you on a 10-day, all-inclusive trip to China, where you'll meet top brands and manufacturers in the beauty category. See first-hand the capabilities of these companies, negotiate special discounts for your fans, and set the terms for launching your own product lines. Upon returning, your AI Avatar will star in a microdrama with product placement of your brand's products.",
       cta: 'APPLY NOW',
     },
     ctaHeading: 'Partner with Xavvi',

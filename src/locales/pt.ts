@@ -45,7 +45,7 @@ export default {
       lowerMarketingCost: 'Custo de marketing menor',
     },
     pillarsTitle: 'Social commerce movido por IA, guiado por criadores',
-    pillarsSub: 'Celebridades e influenciadores, sejam bem-vindos à Xavvi: a única plataforma de social commerce com IA onde você é dono dos seus dados e recebe os seus próprios AI Credits, que as marcas compram para lançar campanhas publicitárias com o seu AI Avatar. Ajudamos criadores a monetizar sua influência. Na nossa plataforma Brand Lab, lançamos a sua marca e operamos a loja por você. No app social Xavvi, você é dono dos seus dados e gera renda com micro dramas e campanhas publicitárias.',
+    pillarsSub: 'Celebridades e influenciadores, sejam bem-vindos à Xavvi: a única plataforma de social commerce com IA onde você é dono dos seus dados e recebe os seus próprios AI Credits, que as marcas compram para lançar campanhas publicitárias com o seu AI Avatar. Ajudamos criadores a monetizar sua influência. Na nossa plataforma Brand Lab, lançamos a sua marca e operamos a loja por você. No app social Xavvi, você é dono dos seus dados e gera renda com microdramas e campanhas publicitárias.',
     eco: {
       card0: {
         tag: 'LEGADO',
@@ -101,7 +101,7 @@ export default {
     },
     marketingCampaign: {
       title: 'Xavvi Empire: Viagem à China',
-      body: 'Em parceria com a Phoenix New Media Limited e a vasta rede de fornecedores da Xavvi, estamos lançando um programa acelerado para ajudar criadores norte-americanos a lançar as suas marcas. Apertem os cintos — vamos levar você em uma viagem de 10 dias com tudo incluído à China, onde você conhecerá as principais marcas e fabricantes da categoria de beleza. Veja em primeira mão as capacidades dessas empresas, negocie descontos especiais para os seus fãs e defina as condições para lançar as suas próprias linhas de produtos. Na volta, o seu AI Avatar vai estrelar um micro drama com merchandising dos produtos da sua marca.',
+      body: 'Em parceria com a Phoenix New Media Limited e a vasta rede de fornecedores da Xavvi, estamos lançando um programa acelerado para ajudar criadores norte-americanos a lançar as suas marcas. Apertem os cintos — vamos levar você em uma viagem de 10 dias com tudo incluído à China, onde você conhecerá as principais marcas e fabricantes da categoria de beleza. Veja em primeira mão as capacidades dessas empresas, negocie descontos especiais para os seus fãs e defina as condições para lançar as suas próprias linhas de produtos. Na volta, o seu AI Avatar vai estrelar um microdrama com merchandising dos produtos da sua marca.',
       cta: 'INSCREVA-SE',
     },
     ctaHeading: 'Faça parceria com a Xavvi',
