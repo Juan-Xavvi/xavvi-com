@@ -524,7 +524,8 @@ export default {
     cta: {
       title: 'Ready to Star in a Microdrama?',
       sub: 'Applications are open for creators with an audience ready to watch.',
-      button: 'Apply Now',
+      learnMore: 'Learn More',
+      apply: 'Apply Now',
     },
   },
   videoPacks: {

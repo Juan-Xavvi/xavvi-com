@@ -13,13 +13,16 @@ const steps = computed(() => [
 
 // Neon colours match the Creators page hero slider labels
 const creatorTypes = computed(() => [
-	{ emoji: '🎬', label: t('microDramas.stars.actors.label'), desc: t('microDramas.stars.actors.desc'), color: '#00f0ff' },
-	{ emoji: '🎵', label: t('microDramas.stars.musicians.label'), desc: t('microDramas.stars.musicians.desc'), color: '#ff2d55' },
-	{ emoji: '📱', label: t('microDramas.stars.influencers.label'), desc: t('microDramas.stars.influencers.desc'), color: '#ffe600' },
-	{ emoji: '🏆', label: t('microDramas.stars.athletes.label'), desc: t('microDramas.stars.athletes.desc'), color: '#39ff14' },
+	{ image: '/images/page/actors.jpg', label: t('microDramas.stars.actors.label'), desc: t('microDramas.stars.actors.desc'), color: '#00f0ff' },
+	{ image: '/images/page/musicians.jpg', label: t('microDramas.stars.musicians.label'), desc: t('microDramas.stars.musicians.desc'), color: '#ff2d55' },
+	{ image: '/images/page/influencers.jpg', label: t('microDramas.stars.influencers.label'), desc: t('microDramas.stars.influencers.desc'), color: '#ffe600' },
+	{ image: '/images/page/athletes.jpg', label: t('microDramas.stars.athletes.label'), desc: t('microDramas.stars.athletes.desc'), color: '#39ff14' },
 ]);
 
 const posters = [1, 2, 3, 4, 5, 6, 7, 8].map((n) => `/images/page/Poster%20${n}.jpg`);
+// Three back-to-back copies so the loop is seamless even on very wide screens;
+// the track animates by exactly one copy's width (-33.333%).
+const shelf = [0, 1, 2].flatMap((copy) => posters.map((src, i) => ({ src, i, copy })));
 
 function neon(color: string) {
 	return { color, textShadow: `0 0 4px ${color}, 0 0 10px ${color}, 0 0 20px ${color}` };
@@ -62,7 +65,7 @@ function neon(color: string) {
 	</section>
 
 	<!-- ═══════════════════════════════════════
-       SECTION 2 — How It Works (light)
+       SECTION 2 — How It Works (black) + poster shelf
        ═══════════════════════════════════════ -->
 	<section class="bg-black pt-20 lg:pt-24 pb-14 lg:pb-16">
 		<div class="max-w-[1200px] mx-auto px-6 lg:px-8">
@@ -82,12 +85,21 @@ function neon(color: string) {
 					</p>
 				</div>
 			</div>
+		</div>
 
-			<!-- Poster shelf: 8 across on desktop, scrolls 3-at-a-time on mobile -->
-			<div v-reveal class="poster-shelf mt-14 lg:mt-16 -mx-6 px-6 lg:mx-0 lg:px-0 flex gap-2 lg:gap-3 overflow-x-auto snap-x snap-mandatory lg:overflow-visible">
-				<div v-for="(src, i) in posters" :key="src"
-					class="shrink-0 basis-[calc((100%-16px)/3)] lg:basis-0 lg:flex-1 snap-start aspect-[9/16] rounded-lg overflow-hidden shadow-[0_10px_30px_rgba(0,0,0,0.6)]">
-					<img :src="src" :alt="`Xavvi microdrama poster ${i + 1}`" loading="lazy" class="w-full h-full object-cover" />
+		<!-- Poster shelf: phones scroll left in a continuous loop, full width -->
+		<div class="mt-10 lg:mt-12 py-4 overflow-hidden" aria-label="Xavvi microdrama posters">
+			<div class="poster-track flex w-max">
+				<div v-for="p in shelf" :key="`${p.copy}-${p.i}`" :aria-hidden="p.copy > 0 ? 'true' : undefined"
+					class="shrink-0 pr-4 sm:pr-6">
+					<div class="w-[134px] h-[278px] sm:w-[210px] sm:h-[435px]">
+						<div class="origin-top-left scale-50 sm:scale-75 phone-shadow">
+							<PhoneMockup>
+								<img :src="p.src" :alt="p.copy === 0 ? `Xavvi microdrama poster ${p.i + 1}` : ''" loading="lazy"
+									class="absolute inset-0 w-full h-full object-cover" />
+							</PhoneMockup>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -104,25 +116,27 @@ function neon(color: string) {
 			</h2>
 			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 				<div v-for="(type, i) in creatorTypes" :key="type.label" v-reveal="i"
-					class="bg-[#1a1a1a] border border-white/8 rounded-2xl p-8 flex flex-col items-center text-center">
-					<span class="text-[44px] leading-none mb-5" aria-hidden="true">{{ type.emoji }}</span>
-					<p class="font-extrabold text-[22px] lg:text-[24px] tracking-[0.18em] mb-4" :style="neon(type.color)">
-						{{ type.label }}
-					</p>
-					<p class="text-[14px] lg:text-[15px] leading-[1.7] text-[#FFFDF9]/80">
-						{{ type.desc }}
-					</p>
+					class="relative aspect-[3/4] rounded-2xl overflow-hidden border border-white/8">
+					<img :src="type.image" :alt="type.label" loading="lazy" class="absolute inset-0 w-full h-full object-cover" />
+					<div class="absolute inset-0 bg-linear-to-t from-black via-black/50 to-transparent" aria-hidden="true" />
+					<div class="absolute inset-x-0 bottom-0 p-6 lg:p-7 text-center">
+						<p class="font-extrabold text-[22px] lg:text-[24px] tracking-[0.18em] mb-3" :style="neon(type.color)">
+							{{ type.label }}
+						</p>
+						<p class="text-[14px] lg:text-[15px] leading-[1.6] text-[#FFFDF9]/85">
+							{{ type.desc }}
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<!-- ═══════════════════════════════════════
-       SECTION 4 — For Brands (dark, blue accent)
+       SECTION 4 — For Brands (black, standalone banner)
        ═══════════════════════════════════════ -->
-	<section class="relative overflow-hidden bg-[#0F0537] py-22 lg:py-28">
-		<div class="absolute -top-40 left-1/2 -translate-x-1/2 w-[900px] h-[500px] rounded-full bg-[#2a55e5]/25 blur-[120px] pointer-events-none" aria-hidden="true" />
-		<div class="relative z-10 max-w-[1200px] mx-auto px-6 lg:px-8 text-center">
+	<section class="bg-black py-22 lg:py-28">
+		<div class="max-w-[1200px] mx-auto px-6 lg:px-8 text-center">
 			<span v-reveal class="block text-[#5b8cff] text-[12px] font-bold tracking-[0.18em] uppercase mb-8">
 				{{ t('microDramas.brands.eyebrow') }}
 			</span>
@@ -149,20 +163,27 @@ function neon(color: string) {
 			<p v-reveal="1" class="text-[15px] lg:text-[17px] leading-[1.8] text-[#FFFDF9]/70 mb-10">
 				{{ t('microDramas.cta.sub') }}
 			</p>
-			<div v-reveal="2">
+			<div v-reveal="2" class="flex flex-wrap justify-center gap-4">
 				<RouterLink to="/creators" class="btn-primary h-12! px-8! text-[15px]!">
-					{{ t('microDramas.cta.button') }}
+					{{ t('microDramas.cta.learnMore') }}
 				</RouterLink>
+				<a href="https://launchpad.xavvi.com" target="_blank" rel="noopener" class="btn-ghost border! border-white/30! hover:border-white/60! h-12! px-8! text-[15px]!">
+					{{ t('microDramas.cta.apply') }}
+				</a>
 			</div>
 		</div>
 	</section>
 </template>
 
 <style scoped>
-.poster-shelf {
-	scrollbar-width: none;
+.poster-track {
+	animation: poster-scroll 60s linear infinite;
 }
-.poster-shelf::-webkit-scrollbar {
-	display: none;
+@keyframes poster-scroll {
+	from { transform: translateX(0); }
+	to { transform: translateX(-33.3333%); }
+}
+@media (prefers-reduced-motion: reduce) {
+	.poster-track { animation: none; }
 }
 </style>
