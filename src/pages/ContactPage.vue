@@ -13,14 +13,16 @@ const categories = [
 	{ id: 'media', color: '#0f766e' },
 	{ id: 'investors', color: '#d97706' },
 	{ id: 'general', color: '#374151' },
+	{ id: 'sales', color: '#2a55e5' },
 ] as const;
 
 type CategoryId = (typeof categories)[number]['id'];
 
-// Pre-select category from ?category=creators (preferred) or legacy ?from=brands
+// Pre-select category from ?category=creators (preferred), ?form=sales, or legacy ?from=brands
 const queryCategory = typeof route.query.category === 'string' ? route.query.category : '';
+const queryForm = typeof route.query.form === 'string' ? route.query.form : '';
 const queryFrom = typeof route.query.from === 'string' ? route.query.from : '';
-const preselected = queryCategory || queryFrom;
+const preselected = queryCategory || queryForm || queryFrom;
 const initial = (categories.find((c) => c.id === preselected)?.id ?? null) as CategoryId | null;
 const selected = ref<CategoryId | null>(initial);
 

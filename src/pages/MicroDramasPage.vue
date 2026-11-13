@@ -2,6 +2,7 @@
 import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 import PhoneMockup from '@/components/PhoneMockup.vue';
+import NewsTeaser from '@/components/NewsTeaser.vue';
 
 const { t } = useI18n();
 
@@ -19,7 +20,7 @@ const creatorTypes = computed(() => [
 	{ image: '/images/page/athletes.jpg', label: t('microDramas.stars.athletes.label'), desc: t('microDramas.stars.athletes.desc'), color: '#39ff14' },
 ]);
 
-const posters = [1, 2, 3, 4, 5, 6, 7, 8].map((n) => `/images/page/Poster%20${n}.jpg`);
+const posters = [1, 2, 3, 4, 5, 6, 7, 8].map((n) => `/images/page/Poster%20${n}.webp`);
 // Three back-to-back copies so the loop is seamless even on very wide screens;
 // the track animates by exactly one copy's width (-33.333%).
 const shelf = [0, 1, 2].flatMap((copy) => posters.map((src, i) => ({ src, i, copy })));
@@ -63,6 +64,8 @@ function neon(color: string) {
 			</div>
 		</div>
 	</section>
+
+	<NewsTeaser bg="bg-black" />
 
 	<!-- ═══════════════════════════════════════
        SECTION 2 — How It Works (black) + poster shelf
@@ -116,10 +119,9 @@ function neon(color: string) {
 			</h2>
 			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 				<div v-for="(type, i) in creatorTypes" :key="type.label" v-reveal="i"
-					class="relative aspect-[3/4] rounded-2xl overflow-hidden border border-white/8">
-					<img :src="type.image" :alt="type.label" loading="lazy" class="absolute inset-0 w-full h-full object-cover" />
-					<div class="absolute inset-0 bg-linear-to-t from-black via-black/50 to-transparent" aria-hidden="true" />
-					<div class="absolute inset-x-0 bottom-0 p-6 lg:p-7 text-center">
+					class="rounded-2xl overflow-hidden border border-white/8 bg-black flex flex-col">
+					<img :src="type.image" :alt="type.label" loading="lazy" class="block w-full h-[300px] object-cover rounded-t-2xl" />
+					<div class="bg-black px-6 py-6 lg:px-7 lg:py-7 text-center flex-1">
 						<p class="font-extrabold text-[22px] lg:text-[24px] tracking-[0.18em] mb-3" :style="neon(type.color)">
 							{{ type.label }}
 						</p>
@@ -140,6 +142,12 @@ function neon(color: string) {
 			<span v-reveal class="block text-[#5b8cff] text-[12px] font-bold tracking-[0.18em] uppercase mb-8">
 				{{ t('microDramas.brands.eyebrow') }}
 			</span>
+			<h2 v-reveal="1" class="text-[clamp(2rem,4vw,3rem)] font-bold text-[#FFFDF9] leading-tight tracking-tight mb-6">
+				{{ t('microDramas.brands.title') }}
+			</h2>
+			<p v-reveal="1" class="max-w-[760px] mx-auto text-[15px] lg:text-[17px] leading-[1.8] text-[#FFFDF9]/80 mb-12">
+				{{ t('microDramas.brands.body') }}
+			</p>
 			<picture v-reveal="1" class="block rounded-2xl overflow-hidden">
 				<source media="(min-width: 768px)" srcset="/images/page/built-4-brands.jpg" />
 				<img src="/images/page/built-4-brandsM.jpg" :alt="t('microDramas.brands.title')" class="block w-full h-auto object-cover" />
@@ -177,7 +185,7 @@ function neon(color: string) {
 
 <style scoped>
 .poster-track {
-	animation: poster-scroll 60s linear infinite;
+	animation: poster-scroll 30s linear infinite;
 }
 @keyframes poster-scroll {
 	from { transform: translateX(0); }

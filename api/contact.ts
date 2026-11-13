@@ -9,6 +9,7 @@ const ROUTES: Record<string, string> = {
 	media: 'juan@xavvi.com',
 	investors: 'kevin@xavvi.com',
 	general: 'support@xavvi.com',
+	sales: 'ernie@xavvi.com',
 };
 
 const CATEGORY_LABELS: Record<string, string> = {
@@ -18,6 +19,7 @@ const CATEGORY_LABELS: Record<string, string> = {
 	media: 'Media',
 	investors: 'Investors',
 	general: 'General',
+	sales: 'Sales Team',
 };
 
 function escape(s: unknown): string {

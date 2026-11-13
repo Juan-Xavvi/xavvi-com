@@ -463,6 +463,7 @@ export default {
       media: 'Media',
       investors: 'Investors',
       general: 'General',
+      sales: 'Sales Team',
     },
     form: {
       name: 'Name',
@@ -489,8 +490,8 @@ export default {
   },
   microDramas: {
     hero: {
-      title: 'AI Microdramas Starring Real Creators',
-      sub: '60 to 100 episodes. One minute each. Vertical video. Starring your favorite creators — powered by AI, sponsored by brands, and shoppable from every scene.',
+      title: 'AI Microdramas Starring Your Favorite Creators',
+      sub: 'Our unique microdrama recipe brings together creators from around the world, our Emmy Award-winning screenwriting team, and our AI video generation app to produce engaging content that lets brands advertise and drive sales. Creators grow their fans and unlock a new revenue channel. Brands and vendors sell more, with better ROI. At Xavvi, we help you grow like crazy!',
       cta: 'Learn More',
       ctaApply: 'Apply Now',
     },
@@ -519,6 +520,7 @@ export default {
     brands: {
       eyebrow: 'For Brands',
       title: 'Built for Brand Deals',
+      body: 'Every microdrama series is built around a sponsor. Your brand appears naturally in the story — not as an ad, but as part of the world. Add shoppable links to any scene and track sales in real time.',
       cta: 'Partner with Us',
     },
     cta: {
@@ -530,31 +532,41 @@ export default {
   },
   videoPacks: {
     hero: {
-      title: 'AI Video Packs for E-Commerce Sellers',
-      sub: 'Professional shoppable videos for TikTok Shop and Amazon — produced by AI, starring real creators, delivered fast.',
+      title: 'AI Video Packs for Ecommerce Sellers',
+      sub: 'Professional shoppable videos for TikTok Shop, Amazon, your Shopify store or anywhere you sell — produced by AI, starring real creators, delivered fast.',
       cta: 'Get Your Video Pack',
     },
     packs: {
       title: 'Choose Your Pack',
-      shoppable: {
-        pill: 'SHOPPABLE',
-        title: 'Shoppable Pack',
-        body: '10 short-form videos, 15 seconds to 1 minute each. Each video is shoppable — viewers tap to buy directly from the scene. Perfect for TikTok Shop and Amazon listings.',
-        price: 'Starting from [PRICE]',
+      cols: {
+        pack: 'Pack',
+        videos: 'Videos',
+        resolution: 'Resolution',
+        model: 'AI Model',
+        length: 'Length',
       },
-      brand: {
-        pill: 'BRANDING',
-        title: 'Brand Pack',
-        body: '1 premium brand video up to 1 minute. Tell your brand story with a creator as the face of your product. Built for ads, landing pages, and brand awareness.',
-        price: 'Starting from [PRICE]',
+      rows: {
+        shoppableVideo: 'Shoppable Video',
+        shoppableStory: 'Shoppable Story',
+        brandingVideo: 'Branding Video',
+        brandingVideoPro: 'Branding Video Pro',
+        brandMovie: 'Brand Movie',
+        brandMoviePro: 'Brand Movie Pro',
       },
+      lengths: {
+        sec15: '15 sec',
+        sec30to60: '30–60 sec',
+        min1: '1 min',
+        perEpisode: '1 min/episode',
+      },
+      talkToSales: 'Talk to Sales',
     },
     how: {
       title: 'How It Works',
       brief: { label: 'BRIEF', body: "Tell us about your product, your audience, and the vibe you're going for." },
       match: { label: 'MATCH', body: 'We match you with a creator whose audience fits your product.' },
       produce: { label: 'PRODUCE', body: "Our AI studio produces your videos with the creator's avatar or on-camera appearance." },
-      deliver: { label: 'DELIVER', body: 'Videos are ready to upload directly to TikTok Shop or Amazon.' },
+      deliver: { label: 'DELIVER', body: 'Videos are ready to upload directly to TikTok Shop, Amazon, your Shopify store or anywhere you sell.' },
     },
     creator: {
       title: 'With or Without a Creator',
@@ -563,7 +575,7 @@ export default {
     cta: {
       title: 'Ready to Sell More with Video?',
       sub: 'Get professional shoppable videos for your store in days, not weeks.',
-      button: 'Order a Video Pack',
+      button: 'Talk to Sales',
     },
   },
   meta: {

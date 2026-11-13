@@ -4,10 +4,17 @@ import { useI18n } from 'vue-i18n';
 
 const { t } = useI18n();
 
+// Pack specs (names and lengths are translated; numbers, resolutions and model names are not)
 const packs = computed(() => [
-	{ title: t('videoPacks.packs.shoppable.title'), pill: t('videoPacks.packs.shoppable.pill'), body: t('videoPacks.packs.shoppable.body'), price: t('videoPacks.packs.shoppable.price') },
-	{ title: t('videoPacks.packs.brand.title'), pill: t('videoPacks.packs.brand.pill'), body: t('videoPacks.packs.brand.body'), price: t('videoPacks.packs.brand.price') },
+	{ name: t('videoPacks.packs.rows.shoppableVideo'), videos: '10', resolution: '720p', model: 'Seedance 2.0', length: t('videoPacks.packs.lengths.sec15') },
+	{ name: t('videoPacks.packs.rows.shoppableStory'), videos: '10', resolution: '720p', model: 'Seedance 2.0', length: t('videoPacks.packs.lengths.sec30to60') },
+	{ name: t('videoPacks.packs.rows.brandingVideo'), videos: '5', resolution: '720p', model: 'Seedance 2.0', length: t('videoPacks.packs.lengths.min1') },
+	{ name: t('videoPacks.packs.rows.brandingVideoPro'), videos: '5', resolution: '1080p', model: 'Seedance 2.5', length: t('videoPacks.packs.lengths.min1') },
+	{ name: t('videoPacks.packs.rows.brandMovie'), videos: '20–100', resolution: '720p', model: 'Seedance 2.0', length: t('videoPacks.packs.lengths.perEpisode') },
+	{ name: t('videoPacks.packs.rows.brandMoviePro'), videos: '20–100', resolution: '1080p', model: 'Seedance 2.5', length: t('videoPacks.packs.lengths.perEpisode') },
 ]);
+
+const salesLink = '/contact?form=sales';
 
 const steps = computed(() => [
 	{ label: t('videoPacks.how.brief.label'), body: t('videoPacks.how.brief.body') },
@@ -30,7 +37,7 @@ const steps = computed(() => [
 				{{ t('videoPacks.hero.sub') }}
 			</p>
 			<div v-reveal="3" class="mt-12 flex justify-center">
-				<RouterLink to="/contact" class="btn-primary h-12! px-8! text-[15px]!">
+				<RouterLink :to="salesLink" class="btn-primary h-12! px-8! text-[15px]!">
 					{{ t('videoPacks.hero.cta') }}
 					<svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5.5 7.5h5.5m-2.5-3 3 3-3 3" /></svg>
 				</RouterLink>
@@ -39,29 +46,57 @@ const steps = computed(() => [
 	</section>
 
 	<!-- ═══════════════════════════════════════
-       SECTION 2 — Pack options (light)
+       SECTION 2 — Pack pricing table (light)
        ═══════════════════════════════════════ -->
 	<section class="bg-[#f4f5f8] py-20 lg:py-24">
-		<div class="max-w-[1100px] mx-auto px-6 lg:px-8">
+		<div class="max-w-[1200px] mx-auto px-6 lg:px-8">
 			<h2 v-reveal
 				class="text-[clamp(2rem,4vw,3rem)] font-bold text-[#212226] text-center leading-tight mb-12 lg:mb-14">
 				{{ t('videoPacks.packs.title') }}
 			</h2>
-			<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-				<div v-for="(pack, i) in packs" :key="pack.title" v-reveal="i"
-					class="card-light shadow-sm p-8 lg:p-10 flex flex-col">
-					<span class="inline-block self-start px-4 py-1.5 rounded-full bg-[#FE2C55] text-[#FFFDF9] text-[12px] font-bold tracking-[0.18em] mb-5">
-						{{ pack.pill }}
-					</span>
-					<h3 class="text-[20px] lg:text-[22px] font-bold text-text mb-4 leading-snug">
-						{{ pack.title }}
-					</h3>
-					<p class="text-[15px] text-text-2 leading-[1.7] flex-1">
-						{{ pack.body }}
-					</p>
-					<p class="mt-8 pt-6 border-t border-[#212226]/10 text-[16px] font-semibold text-[#212226]">
-						{{ pack.price }}
-					</p>
+			<!-- Desktop / tablet: table -->
+			<div v-reveal class="hidden md:block card-light shadow-sm overflow-hidden">
+				<table class="w-full text-left">
+					<thead>
+						<tr class="bg-[#212226] text-[#FFFDF9] text-[12px] font-bold tracking-[0.14em] uppercase">
+							<th scope="col" class="px-6 py-4">{{ t('videoPacks.packs.cols.pack') }}</th>
+							<th scope="col" class="px-4 py-4">{{ t('videoPacks.packs.cols.videos') }}</th>
+							<th scope="col" class="px-4 py-4">{{ t('videoPacks.packs.cols.resolution') }}</th>
+							<th scope="col" class="px-4 py-4">{{ t('videoPacks.packs.cols.model') }}</th>
+							<th scope="col" class="px-4 py-4">{{ t('videoPacks.packs.cols.length') }}</th>
+							<th scope="col" class="px-6 py-4"><span class="sr-only">{{ t('videoPacks.packs.talkToSales') }}</span></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr v-for="pack in packs" :key="pack.name" class="border-t border-[#212226]/8 text-[15px] text-text-2">
+							<th scope="row" class="px-6 py-5 font-bold text-[#212226]">{{ pack.name }}</th>
+							<td class="px-4 py-5">{{ pack.videos }}</td>
+							<td class="px-4 py-5">{{ pack.resolution }}</td>
+							<td class="px-4 py-5">{{ pack.model }}</td>
+							<td class="px-4 py-5">{{ pack.length }}</td>
+							<td class="px-6 py-4 text-right">
+								<RouterLink :to="salesLink" class="btn-primary h-10! px-5! text-[13px]! whitespace-nowrap">
+									{{ t('videoPacks.packs.talkToSales') }}
+								</RouterLink>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<!-- Mobile: one card per pack -->
+			<div class="md:hidden grid grid-cols-1 gap-4">
+				<div v-for="(pack, i) in packs" :key="pack.name" v-reveal="i" class="card-light shadow-sm p-6">
+					<h3 class="text-[18px] font-bold text-[#212226] mb-4">{{ pack.name }}</h3>
+					<dl class="grid grid-cols-2 gap-x-4 gap-y-3 text-[14px] mb-6">
+						<div><dt class="text-[11px] font-bold tracking-[0.14em] uppercase text-text-2/70">{{ t('videoPacks.packs.cols.videos') }}</dt><dd class="text-[#212226]">{{ pack.videos }}</dd></div>
+						<div><dt class="text-[11px] font-bold tracking-[0.14em] uppercase text-text-2/70">{{ t('videoPacks.packs.cols.resolution') }}</dt><dd class="text-[#212226]">{{ pack.resolution }}</dd></div>
+						<div><dt class="text-[11px] font-bold tracking-[0.14em] uppercase text-text-2/70">{{ t('videoPacks.packs.cols.model') }}</dt><dd class="text-[#212226]">{{ pack.model }}</dd></div>
+						<div><dt class="text-[11px] font-bold tracking-[0.14em] uppercase text-text-2/70">{{ t('videoPacks.packs.cols.length') }}</dt><dd class="text-[#212226]">{{ pack.length }}</dd></div>
+					</dl>
+					<RouterLink :to="salesLink" class="btn-primary w-full h-11! text-[14px]!">
+						{{ t('videoPacks.packs.talkToSales') }}
+					</RouterLink>
 				</div>
 			</div>
 		</div>
@@ -117,7 +152,7 @@ const steps = computed(() => [
 				{{ t('videoPacks.cta.sub') }}
 			</p>
 			<div v-reveal="2">
-				<RouterLink to="/contact" class="btn-primary h-12! px-8! text-[15px]!">
+				<RouterLink :to="salesLink" class="btn-primary h-12! px-8! text-[15px]!">
 					{{ t('videoPacks.cta.button') }}
 				</RouterLink>
 			</div>
