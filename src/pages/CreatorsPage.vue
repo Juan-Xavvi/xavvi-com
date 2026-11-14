@@ -40,20 +40,10 @@ const heroBullets = computed(() => [
 	t('creators.hero.b5'),
 ]);
 
-// ── Tabs ───────────────────────────────────
-const activeTab = ref<'pricing' | 'full'>('pricing');
-const tabs = [
-	{ id: 'pricing' as const, labelKey: 'creators.tabs.pricing.label' },
-	{ id: 'full' as const, labelKey: 'creators.tabs.full.label' },
-];
-const pricingItems = computed(() => [
-	t('creators.tabs.pricing.i1'),
-	t('creators.tabs.pricing.i2'),
-]);
+// ── Full Control ────────────────────────
 const fullItems = computed(() => [
 	t('creators.tabs.full.i1'),
 	t('creators.tabs.full.i2'),
-	t('creators.tabs.full.i3'),
 ]);
 
 // ── Benefits ───────────────────────────────
@@ -64,8 +54,6 @@ const benefits = computed(() => [
 	t('creators.benefits.b4'),
 	t('creators.benefits.b5'),
 	t('creators.benefits.b6'),
-	t('creators.benefits.b7'),
-	t('creators.benefits.b8'),
 ]);
 </script>
 
@@ -91,6 +79,12 @@ const benefits = computed(() => [
 							<span>{{ b }}</span>
 						</li>
 					</ul>
+					<div class="mt-10">
+						<a href="https://launchpad.xavvi.com" target="_blank" rel="noopener"
+							class="btn-primary h-12! px-8! text-[15px]! tracking-wider">
+							{{ t('creators.startNow') }}
+						</a>
+					</div>
 				</div>
 
 				<!-- Right: auto-rotating slider -->
@@ -112,73 +106,34 @@ const benefits = computed(() => [
 	</section>
 
 	<!-- ═══════════════════════════════════════
-       SECTION 2 — Tabs + support (light)
+       SECTION 2 — Full Control + support (light)
        ═══════════════════════════════════════ -->
 	<section class="bg-[#f4f5f8] py-20 lg:py-24">
 		<div class="max-w-[1100px] mx-auto px-6 lg:px-8">
-			<!-- Tab bar -->
-			<div v-reveal class="flex border-b border-[#212226]/15">
-				<button v-for="tab in tabs" :key="tab.id"
-					@click="activeTab = tab.id"
-					class="relative px-6 lg:px-8 py-4 font-semibold text-[14px] lg:text-[15px] tracking-[0.14em] transition-colors cursor-pointer"
-					:class="activeTab === tab.id ? 'text-[#212226]' : 'text-[#212226]/45 hover:text-[#212226]/80'">
-					{{ t(tab.labelKey) }}
-					<span v-if="activeTab === tab.id"
-						class="absolute -bottom-px left-0 right-0 h-[2px] bg-[#FE2C55]"></span>
-				</button>
-			</div>
-
-			<!-- Tab panels -->
-			<div class="mt-10 min-h-[180px]">
-				<Transition name="tab-fade" mode="out-in">
-					<!-- Pricing Control -->
-					<div v-if="activeTab === 'pricing'" key="pricing"
-						class="flex flex-col sm:flex-row gap-5 items-start">
-						<div
-							class="shrink-0 w-12 h-12 rounded-xl bg-[#FE2C55]/10 flex items-center justify-center text-[#FE2C55]">
-							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-								stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-								<path d="M20.59 13.41 13.42 20.58a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" />
-								<line x1="7" y1="7" x2="7.01" y2="7" />
-							</svg>
-						</div>
-						<div>
-							<p class="text-[15px] lg:text-[16px] text-[#212226] leading-[1.7] mb-3 font-medium">
-								{{ t('creators.tabs.pricing.intro') }}
-							</p>
-							<ul class="space-y-2">
-								<li v-for="(item, i) in pricingItems" :key="i"
-									class="flex items-start gap-3 text-[15px] lg:text-[16px] text-[#212226]/80 leading-[1.7]">
-									<span class="text-[#FE2C55] font-bold mt-0.5">—</span>
-									<span>{{ item }}</span>
-								</li>
-							</ul>
-						</div>
-					</div>
-
-					<!-- Full Control -->
-					<div v-else key="full" class="flex flex-col sm:flex-row gap-5 items-start">
-						<div
-							class="shrink-0 w-12 h-12 rounded-xl bg-[#FE2C55]/10 flex items-center justify-center text-[#FE2C55]">
-							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-								stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-								<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-							</svg>
-						</div>
-						<div>
-							<p class="text-[15px] lg:text-[16px] text-[#212226] leading-[1.7] mb-3 font-medium">
-								{{ t('creators.tabs.full.intro') }}
-							</p>
-							<ul class="space-y-2">
-								<li v-for="(item, i) in fullItems" :key="i"
-									class="flex items-start gap-3 text-[15px] lg:text-[16px] text-[#212226]/80 leading-[1.7]">
-									<span class="text-[#FE2C55] font-bold mt-0.5">—</span>
-									<span>{{ item }}</span>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</Transition>
+			<!-- Full Control -->
+			<div v-reveal class="flex flex-col sm:flex-row gap-5 items-start">
+				<div
+					class="shrink-0 w-12 h-12 rounded-xl bg-[#FE2C55]/10 flex items-center justify-center text-[#FE2C55]">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+						stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+						<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+					</svg>
+				</div>
+				<div>
+					<h3 class="text-[clamp(1.4rem,2.5vw,2rem)] font-bold text-[#212226] mb-4">
+						{{ t('creators.tabs.full.label') }}
+					</h3>
+					<p class="text-[15px] lg:text-[16px] text-[#212226] leading-[1.7] mb-3 font-medium">
+						{{ t('creators.tabs.full.intro') }}
+					</p>
+					<ul class="space-y-2">
+						<li v-for="(item, i) in fullItems" :key="i"
+							class="flex items-start gap-3 text-[15px] lg:text-[16px] text-[#212226]/80 leading-[1.7]">
+							<span class="text-[#FE2C55] font-bold mt-0.5">—</span>
+							<span>{{ item }}</span>
+						</li>
+					</ul>
+				</div>
 			</div>
 
 			<!-- Support sub-section -->
@@ -194,7 +149,7 @@ const benefits = computed(() => [
 	</section>
 
 	<!-- ═══════════════════════════════════════
-       SECTION 3 — Monetize (dark)
+       SECTION 3 — Two Paths (dark)
        ═══════════════════════════════════════ -->
 	<section class="bg-[#111111] py-22">
 		<div class="max-w-[1200px] mx-auto px-6 lg:px-8">
@@ -203,40 +158,46 @@ const benefits = computed(() => [
 				{{ t('creators.monetize.title') }}
 			</h2>
 			<div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+				<!-- Path 1: Microdramas -->
 				<div v-reveal="0"
 					class="bg-[#1a1a1a] border border-white/8 rounded-2xl p-8 flex flex-col">
 					<div
 						class="w-14 h-14 rounded-xl bg-[#FE2C55]/15 flex items-center justify-center text-[#FE2C55] mb-6">
 						<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 							stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-							<path d="M3 9l1-5h16l1 5" />
-							<path d="M5 9v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9" />
-							<path d="M9 21V14h6v7" />
+							<rect x="6" y="2" width="12" height="20" rx="2" />
+							<polygon points="10.5 9 15 12 10.5 15 10.5 9" />
 						</svg>
 					</div>
 					<h3 class="text-[18px] lg:text-[20px] font-bold text-[#FFFDF9] mb-3">
-						{{ t('creators.monetize.store.label') }}
+						{{ t('creators.monetize.microdramas.label') }}
 					</h3>
 					<p class="text-[14px] lg:text-[15px] leading-[1.7] text-[#FFFDF9]/80">
-						{{ t('creators.monetize.store.desc') }}
+						{{ t('creators.monetize.microdramas.desc') }}
 					</p>
 				</div>
+				<!-- Path 2: Brand Lab (invitation only) -->
 				<div v-reveal="1"
 					class="bg-[#1a1a1a] border border-white/8 rounded-2xl p-8 flex flex-col">
-					<div
-						class="w-14 h-14 rounded-xl bg-[#FE2C55]/15 flex items-center justify-center text-[#FE2C55] mb-6">
-						<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-							stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-							<circle cx="12" cy="12" r="10" />
-							<path d="M12 6v12" />
-							<path d="M16 9.5c0-1.4-1.8-2.5-4-2.5s-4 1-4 2.5 1.8 2.5 4 2.5 4 1 4 2.5-1.8 2.5-4 2.5-4-1.1-4-2.5" />
-						</svg>
+					<div class="flex items-start justify-between gap-4 mb-6">
+						<div
+							class="w-14 h-14 rounded-xl bg-[#FE2C55]/15 flex items-center justify-center text-[#FE2C55]">
+							<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+								stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+								<path d="M3 9l1-5h16l1 5" />
+								<path d="M5 9v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9" />
+								<path d="M9 21V14h6v7" />
+							</svg>
+						</div>
+						<span class="inline-block px-3 py-1 rounded-full border border-[#F7C526]/60 text-[#F7C526] text-[11px] font-bold tracking-[0.16em] uppercase">
+							{{ t('creators.monetize.brandLab.badge') }}
+						</span>
 					</div>
 					<h3 class="text-[18px] lg:text-[20px] font-bold text-[#FFFDF9] mb-3">
-						{{ t('creators.monetize.token.label') }}
+						{{ t('creators.monetize.brandLab.label') }}
 					</h3>
 					<p class="text-[14px] lg:text-[15px] leading-[1.7] text-[#FFFDF9]/80">
-						{{ t('creators.monetize.token.desc') }}
+						{{ t('creators.monetize.brandLab.desc') }}
 					</p>
 				</div>
 			</div>
@@ -268,7 +229,7 @@ const benefits = computed(() => [
 	</section>
 
 	<!-- ═══════════════════════════════════════
-       SECTION 5 — Legacy banner
+       SECTION 5 — The Future is Here banner
        ═══════════════════════════════════════ -->
 	<section class="relative w-full overflow-hidden">
 		<img src="/images/page/creator-legacy.jpg" alt=""
@@ -280,17 +241,14 @@ const benefits = computed(() => [
 					class="text-[clamp(2rem,4.5vw,3.5rem)] font-bold text-[#FFFDF9] leading-tight tracking-tight mb-6">
 					{{ t('creators.legacy.title') }}
 				</h2>
-				<p v-reveal="1" class="text-[15px] lg:text-[18px] leading-[1.8] text-[#FFFDF9] mb-3">
-					{{ t('creators.legacy.p1') }}
+				<p v-reveal="1" class="text-[15px] lg:text-[18px] leading-[1.8] text-[#FFFDF9] mb-8">
+					{{ t('creators.legacy.body') }}
 				</p>
-				<p v-reveal="2" class="text-[15px] lg:text-[18px] leading-[1.8] text-[#FFFDF9] mb-8">
-					{{ t('creators.legacy.p2') }}
-				</p>
-				<div v-reveal="3">
-					<RouterLink to="/contact?category=creators"
+				<div v-reveal="2">
+					<a href="https://launchpad.xavvi.com" target="_blank" rel="noopener"
 						class="inline-flex items-center justify-center h-12 px-8 rounded-lg bg-[#FE2C55] hover:bg-[#EF2950] text-[#FFFDF9] font-semibold text-[15px] tracking-wider transition-colors">
-						{{ t('creators.legacy.cta') }}
-					</RouterLink>
+						{{ t('creators.startNow') }}
+					</a>
 				</div>
 			</div>
 		</div>
@@ -307,16 +265,4 @@ const benefits = computed(() => [
 	opacity: 0;
 }
 
-.tab-fade-enter-active,
-.tab-fade-leave-active {
-	transition: opacity 0.25s ease, transform 0.25s ease;
-}
-.tab-fade-enter-from {
-	opacity: 0;
-	transform: translateY(6px);
-}
-.tab-fade-leave-to {
-	opacity: 0;
-	transform: translateY(-6px);
-}
 </style>
