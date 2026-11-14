@@ -96,6 +96,12 @@ const roadmapSteps = [1, 2, 3, 4, 5, 6].map((n) => `brandLab.roadmap.step${n}`);
 					<!-- Steps alternate: even index card-left/pill-right, odd index pill-left/card-right -->
 					<div v-for="(key, i) in roadmapSteps" :key="key" v-reveal
 						:class="['relative lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center', i < roadmapSteps.length - 1 ? 'lg:pb-20' : '']">
+						<!-- Mobile pill (above the card) -->
+						<div class="lg:hidden flex justify-center mb-6">
+							<span class="inline-block px-4 py-1.5 rounded-full bg-[#FE2C55] text-[#FFFDF9] text-[12px] font-bold tracking-[0.18em]">
+								{{ t(`${key}.label`) }}
+							</span>
+						</div>
 						<div :class="['hidden lg:flex items-center', i % 2 === 0 ? 'lg:order-2 justify-start lg:pl-8' : 'justify-end lg:pr-8']">
 							<span class="inline-block px-5 py-2 rounded-full bg-[#FE2C55] text-[#FFFDF9] text-[14px] font-bold tracking-[0.18em]">
 								{{ t(`${key}.label`) }}
@@ -110,12 +116,6 @@ const roadmapSteps = [1, 2, 3, 4, 5, 6].map((n) => `brandLab.roadmap.step${n}`);
 									{{ t(`${key}.body`) }}
 								</p>
 							</div>
-						</div>
-						<!-- Mobile pill -->
-						<div class="lg:hidden flex justify-center mt-6">
-							<span class="inline-block px-4 py-1.5 rounded-full bg-[#FE2C55] text-[#FFFDF9] text-[12px] font-bold tracking-[0.18em]">
-								{{ t(`${key}.label`) }}
-							</span>
 						</div>
 					</div>
 				</div>

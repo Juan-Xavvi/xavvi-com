@@ -50,7 +50,7 @@ const steps = computed(() => [
 			<div v-reveal="4" class="relative z-0 flex items-center justify-center lg:justify-end">
 				<div class="absolute w-[380px] h-[560px] rounded-full bg-[#2a55e5]/10 blur-[90px] pointer-events-none" />
 				<img src="/images/page/video-packs.webp" alt="Video Packs"
-					class="relative w-full max-w-[320px] lg:max-w-[360px] h-auto rounded-[1.2rem] phone-shadow" />
+					class="relative w-full max-w-[320px] md:max-w-[260px] lg:max-w-[360px] h-auto rounded-[1.2rem] phone-shadow" />
 			</div>
 		</div>
 	</section>
@@ -103,7 +103,7 @@ const steps = computed(() => [
 
 			<div v-reveal class="mt-10 lg:mt-12 flex justify-center">
 				<RouterLink :to="salesLink"
-					class="inline-flex items-center justify-center h-12 px-8 rounded-lg bg-[#2a55e5] hover:bg-[#2347c4] text-[#FFFDF9] font-semibold text-[15px] tracking-wider transition-colors">
+					class="btn-primary h-12! px-8! text-[15px]!">
 					{{ t('videoPacks.packs.talkToSales') }}
 				</RouterLink>
 			</div>
