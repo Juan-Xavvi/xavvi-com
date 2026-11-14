@@ -13,7 +13,7 @@ export default {
     news: '新闻',
   },
   footer: {
-    tagline: '专为创作者打造的 AI 微短剧工作室。',
+    tagline: '我们帮你疯狂成长！',
     product: '产品',
     webApp: '网页版',
     download: '下载',

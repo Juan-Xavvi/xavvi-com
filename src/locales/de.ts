@@ -13,7 +13,7 @@ export default {
     news: 'News',
   },
   footer: {
-    tagline: 'Das KI-Mikro-Drama-Studio für Creators.',
+    tagline: 'Wir helfen dir, wie verrückt zu wachsen!',
     product: 'Produkt',
     webApp: 'Web-App',
     download: 'Download',
@@ -35,7 +35,7 @@ export default {
     copyright: '© {year} Xavvi Holdings, Inc. Alle Rechte vorbehalten.',
     status: 'Alle Systeme betriebsbereit',
     xavviTokens: 'Xavvi AI Credits',
-    dataAddendum: 'Auftragsverarbeitungsvertrag',
+    dataAddendum: 'AV-Vertrag',
     websites: 'Websites',
     aiVideoStudio: 'AI Video Studio',
     education: 'Bildung',

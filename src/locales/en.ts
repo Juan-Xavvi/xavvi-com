@@ -11,7 +11,7 @@ export default {
     downloadXavvi: 'Download Xavvi',
   },
   footer: {
-    tagline: 'The AI microdrama studio for creators.',
+    tagline: 'We help you grow like crazy!',
     product: 'Products',
     webApp: 'Web App',
     download: 'Download Apps',

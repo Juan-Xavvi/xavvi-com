@@ -13,7 +13,7 @@ export default {
     news: 'Notícias',
   },
   footer: {
-    tagline: 'O estúdio de microdramas com IA para criadores.',
+    tagline: 'Ajudamos você a crescer como um louco!',
     product: 'Produtos',
     webApp: 'Web App',
     download: 'Baixar Apps',

@@ -13,7 +13,7 @@ export default {
     news: 'Actualités',
   },
   footer: {
-    tagline: 'Le studio de microdramas IA pour les créateurs.',
+    tagline: 'On vous aide à grandir comme des fous !',
     product: 'Produit',
     webApp: 'Application web',
     download: 'Télécharger',
