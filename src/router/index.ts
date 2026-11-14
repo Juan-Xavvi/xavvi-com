@@ -29,7 +29,7 @@ const router = createRouter({
     { path: '/data-addendum', name: 'data-addendum', component: () => import('@/pages/DataAddendumPage.vue'), meta: { title: 'Data Processing Addendum – Xavvi', description: 'Xavvi Data Processing Addendum.', noindex: true } },
     { path: '/micro-dramas', name: 'micro-dramas', component: () => import('@/pages/MicroDramasPage.vue'), meta: { title: 'Microdramas – Xavvi', description: 'AI microdramas starring real creators' } },
     { path: '/video-packs', name: 'video-packs', component: () => import('@/pages/VideoPacksPage.vue'), meta: { title: 'Video Packs – Xavvi', description: 'AI video packs for e-commerce sellers' } },
-    { path: '/ai-credits', name: 'ai-credits', component: () => import('@/pages/AICreditsPage.vue'), meta: { title: 'AI Credits – Xavvi', description: 'Purchase AI credits for video production' } },
+    { path: '/ai-credits', name: 'ai-credits', component: () => import('@/pages/AICreditsPage.vue'), meta: { title: 'A2A Video – Xavvi', description: 'Purchase AI credits for video production' } },
   ],
 });
 

@@ -211,10 +211,14 @@ svg.inline-icon { display: inline-block !important; vertical-align: middle; }
   background: #FFFFFF;
   transition: width 0.3s ease, left 0.3s ease;
 }
-.nav-link:hover::after,
-.nav-link.router-link-active::after {
+.nav-link:not(.router-link-active):hover::after {
   width: 100%;
   left: 0;
+}
+/* Active page: gold text instead of an underline (unlayered, so it beats Tailwind's text-white) */
+.nav-link.router-link-active,
+.nav-link-mobile.router-link-active {
+  color: #F7C526;
 }
 
 /* ══════════════════════════════════════════

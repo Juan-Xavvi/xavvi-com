@@ -63,7 +63,7 @@ const links = computed(() => [
 				<div class="flex flex-col px-6 pt-8 space-y-1">
 					<template v-for="link in links" :key="link.to">
 						<RouterLink :to="link.to!"
-							class="block py-4 text-[22px] font-semibold text-white/80 hover:text-white border-b border-white/5 transition-colors"
+							class="nav-link-mobile block py-4 text-[22px] font-semibold text-white/80 hover:text-white border-b border-white/5 transition-colors"
 							@click="mobileOpen = false">
 							{{ link.label }}
 						</RouterLink>

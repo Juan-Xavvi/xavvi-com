@@ -4,7 +4,7 @@ export default {
     microDramas: 'Microdramas',
     videoPacks: 'Video Packs',
     brandLab: 'Brand Lab',
-    aiCredits: 'AI Credits',
+    aiCredits: 'A2A Video',
     news: 'News',
     about: 'About',
     getApp: 'Get App',
