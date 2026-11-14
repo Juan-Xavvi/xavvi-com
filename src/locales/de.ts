@@ -191,7 +191,7 @@ export default {
         body: 'TikTok Shop US lud Xavvi ein, Shops zu eröffnen, groß angelegte Trainings anzubieten und Marken sowie Creators beim Start auf der Plattform zu begleiten. Parallel lieferte Xavvi Ads — die KI-gestützte Werbe- und Automatisierungsplattform — außergewöhnlichen ROI für Kunden.\n\nXavvi verlegte den Hauptsitz nach Los Angeles und launchte den Creators Showroom, ein innovatives hybrides Modell aus physischem Showroom und KI-Tools. Das System spart Marken die teuren wiederholten Sample-Versände und beschleunigt deutlich die Content- und Videoproduktion für Creators.',
       },
       s4: {
-        body: 'Indem Xavvi den E-Commerce-Betrieb von Marken vollständig übernommen hat, gewann das Unternehmen Einblicke aus erster Hand in die Schwächen des klassischen Social-Commerce-Modells — ein System, das oft weder für Anbieter noch für Creators tragfähig ist.\n\nPeter und Juan hatten 2018 in China bereits ein Startup für tokenisierten E-Commerce gegründet und dort die Wirksamkeit token-basierter Anreizsysteme bewiesen. Auf dieser Erfahrung aufbauend pivotieren sie Xavvi nun zum dezentralen, tokenisierten und KI-gestützten Ökosystem, das das Unternehmen im Sommer 2026 weltweit ausrollt.',
+        body: 'Indem Xavvi den E-Commerce-Betrieb von Marken vollständig übernommen hat, gewann das Unternehmen Einblicke aus erster Hand in die Schwächen des klassischen Social-Commerce-Modells — ein System, das oft weder für Anbieter noch für Creators tragfähig ist.\n\nIm Jahr 2026 richtete sich Xavvi auf AI-Tools zur Videogenerierung aus und bringt Creators mit Herstellern zusammen, um echte Marken zu launchen und ansprechende Inhalte zu produzieren, die den Umsatz steigern.',
       },
     },
     officesTitle: 'Standorte und Operations',

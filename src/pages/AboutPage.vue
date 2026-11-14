@@ -57,7 +57,8 @@ const offices = computed(() => [
 	<!-- ═══════════════════════════════════════
        SECTION 2 — Stats
        ═══════════════════════════════════════ -->
-	<section class="bg-dark-2 border-t border-b border-white/6 py-12 lg:py-14">
+	<!-- Hidden: "Ecosystem Target for 2027" stats -->
+	<section v-if="false" class="bg-dark-2 border-t border-b border-white/6 py-12 lg:py-14">
 		<div class="max-w-[1600px] mx-auto px-6 lg:px-8">
 			<h2 v-reveal class="text-center text-[clamp(1.1rem,2vw,1.4rem)] font-bold text-[#FFFDF9] mb-8 lg:mb-10 tracking-tight">
 				{{ t('about.statsTitle') }}
