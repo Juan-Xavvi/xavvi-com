@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';
+import PartnersSection from '@/components/PartnersSection.vue';
 
 const { t } = useI18n();
 
@@ -151,6 +152,9 @@ const offices = computed(() => [
 			</div>
 		</div>
 	</section>
+
+	<!-- Partners (shared component) -->
+	<PartnersSection />
 
 	<!-- ═══════════════════════════════════════
        SECTION 5 — CTA

@@ -3,6 +3,7 @@ import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 import PhoneMockup from '@/components/PhoneMockup.vue';
 import NewsTeaser from '@/components/NewsTeaser.vue';
+import PartnersSection from '@/components/PartnersSection.vue';
 
 const { t } = useI18n();
 
@@ -25,6 +26,13 @@ const posters = [1, 2, 3, 4, 5, 6, 7, 8].map((n) => `/images/page/Poster%20${n}.
 // the track animates by exactly one copy's width (-33.333%).
 const shelf = [0, 1, 2].flatMap((copy) => posters.map((src, i) => ({ src, i, copy })));
 
+// Brand names, not translated
+const sites = [
+	{ label: 'A2A Video', href: 'https://a2a.xavvi.com' },
+	{ label: 'Xavvi Social', href: 'https://social.xavvi.com' },
+	{ label: 'AI', href: 'https://ai.xavvi.com' },
+];
+
 function neon(color: string) {
 	return { color, textShadow: `0 0 4px ${color}, 0 0 10px ${color}, 0 0 20px ${color}` };
 }
@@ -35,7 +43,7 @@ function neon(color: string) {
        SECTION 1 — Hero (dark)
        ═══════════════════════════════════════ -->
 	<section class="hero-dark relative overflow-hidden">
-		<div class="relative z-10 max-w-[1480px] mx-auto px-6 lg:px-8 min-h-dvh grid lg:grid-cols-[1fr_minmax(320px,400px)] items-center gap-10 lg:gap-16 pt-28 pb-24 lg:pt-0 lg:pb-0">
+		<div class="relative z-10 max-w-[1480px] mx-auto px-6 lg:px-8 min-h-dvh md:min-h-0 lg:min-h-dvh grid lg:grid-cols-[1fr_minmax(320px,400px)] items-center gap-10 md:gap-8 lg:gap-16 pt-28 pb-24 md:pt-24 md:pb-14 lg:pt-0 lg:pb-0">
 			<!-- Left: text -->
 			<div class="text-center relative z-20">
 				<h1 v-reveal="1" class="text-[clamp(2.4rem,5vw,4.5rem)] font-bold leading-[1.1] tracking-[-0.03em] text-white">
@@ -57,8 +65,8 @@ function neon(color: string) {
 
 			<!-- Right: phone (same markup as HomePage hero) -->
 			<div v-reveal="4" class="relative z-0 flex items-center justify-center lg:justify-end">
-				<div class="absolute w-[380px] h-[560px] rounded-full bg-[#2a55e5]/10 blur-[90px] pointer-events-none" />
-				<div class="relative phone-shadow scale-[1.2]">
+				<div class="absolute w-[380px] h-[560px] md:w-[300px] md:h-[440px] lg:w-[380px] lg:h-[560px] rounded-full bg-[#2a55e5]/10 blur-[90px] pointer-events-none" />
+				<div class="relative phone-shadow scale-[1.2] md:scale-[0.93] lg:scale-[1.2]">
 					<PhoneMockup />
 				</div>
 			</div>
@@ -66,6 +74,16 @@ function neon(color: string) {
 	</section>
 
 	<NewsTeaser bg="bg-black" />
+
+	<!-- Xavvi's other websites -->
+	<section class="bg-black pt-4 pb-10 lg:pb-12">
+		<nav aria-label="Xavvi websites" class="max-w-[1200px] mx-auto px-6 lg:px-8 flex flex-wrap justify-center gap-3 sm:gap-4">
+			<a v-for="site in sites" :key="site.href" :href="site.href" target="_blank" rel="noopener"
+				class="site-btn inline-flex items-center justify-center h-11 px-7 rounded-full border-2 border-[#FE2C55] text-[#FE2C55] font-semibold text-[15px] transition-colors hover:bg-[#FE2C55] hover:text-white">
+				{{ site.label }}
+			</a>
+		</nav>
+	</section>
 
 	<!-- ═══════════════════════════════════════
        SECTION 2 — How It Works (black) + poster shelf
@@ -181,6 +199,8 @@ function neon(color: string) {
 			</div>
 		</div>
 	</section>
+
+	<PartnersSection />
 </template>
 
 <style scoped>

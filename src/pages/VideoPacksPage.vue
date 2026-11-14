@@ -28,8 +28,8 @@ const steps = computed(() => [
 	<!-- ═══════════════════════════════════════
        SECTION 1 — Hero (dark)
        ═══════════════════════════════════════ -->
-	<section class="hero-dark relative min-h-dvh overflow-hidden">
-		<div class="relative z-10 max-w-[1480px] mx-auto px-6 lg:px-8 min-h-dvh grid lg:grid-cols-[1fr_minmax(320px,400px)] items-center gap-10 lg:gap-16 pt-28 pb-24 lg:pt-0 lg:pb-0">
+	<section class="hero-dark relative min-h-dvh md:min-h-0 lg:min-h-dvh overflow-hidden">
+		<div class="relative z-10 max-w-[1480px] mx-auto px-6 lg:px-8 min-h-dvh md:min-h-0 lg:min-h-dvh grid lg:grid-cols-[1fr_minmax(320px,400px)] items-center gap-10 md:gap-8 lg:gap-16 pt-28 pb-24 md:pt-24 md:pb-14 lg:pt-0 lg:pb-0">
 			<!-- Left: text -->
 			<div class="text-center relative z-20">
 				<h1 v-reveal="1" class="text-[clamp(2.4rem,5vw,4.5rem)] font-bold leading-[1.1] tracking-[-0.03em] text-white">

@@ -36,7 +36,8 @@ const links = computed(() => [
 
 			<div class="hidden sm:flex items-center gap-3">
 				<LangSwitcher />
-				<QrPopover position="bottom">
+				<!-- Hidden: "Get App" button. Remove v-if="false" to restore. -->
+				<QrPopover v-if="false" position="bottom">
 					<button class="btn-primary h-8! px-4! text-[13px]! cursor-pointer">
 						{{ t('nav.getApp') }}
 					</button>

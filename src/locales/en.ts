@@ -580,4 +580,34 @@ export default {
     brands: 'Suppliers – Xavvi',
     download: 'Download – Xavvi',
   },
+  a2a: {
+    hero: {
+      title: 'A2A Video App: High-Speed Microdrama Studio',
+      sub: 'Our agent-to-agent app streamlines the production of microdramas and large volumes of shoppable videos. Using Seedance 2.5 and other leading models, A2A delivers professional quality at the speed of light. Its infinite canvas combines an intuitive UI with under-the-hood agents and a plethora of skills to deliver any project you throw at it.',
+    },
+    canvas: {
+      title: 'AI Video Production, Reimagined',
+      body: 'A2A runs every project through a multi-model pipeline, with Seedance 2.5 at its core, so you get cinematic, professional-grade video rendered in minutes instead of weeks. Plan, generate and edit on one canvas, from a single scene to a full microdrama series. It is simple enough for any creator and powerful enough for brands producing at scale.',
+      imageAlt: 'The A2A Video infinite canvas',
+    },
+    features: {
+      title: 'Everything You Need in One Place',
+      agent: {
+        title: 'Personal Agent',
+        body: 'A dedicated messaging tab where you talk to your AI agent, just like ChatGPT or Claude, to plan, script and produce your project.',
+      },
+      editing: {
+        title: 'Picture Editing Tools',
+        body: 'Built-in image editing with AI-powered retouching, background removal, style transfer and more.',
+      },
+      skills: {
+        title: 'Skills Library',
+        body: 'A growing library of specialized AI skills: avatar generation, lip sync, voice cloning, scene composition, and more.',
+      },
+      more: {
+        title: 'More Coming Soon',
+        body: 'New features and integrations added regularly. The platform evolves as fast as AI does.',
+      },
+    },
+  },
 };
