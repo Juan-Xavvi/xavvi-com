@@ -7,9 +7,13 @@ export default {
     about: 'Acerca de',
     getApp: 'Obtener la app',
     downloadXavvi: 'Descargar Xavvi',
+    microDramas: 'Microdramas',
+    videoPacks: 'Packs de vídeo',
+    aiCredits: 'A2A Video',
+    news: 'Noticias',
   },
   footer: {
-    tagline: 'We help you grow like crazy!',
+    tagline: 'El estudio de microdramas con IA para creadoras.',
     product: 'Producto',
     webApp: 'Aplicación web',
     download: 'Descargar',
@@ -28,14 +32,26 @@ export default {
     privacyPolicy: 'Política de privacidad',
     termsOfService: 'Términos del servicio',
     communityGuidelines: 'Normas de la comunidad',
-    copyright: '© {year} Xavvi Inc. Todos los derechos reservados.',
+    copyright: '© {year} Xavvi Holdings, Inc. Todos los derechos reservados.',
     status: 'Todos los sistemas en funcionamiento',
+    xavviTokens: 'Xavvi AI Credits',
+    dataAddendum: 'Anexo de tratamiento de datos',
+    websites: 'Sitios web',
+    aiVideoStudio: 'AI Video Studio',
+    education: 'Formación',
+    aiCenters: 'AI Centers',
+    launchpad: 'Launchpad',
+    partners: 'Partners',
+    suppliers: 'Proveedores',
+    connectors: 'Conectores',
+    creators: 'Creadoras',
+    contact: 'Contacto',
   },
   home: {
-    heroTitle: 'We help you grow like crazy!',
+    heroTitle: 'El Estudio de Microdramas con IA para Creadoras',
     heroTitleLocal: '¡Te ayudamos a crecer como locos!',
     heroSub:
-      'Impulsado por IA y blockchain, Xavvi es el ecosistema de comercio de nueva generación donde todos ganan. Los creadores construyen sus propias marcas y tiendas. Las marcas lanzan campañas globales y optimizan su ROI. Los fans son recompensados por su lealtad y pueden crear su propia Empresa de Una Sola Persona.',
+      'Producimos microdramas de marca protagonizados por creadoras reales — monetizados mediante patrocinios, ecommerce y comisiones por ventas.',
     learnMore: 'Saber más',
     getTheApp: 'Obtener la app',
     stats: {
@@ -157,6 +173,7 @@ export default {
     disclaimer: {
       body: 'Los Creator Tokens no son vehículos de inversión; sus precios fluctúan e incluso pueden caer a cero. Los creator tokens son un token de utilidad que las marcas usan para acceder al tráfico de la creadora y lanzar campañas publicitarias. Los fans son recompensados por su atención y sus compras con creator tokens, que pueden usar para reclamar ventajas y experiencias exclusivas, obtener descuentos o adquirir productos en la tienda Brand Lab de la creadora.',
     },
+    exploreMicroDramas: 'Descubre los microdramas',
   },
   about: {
     heroTitle: 'Pionera en modelos de negocio donde todo el ecosistema gana',
@@ -263,10 +280,10 @@ export default {
     hero: {
       title: 'Las creadoras de Xavvi están en el centro',
       intro: 'En Xavvi, las celebridades e influencers (creadoras) son dueñas de sus datos y monetizan su tráfico. Te ayudamos a monetizar tu influencia mediante:',
-      b1: 'El lanzamiento de tus propios AI Credits que representan tu potencial de tráfico',
-      b3: 'Lanzar tu propia marca',
-      b4: 'Abrir y operar tu propia tienda de marca',
-      b5: 'Todo sin costes, ahora o nunca',
+      b1: 'Genera ingresos con microdramas protagonizados por tu AI Avatar',
+      b3: 'Cerrando acuerdos con marcas gracias a patrocinadores integrados en cada serie',
+      b4: 'Haciendo crecer tu comunidad de fans con cada nuevo episodio',
+      b5: 'Lanzando tu propia marca con Brand Lab (solo por invitación)',
       slides: {
         actors: 'ACTORES',
         musicians: 'MÚSICOS',
@@ -282,45 +299,56 @@ export default {
         i2: 'Producción de vídeos con su AI Avatar',
       },
       full: {
-        label: 'CONTROL TOTAL',
+        label: 'Control total',
         intro: 'Las creadoras tienen el control total:',
-        i1: 'Tú decides con qué marcas quieres colaborar',
-        i2: 'Tú apruebas cada anuncio creado con tu AI Avatar',
+        i1: 'Tú apruebas cada fase de tu microdrama',
+        i2: 'Tú eliges las categorías en las que quieres trabajar',
         i3: 'Tú decides qué productos venderá tu marca',
       },
     },
     support: {
       title: 'La tecnología y el soporte para que tu influencia perdure',
-      body: 'Todo se gestiona dentro del ecosistema Xavvi. Marcas, anunciantes, legal, tecnología de IA e incluso asesoramiento financiero sobre la gestión de tus AI Credits. Todo gratis.',
+      body: 'Todo se gestiona dentro del ecosistema Xavvi: patrocinadores, guiones, producción con IA, legal y distribución. Nuestro equipo de guionistas ganador de un Emmy y nuestro estudio de IA convierten tu imagen en series que tus fans quieren ver. Tú céntrate en ser tú mismo — nosotros nos encargamos del resto.',
     },
     monetize: {
-      title: 'Cómo monetizas',
+      title: 'Dos caminos',
       daily: { label: 'Ingresos diarios por anuncios', desc: 'Tarifas de vídeo y coste por clic: ingresos diarios, acumulables en tu tarjeta de crédito' },
       store: { label: 'Ventas mensuales de la tienda', desc: 'Ventas de la tienda de marca: liquidación mensual' },
       token: { label: 'Cashout de AI Credits', desc: '30 M de tus propios AI Credits: habla con tu AI Credits Manager personal cuando quieras hacer cashout' },
+      microdramas: {
+        label: 'Microdramas',
+        desc: 'Protagoniza series originales de microdramas generadas con IA en las que aparece tu AI Avatar. Cada serie está patrocinada por marcas y cada escena es comprable, así que ganas con patrocinios y comisiones por ventas mientras tu avatar se encarga del rodaje.',
+      },
+      brandLab: {
+        label: 'Brand Lab',
+        badge: 'Solo por invitación',
+        desc: 'Lanza tu propia marca con nuestra red de fabricantes verificados. Te ayudamos a crear el producto, el plan de negocio y la empresa que lo respalda. Brand Lab es solo por invitación.',
+      },
     },
     benefits: {
       title: 'Beneficios clave',
-      b1: 'Tus avatares de IA venden por ti, bajo tu dirección',
-      b2: 'Mantienes el control de todo',
-      b3: 'Eres dueña de tus datos y de tu IP',
-      b4: 'Lanza tus propios AI Credits',
-      b5: 'Comparte tu éxito con tus seguidores y fans',
-      b6: 'Lanza tu propia marca',
+      b1: 'Protagoniza series originales de microdramas con tu AI Avatar',
+      b2: 'Tu AI Avatar produce contenido por ti, bajo tu dirección',
+      b3: 'Cierra acuerdos con marcas gracias a patrocinadores integrados en cada serie',
+      b4: 'Llévate una parte de los ingresos por patrocinio y de las comisiones por ventas',
+      b5: 'Haz crecer tu comunidad de fans: cada episodio llega a nuevos espectadores',
+      b6: 'Mantén el control total de tu imagen, tus datos y tu IP',
       b7: 'Operamos tu tienda por ti',
       b8: '¡Todo esto, gratis!',
     },
     legacy: {
-      title: 'Nueva vida, nueva imagen, nuevo legado',
+      title: 'El futuro ya está aquí',
       p1: 'En un mundo donde la IA está tomando el control, asegurémonos de que trabaje para todas y todos.',
       p2: 'El ecosistema único de comercio social con IA y los activos digitales de Xavvi representan una oportunidad increíble en la que todos ganamos.',
       cta: 'Reserva tu plaza',
+      body: 'La IA está abriendo nuevos modelos de negocio y nuevas formas de que las creadoras moneticen su influencia. Quienes se muevan pronto serán las grandes estrellas del futuro — y Xavvi está diseñado para que llegues tú primero.',
     },
+    startNow: 'EMPIEZA YA',
   },
   brandLab: {
     hero: {
-      title: 'Te presentamos Brand Lab',
-      body: 'Como parte del paquete que Xavvi ofrece a las creadoras, lanzarás tu propia marca y tu tienda en Brand Lab, un centro comercial online donde las creadoras empiezan a monetizar desde el primer momento. Te conectamos con los proveedores, tu AI Avatar genera los anuncios y nosotros operamos tu tienda y nos encargamos de la logística. Todo gratis, dentro de la red Xavvi.',
+      title: 'Lanza tu propia marca',
+      body: 'Conectamos a creadoras con fabricantes, conseguimos inversión y lanzamos juntos marcas reales.',
     },
     support: {
       title: 'Soporte completo',
@@ -353,6 +381,36 @@ export default {
         body: 'Las ventas hablan por sí solas. Una vez logradas ventas sostenibles y construida una base de clientes leales, los fabricantes están mucho más dispuestos a invertir en el proceso de mayor riesgo y más lento de desarrollar productos únicos para tu marca.',
       },
       summary: 'El propósito de estas tres fases es permitirte crecer sin invertir capital por adelantado, mientras los fabricantes reducen su riesgo y nosotros te apoyamos paso a paso con un crecimiento realista y sostenible.',
+      step1: {
+        label: 'PASO 1',
+        title: 'Inscríbete',
+        body: 'Regístrate en Brand Lab y cuéntanos sobre tu audiencia, tu nicho y tu visión de marca.',
+      },
+      step2: {
+        label: 'PASO 2',
+        title: 'Conexión',
+        body: 'Te presentamos a fabricantes verificados. Cuando hay encaje, firmas una carta de intenciones.',
+      },
+      step3: {
+        label: 'PASO 3',
+        title: 'Desarrollo',
+        body: 'Trabaja con tu fabricante en las muestras, tu plan de negocio, tu estrategia de marca y la historia de tu marca.',
+      },
+      step4: {
+        label: 'PASO 4',
+        title: 'Acuerdo',
+        body: 'Firma tu Acuerdo de Constitución de Marca — la base legal de tu nueva empresa.',
+      },
+      step5: {
+        label: 'PASO 5',
+        title: 'Constitución',
+        body: 'Constituimos tu sociedad en EE. UU. y conseguimos la inversión inicial para el lanzamiento.',
+      },
+      step6: {
+        label: 'PASO 6',
+        title: 'Lanzamiento',
+        body: 'Tu marca sale al mercado. Vende en TikTok Shop, Amazon y el ecosistema Xavvi.',
+      },
     },
   },
   agencies: {
@@ -431,6 +489,7 @@ export default {
       media: 'Prensa',
       investors: 'Inversores',
       general: 'General',
+      sales: 'Equipo de ventas',
     },
     form: {
       name: 'Nombre',
@@ -460,5 +519,119 @@ export default {
     about: 'Acerca de – Xavvi',
     brands: 'Proveedores – Xavvi',
     download: 'Descargar – Xavvi',
+  },
+  microDramas: {
+    hero: {
+      title: 'Microdramas con IA protagonizados por tus creadoras favoritas',
+      sub: 'Nuestra receta única de microdramas reúne a creadoras de todo el mundo, a nuestro equipo de guionistas ganador de un Emmy y a nuestra app de generación de vídeo con IA para producir contenido atractivo con el que las marcas se anuncian y venden. Las creadoras ganan fans y desbloquean una nueva fuente de ingresos. Marcas y proveedores venden más, con un mejor ROI. ¡En Xavvi te ayudamos a crecer como locos!',
+      cta: 'Saber más',
+      ctaApply: 'Solicítalo ya',
+    },
+    how: {
+      title: 'Cómo funciona',
+      cast: {
+        label: 'CASTING',
+        body: 'Incorporamos a actores, músicos, influencers y atletas como protagonistas de series originales de microdramas.',
+      },
+      produce: {
+        label: 'PRODUCCIÓN',
+        body: 'Nuestro estudio de IA produce 60–100 episodios de vídeo vertical, de un minuto cada uno, con guiones construidos en torno a marcas y productos.',
+      },
+      monetize: {
+        label: 'MONETIZACIÓN',
+        body: 'Cada serie está patrocinada por marcas y cada escena es comprable. Las creadoras ganan con patrocinios y comisiones por ventas.',
+      },
+    },
+    stars: {
+      title: 'Quién protagoniza los microdramas de Xavvi',
+      actors: {
+        label: 'ACTORES',
+        desc: 'Aportan drama, emoción y narrativa a cada episodio.',
+      },
+      musicians: {
+        label: 'MÚSICOS',
+        desc: 'Cantan, actúan y construyen una comunidad de fans más allá del escenario.',
+      },
+      influencers: {
+        label: 'INFLUENCERS',
+        desc: 'Convierte a tu audiencia en espectadores de tu propia serie.',
+      },
+      athletes: {
+        label: 'ATLETAS',
+        desc: 'Inspiran a millones con historias dentro y fuera del terreno de juego.',
+      },
+    },
+    brands: {
+      eyebrow: 'Para marcas',
+      title: 'Hecho para acuerdos con marcas',
+      body: 'Cada serie de microdramas se construye en torno a un patrocinador. Tu marca aparece de forma natural en la historia — no como un anuncio, sino como parte de ese mundo. Añade enlaces de compra a cualquier escena y sigue las ventas en tiempo real.',
+      cta: 'Colabora con nosotros',
+    },
+    cta: {
+      title: '¿Lista para protagonizar un microdrama?',
+      sub: 'Las solicitudes están abiertas para creadoras con una audiencia lista para verlas.',
+      learnMore: 'Saber más',
+      apply: 'Solicítalo ya',
+    },
+  },
+  videoPacks: {
+    hero: {
+      title: 'Packs de vídeo con IA para vendedores de ecommerce',
+      sub: 'Vídeos comprables profesionales para TikTok Shop, Amazon, tu tienda Shopify o donde sea que vendas — producidos con IA, protagonizados por creadoras reales y entregados rápido.',
+      cta: 'Consigue tu pack de vídeo',
+    },
+    packs: {
+      title: 'Elige tu pack',
+      cols: {
+        pack: 'Pack',
+        videos: 'Vídeos',
+        resolution: 'Resolución',
+        model: 'Modelo de IA',
+        length: 'Duración',
+      },
+      rows: {
+        shoppableVideo: 'Vídeo comprable',
+        shoppableStory: 'Historia comprable',
+        brandingVideo: 'Vídeo de marca',
+        brandingVideoPro: 'Vídeo de marca Pro',
+        brandMovie: 'Película de marca',
+        brandMoviePro: 'Película de marca Pro',
+      },
+      lengths: {
+        sec15: '15 s',
+        sec30to60: '30–60 s',
+        min1: '1 min',
+        perEpisode: '1 min/episodio',
+      },
+      talkToSales: 'Habla con ventas',
+    },
+    how: {
+      title: 'Cómo funciona',
+      brief: {
+        label: 'BRIEF',
+        body: 'Cuéntanos sobre tu producto, tu audiencia y el estilo que buscas.',
+      },
+      match: {
+        label: 'MATCH',
+        body: 'Te conectamos con una creadora cuya audiencia encaja con tu producto.',
+      },
+      produce: {
+        label: 'PRODUCCIÓN',
+        body: 'Nuestro estudio de IA produce tus vídeos con el avatar de la creadora o con su aparición ante la cámara.',
+      },
+      deliver: {
+        label: 'ENTREGA',
+        body: 'Los vídeos están listos para subirse directamente a TikTok Shop, Amazon, tu tienda Shopify o donde sea que vendas.',
+      },
+    },
+    creator: {
+      title: 'Con o sin creadora',
+      body: 'Cada pack de vídeo puede producirse con el AI Avatar de una creadora — con su cara, su voz y la confianza de su audiencia, sin necesidad de un acuerdo completo con una influencer. O apuesta solo por tu marca con un vídeo limpio centrado en el producto.',
+    },
+    cta: {
+      title: '¿Listo para vender más con vídeo?',
+      sub: 'Consigue vídeos comprables profesionales para tu tienda en días, no en semanas.',
+      button: 'Habla con ventas',
+    },
   },
 };

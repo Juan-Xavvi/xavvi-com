@@ -7,9 +7,13 @@ export default {
     about: '关于我们',
     getApp: '获取 App',
     downloadXavvi: '下载 Xavvi',
+    microDramas: '微短剧',
+    videoPacks: '视频套餐',
+    aiCredits: 'A2A Video',
+    news: '新闻',
   },
   footer: {
-    tagline: 'We help you grow like crazy!',
+    tagline: '专为创作者打造的 AI 微短剧工作室。',
     product: '产品',
     webApp: '网页版',
     download: '下载',
@@ -28,13 +32,25 @@ export default {
     privacyPolicy: '隐私政策',
     termsOfService: '服务条款',
     communityGuidelines: '社区准则',
-    copyright: '© {year} Xavvi Inc. 保留所有权利。',
+    copyright: '© {year} Xavvi Holdings, Inc. 保留所有权利。',
     status: '系统运行正常',
+    xavviTokens: 'Xavvi AI Credits',
+    dataAddendum: '数据处理附录',
+    websites: '网站',
+    aiVideoStudio: 'AI Video Studio',
+    education: '教育',
+    aiCenters: 'AI Centers',
+    launchpad: 'Launchpad',
+    partners: '合作伙伴',
+    suppliers: '供应商',
+    connectors: '连接者',
+    creators: '创作者',
+    contact: '联系我们',
   },
   home: {
-    heroTitle: 'We help you grow like crazy!',
+    heroTitle: '专为创作者打造的 AI 微短剧工作室',
     heroTitleLocal: '我们帮你疯狂成长！',
-    heroSub: '由 AI 与区块链驱动，Xavvi 是人人共赢的新一代商业生态。创作者打造属于自己的品牌与店铺；品牌开展全球营销并优化 ROI；粉丝因忠诚获得回报，还能创办自己的「一人公司」。',
+    heroSub: '我们制作由真实创作者主演的品牌微短剧——通过品牌赞助、电商和销售佣金实现变现。',
     learnMore: '了解更多',
     getTheApp: '获取 App',
     stats: {
@@ -151,6 +167,7 @@ export default {
     disclaimer: {
       body: 'Creator Token 不是投资工具；其价格会波动，甚至可能归零。Creator Token 是一种实用型代币，品牌使用它来访问创作者的流量并发起广告活动。粉丝因其关注与消费而以 Creator Token 获得奖励，并可使用这些代币领取专属权益与体验、获取折扣，或在创作者的 Brand Lab 店铺购买商品。',
     },
+    exploreMicroDramas: '探索微短剧',
   },
   about: {
     heroTitle: '开拓商业模式，让生态中的每个人都赢',
@@ -254,10 +271,10 @@ export default {
     hero: {
       title: 'Xavvi 让创作者居于核心',
       intro: '在 Xavvi，名人和网红（创作者）拥有自己的数据，并将自己的流量变现。我们通过以下方式帮助你把影响力变现：',
-      b1: '为你发行 AI Credits，代表你的流量价值',
-      b3: '推出你自己的品牌',
-      b4: '开设并运营你自己的品牌店铺',
-      b5: '全部免费，机不可失',
+      b1: '让你的 AI Avatar 主演微短剧，为你创造收入',
+      b3: '每部剧都内置赞助商，品牌合作主动上门',
+      b4: '每更新一集，粉丝就多一批',
+      b5: '通过 Brand Lab 推出你自己的品牌（仅限受邀）',
       slides: {
         actors: '演员',
         musicians: '音乐人',
@@ -275,43 +292,54 @@ export default {
       full: {
         label: '完全掌控',
         intro: '创作者拥有完全的掌控权：',
-        i1: '你来决定要与哪些品牌合作',
-        i2: '你来审批用 AI Avatar制作的每一条广告',
+        i1: '微短剧的每个环节都由你审批',
+        i2: '合作品类由你挑选',
         i3: '你来决定自己的品牌销售哪些产品',
       },
     },
     support: {
       title: '让你的影响力长久延续的技术与支持',
-      body: '一切都在 Xavvi 生态内被妥善照料：品牌、广告主、法律、AI 技术，乃至关于你的 AI Credits 管理的财务建议——全部免费。',
+      body: '一切都在 Xavvi 生态内搞定：赞助商、剧本、AI 制作、法务与发行。我们荣获 Emmy 艾美奖的编剧团队与 AI 工作室，把你的形象打造成粉丝追着看的剧集。你只管做自己——其余的交给我们。',
     },
     monetize: {
-      title: '你的变现方式',
+      title: '两条路径',
       daily: { label: '广告日常收入', desc: '视频费用与点击付费广告费用：每日收入，可累积到信用卡' },
       store: { label: '店铺月度销售', desc: '品牌店铺销售：按月结算' },
       token: { label: 'AI Credits 兑现', desc: '3000 万自有 AI Credits：随时与你的专属 AI Credits Manager 沟通兑现' },
+      microdramas: {
+        label: '微短剧',
+        desc: '由你的 AI Avatar 出演原创 AI 微短剧系列。每部剧都有品牌赞助，每个场景都可边看边买——你的 AI Avatar 负责拍摄，你坐享赞助分成与销售佣金。',
+      },
+      brandLab: {
+        label: 'Brand Lab',
+        badge: '仅限受邀',
+        desc: '借助我们严格筛选的制造商网络，推出你自己的品牌。从产品、商业计划到背后的公司，我们全程助你搭建。Brand Lab 仅限受邀加入。',
+      },
     },
     benefits: {
       title: '核心优势',
-      b1: 'AI 形象在你的指引下为你销售',
-      b2: '你掌控一切',
-      b3: '拥有自己的数据与 IP',
-      b4: '发行你自己的 AI Credits',
-      b5: '与你的关注者和粉丝共享你的成功',
-      b6: '推出你自己的品牌',
+      b1: '由你的 AI Avatar 出演原创微短剧系列',
+      b2: '你的 AI Avatar 在你的指导下为你产出内容',
+      b3: '每部剧都内置赞助商，轻松拿下品牌合作',
+      b4: '分享赞助收入与销售佣金',
+      b5: '每一集都触达新观众，粉丝持续增长',
+      b6: '你的形象、数据和 IP，始终由你完全掌控',
       b7: '我们替你运营店铺',
       b8: '所有这一切，全部免费！',
     },
     legacy: {
-      title: '新生活、新形象、新传承',
+      title: '未来已来',
       p1: '在 AI 全面到来的世界里，让它为我们所有人工作。',
       p2: 'Xavvi 独有的 AI 社交电商生态与数字资产，是一次让所有人共赢的绝佳机会。',
       cta: '预留你的席位',
+      body: 'AI 正在催生全新的商业模式，也为创作者打开了影响力变现的新方式。先行一步的创作者，将成为未来的大明星——而 Xavvi，正是为了让你抢先抵达。',
     },
+    startNow: '立即开始',
   },
   brandLab: {
     hero: {
-      title: '认识 Brand Lab',
-      body: '作为 Xavvi 提供给创作者的整体方案的一部分，你将在 Brand Lab 推出属于你自己的品牌和店铺。这是一个线上购物中心，创作者从一开始就能开始变现。我们为你对接供应商，你的 AI Avatar生成广告，我们替你运营店铺并负责物流。一切都在 Xavvi 网络内免费完成。',
+      title: '推出你自己的品牌',
+      body: '我们为创作者对接制造商、争取投资，携手打造真正的品牌。',
     },
     support: {
       title: '全面支持',
@@ -344,6 +372,36 @@ export default {
         body: '销售数据胜过千言万语。当我们实现可持续的销售并建立起忠实的客户群后，制造商将更愿意投入更高风险和更长时间的过程，为你的品牌开发独家产品。',
       },
       summary: '这三个阶段的目的是让你不必前期投入大量资金即可成长，制造商也降低了风险，我们则一步步用务实、可持续的方式陪伴你的成长。',
+      step1: {
+        label: '第 1 步',
+        title: '报名',
+        body: '报名加入 Brand Lab，告诉我们你的受众、细分领域和品牌愿景。',
+      },
+      step2: {
+        label: '第 2 步',
+        title: '匹配',
+        body: '我们为你引荐经过严格筛选的制造商。双方契合，即可签署意向书。',
+      },
+      step3: {
+        label: '第 3 步',
+        title: '打造',
+        body: '与匹配的制造商共同推进样品、商业计划、品牌战略和品牌故事。',
+      },
+      step4: {
+        label: '第 4 步',
+        title: '签约',
+        body: '签署品牌创立协议——你新公司的法律基石。',
+      },
+      step5: {
+        label: '第 5 步',
+        title: '注册公司',
+        body: '我们为你注册美国公司，并争取启动所需的首轮投资。',
+      },
+      step6: {
+        label: '第 6 步',
+        title: '上线',
+        body: '你的品牌正式上线。通过 TikTok Shop、Amazon 和 Xavvi 生态销售。',
+      },
     },
   },
   agencies: {
@@ -422,6 +480,7 @@ export default {
       media: '媒体',
       investors: '投资者',
       general: '其他',
+      sales: '销售团队',
     },
     form: {
       name: '姓名',
@@ -451,5 +510,119 @@ export default {
     about: '关于我们 – Xavvi',
     brands: '供应商 – Xavvi',
     download: '下载 – Xavvi',
+  },
+  microDramas: {
+    hero: {
+      title: '由你最爱的创作者主演的 AI 微短剧',
+      sub: '我们独家的微短剧配方，汇聚全球创作者、荣获 Emmy 艾美奖的编剧团队和我们的 AI 视频生成应用，打造引人入胜的内容，帮助品牌投放广告、拉动销售。创作者收获更多粉丝，解锁全新收入渠道；品牌和商家卖得更多，ROI 更高。在 Xavvi，我们帮你疯狂成长！',
+      cta: '了解更多',
+      ctaApply: '立即申请',
+    },
+    how: {
+      title: '运作方式',
+      cast: {
+        label: '选角',
+        body: '我们签约演员、音乐人、网红和运动员，担任原创微短剧系列的主角。',
+      },
+      produce: {
+        label: '制作',
+        body: '我们的 AI 工作室制作 60–100 集竖屏视频，每集一分钟，围绕品牌与产品量身编写剧本。',
+      },
+      monetize: {
+        label: '变现',
+        body: '每部剧都有品牌赞助，每个场景都可边看边买。创作者从赞助和销售佣金中获得收入。',
+      },
+    },
+    stars: {
+      title: '谁来主演 Xavvi 微短剧',
+      actors: {
+        label: '演员',
+        desc: '为每一集注入戏剧张力、情感与故事。',
+      },
+      musicians: {
+        label: '音乐人',
+        desc: '能唱能演，在舞台之外圈粉无数。',
+      },
+      influencers: {
+        label: '网红',
+        desc: '把你的粉丝变成你专属剧集的观众。',
+      },
+      athletes: {
+        label: '运动员',
+        desc: '用赛场内外的故事激励千万人。',
+      },
+    },
+    brands: {
+      eyebrow: '品牌专区',
+      title: '为品牌合作而生',
+      body: '每部微短剧都围绕一个赞助商打造。你的品牌自然融入剧情——不是广告，而是故事世界的一部分。为任意场景添加购物链接，实时追踪销售。',
+      cta: '与我们合作',
+    },
+    cta: {
+      title: '准备好主演一部微短剧了吗？',
+      sub: '现面向拥有忠实观众的创作者开放申请。',
+      learnMore: '了解更多',
+      apply: '立即申请',
+    },
+  },
+  videoPacks: {
+    hero: {
+      title: '专为电商卖家打造的 AI 视频套餐',
+      sub: '适用于 TikTok Shop、Amazon、你的 Shopify 店铺或任何销售渠道的专业带货视频——AI 制作，真实创作者出演，快速交付。',
+      cta: '获取视频套餐',
+    },
+    packs: {
+      title: '选择你的套餐',
+      cols: {
+        pack: '套餐',
+        videos: '视频数',
+        resolution: '分辨率',
+        model: 'AI 模型',
+        length: '时长',
+      },
+      rows: {
+        shoppableVideo: '带货视频',
+        shoppableStory: '带货故事',
+        brandingVideo: '品牌视频',
+        brandingVideoPro: '品牌视频 Pro',
+        brandMovie: '品牌短片',
+        brandMoviePro: '品牌短片 Pro',
+      },
+      lengths: {
+        sec15: '15秒',
+        sec30to60: '30–60秒',
+        min1: '1分钟',
+        perEpisode: '1分钟/集',
+      },
+      talkToSales: '联系销售',
+    },
+    how: {
+      title: '运作方式',
+      brief: {
+        label: '需求',
+        body: '告诉我们你的产品、目标受众，以及你想要的风格调性。',
+      },
+      match: {
+        label: '匹配',
+        body: '我们为你匹配受众与产品高度契合的创作者。',
+      },
+      produce: {
+        label: '制作',
+        body: '我们的 AI 工作室使用创作者的 AI Avatar 或真人出镜，为你制作视频。',
+      },
+      deliver: {
+        label: '交付',
+        body: '视频可直接上传至 TikTok Shop、Amazon、你的 Shopify 店铺或任何销售渠道。',
+      },
+    },
+    creator: {
+      title: '有无创作者，皆可',
+      body: '每个视频套餐都可由创作者的 AI Avatar 出演——无需签下完整的网红合作，就能借用他们的面孔、声音和粉丝信任。也可以选择纯品牌版本，打造简洁、聚焦产品的视频。',
+    },
+    cta: {
+      title: '准备好用视频卖得更多了吗？',
+      sub: '几天而非几周，即可为你的店铺拿到专业带货视频。',
+      button: '联系销售',
+    },
   },
 };
