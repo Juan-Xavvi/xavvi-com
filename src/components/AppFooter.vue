@@ -43,8 +43,10 @@ const { t } = useI18n();
         <div>
           <h4 class="text-[12px] font-semibold text-white tracking-[0.12em] uppercase mb-5">{{ t('footer.websites') }}</h4>
           <ul class="space-y-3">
-            <li><a href="https://a2a.xavvi.com" target="_blank" rel="noopener" class="text-[14px] text-white/70 hover:text-white transition-colors">{{ t('footer.aiVideoStudio') }}</a></li>
-            <li><a href="https://learn.xavvi.com" target="_blank" rel="noopener" class="text-[14px] text-white/70 hover:text-white transition-colors">{{ t('footer.education') }}</a></li>
+            <li><a href="https://a2a.xavvi.com" target="_blank" rel="noopener" class="text-[14px] text-white/70 hover:text-white transition-colors">{{ t('footer.a2aVideo') }}</a></li>
+            <li><a href="https://learn.xavvi.com" target="_blank" rel="noopener" class="text-[14px] text-white/70 hover:text-white transition-colors">{{ t('footer.learn') }}</a></li>
+            <li><a href="https://ai.xavvi.com" target="_blank" rel="noopener" class="text-[14px] text-white/70 hover:text-white transition-colors">{{ t('footer.xavviAi') }}</a></li>
+            <li><a href="https://opc.xavvi.com" target="_blank" rel="noopener" class="text-[14px] text-white/70 hover:text-white transition-colors">{{ t('footer.opc') }}</a></li>
             <li><a href="https://agency.xavvi.com" target="_blank" rel="noopener" class="text-[14px] text-white/70 hover:text-white transition-colors">{{ t('footer.aiCenters') }}</a></li>
             <li><a href="https://launchpad.xavvi.com" target="_blank" rel="noopener" class="text-[14px] text-white/70 hover:text-white transition-colors">{{ t('footer.launchpad') }}</a></li>
           </ul>

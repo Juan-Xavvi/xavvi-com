@@ -18,7 +18,7 @@ withDefaults(defineProps<{
 					<div class="h-full relative">
 						<video
 							class="absolute inset-0 w-full h-full object-cover"
-							src="https://app-us-file.xavvi.com/videos/g/63f496b8-887d-4f1a-9222-2d483498fd81-1080p.mp4"
+							src="/images/page/hero.mp4"
 							autoplay muted loop playsinline
 						/>
 

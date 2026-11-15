@@ -33,8 +33,10 @@ export default {
     communityGuidelines: 'Community Guidelines',
     dataAddendum: 'Data Processing Addendum',
     websites: 'Websites',
-    aiVideoStudio: 'AI Video Studio',
-    education: 'Education',
+    a2aVideo: 'A2A Video',
+    learn: 'Learn',
+    xavviAi: 'Xavvi AI',
+    opc: 'OPC',
     aiCenters: 'AI Centers',
     launchpad: 'Launchpad',
     partners: 'Partners',
@@ -220,17 +222,6 @@ export default {
     globe365: {
       title: 'Globe 365: A Permanent Trade Show for Your Brand',
       intro1: 'Globe 365 helps Chinese manufacturers stop chasing global trade shows and start running their own — permanently. Instead of paying for a booth at yet another expo, Globe 365 builds your factory a real U.S. brand: a dedicated network of Creators and AI-driven content that markets your products worldwide, continuously, 365 days a year. It\'s not a one-time showcase — it\'s an always-on system of content, distribution, and buyer outreach built around your brand specifically.',
-      intro2: 'The program runs in two phases: preparation before you arrive, then a focused 10-day launch in the U.S. that sets up 365 days of ongoing operations — brand building, content, Creator partnerships, and global B2B outreach. Globe 365 is a partnership built on real matching and real execution, not guaranteed outcomes — results depend on your product, market fit, and the relationships formed along the way.',
-      days: {
-        d1Label: 'Days 1–4 — Brand Lab Fast-Track with Creators',
-        d1Text: 'Build your showcase. Day 1 is business speed-dating: Creators see, try, and select the SKUs they want to work with. Day 2 is one-on-one Brand × Creator matchmaking to nail down positioning, pricing, and collaboration mode — affiliate, livestream, brand ambassador, or full co-branding. Day 3 is on-site content creation — scripts, video, AI-assisted multilingual content — shot with your real product and real Creators. Day 4 wraps with a first-round brand, packaging, and sales-page concept for your best-matched Creator pairings.',
-        d2Label: 'Days 5–6 — Brand Lab Fast-Track with Affiliates',
-        d2Text: 'Scale up. We build out a multilingual B2B outreach matrix, design your distribution and commission structure, and run a live end-to-end test of the AI lead-intake and CRM pipeline.',
-        d3Label: 'Days 7–9 — Business and Compliance Workshops',
-        d3Text: 'Get ready to operate. Day 7 covers logistics, customs, warehousing, and fulfillment-cost modeling for your SKUs. Day 8 works through company registration, trademark/IP, tax, legal, and product compliance. Day 9 connects you with U.S. trade associations, potential buyers and distributors, and retail-channel validation.',
-        d4Label: 'Day 10 — Evaluation & Roadmap',
-        d4Text: 'Every company leaves with a clear review of what was achieved and a 30/90/180/365-day growth roadmap with named owners and deadlines.',
-      },
       cta: 'APPLY NOW',
     },
     brandLab: {
@@ -239,20 +230,6 @@ export default {
       p1: 'Brand Lab is the launchpad for creator-led brands and online shops. Partnering with celebrities and influencers not only helps increase sales, but also strengthens brand awareness and builds greater trust around your products.',
       p2: 'Brand Lab integrates with major ERP systems, making onboarding and operations seamless for manufacturers, suppliers, and vendors. Offer high-quality products at competitive prices and grow alongside the creators who promote them.',
       p3: 'In addition, Brand Lab incentivises consumers through AI Credits and rewards systems, helping creators and vendors build stronger communities and a loyal long-term customer base.',
-    },
-    ai: {
-      eyebrow: 'Xavvi App',
-      title: 'Why Using AI?',
-      p1: 'AI is transforming video production — and for advertising in particular, it is dramatically reducing both production time and costs. Soon, waiting weeks or even months to coordinate filming schedules with creators will become a thing of the past.',
-      p2: "By licensing a creator's AI avatar and using Xavvi's MuaiTai AI video generation tool, brands can produce high-quality, engaging content in minutes. Want to scale globally? No problem. Campaigns can be generated in dozens of languages for different markets around the world.",
-      p3: 'Need to work with hundreds of creators simultaneously? AI makes it possible to maintain visual consistency, branding, and campaign quality at scale — opening the door to a faster, more efficient, and far more scalable era of advertising.',
-    },
-    tokenization: {
-      eyebrow: 'Xavvi App & Brand Lab',
-      title: 'Why AI Credits Are the Way?',
-      p1: 'Brands operating globally — or looking to expand internationally — often face major challenges with cross-border payments. Traditional money transfers can be slow, expensive, and complicated. Xavvi solves this through the BFC Ad Credits system, allowing brands to work seamlessly with creators around the world without worrying about local currencies.',
-      p2: 'Transfers take seconds and can be processed at minimal cost, making both ad spending and creator payments faster, more convenient, and more efficient for everyone involved.',
-      p3: 'The Xavvi app also uses AI Credits to grant brands access to creator audiences in a transparent and scalable way. This model gives creators ownership over their traffic and audience data, while helping brands and vendors reach highly targeted communities more efficiently and economically.',
     },
     cta: {
       title: 'Partner with Xavvi',
@@ -319,6 +296,7 @@ export default {
     hero: {
       title: 'Launch Your Own Brand',
       body: 'We match creators with manufacturers, secure investment, and launch real brands together.',
+      cta: 'Get Started',
     },
     support: {
       title: 'Full Support',
@@ -406,16 +384,6 @@ export default {
       title: 'The Industry Is Changing. And So Are the Risks.',
       p1: 'The traditional agency and management model is facing major disruption. Many agencies invest years helping creators grow, only to lose them later to different managers, agencies, or direct brand relationships. In other cases, creators become less active over time, reducing long-term value for the people who helped build their careers.',
       p2: 'At the same time, AI tools are beginning to automate parts of content production, marketing, and audience management — making creators increasingly independent. This creates a critical question for Connectors: How do you continue creating long-term value in the AI era? Xavvi was designed to help answer that question.',
-    },
-    referral: {
-      title: 'A Referral System Designed for Long-Term Value',
-      intro: "Xavvi's referral ecosystem is powered by AI Credits. When you onboard a creator, you receive a share of that creator's AI Credits ecosystem through our referral structure. As the creator grows their audience, engagement, and commercial activity, your participation remains connected to the ecosystem you helped create.",
-      inAdditionLabel: 'In addition:',
-      a1: 'You can also onboard other Connectors',
-      a2: 'Referral rewards extend through the network you help build',
-      a3: 'After onboarding, the system becomes largely hands-off',
-      a4: 'One successful introduction can generate long-term upside',
-      closing: 'The goal is simple: reward the people who help build the network, not just the platform itself.',
     },
     ecosystem: {
       title: 'Become Part of the Ecosystem',
@@ -581,6 +549,7 @@ export default {
     download: 'Download – Xavvi',
   },
   a2a: {
+    cta: 'Check out A2A Video',
     hero: {
       title: 'A2A Video App: High-Speed Microdrama Studio',
       sub: 'Our agent-to-agent app streamlines the production of microdramas and large volumes of shoppable videos. Using Seedance 2.5 and other leading models, A2A delivers professional quality at the speed of light. Its infinite canvas combines an intuitive UI with under-the-hood agents and a plethora of skills to deliver any project you throw at it.',

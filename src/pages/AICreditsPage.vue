@@ -28,6 +28,12 @@ const features = computed(() => [
 				<p v-reveal="2" class="mt-8 text-[clamp(1.05rem,1.7vw,1.25rem)] leading-[1.8] text-white/70 max-w-[700px] mx-auto">
 					{{ t('a2a.hero.sub') }}
 				</p>
+				<div v-reveal="3" class="mt-10">
+					<a href="https://a2a.xavvi.com" target="_blank" rel="noopener"
+						class="btn-primary h-12! px-8! text-[15px]! tracking-wider">
+						{{ t('a2a.cta') }}
+					</a>
+				</div>
 			</div>
 
 			<!-- Right: portrait image (same slot as Video Packs) -->
@@ -68,16 +74,22 @@ const features = computed(() => [
 				{{ t('a2a.features.title') }}
 			</h2>
 			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-				<div v-for="(f, i) in features" :key="f.title" v-reveal="i" class="card-dark p-8 flex flex-col">
+				<div v-for="(f, i) in features" :key="f.title" v-reveal="i" class="rounded-2xl bg-white p-8 flex flex-col">
 					<span class="w-12 h-12 rounded-xl bg-[#FE2C55]/15 text-[#FE2C55] flex items-center justify-center mb-6">
 						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
 							stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 							<path :d="f.icon" />
 						</svg>
 					</span>
-					<h3 class="text-[18px] font-bold text-white mb-3">{{ f.title }}</h3>
-					<p class="text-[14px] lg:text-[15px] leading-[1.7] text-white/70">{{ f.body }}</p>
+					<h3 class="text-[18px] font-bold text-[#212226] mb-3">{{ f.title }}</h3>
+					<p class="text-[14px] lg:text-[15px] leading-[1.7] text-text-2">{{ f.body }}</p>
 				</div>
+			</div>
+			<div v-reveal class="mt-14 lg:mt-16 text-center">
+				<a href="https://a2a.xavvi.com" target="_blank" rel="noopener"
+					class="btn-primary h-12! px-8! text-[15px]! tracking-wider">
+					{{ t('a2a.cta') }}
+				</a>
 			</div>
 		</div>
 	</section>

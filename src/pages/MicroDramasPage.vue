@@ -30,7 +30,8 @@ const shelf = [0, 1, 2].flatMap((copy) => posters.map((src, i) => ({ src, i, cop
 const sites = [
 	{ label: 'A2A Video', href: 'https://a2a.xavvi.com' },
 	{ label: 'Xavvi Social', href: 'https://social.xavvi.com' },
-	{ label: 'AI', href: 'https://ai.xavvi.com' },
+	{ label: 'Xavvi AI', href: 'https://ai.xavvi.com' },
+	{ label: 'Learn', href: 'https://learn.xavvi.com' },
 ];
 
 function neon(color: string) {
@@ -43,7 +44,7 @@ function neon(color: string) {
        SECTION 1 — Hero (dark)
        ═══════════════════════════════════════ -->
 	<section class="hero-dark relative overflow-hidden">
-		<div class="relative z-10 max-w-[1480px] mx-auto px-6 lg:px-8 min-h-dvh md:min-h-0 lg:min-h-dvh grid lg:grid-cols-[1fr_minmax(320px,400px)] items-center gap-10 md:gap-8 lg:gap-16 pt-28 pb-24 md:pt-24 md:pb-14 lg:pt-0 lg:pb-0">
+		<div class="relative z-10 max-w-[1480px] mx-auto px-6 lg:px-8 min-h-dvh md:min-h-0 xl:min-h-dvh grid xl:grid-cols-[1fr_minmax(320px,400px)] items-center gap-10 md:gap-8 xl:gap-16 pt-28 pb-24 md:pt-24 md:pb-12 xl:pt-0 xl:pb-0">
 			<!-- Left: text -->
 			<div class="text-center relative z-20">
 				<h1 v-reveal="1" class="text-[clamp(2.4rem,5vw,4.5rem)] font-bold leading-[1.1] tracking-[-0.03em] text-white">
@@ -64,9 +65,9 @@ function neon(color: string) {
 			</div>
 
 			<!-- Right: phone (same markup as HomePage hero) -->
-			<div v-reveal="4" class="relative z-0 flex items-center justify-center lg:justify-end">
-				<div class="absolute w-[380px] h-[560px] md:w-[300px] md:h-[440px] lg:w-[380px] lg:h-[560px] rounded-full bg-[#2a55e5]/10 blur-[90px] pointer-events-none" />
-				<div class="relative phone-shadow scale-[1.2] md:scale-[0.93] lg:scale-[1.2]">
+			<div v-reveal="4" class="relative z-0 flex items-center justify-center xl:justify-end">
+				<div class="absolute w-[380px] h-[560px] md:w-[240px] md:h-[360px] xl:w-[380px] xl:h-[560px] rounded-full bg-[#2a55e5]/10 blur-[90px] pointer-events-none" />
+				<div class="relative phone-shadow scale-[1.2] md:scale-[0.786] md:-my-[62px] xl:scale-[1.2] xl:my-0">
 					<PhoneMockup />
 				</div>
 			</div>

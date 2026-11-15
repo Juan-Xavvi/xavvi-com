@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, onMounted, nextTick } from 'vue';
+import { onMounted, nextTick } from 'vue';
 import { useRoute } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 
@@ -26,13 +26,6 @@ onMounted(() => {
 		}
 	});
 });
-
-const globeDays = computed(() => [
-	{ label: t('brands.globe365.days.d1Label'), text: t('brands.globe365.days.d1Text') },
-	{ label: t('brands.globe365.days.d2Label'), text: t('brands.globe365.days.d2Text') },
-	{ label: t('brands.globe365.days.d3Label'), text: t('brands.globe365.days.d3Text') },
-	{ label: t('brands.globe365.days.d4Label'), text: t('brands.globe365.days.d4Text') },
-]);
 </script>
 
 <template>
@@ -73,25 +66,10 @@ const globeDays = computed(() => [
 					<h2 class="text-[clamp(1.9rem,3.6vw,2.75rem)] font-bold text-[#212226] leading-tight tracking-tight mb-6">
 						{{ t('brands.globe365.title') }}
 					</h2>
-					<p class="text-[15px] lg:text-[17px] leading-[1.8] text-text-2 mb-5">
+					<p class="text-[15px] lg:text-[17px] leading-[1.8] text-text-2 mb-8">
 						{{ t('brands.globe365.intro1') }}
 					</p>
-					<p class="text-[15px] lg:text-[17px] leading-[1.8] text-text-2 mb-8">
-						{{ t('brands.globe365.intro2') }}
-					</p>
 
-					<!-- 10-day itinerary -->
-					<div class="flex flex-col gap-4 mb-8">
-						<div v-for="day in globeDays" :key="day.label"
-							class="rounded-2xl border border-[#212226]/10 bg-white px-6 py-5">
-							<p class="text-[15px] lg:text-[16px] font-bold text-[#AE2049] mb-2">
-								{{ day.label }}
-							</p>
-							<p class="text-[15px] leading-[1.7] text-text-2">
-								{{ day.text }}
-							</p>
-						</div>
-					</div>
 
 					<div>
 						<a href="https://opc.xavvi.com/globe-365" target="_blank" rel="noopener"
@@ -143,70 +121,6 @@ const globeDays = computed(() => [
 	</section>
 
 	<!-- ═══════════════════════════════════════
-       SECTION 3 — AI
-       ═══════════════════════════════════════ -->
-	<section class="bg-[#111111] py-22">
-		<div class="max-w-[1200px] mx-auto px-6 lg:px-8">
-			<div class="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
-				<!-- Left: text -->
-				<div v-reveal>
-					<span class="block text-[#FE2C55] text-[12px] font-bold tracking-[0.18em] uppercase mb-4">
-						{{ t('brands.ai.eyebrow') }}
-					</span>
-					<h2 class="text-[clamp(2rem,4vw,3rem)] font-bold text-[#FFFDF9] leading-tight mb-6">
-						{{ t('brands.ai.title') }}
-					</h2>
-					<p class="text-[15px] lg:text-[17px] leading-[1.8] text-[#FFFDF9] mb-5">
-						{{ t('brands.ai.p1') }}
-					</p>
-					<p class="text-[15px] lg:text-[17px] leading-[1.8] text-[#FFFDF9] mb-5">
-						{{ t('brands.ai.p2') }}
-					</p>
-					<p class="text-[15px] lg:text-[17px] leading-[1.8] text-[#FFFDF9]">
-						{{ t('brands.ai.p3') }}
-					</p>
-				</div>
-				<!-- Right: image -->
-				<div v-reveal="1" class="rounded-2xl overflow-hidden">
-					<img src="/images/page/muaitai.jpg" alt="" class="block w-full h-auto object-cover" />
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- ═══════════════════════════════════════
-       SECTION 4 — Tokenization
-       ═══════════════════════════════════════ -->
-	<section class="bg-[#f4f5f8] py-22">
-		<div class="max-w-[1200px] mx-auto px-6 lg:px-8">
-			<div class="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
-				<!-- Left: image -->
-				<div v-reveal class="rounded-2xl overflow-hidden lg:order-1 order-2">
-					<img src="/images/page/tokenisation.jpg" alt="" class="block w-full h-auto object-cover" />
-				</div>
-				<!-- Right: text -->
-				<div v-reveal="1" class="lg:order-2 order-1">
-					<span class="block text-[#FE2C55] text-[12px] font-bold tracking-[0.18em] uppercase mb-4">
-						{{ t('brands.tokenization.eyebrow') }}
-					</span>
-					<h2 class="text-[clamp(2rem,4vw,3rem)] font-bold text-[#212226] leading-tight mb-6">
-						{{ t('brands.tokenization.title') }}
-					</h2>
-					<p class="text-[15px] lg:text-[17px] leading-[1.8] text-text-2 mb-5">
-						{{ t('brands.tokenization.p1') }}
-					</p>
-					<p class="text-[15px] lg:text-[17px] leading-[1.8] text-text-2 mb-5">
-						{{ t('brands.tokenization.p2') }}
-					</p>
-					<p class="text-[15px] lg:text-[17px] leading-[1.8] text-text-2">
-						{{ t('brands.tokenization.p3') }}
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- ═══════════════════════════════════════
        SECTION 5 — CTA
        ═══════════════════════════════════════ -->
 	<section class="bg-[#212226] py-22 lg:py-24">
@@ -218,10 +132,10 @@ const globeDays = computed(() => [
 				{{ t('brands.cta.body') }}
 			</p>
 			<div v-reveal="2">
-				<RouterLink to="/contact"
+				<a href="https://opc.xavvi.com" target="_blank" rel="noopener"
 					class="inline-flex items-center justify-center gap-2 h-12 px-8 rounded-lg bg-[#FE2C55] hover:bg-[#EF2950] text-[#FFFDF9] font-semibold text-[15px] tracking-wider transition-colors">
 					{{ t('brands.cta.btn') }}
-				</RouterLink>
+				</a>
 			</div>
 		</div>
 	</section>

@@ -37,8 +37,10 @@ export default {
     xavviTokens: 'Xavvi AI Credits',
     dataAddendum: 'Anexo de tratamiento de datos',
     websites: 'Sitios web',
-    aiVideoStudio: 'AI Video Studio',
-    education: 'Formación',
+    a2aVideo: 'A2A Video',
+    learn: 'Learn',
+    xavviAi: 'Xavvi AI',
+    opc: 'OPC',
     aiCenters: 'AI Centers',
     launchpad: 'Launchpad',
     partners: 'Partners',
@@ -235,17 +237,6 @@ export default {
     globe365: {
       title: 'Globe 365: una feria comercial permanente para tu marca',
       intro1: 'Globe 365 ayuda a los fabricantes chinos a dejar de perseguir ferias comerciales por el mundo y empezar a tener la suya propia, de forma permanente. En lugar de pagar por un stand en otra feria más, Globe 365 construye para tu fábrica una marca real en EE. UU.: una red dedicada de creadores y contenido impulsado por IA que promociona tus productos en todo el mundo, de forma continua, 365 días al año. No es un escaparate puntual: es un sistema siempre activo de contenido, distribución y captación de compradores construido específicamente en torno a tu marca.',
-      intro2: 'El programa se desarrolla en dos fases: preparación antes de tu llegada y después un lanzamiento intensivo de 10 días en EE. UU. que pone en marcha 365 días de operación continua: construcción de marca, contenido, colaboraciones con creadores y captación B2B global. Globe 365 es una alianza basada en un emparejamiento y una ejecución reales, no en resultados garantizados: los resultados dependen de tu producto, su encaje en el mercado y las relaciones que se creen por el camino.',
-      days: {
-        d1Label: 'Días 1–4 — Brand Lab Fast-Track con creadores',
-        d1Text: 'Construye tu escaparate. El día 1 es speed-dating empresarial: los creadores ven, prueban y seleccionan los SKU con los que quieren trabajar. El día 2 es emparejamiento individual Marca × Creador para definir posicionamiento, precios y modelo de colaboración: afiliación, directo, embajador de marca o co-branding completo. El día 3 es creación de contenido in situ —guiones, vídeo, contenido multilingüe asistido por IA— grabado con tu producto real y creadores reales. El día 4 cierra con una primera propuesta de marca, packaging y página de venta para tus mejores emparejamientos con creadores.',
-        d2Label: 'Días 5–6 — Brand Lab Fast-Track con afiliados',
-        d2Text: 'Escala. Construimos una matriz multilingüe de captación B2B, diseñamos tu estructura de distribución y comisiones, y hacemos una prueba integral en vivo del sistema de captación de leads con IA y del CRM.',
-        d3Label: 'Días 7–9 — Talleres de negocio y cumplimiento',
-        d3Text: 'Prepárate para operar. El día 7 cubre logística, aduanas, almacenamiento y modelado de costes de cumplimiento para tus SKU. El día 8 aborda constitución de la empresa, marcas y propiedad intelectual, fiscalidad, aspectos legales y conformidad del producto. El día 9 te conecta con asociaciones comerciales de EE. UU., posibles compradores y distribuidores, y validación de canales retail.',
-        d4Label: 'Día 10 — Evaluación y hoja de ruta',
-        d4Text: 'Cada empresa se marcha con una revisión clara de lo conseguido y una hoja de ruta de crecimiento a 30/90/180/365 días con responsables y plazos definidos.',
-      },
       cta: 'APLICAR AHORA',
     },
     brandLab: {
@@ -254,20 +245,6 @@ export default {
       p1: 'Brand Lab es la plataforma de lanzamiento para marcas y tiendas online lideradas por creadores. Asociarte con celebridades e influencers no solo ayuda a aumentar las ventas, sino que también refuerza la notoriedad de marca y genera mayor confianza en tus productos.',
       p2: 'Brand Lab se integra con los principales sistemas ERP, simplificando la incorporación y operaciones para fabricantes, proveedores y vendedores. Ofrece productos de alta calidad a precios competitivos y crece junto a los creadores que los promocionan.',
       p3: 'Además, Brand Lab incentiva a los consumidores mediante AI Credits y sistemas de recompensas, ayudando a creadores y proveedores a construir comunidades más fuertes y una base de clientes leales a largo plazo.',
-    },
-    ai: {
-      eyebrow: 'App Xavvi',
-      title: '¿Por qué usar IA?',
-      p1: 'La IA está transformando la producción de vídeo — y para la publicidad en particular, está reduciendo drásticamente tanto el tiempo como los costes de producción. Pronto, esperar semanas o incluso meses para coordinar grabaciones con creadores será cosa del pasado.',
-      p2: 'Al licenciar el AI Avatar de un creador y usar la herramienta de generación de vídeos MuaiTai de Xavvi, las marcas pueden producir contenido de alta calidad y atractivo en minutos. ¿Quieres escalar globalmente? Sin problema. Las campañas pueden generarse en docenas de idiomas para distintos mercados del mundo.',
-      p3: '¿Necesitas trabajar con cientos de creadores simultáneamente? La IA hace posible mantener consistencia visual, branding y calidad de campaña a escala — abriendo la puerta a una era publicitaria más rápida, más eficiente y mucho más escalable.',
-    },
-    tokenization: {
-      eyebrow: 'App Xavvi y Brand Lab',
-      title: '¿Por qué los AI Credits son el camino?',
-      p1: 'Las marcas que operan globalmente — o que buscan expandirse internacionalmente — suelen enfrentarse a grandes desafíos con los pagos transfronterizos. Las transferencias tradicionales pueden ser lentas, caras y complicadas. Xavvi lo resuelve con el sistema BFC Ad Credits, que permite a las marcas colaborar con creadores de todo el mundo sin preocuparse por las divisas locales.',
-      p2: 'Las transferencias se realizan en segundos y pueden procesarse con un coste mínimo, haciendo que tanto el gasto publicitario como los pagos a creadores sean más rápidos, cómodos y eficientes para todos los implicados.',
-      p3: 'La app Xavvi también utiliza AI Credits para conceder a las marcas acceso a las audiencias de los creadores de forma transparente y escalable. Este modelo da a los creadores la propiedad sobre su tráfico y datos de audiencia, ayudando al mismo tiempo a marcas y proveedores a llegar a comunidades altamente segmentadas de manera más eficiente y económica.',
     },
     cta: {
       title: 'Asóciate con Xavvi',
@@ -349,6 +326,7 @@ export default {
     hero: {
       title: 'Lanza tu propia marca',
       body: 'Conectamos a creadores con fabricantes, conseguimos inversión y lanzamos juntos marcas reales.',
+      cta: 'Comenzar',
     },
     support: {
       title: 'Soporte completo',
@@ -436,16 +414,6 @@ export default {
       title: 'La industria está cambiando. Y los riesgos también.',
       p1: 'El modelo tradicional de agencias y management se enfrenta a una gran disrupción. Muchas agencias invierten años ayudando a los creadores a crecer, solo para perderlos después con otros mánagers, agencias o relaciones directas con marcas. En otros casos, los creadores se vuelven menos activos con el tiempo, reduciendo el valor a largo plazo para quienes ayudaron a construir sus carreras.',
       p2: 'Al mismo tiempo, las herramientas de IA están empezando a automatizar partes de la producción de contenido, el marketing y la gestión de audiencia — haciendo que los creadores sean cada vez más independientes. Esto plantea una pregunta crítica para los Conectores: ¿cómo seguir creando valor a largo plazo en la era de la IA? Xavvi fue diseñado para ayudar a responder a esa pregunta.',
-    },
-    referral: {
-      title: 'Un sistema de referencia diseñado para crear valor a largo plazo',
-      intro: 'El ecosistema de referencias de Xavvi se basa en los AI Credits. Cuando incorporas a un creador, recibes una parte del ecosistema de AI Credits de ese creador mediante nuestra estructura de referidos. A medida que el creador hace crecer su audiencia, su engagement y su actividad comercial, tu participación sigue conectada al ecosistema que ayudaste a crear.',
-      inAdditionLabel: 'Además:',
-      a1: 'También puedes incorporar a otros Conectores',
-      a2: 'Las recompensas de referencia se extienden a través de la red que ayudas a construir',
-      a3: 'Una vez completada la incorporación, el sistema se vuelve prácticamente automático',
-      a4: 'Una única presentación exitosa puede generar beneficios a largo plazo',
-      closing: 'El objetivo es simple: recompensar a las personas que ayudan a construir la red, no solo a la plataforma en sí.',
     },
     ecosystem: {
       title: 'Forma parte del ecosistema',
@@ -635,6 +603,7 @@ export default {
     },
   },
   a2a: {
+    cta: 'Descubre A2A Video',
     hero: {
       title: 'A2A Video App: estudio de microdramas de alta velocidad',
       sub: 'Nuestra app agent-to-agent agiliza la producción de microdramas y de grandes volúmenes de vídeos comprables. Con Seedance 2.5 y otros modelos líderes, A2A ofrece calidad profesional a la velocidad de la luz. Su lienzo infinito combina una interfaz intuitiva con agentes que trabajan en segundo plano y un sinfín de skills para sacar adelante cualquier proyecto que le propongas.',

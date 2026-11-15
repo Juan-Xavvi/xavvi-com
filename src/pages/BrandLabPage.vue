@@ -25,9 +25,13 @@ const roadmapSteps = [1, 2, 3, 4, 5, 6].map((n) => `brandLab.roadmap.step${n}`);
 					<h1 class="text-[clamp(2.2rem,5vw,4rem)] font-bold leading-[1.1] tracking-tight text-[#FFFDF9] mb-6">
 						{{ t('brandLab.hero.title') }}
 					</h1>
-					<p class="text-[15px] lg:text-[17px] leading-[1.8] text-[#FFFDF9]">
+					<p class="text-[15px] lg:text-[17px] leading-[1.8] text-[#FFFDF9] mb-8">
 						{{ t('brandLab.hero.body') }}
 					</p>
+					<a href="https://launchpad.xavvi.com" target="_blank" rel="noopener"
+						class="btn-primary h-12! px-8! text-[15px]! tracking-wider">
+						{{ t('brandLab.hero.cta') }}
+					</a>
 				</div>
 
 				<!-- Right: image at natural height -->

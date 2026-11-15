@@ -37,8 +37,10 @@ export default {
     xavviTokens: 'Xavvi AI Credits',
     dataAddendum: 'AV-Vertrag',
     websites: 'Websites',
-    aiVideoStudio: 'AI Video Studio',
-    education: 'Bildung',
+    a2aVideo: 'A2A Video',
+    learn: 'Learn',
+    xavviAi: 'Xavvi AI',
+    opc: 'OPC',
     aiCenters: 'AI Centers',
     launchpad: 'Launchpad',
     partners: 'Partner',
@@ -226,17 +228,6 @@ export default {
     globe365: {
       title: 'Globe 365: Eine permanente Messe für deine Marke',
       intro1: 'Globe 365 hilft chinesischen Herstellern, nicht länger internationalen Messen hinterherzureisen, sondern dauerhaft ihre eigene zu betreiben. Statt für einen Stand auf der nächsten Messe zu zahlen, baut Globe 365 für deine Fabrik eine echte US-Marke auf: ein dediziertes Netzwerk aus Creatorn und KI-gestützten Inhalten, das deine Produkte weltweit vermarktet — kontinuierlich, 365 Tage im Jahr. Es ist keine einmalige Präsentation, sondern ein permanent aktives System aus Content, Distribution und Käuferansprache, das speziell um deine Marke herum aufgebaut wird.',
-      intro2: 'Das Programm läuft in zwei Phasen: Vorbereitung vor deiner Anreise und anschließend ein fokussierter 10-tägiger Launch in den USA, der 365 Tage laufenden Betrieb aufsetzt — Markenaufbau, Content, Creator-Partnerschaften und globale B2B-Ansprache. Globe 365 ist eine Partnerschaft, die auf echtem Matching und echter Umsetzung beruht, nicht auf garantierten Ergebnissen: Die Resultate hängen von deinem Produkt, dem Marktfit und den unterwegs entstehenden Beziehungen ab.',
-      days: {
-        d1Label: 'Tage 1–4 — Brand Lab Fast-Track mit Creatorn',
-        d1Text: 'Baue deinen Showcase auf. Tag 1 ist Business-Speed-Dating: Creator sehen, testen und wählen die SKUs aus, mit denen sie arbeiten möchten. Tag 2 ist Eins-zu-eins-Matching zwischen Marke und Creator, um Positionierung, Preisgestaltung und Kooperationsmodell festzulegen — Affiliate, Livestream, Markenbotschafter oder vollständiges Co-Branding. Tag 3 ist Content-Produktion vor Ort — Skripte, Video, KI-gestützte mehrsprachige Inhalte — gedreht mit deinem echten Produkt und echten Creatorn. Tag 4 endet mit einem ersten Marken-, Verpackungs- und Verkaufsseiten-Konzept für deine am besten passenden Creator-Paarungen.',
-        d2Label: 'Tage 5–6 — Brand Lab Fast-Track mit Affiliates',
-        d2Text: 'Skaliere. Wir bauen eine mehrsprachige B2B-Outreach-Matrix auf, entwerfen deine Vertriebs- und Provisionsstruktur und führen einen durchgängigen Live-Test der KI-Lead-Erfassung und der CRM-Pipeline durch.',
-        d3Label: 'Tage 7–9 — Workshops zu Business und Compliance',
-        d3Text: 'Mach dich betriebsbereit. Tag 7 behandelt Logistik, Zoll, Lagerhaltung und die Modellierung der Fulfillment-Kosten für deine SKUs. Tag 8 geht Firmengründung, Marken- und IP-Schutz, Steuern, Recht und Produktkonformität durch. Tag 9 bringt dich mit US-Branchenverbänden, potenziellen Käufern und Distributoren zusammen und validiert deine Retail-Kanäle.',
-        d4Label: 'Tag 10 — Auswertung und Roadmap',
-        d4Text: 'Jedes Unternehmen geht mit einer klaren Auswertung des Erreichten und einer Wachstums-Roadmap für 30/90/180/365 Tage mit benannten Verantwortlichen und Fristen nach Hause.',
-      },
       cta: 'JETZT BEWERBEN',
     },
     brandLab: {
@@ -245,20 +236,6 @@ export default {
       p1: 'Brand Lab ist die Launchpad für Creator-geführte Marken und Online-Shops. Partnerschaften mit Prominenten und Influencern steigern nicht nur den Umsatz, sondern stärken auch die Markenbekanntheit und schaffen mehr Vertrauen rund um deine Produkte.',
       p2: 'Brand Lab integriert sich mit den großen ERP-Systemen, was Onboarding und Betrieb für Hersteller, Lieferanten und Anbieter nahtlos macht. Biete hochwertige Produkte zu wettbewerbsfähigen Preisen und wachse gemeinsam mit den Creators, die sie bewerben.',
       p3: 'Zusätzlich incentiviert Brand Lab Konsumenten über AI Credits und Reward-Systeme — damit Creators und Anbieter stärkere Communitys und eine langfristig loyale Kundenbasis aufbauen.',
-    },
-    ai: {
-      eyebrow: 'Xavvi-App',
-      title: 'Warum KI?',
-      p1: 'KI verändert die Videoproduktion — und für Werbung insbesondere reduziert sie Produktionszeit und -kosten drastisch. Bald gehört das Warten von Wochen oder Monaten, um Drehs mit Creators zu koordinieren, der Vergangenheit an.',
-      p2: 'Indem Marken den AI Avatar eines Creators lizenzieren und das MuaiTai-Tool von Xavvi für KI-Videogenerierung nutzen, können sie hochwertige, ansprechende Inhalte in Minuten produzieren. Du willst global skalieren? Kein Problem. Kampagnen können in Dutzenden Sprachen für verschiedene Märkte weltweit generiert werden.',
-      p3: 'Du musst mit Hunderten von Creators gleichzeitig arbeiten? KI macht es möglich, visuelle Konsistenz, Branding und Kampagnenqualität in Skala zu halten — und öffnet die Tür zu einer schnelleren, effizienteren und deutlich skalierbareren Ära der Werbung.',
-    },
-    tokenization: {
-      eyebrow: 'Xavvi-App & Brand Lab',
-      title: 'Warum AI Credits der Weg sind',
-      p1: 'Global tätige Marken — oder solche, die international expandieren wollen — stehen oft vor großen Herausforderungen bei grenzüberschreitenden Zahlungen. Klassische Geldtransfers können langsam, teuer und kompliziert sein. Xavvi löst das mit dem BFC-Ad-Credits-System: Marken arbeiten reibungslos mit Creators weltweit zusammen, ohne sich um lokale Währungen sorgen zu müssen.',
-      p2: 'Transfers dauern Sekunden und lassen sich zu minimalen Kosten abwickeln — Werbeausgaben und Creator-Zahlungen werden für alle Beteiligten schneller, bequemer und effizienter.',
-      p3: 'Die Xavvi-App nutzt zudem AI Credits, um Marken transparenten und skalierbaren Zugang zu Creator-Audiences zu geben. Dieses Modell gibt Creators das Eigentum an ihrem Traffic und ihren Audience-Daten, während es Marken und Anbietern hilft, hoch zielgerichtete Communitys effizienter und ökonomischer zu erreichen.',
     },
     cta: {
       title: 'Werde Partner von Xavvi',
@@ -340,6 +317,7 @@ export default {
     hero: {
       title: 'Launche deine eigene Marke',
       body: 'Wir bringen Creators mit Herstellern zusammen, sichern Investitionen und launchen gemeinsam echte Marken.',
+      cta: 'Jetzt starten',
     },
     support: {
       title: 'Volle Unterstützung',
@@ -427,16 +405,6 @@ export default {
       title: 'Die Branche verändert sich. Und mit ihr die Risiken.',
       p1: 'Das klassische Agentur- und Management-Modell steht vor einer großen Disruption. Viele Agenturen investieren Jahre, um Creators wachsen zu lassen — nur um sie später an andere Manager, Agenturen oder direkte Markenbeziehungen zu verlieren. In anderen Fällen werden Creators mit der Zeit weniger aktiv, was den langfristigen Wert für jene reduziert, die ihre Karrieren mit aufgebaut haben.',
       p2: 'Gleichzeitig fangen KI-Tools an, Teile von Content-Produktion, Marketing und Audience-Management zu automatisieren — wodurch Creators zunehmend unabhängig werden. Das führt zu einer kritischen Frage für Konnektoren: Wie schafft man im KI-Zeitalter weiter langfristigen Wert? Xavvi wurde entwickelt, um genau diese Frage zu beantworten.',
-    },
-    referral: {
-      title: 'Ein Empfehlungssystem für nachhaltigen, langfristigen Wert',
-      intro: 'Xavvis Empfehlungs-Ökosystem läuft über AI Credits. Wenn du einen Creator onboardest, erhältst du über unsere Empfehlungsstruktur einen Anteil am AI-Credits-Ökosystem dieses Creators. Während der Creator Audience, Engagement und kommerzielle Aktivität ausbaut, bleibt deine Beteiligung mit dem Ökosystem verbunden, das du mit erschaffen hast.',
-      inAdditionLabel: 'Außerdem:',
-      a1: 'Du kannst auch andere Konnektoren onboarden',
-      a2: 'Empfehlungs-Belohnungen erstrecken sich über das Netzwerk, das du mit aufbaust',
-      a3: 'Nach dem Onboarding läuft das System weitgehend von selbst',
-      a4: 'Eine einzige erfolgreiche Vermittlung kann langfristig erheblichen Upside bringen',
-      closing: 'Das Ziel ist simpel: jene belohnen, die das Netzwerk mit aufbauen — nicht nur die Plattform selbst.',
     },
     ecosystem: {
       title: 'Werde Teil des Ökosystems',
@@ -626,6 +594,7 @@ export default {
     },
   },
   a2a: {
+    cta: 'A2A Video entdecken',
     hero: {
       title: 'A2A Video App: das High-Speed-Studio für Microdramas',
       sub: 'Unsere Agent-to-Agent-App beschleunigt die Produktion von Microdramas und großen Mengen an Shoppable Videos. Mit Seedance 2.5 und weiteren führenden Modellen liefert A2A professionelle Qualität in Lichtgeschwindigkeit. Das unendliche Canvas verbindet eine intuitive Oberfläche mit Agents im Hintergrund und einer Fülle von Skills – so meisterst du jedes Projekt, das du ihm gibst.',
