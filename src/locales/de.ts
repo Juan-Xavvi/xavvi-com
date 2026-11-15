@@ -625,4 +625,34 @@ export default {
       button: 'Vertrieb kontaktieren',
     },
   },
+  a2a: {
+    hero: {
+      title: 'A2A Video App: das High-Speed-Studio für Microdramas',
+      sub: 'Unsere Agent-to-Agent-App beschleunigt die Produktion von Microdramas und großen Mengen an Shoppable Videos. Mit Seedance 2.5 und weiteren führenden Modellen liefert A2A professionelle Qualität in Lichtgeschwindigkeit. Das unendliche Canvas verbindet eine intuitive Oberfläche mit Agents im Hintergrund und einer Fülle von Skills – so meisterst du jedes Projekt, das du ihm gibst.',
+    },
+    canvas: {
+      title: 'KI-Videoproduktion, neu gedacht',
+      body: 'A2A schickt jedes Projekt durch eine Multi-Modell-Pipeline mit Seedance 2.5 im Kern – so bekommst du filmreife Videos in Profiqualität, gerendert in Minuten statt Wochen. Plane, generiere und bearbeite alles auf einem Canvas, von einer einzelnen Szene bis zur kompletten Microdrama-Serie. Einfach genug für jeden Creator und leistungsstark genug für Marken, die in großem Umfang produzieren.',
+      imageAlt: 'Das unendliche Canvas von A2A Video',
+    },
+    features: {
+      title: 'Alles, was du brauchst, an einem Ort',
+      agent: {
+        title: 'Persönlicher Agent',
+        body: 'Ein eigener Chat-Tab, in dem du mit deinem KI-Agenten sprichst – wie mit ChatGPT oder Claude –, um dein Projekt zu planen, zu skripten und zu produzieren.',
+      },
+      editing: {
+        title: 'Bildbearbeitung',
+        body: 'Integrierte Bildbearbeitung mit KI-Retusche, Hintergrundentfernung, Style Transfer und mehr.',
+      },
+      skills: {
+        title: 'Skill-Bibliothek',
+        body: 'Eine wachsende Bibliothek spezialisierter KI-Skills: Avatar-Erstellung, Lippensynchronisation, Voice Cloning, Szenenkomposition und mehr.',
+      },
+      more: {
+        title: 'Bald noch mehr',
+        body: 'Regelmäßig kommen neue Funktionen und Integrationen hinzu. Die Plattform entwickelt sich so schnell wie die KI.',
+      },
+    },
+  },
 };

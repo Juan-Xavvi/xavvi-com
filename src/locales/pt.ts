@@ -625,4 +625,34 @@ export default {
       button: 'Falar com vendas',
     },
   },
+  a2a: {
+    hero: {
+      title: 'A2A Video App: estúdio de microdramas em alta velocidade',
+      sub: 'Nosso app agent-to-agent agiliza a produção de microdramas e de grandes volumes de vídeos compráveis. Com o Seedance 2.5 e outros modelos líderes, o A2A entrega qualidade profissional na velocidade da luz. Seu canvas infinito combina uma interface intuitiva com agentes trabalhando nos bastidores e uma infinidade de skills para dar conta de qualquer projeto que você colocar nele.',
+    },
+    canvas: {
+      title: 'Produção de vídeo com IA, reinventada',
+      body: 'O A2A passa cada projeto por um pipeline multimodelo, com o Seedance 2.5 no centro, para que você receba vídeos cinematográficos com qualidade profissional, renderizados em minutos em vez de semanas. Planeje, gere e edite em um único canvas, de uma cena isolada a uma série completa de microdramas. É simples o bastante para qualquer criador e poderoso o bastante para marcas que produzem em escala.',
+      imageAlt: 'O canvas infinito do A2A Video',
+    },
+    features: {
+      title: 'Tudo o que você precisa em um só lugar',
+      agent: {
+        title: 'Agente pessoal',
+        body: 'Uma aba de mensagens dedicada onde você conversa com seu agente de IA, como no ChatGPT ou no Claude, para planejar, roteirizar e produzir seu projeto.',
+      },
+      editing: {
+        title: 'Ferramentas de edição de imagem',
+        body: 'Edição de imagens integrada com retoque por IA, remoção de fundo, transferência de estilo e muito mais.',
+      },
+      skills: {
+        title: 'Biblioteca de skills',
+        body: 'Uma biblioteca crescente de skills de IA especializadas: geração de avatares, sincronização labial, clonagem de voz, composição de cenas e mais.',
+      },
+      more: {
+        title: 'Mais novidades em breve',
+        body: 'Novos recursos e integrações chegam o tempo todo. A plataforma evolui tão rápido quanto a IA.',
+      },
+    },
+  },
 };

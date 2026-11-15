@@ -634,4 +634,34 @@ export default {
       button: 'Habla con ventas',
     },
   },
+  a2a: {
+    hero: {
+      title: 'A2A Video App: estudio de microdramas de alta velocidad',
+      sub: 'Nuestra app agent-to-agent agiliza la producción de microdramas y de grandes volúmenes de vídeos comprables. Con Seedance 2.5 y otros modelos líderes, A2A ofrece calidad profesional a la velocidad de la luz. Su lienzo infinito combina una interfaz intuitiva con agentes que trabajan en segundo plano y un sinfín de skills para sacar adelante cualquier proyecto que le propongas.',
+    },
+    canvas: {
+      title: 'La producción de vídeo con IA, reinventada',
+      body: 'A2A procesa cada proyecto mediante un pipeline multimodelo, con Seedance 2.5 en su núcleo, para que obtengas vídeo cinematográfico de calidad profesional renderizado en minutos en lugar de semanas. Planifica, genera y edita en un solo lienzo, desde una escena suelta hasta una serie completa de microdramas. Es lo bastante sencilla para cualquier creador y lo bastante potente para marcas que producen a escala.',
+      imageAlt: 'El lienzo infinito de A2A Video',
+    },
+    features: {
+      title: 'Todo lo que necesitas en un solo lugar',
+      agent: {
+        title: 'Agente personal',
+        body: 'Una pestaña de mensajes dedicada donde hablas con tu agente de IA, igual que con ChatGPT o Claude, para planificar, guionizar y producir tu proyecto.',
+      },
+      editing: {
+        title: 'Herramientas de edición de imagen',
+        body: 'Edición de imágenes integrada con retoque por IA, eliminación de fondos, transferencia de estilo y mucho más.',
+      },
+      skills: {
+        title: 'Biblioteca de skills',
+        body: 'Una biblioteca creciente de skills de IA especializadas: generación de avatares, sincronización labial, clonación de voz, composición de escenas y más.',
+      },
+      more: {
+        title: 'Próximamente, más',
+        body: 'Añadimos nuevas funciones e integraciones constantemente. La plataforma evoluciona tan rápido como la IA.',
+      },
+    },
+  },
 };

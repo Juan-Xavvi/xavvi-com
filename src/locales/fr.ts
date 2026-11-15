@@ -635,4 +635,34 @@ export default {
       button: 'Contacter les ventes',
     },
   },
+  a2a: {
+    hero: {
+      title: 'A2A Video App : le studio de microdramas ultra-rapide',
+      sub: 'Notre app agent-to-agent simplifie la production de microdramas et de grands volumes de vidéos shoppables. Grâce à Seedance 2.5 et à d\'autres modèles de pointe, A2A offre une qualité professionnelle à la vitesse de la lumière. Son canevas infini associe une interface intuitive à des agents qui travaillent en coulisses et à une multitude de skills pour mener à bien tous les projets que vous lui confiez.',
+    },
+    canvas: {
+      title: 'La production vidéo par IA, réinventée',
+      body: 'A2A fait passer chaque projet par un pipeline multimodèle, avec Seedance 2.5 en son cœur, pour vous livrer en quelques minutes plutôt qu\'en quelques semaines une vidéo cinématographique de qualité professionnelle. Planifiez, générez et montez sur un seul canevas, d\'une simple scène à une série complète de microdramas. Assez simple pour tous les créateurs, assez puissant pour les marques qui produisent à grande échelle.',
+      imageAlt: 'Le canevas infini de A2A Video',
+    },
+    features: {
+      title: 'Tout ce dont vous avez besoin, au même endroit',
+      agent: {
+        title: 'Agent personnel',
+        body: 'Un onglet de messagerie dédié où vous échangez avec votre agent IA, comme avec ChatGPT ou Claude, pour planifier, scénariser et produire votre projet.',
+      },
+      editing: {
+        title: 'Outils d\'édition d\'images',
+        body: 'Édition d\'images intégrée avec retouche par IA, suppression d\'arrière-plan, transfert de style et bien plus.',
+      },
+      skills: {
+        title: 'Bibliothèque de skills',
+        body: 'Une bibliothèque grandissante de skills IA spécialisées : génération d\'avatars, synchronisation labiale, clonage vocal, composition de scènes, et plus encore.',
+      },
+      more: {
+        title: 'Et bientôt plus encore',
+        body: 'De nouvelles fonctionnalités et intégrations arrivent régulièrement. La plateforme évolue aussi vite que l’IA.',
+      },
+    },
+  },
 };
