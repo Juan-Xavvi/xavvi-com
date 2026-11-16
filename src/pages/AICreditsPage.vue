@@ -50,16 +50,16 @@ const features = computed(() => [
        ═══════════════════════════════════════ -->
 	<section class="bg-black py-20 lg:py-24">
 		<div class="max-w-[1200px] mx-auto px-6 lg:px-8">
-			<div v-reveal class="rounded-2xl overflow-hidden border border-white/8">
-				<img src="/images/page/A2A-canvas.webp" :alt="t('a2a.canvas.imageAlt')" loading="lazy" class="block w-full h-auto" />
-			</div>
-			<div class="max-w-[820px] mx-auto text-center mt-12 lg:mt-14">
+			<div class="max-w-[820px] mx-auto text-center mb-12 lg:mb-14">
 				<h2 v-reveal class="text-[clamp(2rem,4vw,3rem)] font-bold text-[#FFFDF9] leading-tight tracking-tight mb-6">
 					{{ t('a2a.canvas.title') }}
 				</h2>
 				<p v-reveal="1" class="text-[15px] lg:text-[17px] leading-[1.8] text-[#FFFDF9]/75">
 					{{ t('a2a.canvas.body') }}
 				</p>
+			</div>
+			<div v-reveal="2" class="rounded-2xl overflow-hidden border border-white/8">
+				<img src="/images/page/A2A-canvas.webp" :alt="t('a2a.canvas.imageAlt')" loading="lazy" class="block w-full h-auto" />
 			</div>
 		</div>
 	</section>

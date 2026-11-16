@@ -431,7 +431,7 @@ export default {
     discover: '发现',
     sponsored: '赞助',
     commerceInfra: '商业基础设施',
-    buildingGlobal: 'Building Global Trusted Data Space...',
+    buildingGlobal: '正在构建全球可信数据空间...',
     originalSound: 'Xavvi - Original sound - Xavvi',
     home: '首页',
     friends: '好友',

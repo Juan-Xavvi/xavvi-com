@@ -199,10 +199,10 @@ export default {
     officesTitle: 'Standorte und Operations',
     officesSub: 'Xavvi vereint ein internationales Team mit tiefem Verständnis von Kulturen und Märkten weltweit sowie umfassender Erfahrung in E-Commerce, IT, Werbung, Filmproduktion, Mode und Branding.',
     offices: {
-      losAngeles: { city: 'Los Angeles', role: 'Global HQ', entity: 'Xavvi Holdings Inc' },
-      berlin: { city: 'Berlin', role: 'Europe Operations', entity: 'Xavvi Germany GmbH' },
-      dubai: { city: 'Dubai', role: 'MENA Operations', entity: 'Repräsentanz' },
-      hongKong: { city: 'Hongkong', role: 'Asia Operations', entity: 'Xavvi Brand Lab' },
+      losAngeles: { city: 'Los Angeles', role: 'Hauptsitz', entity: 'Xavvi Holdings Inc' },
+      berlin: { city: 'Berlin', role: 'Betrieb Europa', entity: 'Xavvi Germany GmbH' },
+      dubai: { city: 'Dubai', role: 'Betrieb MENA', entity: 'Repräsentanz' },
+      hongKong: { city: 'Hongkong', role: 'Betrieb Asien', entity: 'Xavvi Brand Lab' },
     },
     /* Kept for src/components/archive/ArchivedTrustComplianceV1.vue */
     complianceTitle: 'Vertrauen & Compliance',
@@ -323,7 +323,7 @@ export default {
       title: 'Volle Unterstützung',
       tabs: {
         supply: {
-          label: 'SUPPLY CHAIN',
+          label: 'LIEFERKETTE',
           body: 'Wir verfügen über ein umfangreiches Netzwerk von Lieferanten in China, Südkorea, Japan, Vietnam, Mexiko und den USA — von Top-Herstellern und etablierten Marken bis hin zu führenden E-Commerce-Anbietern. Tausende Expertinnen und Experten in Design, Fertigung und Supply-Chain-Operations stehen bereit, dir beim Aufbau deiner eigenen Marke zu helfen. Von Mode und Beauty über Spielzeug bis Technologie — es gibt praktisch kein Produkt, das wir nicht für dich entwickeln, produzieren und auf den Markt bringen können.',
         },
         marketing: {
@@ -341,8 +341,8 @@ export default {
       },
       phase2: {
         label: 'PHASE 2',
-        title: 'White Labelling',
-        body: 'Sobald die Verkaufsleistung belegt ist, verbinden wir dich mit Top-Herstellern, die starke Produkte anbieten, die unter deiner Marke white-labelled werden können. In dieser Phase geht es darum, deine Markenidentität zu stärken und den Umsatz zu skalieren.',
+        title: 'Eigenmarke',
+        body: 'Sobald die Verkaufsleistung belegt ist, verbinden wir dich mit Top-Herstellern, die starke Produkte anbieten, die unter deiner Marke als Eigenmarke vertrieben werden können. In dieser Phase geht es darum, deine Markenidentität zu stärken und den Umsatz zu skalieren.',
       },
       phase3: {
         label: 'PHASE 3',
@@ -431,7 +431,7 @@ export default {
     discover: 'Entdecken',
     sponsored: 'Gesponsert',
     commerceInfra: 'Commerce-Infrastruktur',
-    buildingGlobal: 'Building Global Trusted Data Space...',
+    buildingGlobal: 'Globaler vertrauenswürdiger Datenraum im Aufbau...',
     originalSound: 'Xavvi - Original sound - Xavvi',
     home: 'Start',
     friends: 'Freunde',
