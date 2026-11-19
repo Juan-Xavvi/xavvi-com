@@ -47,6 +47,7 @@ export default {
     suppliers: 'サプライヤー',
     connectors: 'コネクター',
     creators: 'クリエイター',
+    ourCreators: '私たちのクリエイター',
     contact: 'お問い合わせ',
   },
   home: {
@@ -632,6 +633,30 @@ export default {
         title: 'さらに続々登場',
         body: '新機能や連携を定期的に追加しています。プラットフォームはAIと同じスピードで進化します。',
       },
+    },
+  },
+  creatorsRoster: {
+    hero: {
+      title: '私たちのクリエイター',
+      sub: 'Xavvi マイクロドラマを支えるクリエイターたちをご紹介します。',
+    },
+  },
+  creatorCard: {
+    card: '{name}、フォロワー {n} 人',
+    followers: 'フォロワー {n} 人',
+    pill: '{platform}、フォロワー {n} 人',
+    opensNewTab: '新しいタブで開きます',
+    approved: '承認済み',
+    roster: 'クリエイター',
+    platforms: {
+      x: 'X（Twitter）',
+      facebook: 'Facebook',
+      linkedin: 'LinkedIn',
+      twitch: 'Twitch',
+      instagram: 'Instagram',
+      tiktok: 'TikTok',
+      youtube: 'YouTube',
+      website: 'ウェブサイト',
     },
   },
 };

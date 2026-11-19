@@ -47,6 +47,7 @@ export default {
     suppliers: '供应商',
     connectors: '连接者',
     creators: '创作者',
+    ourCreators: '我们的创作者',
     contact: '联系我们',
   },
   home: {
@@ -622,6 +623,30 @@ export default {
         title: '更多功能即将推出',
         body: '新功能和集成持续上线。平台的进化速度与 AI 同步。',
       },
+    },
+  },
+  creatorsRoster: {
+    hero: {
+      title: '我们的创作者',
+      sub: '认识 Xavvi 微短剧背后的创作者。',
+    },
+  },
+  creatorCard: {
+    card: '{name}，{n} 位粉丝',
+    followers: '{n} 位粉丝',
+    pill: '{platform}，{n} 位粉丝',
+    opensNewTab: '在新标签页打开',
+    approved: '已批准',
+    roster: '创作者',
+    platforms: {
+      x: 'X (Twitter)',
+      facebook: 'Facebook',
+      linkedin: 'LinkedIn',
+      twitch: 'Twitch',
+      instagram: 'Instagram',
+      tiktok: 'TikTok',
+      youtube: 'YouTube',
+      website: '网站',
     },
   },
 };

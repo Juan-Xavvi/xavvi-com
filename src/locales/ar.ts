@@ -57,6 +57,7 @@ export default {
     suppliers: 'الموردون',
     connectors: 'الموصِّلون',
     creators: 'المبدعون',
+    ourCreators: 'مبدعونا',
     contact: 'تواصل معنا',
   },
   home: {
@@ -632,6 +633,30 @@ export default {
         title: 'المزيد قريبًا',
         body: 'نضيف ميزات وتكاملات جديدة باستمرار. تتطور المنصة بسرعة تطور الذكاء الاصطناعي نفسه.',
       },
+    },
+  },
+  creatorsRoster: {
+    hero: {
+      title: 'مبدعونا',
+      sub: 'تعرّف على المواهب التي تقف وراء الدراما القصيرة من Xavvi.',
+    },
+  },
+  creatorCard: {
+    card: '{name}، {n} متابع',
+    followers: '{n} متابع',
+    pill: '{platform}، {n} متابع',
+    opensNewTab: 'يُفتح في علامة تبويب جديدة',
+    approved: 'معتمد',
+    roster: 'صنّاع المحتوى',
+    platforms: {
+      x: 'X (Twitter)',
+      facebook: 'Facebook',
+      linkedin: 'LinkedIn',
+      twitch: 'Twitch',
+      instagram: 'Instagram',
+      tiktok: 'TikTok',
+      youtube: 'YouTube',
+      website: 'موقع إلكتروني',
     },
   },
 };

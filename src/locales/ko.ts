@@ -47,6 +47,7 @@ export default {
     suppliers: '공급업체',
     connectors: '커넥터',
     creators: '크리에이터',
+    ourCreators: '우리의 크리에이터',
     contact: '문의하기',
   },
   home: {
@@ -632,6 +633,30 @@ export default {
         title: '더 많은 기능이 곧 찾아옵니다',
         body: '새로운 기능과 연동이 꾸준히 추가됩니다. 플랫폼은 AI만큼 빠르게 진화합니다.',
       },
+    },
+  },
+  creatorsRoster: {
+    hero: {
+      title: '우리의 크리에이터',
+      sub: 'Xavvi 마이크로드라마를 만드는 크리에이터들을 만나보세요.',
+    },
+  },
+  creatorCard: {
+    card: '{name}, 팔로워 {n}명',
+    followers: '팔로워 {n}명',
+    pill: '{platform}, 팔로워 {n}명',
+    opensNewTab: '새 탭에서 열림',
+    approved: '승인됨',
+    roster: '크리에이터',
+    platforms: {
+      x: 'X (Twitter)',
+      facebook: 'Facebook',
+      linkedin: 'LinkedIn',
+      twitch: 'Twitch',
+      instagram: 'Instagram',
+      tiktok: 'TikTok',
+      youtube: 'YouTube',
+      website: '웹사이트',
     },
   },
 };

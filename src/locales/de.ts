@@ -47,6 +47,7 @@ export default {
     suppliers: 'Lieferanten',
     connectors: 'Konnektoren',
     creators: 'Creators',
+    ourCreators: 'Unsere Creators',
     contact: 'Kontakt',
   },
   home: {
@@ -622,6 +623,30 @@ export default {
         title: 'Bald noch mehr',
         body: 'Regelmäßig kommen neue Funktionen und Integrationen hinzu. Die Plattform entwickelt sich so schnell wie die KI.',
       },
+    },
+  },
+  creatorsRoster: {
+    hero: {
+      title: 'Unsere Creators',
+      sub: 'Lerne die Talente hinter den Xavvi Mikro-Dramen kennen.',
+    },
+  },
+  creatorCard: {
+    card: '{name}, {n} Follower',
+    followers: '{n} Follower',
+    pill: '{platform}, {n} Follower',
+    opensNewTab: 'öffnet in einem neuen Tab',
+    approved: 'Freigegeben',
+    roster: 'Creator',
+    platforms: {
+      x: 'X (Twitter)',
+      facebook: 'Facebook',
+      linkedin: 'LinkedIn',
+      twitch: 'Twitch',
+      instagram: 'Instagram',
+      tiktok: 'TikTok',
+      youtube: 'YouTube',
+      website: 'Website',
     },
   },
 };

@@ -43,6 +43,7 @@ export default {
     suppliers: 'Suppliers',
     connectors: 'Connectors',
     creators: 'Creators',
+    ourCreators: 'Our Creators',
     contact: 'Contact',
     copyright: '© {year} Xavvi Holdings, Inc. All rights reserved.',
     status: 'All systems operational',
@@ -577,6 +578,30 @@ export default {
         title: 'More Coming Soon',
         body: 'New features and integrations added regularly. The platform evolves as fast as AI does.',
       },
+    },
+  },
+  creatorsRoster: {
+    hero: {
+      title: 'Our Creators',
+      sub: 'Meet the talent behind Xavvi Microdramas.',
+    },
+  },
+  creatorCard: {
+    card: '{name}, {n} followers',
+    followers: '{n} followers',
+    pill: '{platform}, {n} followers',
+    opensNewTab: 'opens in a new tab',
+    approved: 'Approved',
+    roster: 'Creators',
+    platforms: {
+      x: 'X (Twitter)',
+      facebook: 'Facebook',
+      linkedin: 'LinkedIn',
+      twitch: 'Twitch',
+      instagram: 'Instagram',
+      tiktok: 'TikTok',
+      youtube: 'YouTube',
+      website: 'Website',
     },
   },
 };

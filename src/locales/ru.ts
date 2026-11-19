@@ -47,6 +47,7 @@ export default {
     suppliers: 'Поставщики',
     connectors: 'Коннекторы',
     creators: 'Авторы',
+    ourCreators: 'Наши авторы',
     contact: 'Контакты',
   },
   home: {
@@ -622,6 +623,30 @@ export default {
         title: 'Скоро — ещё больше',
         body: 'Новые функции и интеграции появляются регулярно. Платформа развивается так же быстро, как ИИ.',
       },
+    },
+  },
+  creatorsRoster: {
+    hero: {
+      title: 'Наши авторы',
+      sub: 'Познакомьтесь с талантами, стоящими за микродрамами Xavvi.',
+    },
+  },
+  creatorCard: {
+    card: '{name}, подписчиков: {n}',
+    followers: 'Подписчиков: {n}',
+    pill: '{platform}, подписчиков: {n}',
+    opensNewTab: 'откроется в новой вкладке',
+    approved: 'Одобрен',
+    roster: 'Авторы',
+    platforms: {
+      x: 'X (Twitter)',
+      facebook: 'Facebook',
+      linkedin: 'LinkedIn',
+      twitch: 'Twitch',
+      instagram: 'Instagram',
+      tiktok: 'TikTok',
+      youtube: 'YouTube',
+      website: 'Веб-сайт',
     },
   },
 };

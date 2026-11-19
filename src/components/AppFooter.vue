@@ -58,6 +58,7 @@ const { t } = useI18n();
             <li><RouterLink to="/brands" class="text-[14px] text-white/70 hover:text-white transition-colors">{{ t('footer.suppliers') }}</RouterLink></li>
             <li><RouterLink to="/agencies" class="text-[14px] text-white/70 hover:text-white transition-colors">{{ t('footer.connectors') }}</RouterLink></li>
             <li><RouterLink to="/creators" class="text-[14px] text-white/70 hover:text-white transition-colors">{{ t('footer.creators') }}</RouterLink></li>
+            <li><RouterLink to="/creators-roster" class="text-[14px] text-white/70 hover:text-white transition-colors">{{ t('footer.ourCreators') }}</RouterLink></li>
           </ul>
         </div>
 

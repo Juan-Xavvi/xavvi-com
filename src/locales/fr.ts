@@ -47,6 +47,7 @@ export default {
     suppliers: 'Fournisseurs',
     connectors: 'Connecteurs',
     creators: 'Créateurs',
+    ourCreators: 'Nos créateurs',
     contact: 'Contact',
   },
   home: {
@@ -632,6 +633,30 @@ export default {
         title: 'Et bientôt plus encore',
         body: 'De nouvelles fonctionnalités et intégrations arrivent régulièrement. La plateforme évolue aussi vite que l’IA.',
       },
+    },
+  },
+  creatorsRoster: {
+    hero: {
+      title: 'Nos créateurs',
+      sub: 'Découvrez les talents derrière les Microdramas Xavvi.',
+    },
+  },
+  creatorCard: {
+    card: '{name}, {n} abonnés',
+    followers: '{n} abonnés',
+    pill: '{platform}, {n} abonnés',
+    opensNewTab: 's’ouvre dans un nouvel onglet',
+    approved: 'Approuvé',
+    roster: 'Créateurs',
+    platforms: {
+      x: 'X (Twitter)',
+      facebook: 'Facebook',
+      linkedin: 'LinkedIn',
+      twitch: 'Twitch',
+      instagram: 'Instagram',
+      tiktok: 'TikTok',
+      youtube: 'YouTube',
+      website: 'Site web',
     },
   },
 };
