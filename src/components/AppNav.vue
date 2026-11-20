@@ -11,6 +11,7 @@ const mobileOpen = ref(false);
 const links = computed(() => [
 	{ to: '/micro-dramas', label: t('nav.microDramas') },
 	{ to: '/video-packs', label: t('nav.videoPacks') },
+	{ to: '/creators-roster', label: t('footer.ourCreators') },
 	{ to: '/brand-lab', label: t('nav.brandLab') },
 	{ to: '/ai-credits', label: t('nav.aiCredits') },
 	{ to: '/news', label: t('nav.news') },
@@ -20,14 +21,16 @@ const links = computed(() => [
 <template>
 	<nav class="nav-wrap fixed top-0 inset-x-0 z-50">
 		<div class="max-w-[1680px] mx-auto px-6 lg:px-8 h-20 flex items-center justify-between">
-			<div class="flex items-center gap-30">
+			<div class="flex items-center gap-10 xl:gap-16 2xl:gap-30">
 				<RouterLink to="/" class="flex items-center group shrink-0">
 					<img src="/xavvi-logo.png" alt="Xavvi" class="h-8 w-auto" />
 				</RouterLink>
-				<div class="hidden md:flex items-center gap-12">
+				<!-- Desktop links from lg (1024px); below that the hamburger menu takes over.
+				     Gaps tighten on mid-size screens so all six links fit in every locale. -->
+				<div class="hidden lg:flex items-center gap-6 xl:gap-8 2xl:gap-12">
 					<template v-for="link in links" :key="link.to">
 						<RouterLink :to="link.to!"
-							class="nav-link text-[16px] font-medium text-white hover:text-white/80 transition-colors">
+							class="nav-link whitespace-nowrap text-[16px] font-medium text-white hover:text-white/80 transition-colors">
 							{{ link.label }}
 						</RouterLink>
 					</template>
@@ -44,7 +47,7 @@ const links = computed(() => [
 				</QrPopover>
 			</div>
 
-			<button class="md:hidden relative w-8 h-8 flex items-center justify-center"
+			<button class="lg:hidden relative w-8 h-8 flex items-center justify-center"
 				@click="mobileOpen = !mobileOpen" aria-label="Menu">
 				<svg v-if="!mobileOpen" width="20" height="20" fill="none" stroke="#FFFFFF" stroke-width="1.5"
 					stroke-linecap="round">
@@ -60,7 +63,7 @@ const links = computed(() => [
 
 	<Teleport to="body">
 		<Transition name="mobile-menu">
-			<div v-if="mobileOpen" class="md:hidden fixed inset-0 top-20 z-45" style="background-color: #0F0537">
+			<div v-if="mobileOpen" class="lg:hidden fixed inset-0 top-20 z-45" style="background-color: #0F0537">
 				<div class="flex flex-col px-6 pt-8 space-y-1">
 					<template v-for="link in links" :key="link.to">
 						<RouterLink :to="link.to!"
