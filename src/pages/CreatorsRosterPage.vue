@@ -13,8 +13,8 @@ const { t } = useI18n();
 	<!-- ═══════════════════════════════════════
        SECTION 1 — Hero (dark)
        ═══════════════════════════════════════ -->
-	<section class="hero-dark relative min-h-dvh md:min-h-0 xl:min-h-dvh overflow-hidden">
-		<div class="relative z-10 max-w-[1480px] mx-auto px-6 lg:px-8 min-h-dvh md:min-h-0 xl:min-h-dvh grid content-center xl:grid-cols-[1fr_minmax(360px,460px)] items-center gap-10 md:gap-8 xl:gap-16 pt-28 pb-24 md:pt-36 md:pb-16 xl:pt-0 xl:pb-0">
+	<section class="hero-dark relative min-h-dvh md:min-h-0 overflow-hidden">
+		<div class="relative z-10 max-w-[1200px] mx-auto px-6 lg:px-8 min-h-dvh md:min-h-0 grid content-center xl:grid-cols-[1fr_minmax(360px,460px)] items-center gap-10 md:gap-8 xl:gap-16 pt-28 pb-24 md:pt-36 md:pb-16 xl:pt-32 xl:pb-12">
 			<!-- Left: text -->
 			<div class="text-center relative z-20">
 				<h1 v-reveal="1" class="text-[clamp(2.4rem,5vw,4.5rem)] font-bold leading-[1.1] tracking-[-0.03em] text-white">
